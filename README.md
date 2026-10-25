@@ -1,43 +1,36 @@
 # BUILD-JAVAS-GAMES-INDROID
 
 Engenharia reversa de jogos Java (J2ME) para servir de base a remakes **3D nativos para
-Android**. Primeiro título: **Miami Nights 2: The City Is Yours** (Gameloft, 2009).
+Android**. Um jogo por pasta central.
 
-## O que há aqui
+| Jogo | Pasta | Estado |
+|---|---|---|
+| **Miami Nights 2: The City Is Yours** (Gameloft, 2009) | [`Miami_2/`](Miami_2) | extração completa (1 039 recursos, 3 640 textos, 430 sprites, 11 mapas, áudio, código descompilado), documentação em 7 partes, schemas + conteúdo de exemplo do remake |
 
-| Pasta | Conteúdo |
-|---|---|
-| `docs/` | Documentação completa da engenharia reversa e do plano de remake (em português) |
-| `tools/` | Scripts Python que extraem e decodificam todos os formatos do JAR original e validam o conteúdo do remake |
-| `schemas/` | JSON Schema do formato de conteúdo do remake (locais, NPCs, itens, interações, missões, stats) |
-| `content/` | Pacote de conteúdo de exemplo (apartamento + rua + senhorio + 2 missões) que valida contra os schemas |
+## Estrutura de uma pasta de jogo
 
-### Documentação
-
-1. [`01-visao-geral.md`](docs/01-visao-geral.md) — identificação do jogo, estrutura do JAR, resumo técnico
-2. [`02-formatos-de-arquivo.md`](docs/02-formatos-de-arquivo.md) — índice de recursos, LZMA, strings, ASprite, salas, scripts, save
-3. [`03-sistemas-de-jogo.md`](docs/03-sistemas-de-jogo.md) — mundo iso, movimento/A\*, tempo, necessidades, relacionamentos, diálogo, missões, economia, paper-doll, apartamento
-4. [`04-inventario-de-conteudo.md`](docs/04-inventario-de-conteudo.md) — 25 locais, 97 NPCs, 16 stats, 139 ações, 99 missões, itens, empregos
-5. [`05-arquitetura-android-3d.md`](docs/05-arquitetura-android-3d.md) — escolha de engine (Godot 4 / Kotlin+Filament), camadas, mapeamento 2D→3D, save, build Android
-6. [`06-pipeline-de-conteudo.md`](docs/06-pipeline-de-conteudo.md) — formato JSON, linguagem de regras, receitas para adicionar conteúdo, pipeline de arte
-7. [`07-roadmap.md`](docs/07-roadmap.md) — fases de implementação com critérios de pronto
-
-### Início rápido
-
-```bash
-# extrair e decodificar o jogo original (saída em build/, ignorada pelo git)
-python3 tools/mn2_unpack.py "Miami 2 PR-BR.jar" build/mn2
-python3 tools/mn2_strings.py build/mn2 build/mn2/strings.json --txt
-python3 tools/mn2_asprite.py build/mn2 build/mn2/png
-python3 tools/mn2_rooms.py build/mn2 build/mn2/rooms
-
-# validar o conteúdo do remake
-pip install jsonschema
-python3 tools/validate_content.py content/ --strict
 ```
+<Jogo>/
+  00-original/              JAR original
+  01-jar-extraido/          conteúdo bruto do JAR
+  02-codigo-descompilado/   fontes Java (CFR) + papel de cada classe
+  03-indice-e-packs/        índice de recursos decodificado + packs descomprimidos
+  04-entradas/<pack>/       cada recurso em arquivo próprio, com id, nome e extensão
+  05-strings/               textos por pacote
+  06-sprites/<pack>/        sprites renderizados em PNG + animações JSON
+  07-salas/                 mapas (grade ASCII + JSON)
+  08-audio/                 MIDI / WAV / AMR
+  09-engenharia-reversa-docs/   documentação (formatos, sistemas, inventário, arquitetura 3D, pipeline, roadmap)
+  10-remake-3d/             schemas JSON + pacote de conteúdo de exemplo
+  tools/                    scripts que geram tudo acima a partir do JAR
+  CATALOGO.md               tabela id → pack → tipo → nome
+```
+
+Comece por [`Miami_2/README.md`](Miami_2/README.md).
 
 ## Aviso legal
 
-O JAR, seu código, arte, textos e áudio pertencem à Gameloft. Este repositório contém apenas
-documentação e ferramentas; **nenhum recurso extraído é redistribuído** e o remake deve usar
-arte, música e textos próprios.
+Os JARs, seu código, arte, textos e áudio pertencem aos respectivos publishers (Gameloft).
+Este repositório é privado e guarda esse material **apenas como referência de estudo**; o
+remake deve usar arte, música e textos próprios, e nada das pastas 00–08 deve ser
+redistribuído ou incluído no jogo publicado.

@@ -1,6 +1,6 @@
-# saída das ferramentas de extração (recursos da Gameloft — nunca commitar)
+# saídas temporárias das ferramentas (a extração oficial fica em <Jogo>/00..08)
 build/
-*.jar
+/tmp/
 
 # python
 __pycache__/
