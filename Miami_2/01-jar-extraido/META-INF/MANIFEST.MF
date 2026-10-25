@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-Name: Miami Nights 2 
+Created-By: 1.4.2_17 (Sun Microsystems Inc.)
+MIDlet-Icon: /icon.png
+MIDlet-Permissions: javax.microedition.io
+MIDlet-Vendor: Gameloft SA
+MIDlet-1: Miami Nights 2, /icon.png, GloftMMN2
+MIDlet-Version: 1.0.3
+MIDlet-Screen-Mode: Both
+MicroEdition-Profile: MIDP-2.0
+
