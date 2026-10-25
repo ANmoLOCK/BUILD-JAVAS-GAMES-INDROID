@@ -1,0 +1,6 @@
+{
+  "id": "toilet", "name": "@item.toilet", "kind": "object",
+  "mesh": "res://assets/models/bathroom/toilet.glb",
+  "footprint": [1, 1], "useCell": [0, 1], "facing": "N",
+  "actions": ["use_toilet"]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miami3d/schemas/stats.schema.json",
+  "title": "Tabela de stats",
+  "type": "object",
+  "properties": {
+    "timeScaleSecondsPerMinute": { "type": "number", "exclusiveMinimum": 0 },
+    "stats": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/statId" },
+          "name": { "$ref": "common.schema.json#/$defs/stringKey" },
+          "kind": { "type": "string", "enum": ["need", "skill", "reputation", "state", "derived"] },
+          "initial": { "type": "integer", "minimum": 0, "maximum": 100 },
+          "perHour": { "type": "number", "description": "variação natural por hora de jogo" },
+          "floor": { "type": "integer", "minimum": 0, "maximum": 100 },
+          "higherIsWorse": { "type": "boolean", "default": false },
+          "thresholds": { "type": "array", "items": { "type": "integer", "minimum": 0, "maximum": 100 }, "minItems": 5, "maxItems": 5 },
+          "warnings": {
+            "type": "array",
+            "items": { "type": "object", "properties": { "at": { "type": "integer" }, "text": { "$ref": "common.schema.json#/$defs/stringKey" } }, "required": ["at", "text"] }
+          },
+          "collapse": {
+            "type": "object",
+            "properties": { "at": { "type": "integer" }, "text": { "$ref": "common.schema.json#/$defs/stringKey" }, "do": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/action" } } },
+            "required": ["at", "do"]
+          },
+          "derivedFrom": { "type": "string", "description": "expressão simples para kind=derived, ex.: avg(inv(hunger),inv(sleep),hygiene,inv(bladder))" }
+        },
+        "required": ["id", "name", "kind", "initial", "thresholds"],
+        "additionalProperties": false
+      }
+    },
+    "arrestAtCrime": { "type": "integer", "minimum": 0, "maximum": 100 },
+    "bail": { "type": "object", "properties": { "base": { "type": "integer" }, "min": { "type": "integer" }, "max": { "type": "integer" }, "halfAfterMinutes": { "type": "integer" } } }
+  },
+  "required": ["timeScaleSecondsPerMinute", "stats"],
+  "additionalProperties": false
+}

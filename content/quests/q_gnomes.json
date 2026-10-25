@@ -1,0 +1,21 @@
+{
+  "id": "q_gnomes",
+  "sender": "npc:landlord",
+  "title": "@q_gnomes.title",
+  "text": "@q_gnomes.text",
+  "chapter": "apartment",
+  "start": "search",
+  "stages": {
+    "search": {
+      "objective": "@q_gnomes.obj_search",
+      "transitions": [
+        { "when": { "event": "used_object", "object": "gnome_pedestal_1", "flag": "gnome_1_found" },
+          "do": [ { "setFlag": "gnome_1_placed" } ], "to": "search" },
+        { "when": { "flag": "gnome_1_placed" },
+          "do": [ { "dialogue": "@q_gnomes.all_back" }, { "money": 100 } ], "to": "done" }
+      ]
+    },
+    "done": { "final": true, "onEnter": [ { "achievement": "gnome_collector" } ] }
+  },
+  "rewards": { "money": 100, "achievement": "gnome_collector" }
+}

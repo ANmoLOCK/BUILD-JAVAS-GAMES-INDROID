@@ -1,0 +1,6 @@
+{
+  "id": "mailbox", "name": "@item.mailbox", "kind": "object",
+  "mesh": "res://assets/models/street/mailbox.glb",
+  "footprint": [1, 1], "useCell": [0, 1], "facing": "N",
+  "actions": ["steal_mail"]
+}
