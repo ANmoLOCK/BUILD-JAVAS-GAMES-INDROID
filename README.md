@@ -1,5 +1,40 @@
 # BUILD-JAVAS-GAMES-INDROID
 
+## Acesso rápido
+
+| Quero ver… | Link direto |
+|---|---|
+| **A pasta principal do projeto (comece aqui)** | [`Miami_2/README.md`](Miami_2/README.md) |
+| O código principal do jogo (33 mil linhas: loop, render, UI, scripts, save) | [`Miami_2/02-codigo-descompilado/f.java`](Miami_2/02-codigo-descompilado/f.java) |
+| A classe de entrada (MIDlet) | [`Miami_2/02-codigo-descompilado/GloftMMN2.java`](Miami_2/02-codigo-descompilado/GloftMMN2.java) |
+| O que cada classe faz | [`CLASSES.md`](Miami_2/02-codigo-descompilado/CLASSES.md) |
+| Como o jogo funciona (regras, números, sistemas) | [`03-sistemas-de-jogo.md`](Miami_2/09-engenharia-reversa-docs/03-sistemas-de-jogo.md) |
+| Como fazer o remake 3D para Android | [`05-arquitetura-android-3d.md`](Miami_2/09-engenharia-reversa-docs/05-arquitetura-android-3d.md) |
+| Como adicionar conteúdo novo | [`06-pipeline-de-conteudo.md`](Miami_2/09-engenharia-reversa-docs/06-pipeline-de-conteudo.md) |
+| Lista de todos os recursos extraídos | [`CATALOGO.md`](Miami_2/CATALOGO.md) |
+
+## Do que se trata
+
+Este projeto pega um jogo antigo de celular feito em Java (J2ME) — **Miami Nights 2: The City
+Is Yours**, da Gameloft (2009) — e o "abre por dentro" para entender como ele funciona:
+como os arquivos são guardados, como os gráficos são desenhados, quais são as regras do jogo
+(fome, sono, dinheiro, amizades, missões) e quanto conteúdo existe (locais, personagens,
+objetos, falas).
+
+Com isso documentado, o objetivo é **recriar o jogo em 3D como um app nativo de Android**,
+mantendo as mesmas mecânicas, mas com gráficos novos e uma estrutura em que seja fácil
+**adicionar mais conteúdo** (novos bairros, personagens, missões, móveis) só editando arquivos
+JSON, sem mexer no código do motor.
+
+Em resumo, aqui dentro há três coisas:
+
+1. **O jogo original desmontado** — JAR, código descompilado, sprites, textos, mapas e áudio,
+   organizados por etapa e com nome em cada arquivo (pastas `00` a `08`).
+2. **A documentação da engenharia reversa** — explica os formatos e as regras do jogo em
+   detalhes (pasta `09`).
+3. **A base do remake** — o plano de arquitetura para Android 3D, o formato de conteúdo com
+   validação automática e um pacote de exemplo (pasta `10` e `tools/`).
+
 Engenharia reversa de jogos Java (J2ME) para servir de base a remakes **3D nativos para
 Android**. Um jogo por pasta central.
 

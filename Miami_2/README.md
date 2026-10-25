@@ -3,6 +3,20 @@
 Pasta central com **tudo** o que foi extraído do JAR `Miami 2 PR-BR.jar`, organizado por
 etapa de engenharia reversa, mais a documentação, as ferramentas e a base do remake 3D.
 
+**Atalhos:** código principal do jogo → [`02-codigo-descompilado/f.java`](02-codigo-descompilado/f.java) ·
+entrada (MIDlet) → [`GloftMMN2.java`](02-codigo-descompilado/GloftMMN2.java) ·
+regras do jogo → [`03-sistemas-de-jogo.md`](09-engenharia-reversa-docs/03-sistemas-de-jogo.md) ·
+plano 3D Android → [`05-arquitetura-android-3d.md`](09-engenharia-reversa-docs/05-arquitetura-android-3d.md)
+
+## Do que se trata, em poucas palavras
+
+*Miami Nights 2* é um simulador de vida (estilo *The Sims*) para celulares de 2009: você cria
+um personagem, cuida de fome, sono, higiene e banheiro, faz amigos e namora, trabalha, paga
+aluguel, decora o apartamento e cumpre 99 missões por 25 locais de Miami, em visão isométrica.
+Esta pasta desmonta o jogo original peça por peça e documenta cada formato e regra para que
+ele possa ser recriado em 3D no Android, com um sistema de conteúdo em JSON que permite
+acrescentar novos locais, personagens e missões sem recompilar o jogo.
+
 | Etapa | Pasta | Arquivos | O que é |
 |---|---|---|---|
 | 00 | [`00-original/`](00-original) | 1 | O JAR original (654 KB, MIDlet `GloftMMN2` v1.0.3) |
