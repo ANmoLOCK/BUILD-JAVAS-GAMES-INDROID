@@ -6,7 +6,8 @@ etapa de engenharia reversa, mais a documentação, as ferramentas e a base do r
 **Atalhos:** código principal do jogo → [`02-codigo-descompilado/f.java`](02-codigo-descompilado/f.java) ·
 entrada (MIDlet) → [`GloftMMN2.java`](02-codigo-descompilado/GloftMMN2.java) ·
 regras do jogo → [`03-sistemas-de-jogo.md`](09-engenharia-reversa-docs/03-sistemas-de-jogo.md) ·
-plano 3D Android → [`05-arquitetura-android-3d.md`](09-engenharia-reversa-docs/05-arquitetura-android-3d.md)
+plano 3D Android → [`05-arquitetura-android-3d.md`](09-engenharia-reversa-docs/05-arquitetura-android-3d.md) ·
+**plano progressivo (cérebro + fases + todos os arquivos)** → [`08-plano-progressivo-godot.md`](09-engenharia-reversa-docs/08-plano-progressivo-godot.md)
 
 ## Do que se trata, em poucas palavras
 
@@ -41,7 +42,8 @@ acrescentar novos locais, personagens e missões sem recompilar o jogo.
 4. [`04-inventario-de-conteudo.md`](09-engenharia-reversa-docs/04-inventario-de-conteudo.md) — 25 locais, 97 NPCs, 139 ações, 99 missões, itens
 5. [`05-arquitetura-android-3d.md`](09-engenharia-reversa-docs/05-arquitetura-android-3d.md) — Godot 4 / Kotlin+Filament, mapeamento 2D→3D, save, build
 6. [`06-pipeline-de-conteudo.md`](09-engenharia-reversa-docs/06-pipeline-de-conteudo.md) — formato JSON, linguagem de regras, como adicionar conteúdo
-7. [`07-roadmap.md`](09-engenharia-reversa-docs/07-roadmap.md) — fases de implementação
+7. [`07-roadmap.md`](09-engenharia-reversa-docs/07-roadmap.md) — fases de implementação (resumo)
+8. [`08-plano-progressivo-godot.md`](09-engenharia-reversa-docs/08-plano-progressivo-godot.md) — **plano operacional**: cérebro, mapa de arquivos, checklist do inventário, fases A–H e caminho para mods
 
 ## Regenerar tudo
 

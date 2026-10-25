@@ -3,6 +3,10 @@
 Fases ordenadas por dependência técnica. Cada fase tem um critério de "pronto" verificável.
 Não há estimativas de calendário: o tamanho é dado pelos componentes envolvidos.
 
+> **Plano operacional completo (cérebro + arquivos + inventário + expansão):**  
+> [`08-plano-progressivo-godot.md`](08-plano-progressivo-godot.md) — use esse documento
+> ao pedir “implementa a próxima fase”.
+
 ## Fase 0 — Repositório e ferramentas (este PR)
 
 * Documentação de engenharia reversa (`docs/01–04`).
