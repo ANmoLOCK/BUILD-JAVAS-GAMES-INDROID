@@ -1,0 +1,13 @@
+# saída das ferramentas de extração (recursos da Gameloft — nunca commitar)
+build/
+*.jar
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# editores
+.vscode/
+.idea/
+.DS_Store
