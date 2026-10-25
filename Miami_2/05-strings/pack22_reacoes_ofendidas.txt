@@ -1,0 +1,20 @@
+[0] Por que você ainda está falando comigo?
+[1] Isso realmente me ofende.
+[2] Como você pode me dizer uma coisa dessas?
+[3] O que te faz pensar que eu gostaria de discutir esse assunto com você?
+[4] Prefiro pular de uma ponte.
+[5] Vá embora.
+[6] Que tédio!
+[7] Você não me diverte nem um pouco.
+[8] Diga isso a alguém que se importa.
+[9] Saia de perto de mim!
+[10] Por que você está me perguntando isso?
+[11] Socorro! Polícia! Tirem essa pessoa de perto de mim!
+[12] Eu tenho cara de quem se interessa por isso?
+[13] Dá um tempo, vai!
+[14] Cai fora!
+[15] Por que não me deixa em paz?
+[16] Por que não vai dar uma volta?
+[17] Estou começando a não gostar de você de verdade.
+[18] Esse não é um assunto sobre o qual eu gostaria de falar!
+[19] Xô!

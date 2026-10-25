@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miami3d/schemas/interaction.schema.json",
+  "title": "Interação (ação de objeto ou social)",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/id" },
+    "name": { "$ref": "common.schema.json#/$defs/stringKey" },
+    "target": { "type": "string", "enum": ["object", "npc", "self", "pet"], "default": "object" },
+    "menu": { "type": "string", "enum": ["talk", "offer", "flirt", "offend"], "description": "só para target=npc" },
+    "animation": { "type": "string" },
+    "npcAnimation": { "type": "string" },
+    "durationMinutes": { "type": "integer", "minimum": 0, "default": 0 },
+    "advancesTime": { "type": "boolean", "default": false },
+    "price": { "type": "integer", "minimum": 0, "default": 0 },
+    "requires": { "$ref": "common.schema.json#/$defs/condition" },
+    "requiresItem": { "$ref": "common.schema.json#/$defs/id" },
+    "consumesItem": { "type": "boolean", "default": false },
+    "effects": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/statEffect" } },
+    "relationship": {
+      "type": "object",
+      "properties": {
+        "friendship": { "type": "integer" }, "romance": { "type": "integer" }, "mood": { "type": "integer" },
+        "crimeIfWitnessed": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "diminishingAfter": { "type": "integer", "minimum": 1, "description": "repetições no mesmo dia antes de retorno decrescente" },
+    "cooldownMinutes": { "type": "integer", "minimum": 0, "default": 0 },
+    "crime": { "type": "integer", "minimum": 0, "description": "aumento de Crime e chance de prisão se houver policial" },
+    "reactions": {
+      "type": "object",
+      "properties": {
+        "success": { "$ref": "common.schema.json#/$defs/stringKey" },
+        "fail": { "$ref": "common.schema.json#/$defs/stringKey" },
+        "bored": { "$ref": "common.schema.json#/$defs/stringKey" }
+      }
+    },
+    "then": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/action" } },
+    "minigame": { "$ref": "common.schema.json#/$defs/id" },
+    "event": { "$ref": "common.schema.json#/$defs/id", "description": "nome de evento emitido para a QuestMachine" }
+  },
+  "required": ["id", "name"],
+  "additionalProperties": false
+}

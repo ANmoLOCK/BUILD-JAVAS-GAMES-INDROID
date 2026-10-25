@@ -1,0 +1,6 @@
+{
+  "id": "shower", "name": "@item.shower", "kind": "object",
+  "mesh": "res://assets/models/bathroom/shower.glb",
+  "footprint": [1, 1], "useCell": [0, 1], "facing": "N",
+  "actions": ["take_shower"]
+}

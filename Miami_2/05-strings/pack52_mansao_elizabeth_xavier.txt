@@ -1,0 +1,37 @@
+[0] Que casa linda, né? O aluguel é \p2$2.000 por semana\p1.]Mas... Mas para uma coisinha linda como você, eu tenho uma sugestão.
+[1] Que tal um pequeno \p2BEIJO nos LÁBIOS\p1 por metade do pagamento?
+[2] Tente BEIJAR \mela\m\fele\f. ($1.000 por semana)
+[3] Aceite. ($2.000 por semana)
+[4] Então? Estou \mpronta\m\fpronto\f para negociar!
+[5] Tem certeza? Mesmo?]... Você não me acha atraente?
+[6] Uau, onde você aprendeu a beijar desse jeito?!
+[7] Bem, vou deixar você olhar esta maravilhosa mansão.]Estarei no \p2andar de cima\p1 se tiver alguma pergunta.
+[8] Simplesmente esplêndida, não é mesmo? Especialmente esta cama! Quer experimentar?
+[9] Tente dar um AMASSO \mela\m\fele\f. ($500 por semana)
+[10] Negocie agora. ($1.000 por semana)
+[11] Você é \mnencantadora\m\fencantador\f , \x. O que vamos fazer agora?
+[12] Bem, talvez você esteja pensando em outra pessoa?]Que pena, \x. Poderia ter feito um excelente negócio comigo.
+[13] Foi um prazer conhecê-\mla\m\flo\f, x. Aqui estão as suas chaves!
+[14] Agora eu tenho que partir para uma outra reunião!]A crise financeira não parece ser um problema para socialites com você, hein?]Eu falei para o proprietário e para \mseu amigo\m\fsua amiga\f sobre a sua nova mansão. Eles devem estar te esperando \p2do lado de fora\p1.
+[15] Ótimo, \mcara\m\fgarota\f! Você se sente como \mum\m\fuma\f socialite?]Agora você tem que dar uma festa de inauguração!]Vamos achar as \p2pessoas mais atraentes da alta sociedade de Miami\p1 e convencê-las a vir na sua festa!
+[16] Você concorda comigo, não é \mAmy\m\fDanny\f?
+[17] Parabéns, \x! Esta casa é maravilhosa!
+[18] Claro! Primeiro, o principal... Encontre o melhor \p2DJ\p1 de Miami!
+[19] Mmmm, excelente bebida e uma piscina linda... Eu simplesmente adoro esta casa!]Você é \mo\m\fa\f melhor, \x!
+[20] Você é \x? Aliás, \v1que festa\v1\v600que jogo\v600!
+[21] Eu trabalhava para \ma\m\fo\f Goldsax. \mEla\m\fEle\f me demitiu para ficar com a descoberta do \p2Galeão Perdido\p1 toda pra \mela\m\fele\f.]Mas eu quero ver esse Galeão com os meus próprios olhos, \mSr.\m\fSrta.\f \x!
+[22] Será que podia me ajudar a explorar isso, por favor?
+[23] Claro! Vamos nessa, Capitão!
+[24] Quero mais da metade na partilha.
+[25] Beleza, \x. Ganhei o meu dia! Vamos começar!
+[26] Sobre isso... A gente conversa quando encontrarmos o Galeão, \x.
+[27] Queria ver esse Galeão com os meus próprios olhos! Eu e o Sr. Sanchez estaremos esperando por você \v1\p2na frente da mansão\p1\v1\v600\p2na marina da Pelican Island\p1\v600.
+[28] \mPronto\m\fPronta\f para embarcar, \mSr.\m\fSrta.\f \x?
+[29] Estou \mpronto\m\fpronta\f!
+[30] ... Espere por mim, só mais um pouco...
+[31] Excelente! Vamos entrar!
+[32] Entendo... \v1Você é \mo anfitrião\m\fa anfitriã\f\v1\v600Você é \mum homem muito ocupado\m\fuma mulher muito ocupada\f...\v600]Por favor me avise quando você estiver \mpronto\m\fpronta\f!
+[33] Esta é a melhor festa das 10 que eu chequei nas últimas 2 horas.
+[34] Você quer dizer a melhor festa, certo?
+[35] Sim! Pelo menos \mo melhor anfitrião\m\fa melhor anfitriã\f!
+[36] Você ficou sabendo que \ma\m\fo\f Goldsax demitiu seu capitão? Ele acabou de me contar enquanto estávamos lambiscando\v1 na cozinha\v1.]Não pareceu se importar, aparentemente o Capitão tem um outro plano... Algo relacionado com um tesouro...

@@ -1,0 +1,4 @@
+[0] TIRAR FOTO
+[1] PRÉVIA
+[2] Satisfeito com o resultado?\nAperte ACEITAR.\n\nCaso contrário, aperte VOLTAR\npara tentar novamente!
+[3] Nenhuma foto foi tirada...

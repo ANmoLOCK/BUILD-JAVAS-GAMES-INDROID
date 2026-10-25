@@ -1,0 +1,50 @@
+[0] Covidar para sair junto
+[1] Dancing in Ion Club
+[2] Picnic in Central Park
+[3] Brunch in Downtown
+[4] Skating at Montmartre
+[5] Drink on rooftop
+[6] Passar tempo no quarto
+[7] Club Awesome
+[8] Everglades
+[9] in Downtown
+[10] the Fifth Ave Plaza
+[11] no seu apartamento
+[12] Claro, adoraria sair com você. Mas tenho que passar em casa primeiro. Te ligo quando chegar lá.
+[13] Ei, nós combinamos de nos encontrar na metade do caminho. Não lembra?
+[14] Da próxima vez que convidar alguém par sair, tente se lembrar!
+[15] Ei, que bom que você veio.
+[16] Estou tão feliz de te ver de novo.
+[17] Ah, finalmente! Já estava indo embora.
+[18] Achei que você não viria.
+[19] Gostaria de saber mais sobre você.
+[20] Gostaria de saber ainda mais sobre você.
+[21] Você tem um presente para mim?
+[22] Vamos dançar?
+[23] Você gostaria de experimentar os sanduíches que eu fiz para você?
+[24] Poderíamos assistir ao show, um pouco.
+[25] Quer patinar por aí comigo?
+[26] Vamos beber diante dessa grande cidade.
+[27] O que você acha de chegar um pouco mais perto?
+[28] Por favor, me beije na boca.
+[29] Talvez possamos ir um pouco além do beijo?
+[30] Acho que é uma boa hora para descobrir até onde queremos ir com esse relacionamento.
+[31] Oh, foi tão bom. Espero que possamos sair de novo.
+[32] Sinto que nosso relacionamento está se fortalecendo. Espero que da próxima vez ele seja ainda mais sério.
+[33] Oh, meu amor! Espero que seja para sempre!
+[34] Claro que adoraria conhecer sua casa!
+[35] Acho que já é tarde o bastante para ir dormir...
+[36] Acho que deveríamos nos conhecer melhor antes de dormir na mesma cama.
+[37] O que aconteceu? Achei que estivéssemos nos divertindo. (Ao sair deste local, seu encontro termina.)
+[38] O que aconteceu? Pensei que estávamos nos divertindo.
+[39] Qual é o seu problema? Acho que deveríamos parar de nos encontrar agora mesmo!
+[40] Não acho que sejamos compatíveis. Não tente me ligar de novo.
+[41] Foi muito divertido. Me sinto tão feliz quando estamos juntos.
+[42] Gostaria de te agradecer pelo tempo incrível que passamos juntos.
+[43] Você iluminou minha vida nesse tempo que passamos juntos.
+[44] Espero te ver de novo em breve.
+[45] Nosso encontro foi mágico. \mObrigada\m\fObrigado\f.
+[46] Você ainda é novo na cidade. Explore um pouco mais para descobrir um ótimo lugar para encontros!
+[47] Você já não tem um encontro marcado? Sua mãe não ficaria orgulhosa de você...
+[48] Cansei deste lugar. Deveríamos ir pra outro.
+[49] Eu não quero te ver agora. Me dê um tempo.

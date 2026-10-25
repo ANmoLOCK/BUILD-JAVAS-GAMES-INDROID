@@ -1,0 +1,16 @@
+[0] Fome
+[1] Sono 
+[2] Higiene
+[3] Banheiro
+[4] Boa Forma
+[5] Cultura
+[6] Carisma
+[7] Crime
+[8] Bondade
+[9] Dança
+[10] Loucura
+[11] Sex Appeal
+[12] Humor
+[13] Social
+[14] Saúde
+[15] Autoestima

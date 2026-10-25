@@ -1,0 +1,52 @@
+[0] Oi \x! Não se esqueça de passar por um caixa automático e pagar o aluguel desta semana ($300). Você tem até amanhã às 12 pm (24 h).
+[1] \x? Você se esqueceu de pagar o aluguel desta semana? Vou te dar mais um tempo para pagar.]Por favor, vá até um caixa e pague ($300). Você tem até as 18h (6 horas).
+[2] \x, você está de brincadeira? Se você não for até um caixa automático e pagar o aluguel ($300)]usarei de meios legais para recebê-lo! Você tem até as 20h (2 horas).
+[3] Eu te avisei! Não gosto de agir assim, mas vou ter que te cobrar o aluguel a minha maneira.
+[4] E a multa.
+[5] PAGAR ALUGUEL
+[6] Para pagar o aluguel, escolha esta opção.
+[7] DEPÓSITO
+[8] Para depósitos e saques, escolha esta opção.
+[9] DOAÇÕES
+[10] Para doações, escolha esta opção.
+[11] DEPOSITAR
+[12] Se aumentar o seu saldo, seus benefícios também aumentarão.
+[13] SACAR
+[14] Se sacar o seu depósito, você irá recuperar seus rendimentos também.
+[15] VALOR
+[16] Pagar aluguel
+[17] Pague seu aluguel toda semana se quiser ser \mum cidadão\m\fuma cidadã\f modelo.
+[18] Depósito
+[19] Depositar
+[20] Seu primeiro depósito deve ser de no mínimo $50.
+[21] Lembre-se: quanto mais dinheiro, mais benefícios.
+[22] SACAR
+[23] Lembre-se: se escolher esta opção você sacará todo seu dinheiro.
+[24] Fazer Doação
+[25] Faça doações para ajudar os necessitados de Miami.
+[26] Dinheiro no bolso
+[27] Aluguel
+[28] Saldo no bolso
+[29] Dinheiro em conta
+[30] Saque
+[31] Resumo da Transação
+[32] Valor depositado
+[33] Valor doação
+[34] Atenção
+[35] Operação Realizada. Você pagou o aluguel desta semana.
+[36] Operação cancelada. Você não assinou nenhum contrato de aluguel.
+[37] Operação cancelada. Seu aluguel já foi pago.
+[38] Você não dispõe de fundos suficientes para realizar esta operação.
+[39] Operação Realizada. Seu depósito foi efetuado com sucesso.
+[40] Operação cancelada. Você deve entrar um valor primeiro.
+[41] Lembre-se: seu primeiro depósito deve ser de no mínimo $50.
+[42] Operação Realizada. Você pagou o aluguel desta semana.
+[43] Operação cancelada. Não há depósitos para sacar.
+[44] Operação Realizada. Você sacou todos os seus depósitos.
+[45] Operação cancelada. Não há depósitos para sacar.
+[46] Voltar ao banco?
+[47] Sim
+[48] Não
+[49] M E L O N
+[50] BANK
+[51] SEU DINHEIRO COM SAÚDE

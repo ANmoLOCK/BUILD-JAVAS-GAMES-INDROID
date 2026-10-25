@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miami3d/schemas/common.schema.json",
+  "title": "Definições comuns",
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9_]*$" },
+    "stringKey": { "type": "string", "pattern": "^@[A-Za-z0-9_.]+$" },
+    "cell": {
+      "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 2, "maxItems": 2
+    },
+    "rect": {
+      "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 4, "maxItems": 4,
+      "description": "[x, y, largura, altura] em células"
+    },
+    "facing": { "type": "string", "enum": ["N", "NE", "E", "SE", "S", "SW", "W", "NW"] },
+    "statId": {
+      "type": "string",
+      "enum": ["hunger", "sleep", "hygiene", "bladder", "fitness", "culture", "charisma", "crime",
+        "kindness", "dance", "craziness", "sex_appeal", "mood", "social", "health", "self_esteem"]
+    },
+    "comparison": {
+      "type": "object",
+      "properties": {
+        "<": { "type": "number" }, "<=": { "type": "number" }, ">": { "type": "number" },
+        ">=": { "type": "number" }, "==": { "type": "number" }, "!=": { "type": "number" }
+      },
+      "additionalProperties": false, "minProperties": 1
+    },
+    "statEffect": {
+      "type": "object",
+      "properties": { "stat": { "$ref": "#/$defs/statId" }, "delta": { "type": "number" } },
+      "required": ["stat", "delta"], "additionalProperties": false
+    },
+    "condition": {
+      "type": "object",
+      "properties": {
+        "event": { "type": "string", "enum": ["talked_to", "used_object", "entered", "left", "time", "stat_changed", "item_gained", "date_started", "slept", "periodic"] },
+        "npc": { "$ref": "#/$defs/id" },
+        "object": { "$ref": "#/$defs/id" },
+        "action": { "$ref": "#/$defs/id" },
+        "location": { "$ref": "#/$defs/id" },
+        "quest": {
+          "type": "object",
+          "properties": { "id": { "$ref": "#/$defs/id" }, "stage": { "$ref": "#/$defs/id" }, "completed": { "type": "boolean" } },
+          "required": ["id"], "additionalProperties": false
+        },
+        "stat": { "type": "object", "propertyNames": { "$ref": "#/$defs/statId" }, "additionalProperties": { "$ref": "#/$defs/comparison" } },
+        "friendshipLevel": { "$ref": "#/$defs/comparison" },
+        "friendship": { "$ref": "#/$defs/comparison" },
+        "romance": { "$ref": "#/$defs/comparison" },
+        "npcMood": { "$ref": "#/$defs/comparison" },
+        "money": { "$ref": "#/$defs/comparison" },
+        "hasItem": { "$ref": "#/$defs/id" },
+        "hasNotItem": { "$ref": "#/$defs/id" },
+        "time": {
+          "type": "object",
+          "properties": { "hour": { "$ref": "#/$defs/comparison" }, "minute": { "$ref": "#/$defs/comparison" }, "day": { "$ref": "#/$defs/comparison" }, "dayOfWeek": { "type": "integer", "minimum": 0, "maximum": 6 } },
+          "additionalProperties": false
+        },
+        "flag": { "$ref": "#/$defs/id" },
+        "notFlag": { "$ref": "#/$defs/id" },
+        "random": { "type": "number", "minimum": 0, "maximum": 1 },
+        "appearance": { "type": "object", "properties": { "gender": { "type": "string", "enum": ["m", "f"] } } },
+        "anyOf": { "type": "array", "items": { "$ref": "#/$defs/condition" }, "minItems": 1 },
+        "not": { "$ref": "#/$defs/condition" }
+      },
+      "additionalProperties": false
+    },
+    "action": {
+      "type": "object",
+      "properties": {
+        "dialogue": { "oneOf": [ { "$ref": "#/$defs/stringKey" }, { "type": "object", "properties": { "npc": { "$ref": "#/$defs/id" }, "lines": { "type": "array", "items": { "$ref": "#/$defs/stringKey" } } }, "required": ["lines"] } ] },
+        "money": { "type": "integer" },
+        "bank": { "type": "integer" },
+        "stat": { "type": "object", "propertyNames": { "$ref": "#/$defs/statId" }, "additionalProperties": { "type": "number" } },
+        "relationship": { "type": "object", "properties": { "npc": { "$ref": "#/$defs/id" }, "friendship": { "type": "integer" }, "romance": { "type": "integer" }, "mood": { "type": "integer" }, "setFlags": { "type": "array", "items": { "type": "string" } } }, "required": ["npc"] },
+        "giveItem": { "$ref": "#/$defs/id" },
+        "takeItem": { "$ref": "#/$defs/id" },
+        "startQuest": { "$ref": "#/$defs/id" },
+        "setStage": { "type": "object", "properties": { "quest": { "$ref": "#/$defs/id" }, "stage": { "$ref": "#/$defs/id" } }, "required": ["quest", "stage"] },
+        "completeQuest": { "$ref": "#/$defs/id" },
+        "failQuest": { "$ref": "#/$defs/id" },
+        "spawnNpc": { "type": "object", "properties": { "npc": { "$ref": "#/$defs/id" }, "cell": { "$ref": "#/$defs/cell" }, "facing": { "$ref": "#/$defs/facing" } }, "required": ["npc", "cell"] },
+        "despawnNpc": { "$ref": "#/$defs/id" },
+        "moveNpc": { "type": "object", "properties": { "npc": { "$ref": "#/$defs/id" }, "cell": { "$ref": "#/$defs/cell" }, "run": { "type": "boolean" } }, "required": ["npc", "cell"] },
+        "teleport": { "type": "object", "properties": { "location": { "$ref": "#/$defs/id" }, "spawn": { "$ref": "#/$defs/id" } }, "required": ["location"] },
+        "advanceTime": { "type": "integer", "minimum": 1 },
+        "schedule": { "type": "object", "properties": { "npc": { "$ref": "#/$defs/id" }, "location": { "$ref": "#/$defs/id" }, "inMinutes": { "type": "integer", "minimum": 1 }, "kind": { "type": "string", "enum": ["date", "meeting"] } }, "required": ["npc", "location", "inMinutes"] },
+        "unlockLocation": { "$ref": "#/$defs/id" },
+        "lockLocation": { "$ref": "#/$defs/id" },
+        "markMap": { "$ref": "#/$defs/id" },
+        "setFlag": { "$ref": "#/$defs/id" },
+        "clearFlag": { "$ref": "#/$defs/id" },
+        "cutscene": { "type": "object", "properties": { "camera": { "type": "string" }, "anim": { "type": "string" }, "durationMs": { "type": "integer" } } },
+        "playSound": { "$ref": "#/$defs/id" },
+        "playMusic": { "$ref": "#/$defs/id" },
+        "achievement": { "$ref": "#/$defs/id" },
+        "minigame": { "type": "object", "properties": { "id": { "$ref": "#/$defs/id" }, "params": { "type": "object" }, "onWin": { "type": "array", "items": { "$ref": "#/$defs/action" } }, "onLose": { "type": "array", "items": { "$ref": "#/$defs/action" } } }, "required": ["id"] },
+        "notify": { "$ref": "#/$defs/stringKey" },
+        "if": { "type": "object", "properties": { "when": { "$ref": "#/$defs/condition" }, "then": { "type": "array", "items": { "$ref": "#/$defs/action" } }, "else": { "type": "array", "items": { "$ref": "#/$defs/action" } } }, "required": ["when", "then"] }
+      },
+      "additionalProperties": false, "minProperties": 1, "maxProperties": 1
+    },
+    "trigger": {
+      "type": "object",
+      "properties": {
+        "on": { "type": "string", "enum": ["enter", "leave", "periodic", "use", "talk", "zone", "time"] },
+        "object": { "$ref": "#/$defs/id" },
+        "npc": { "$ref": "#/$defs/id" },
+        "zone": { "$ref": "#/$defs/id" },
+        "everyMinutes": { "type": "integer", "minimum": 1 },
+        "once": { "type": "boolean", "default": false },
+        "when": { "$ref": "#/$defs/condition" },
+        "do": { "type": "array", "items": { "$ref": "#/$defs/action" }, "minItems": 1 }
+      },
+      "required": ["on", "do"], "additionalProperties": false
+    }
+  }
+}

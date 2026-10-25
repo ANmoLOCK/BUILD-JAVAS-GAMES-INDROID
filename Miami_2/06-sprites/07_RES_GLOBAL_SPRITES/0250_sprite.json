@@ -1,0 +1,1 @@
+{"info": {"file": "0250_p07_asprite", "flags": "0x1010501", "modules": 2, "fmodules": 3, "frames": 3, "anims": 1, "palettes": 1, "pixfmt": "0x1600", "consumed": "283/283"}, "modules": [[5, 16], [12, 21]], "frames": [[1, 0], [1, 1], [1, 2]], "fmodules": [[0, -1, -15, 1], [0, -1, -15, 0], [1, -3, -20, 0]], "anims": [[{"frame": 0, "dur": 1, "ox": 0, "oy": 0, "flip": 0}]]}

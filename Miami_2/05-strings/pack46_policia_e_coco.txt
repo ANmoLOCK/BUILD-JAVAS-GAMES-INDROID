@@ -1,0 +1,23 @@
+[0] \mSr.\m\fSrta.\f, você está bem?]Polícia de Miami.]Já é 2009 e nosso presidente é o Barack Obama. Lembra?
+[1] Ei, \mamigo\m\famiga\f!]Sou Vitamin Coco, mas pode me chamar de "Ultra Super Master Vitamin Mega Coco". Eu vendo \p2VITAMINAS\p1 excelentes!!!]Você pode comprar uma e \p2OFERECER\p1 de \p2PRESENTE\p1 aos seus amigos!
+[2] Pssst. Vou te contar uma coisa, \mchico\m\fchica\f.]Você compra qualquer uma das \p2MINHAS\p1 e de repente os superpoderes vão...]Ihhh, sujou! \p2A POLÍCIA\p1...
+[3] Eu não fiz nada, policial.]Só estava me oferecendo para tirar uma foto \mdele\m\fdela\f para sua \p2página de perfil online\p1.
+[4] Coco!!! Oferecendo... seus conselhos de novo?]Deixa eu te dar um... deixa \messe\m\fessa\f turista em paz se quiser viver tranquilo.
+[5] Precisa de Vitaminas?
+[6] \mSeu amigo Scott foi preso\m\fSua amiga Callie foi presa\f por sequestrar...
+[7] ... um cachorro \mda Srta.\m\fdo Sr.\f Goldsax...
+[8] Você foi \mchamado\m\fchamada\f para ver \mseu amigo\m\fsua amiga\f na delegacia, em \p2Downtown\p1.
+[9] Um conselho, \x.]Tenha cuidado com o "UltraCoco" e seus conselhos...]Se o seu nível de \p2CRIME\p1 ficar muito alto, você vai pra trás das grades com ele, entendeu?
+[10] Aceita um suco fresco?
+[11] Ei... Cuidado ao atravessar as ruas...
+[12] Você quer uma \p2foto\p1 nova para a \p2sua página de perfil online\p1, é?
+[13] Quero!
+[14] Depois...
+[15] Bueno!
+[16] Que lástima!
+[17] Você pode voltar e me procurar quando quiser trocar a imagem do seu perfil, ok?]Hasta luego, \mamigo\m\famiga\f!
+[18] Procurando modelos?]Essa é velha... Vamos conversar primeiro! (\p22 Estrelas\p1)
+[19] Ei, e aí?]Hmm... Trabalho de modelo?]Como posso saber se você é confiável? (\p22 Estrelas\p1)
+[20] OK. Eu devo encontrar a Chev... Ceviche \v1em Coconut Grove\v1\v600aqui mesmo\v600?]Pode deixar, \x!
+[21] Ceviche? Sou modelo dela?]Você devia ter me dito isso antes!]Te vejo lá, \x!
+[22] Um pequeno aviso, \mSr.\m\fSrta.\f Quando seu nível de \p2CRIME\p1 ficar muito alto, nossos policiais irão prendê-\mlo\m\fla\f.]Não se meta em encrenca!

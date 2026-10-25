@@ -1,0 +1,30 @@
+[0] \mJeans\m\fMeia arrastão\f
+[1] \mLinho\m\fSaia com malha\f
+[2] \mBermuda\m\fJeans apertado\f
+[3] \mCalça rasgada\m\fSaia curta\f
+[4] \mJeans apertado\m\fMinishort\f
+[5] \mCalça pescador\m\fSaia rodada\f
+[6] Calça de ginástica
+[7] \mCalça de moletom\m\fBermuda\f
+[8] \mCalça larga\m\fSaia estampada\f
+[9] \mCalça e corrente\m\fMalha branca\f
+[10] \mBermuda e meia\m\fSaia reta\f
+[11] \mCalça dobrada\m\fSaia de festa\f
+[12] \mBerm. e meia listr.\m\fMinissaia de festa\f
+[13] \mBermuda cargo\m\fSaia justa\f
+[14] \mCalça cargo\m\fMinishort branco\f
+[15] \mShort de futebol\m\fCalça baggy\f
+[16] \mShort justo\m\fSaia diagonal\f
+[17] \mCalça baggy\m\fSaia curta de festa\f
+[18] \mCalça listrada\m\fMicro Shorts\f
+[19] \mMeia esportiva\m\fSaia longa\f
+[20] \mCalça branca com dobras\m\fSaia extravagante\f
+[21] \mMeias curtas\m\fMeias curtas\f
+[22] \mUniforme de futebol\m\fSaia de salsa\f
+[23] Calças largas
+[24] \mPijama\m\fBiquíni de gorducha\f
+[25] \mMascote\m\fCheerleader\f
+[26] Roupas de baixo
+[27] Guarda
+[28] Toalha
+[29] \mGarçom\m\fGarçonete\f

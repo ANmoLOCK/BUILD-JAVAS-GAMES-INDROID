@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miami3d/schemas/quest.schema.json",
+  "title": "Quest (máquina de estados)",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/id" },
+    "sender": { "type": "string", "description": "npc:<id> ou chave de string (@…)" },
+    "title": { "$ref": "common.schema.json#/$defs/stringKey" },
+    "text": { "$ref": "common.schema.json#/$defs/stringKey" },
+    "chapter": { "type": "string" },
+    "start": { "$ref": "common.schema.json#/$defs/id" },
+    "autoStart": { "$ref": "common.schema.json#/$defs/condition", "description": "inicia sozinha quando a condição for verdadeira (avaliada a cada minuto)" },
+    "trackable": { "type": "boolean", "default": true },
+    "stages": {
+      "type": "object",
+      "propertyNames": { "$ref": "common.schema.json#/$defs/id" },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "objective": { "$ref": "common.schema.json#/$defs/stringKey" },
+          "marker": {
+            "type": "object",
+            "properties": { "location": { "$ref": "common.schema.json#/$defs/id" }, "npc": { "$ref": "common.schema.json#/$defs/id" }, "object": { "$ref": "common.schema.json#/$defs/id" } }
+          },
+          "onEnter": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/action" } },
+          "onExit": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/action" } },
+          "timeoutMinutes": { "type": "integer", "minimum": 1 },
+          "onTimeout": { "$ref": "common.schema.json#/$defs/id", "description": "estágio para onde ir ao expirar" },
+          "transitions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "when": { "$ref": "common.schema.json#/$defs/condition" },
+                "do": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/action" } },
+                "to": { "$ref": "common.schema.json#/$defs/id" }
+              },
+              "required": ["when", "to"], "additionalProperties": false
+            }
+          },
+          "final": { "type": "boolean", "default": false },
+          "failed": { "type": "boolean", "default": false }
+        },
+        "additionalProperties": false
+      }
+    },
+    "rewards": {
+      "type": "object",
+      "properties": {
+        "money": { "type": "integer" },
+        "items": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+        "achievement": { "$ref": "common.schema.json#/$defs/id" },
+        "unlockClothing": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } }
+      }
+    }
+  },
+  "required": ["id", "title", "text", "start", "stages"],
+  "additionalProperties": false
+}

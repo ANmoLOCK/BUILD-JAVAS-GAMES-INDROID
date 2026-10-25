@@ -1,0 +1,115 @@
+[0] Parabéns, você desbloqueou o traje exclusivo no closet!
+[1] a
+[2] a
+[3] a
+[4] a
+[5] Você mantém os olhos fixos no prêmio, mesmo quando suas tarefas são bastante monótonas.
+[6] Uau, você realmente corre atrás do que quer!
+[7] Sua motivação cresceu mais do que o esperado.
+[8] Sua determinação é mais insana do que a de uma cadela no cio.
+[9] Nada pode te deter! As pessoas ao redor do mundo estão maravilhadas com você.
+[10] a
+[11] Parabéns, você é um crânio.
+[12] Você acaba de ganhar alguns neurônios.
+[13] Seu cérebro é uma arma poderosa.
+[14] Sua mente é tão forte que pode mover objetos.
+[15] Você atingiu o nível gênio de poder cerebral!
+[16] a
+[17] Você é uma pessoa linda... por dentro!
+[18] Considerando a média, você é \mbonitinho\m\fbonitinha\f.
+[19] Ei! Seu sex appeal está començando a ser tornar uma grande vantagem.
+[20] Se as pessoas olham pra você, é só por causa da sua beleza.
+[21] Você é a perfeição estética em pessoa.
+[22] a
+[23] As pessoas parecem gravitar ao seu redor.
+[24] As pessoas te olham de todos os lados.
+[25] Quando você fala, todos ficam em silêncio para te ouvir.
+[26] Esqueça a sala VIP, todos querem ir para o seu quarto.
+[27] Você é a perfeição encarnada. Ninguém pode te resistir.
+[28] a
+[29] Até o Al Capone começou por baixo.
+[30] Ei! Parabéns, os policiais já te chamam pelo primeiro nome.
+[31] Até a sua família está começando a ficar com medo de você.
+[32] Seu nome causa medo nos corações dos homens comuns.
+[33] Como é ser o mandachuva da cidade?
+[34] a
+[35] Ei! As pessoas sabem que podem contar contigo... às vezes.
+[36] Por que as pessoas gostam de você? Porque você está sempre presente quando elas precisam.
+[37] Você é \mum amigo solidário\m\fuma amiga solidária\f que todos querem ter.
+[38] Você é quase \mum santo\m\fuma santa\f.
+[39] Você é \mo Bom Samaritano\m\fa Boa Samaritana\f de Miami.
+[40] a
+[41] Ei, você até que tem gingado.
+[42] Seus passos de dança são o máximo.
+[43] Ouvi dizer que o pessoal da Janet está escalando dançarinos para o próximo vídeo dela.
+[44] Você é páreo para o Mick!
+[45] Você é oficialmente \mo dançarino\m\fa dançarina\f mais sexy do planeta.
+[46] a
+[47] Você sente que o mundo começa a girar. Você está muito \mlouco\m\flouca\f.
+[48] Você está meio \mlouquinho\m\flouquinha\f.\nEu não entendo mais o que você está dizendo...
+[49] Não faça muitas coisas loucas ou terá que enfrentar as consequências.
+[50] Você está muito \mlouco\m\flouca\f. É melhor o circo não te chamar pra corda bamba, pois mal pode andar em linha reta!
+[51] Você está muito \mlouco\m\flouca\f.\nVocê perdeu o juízo!
+[52] a
+[53] Você é provavelmente \mo cara\m\fa garota\f mais atraente dessas bandas.
+[54] Você faz o Corcunda de Notre Dame parecer feio de verdade.
+[55] Conheço alguns ogros que morreriam de inveja de você.
+[56] Você é capaz de estilhaçar espelhos só com uma olhadinha.
+[57] Você está muito \mlouco\m\flouca\f.\nVocê perdeu o juízo!
+[58] a
+[59] Você agora tem permissão para levar seu senso de humor nos aviões!
+[60] Você até que é \mengraçadinho\m\fengraçadinha\f, igual a sua cara.
+[61] Dessa vez você fez uma piada e alguém rolou no chão de tanto rir.
+[62] Ha-ha-ha-ha... Você já pode trabalhar num circo!
+[63] Você está muito \mlouco\m\flouca\f.\nVocê perdeu o juízo!
+[64] a
+[65] CONGRATS_POPULARITY_2
+[66] CONGRATS_POPULARITY_3
+[67] CONGRATS_POPULARITY_4
+[68] CONGRATS_POPULARITY_5
+[69] CONGRATS_POPULARITY_6
+[70] a
+[71] Você é um tremendo sucesso entre \mas operadores\m\fos operadores\f de telemarketing.
+[72] Se você e todos os seus amigos se reunissem, isso daria um time de futebol.
+[73] Todas as recepcionistas te conhecem pelo nome.
+[74] Seu celular tem tantos contatos que podia ser uma lista telefônica.
+[75] Você está muito \mlouco\m\flouca\f.\nVocê perdeu o juízo!
+[76] a
+[77] Você tem todos os 9 nutrientes essenciais.
+[78] Você é mais saudável que suco de tomate.
+[79] Você se sente tão bem que poderia ler em braile.
+[80] Até seus germes cobrem a boca ao tossir.
+[81] Você está muito \mlouco\m\flouca\f.\nVocê perdeu o juízo!
+[82] a
+[83] Você se considera tão confiável a ponto de se permitir manusear tesouras.
+[84] Você finalmente crê que vale os sapatos que calça.
+[85] Com essa atitude é possível que você consiga uma promoção.
+[86] Você é um trem superpotente de auto-estima.
+[87] Você está muito \mlouco\m\flouca\f.\nVocê perdeu o juízo!
+[88] DOWNTOWN desbloqueado!
+[89] DELEGACIA desbloqueada!
+[90] GLIGHT CLUB desbloqueado!
+[91] Você desbloqueou O ESCRITÓRIO DO JORNAL!
+[92] ESTÁDIO DO DEGUBAS desbloqueado!
+[93] SALÃO DE BELEZA desbloqueado!
+[94] CASA \mDA HEATHER\m\fDO DEAN\f desbloqueada!
+[95] COCONUT GROVE desbloqueado!
+[96] Você desbloqueou NONE ROOM 8!
+[97] SOUTH BEACH desbloqueada!
+[98] Você desbloqueou o BONGOS CUBAN CAFE!
+[99] LITTLE HAVANA desbloqueada!
+[100] RESTAURANTE YUCA desbloqueado!
+[101] OCEAN DRIVE desbloqueada!
+[102] APARTAMENTO desbloqueado!
+[103] Você desbloqueou o APARTAMENTO!
+[104] Você desbloqueou NONE ROOM 18!
+[105] PELICAN ISLAND desbloqueada!
+[106] MANSÃO desbloqueada!
+[107] EVERGLADES desbloqueado!
+[108] KEY BISCAYNE desbloqueada!
+[109] APARTAMENTO desbloqueado!
+[110] Você desbloqueou o APARTAMENTO!
+[111] Você desbloqueou o APARTAMENTO!
+[112] Você desbloqueou o APARTAMENTO!
+[113] Você se apaixonou pela primeira vez em Miami!
+[114] Você acabou de fazer sua primeira amizade em Miami e ganhou um presente!

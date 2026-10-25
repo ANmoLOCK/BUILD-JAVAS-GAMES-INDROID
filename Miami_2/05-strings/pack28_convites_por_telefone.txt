@@ -1,0 +1,30 @@
+[0] \d
+[1] Vim pro nosso encontro!
+[2] Oi, \x! Acabei de chegar aqui, \p2\o\p1. Estarei te esperando! Até logo!
+[3] \d
+[4] Cancelar encontro... 
+[5] Oh, \x! Me desculpa, aconteceu um imprevisto e tenho que ir embora. Não vou poder sair com você. Me ligue se quiser marcar outra saída. Sinto muito mesmo!
+[6] \d
+[7] Nosso encontro
+[8] Da próxima vez que convidar alguém par sair, tente se lembrar!
+[9] \d
+[10] Nosso encontro
+[11] O que aconteceu? Pensei que estávamos nos divertindo.
+[12] \d
+[13] Nosso encontro
+[14] Não acho que sejamos compatíveis. Não tente me ligar de novo.
+[15] \d
+[16] Nosso encontro
+[17] Foi muito divertido. Me sinto tão feliz quando estamos juntos.
+[18] \d
+[19] Nosso encontro
+[20] Gostaria de te agradecer pelo tempo incrível que passamos juntos.
+[21] \d
+[22] Nosso encontro
+[23] Você iluminou minha vida nesse tempo que passamos juntos.
+[24] \d
+[25] Nosso encontro
+[26] Espero te ver de novo em breve.
+[27] \d
+[28] Nosso encontro
+[29] Nosso encontro foi mágico. \mObrigada\m\fObrigado\f.

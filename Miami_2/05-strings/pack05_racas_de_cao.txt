@@ -1,0 +1,3 @@
+[0] Scottish Terrier
+[1] French Bulldog
+[2] Beagle

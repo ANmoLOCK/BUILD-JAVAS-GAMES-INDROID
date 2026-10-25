@@ -1,0 +1,7 @@
+[0] Então você é \x? Agora sei porque é \mo favorito\m\fa favorita\f \mda\m\fdo\f Goldsax.]Especialmente com esses olhos... Já nos conhecemos antes?]Mas, bem, eu não sou Goldsax, quero ver se você é gentil e \mgeneroso\m\fgenerosa\f o suficiente para me oferecer \p2FLORES\p1.
+[1] É mais isso mesmo. Um pagamento honesto para um dia honesto de trabalho. Aqui está a sua grana.
+[2] Eu consigo identificar uma pessoa trapaceira quando vejo uma. Sem chance de eu te pagar!
+[3] Hmm, você é bem \mrápido\m\frápida\f. Eu poderia usar mais gente como você. Aqui está o seu pagamento.
+[4] Os cartazes estão empilhados em frente ao \p2Estádio Degubas\p1, em \p2Downtown\p1.
+[5] Ooooh, tão adorável... quero dizer... que flores adoráveis!]Muito bem, muito bem! Você será \mmeu\m\fminha\f assistente de publicidade! Pendure os cartazes nas paredes e eu te darei $200!] Eles estão empilhados na frente do \p2Estádio Degubas\p1.
+[6] Ah, oi! Agora eu estou \mocupado\m\focupada\f com ele. Venha para South Beach se você quiser meditar depois do trabalho.

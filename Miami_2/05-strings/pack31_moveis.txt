@@ -1,0 +1,60 @@
+[0] Sofá laranja
+[1] Sofá azul
+[2] Sofá amarelo
+[3] Sofá verde
+[4] Sofá vermelho
+[5] Sofá branco
+[6] Sofá curvado laranja 
+[7] Sofá curvado azul
+[8] Sofá curvado amarelo 
+[9] Sofá curvado verde 
+[10] Sofá curvado vermelho
+[11] Sofá curvado branco
+[12] Sofá reto laranja
+[13] Sofá reto azul
+[14] Sofá reto amarelo
+[15] Sofá reto verde
+[16] Sofá reto vermelho
+[17] Sofá reto branco
+[18] Cama padrão verde
+[19] Cama padrão azul
+[20] Cama padrão vermelha
+[21] Cama padrão amarela
+[22] Cama padrão laranja
+[23] Cama padrão branca
+[24] Cama de metal verde
+[25] Cama de metal azul
+[26] Cama de metal vermelha
+[27] Cama de metal amarela
+[28] Cama de metal laranja
+[29] Cama de metal branca
+[30] Cama de designer verde
+[31] Cama de designer azul
+[32] Cama de designer vermelha
+[33] Cama de designer amarela
+[34] Cama de designer laranja
+[35] Cama de designer branca
+[36] Cômoda padrão
+[37] Cômoda com gavetas
+[38] Armário padrão branco
+[39] Cômoda com gavetas branca
+[40] TV: tela plana 21"
+[41] TV: tela plana 42"
+[42] Almofada rosa
+[43] Almofada roxa
+[44] Almofadas rosa e roxa
+[45] Almofada dourada
+[46] Laptop
+[47] Computador tela plana
+[48] Cadeira branca
+[49] Cadeira laranja
+[50] Cadeira vermelha
+[51] Cadeira azul
+[52] Cadeira verde
+[53] Cadeira amarela
+[54] Cadeira de luxo branca
+[55] Cadeira de luxo laranja
+[56] Cadeira de luxo vermelha 
+[57] Cadeira de luxo azul
+[58] Cadeira de luxo verde
+[59] Cadeira de luxo amarela

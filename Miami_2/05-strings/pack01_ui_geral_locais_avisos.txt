@@ -1,0 +1,96 @@
+[0] PAUSA
+[1] CONTINUAR
+[2] MAPA
+[3] OPÇÕES
+[4] AJUDA
+[5] MENU PRINCIPAL
+[6] SAIR DO JOGO
+[7] SALVAR
+[8] SIM
+[9] NÃO
+[10] SALVAR PROGRESSO?
+[11] FALAR AO TELEFONE?
+[12] SAIR JUNTO?
+[13] TIRAR UMA FOTO
+[14] SAIR JUNTO AGORA?
+[15] CANCELAR ENCONTRO?
+[16] IR AO MAPA?
+[17] SAIR DO JOGO?
+[18] VOLTAR AO MENU PRINCIPAL?
+[19] EXPULSAR COLEGA DE QUARTO
+[20] VOCÊ QUER
+[21] Oops! Você não tem dinheiro suficiente.
+[22] MASCULINO
+[23] FEMININO
+[24] PERSONALIZADO
+[25] ATENÇÃO
+[26] MISSÃO
+[27] DICA
+[28] PARABÉNS
+[29] PÉSSIMO!
+[30] AGENDA DE TELEFONE
+[31] ESTATÍSTICAS
+[32] MENSAGENS
+[33] DOWNTOWN
+[34] DELEGACIA
+[35] GLIGHT CLUB
+[36] ESCRITÓRIO DO JORNAL
+[37] ESTÁDIO
+[38] CLÍNICA DE BELEZA
+[39] CASA \mDA HEATHER\m\fDO DEAN\f
+[40] COCONUT GROVE
+[41] CADEIA
+[42] SOUTH BEACH
+[43] CUBAN CAFE
+[44] LITTLE HAVANA
+[45] RESTAURANTE
+[46] OCEAN DRIVE
+[47] APARTAMENTO
+[48] APARTAMENTO DE \d
+[49] LIGHT HOUSE
+[50] PELICAN ISLAND
+[51] MANSÃO
+[52] EVERGLADES
+[53] KEY BISCAYNE
+[54] APARTAMENTO
+[55] APARTAMENTO DE \d
+[56] APARTAMENTO DE \d
+[57] SOUTH BEACH
+[58] 30 minutos se passaram.
+[59] Os manifestantes aceitaram o acordo. O metrô foi reaberto!
+[60] Você tem um encontro em \o!
+[61] Tire uma bela foto do seu rosto! Não se esqueça de dizer 'queso'!
+[62] A foto ficou boa? Se sim, aperte MANTER. Se não, aperte VOLTAR e tente novamente!
+[63] Ao sair desse local, seu encontro acabará.
+[64] Coma alguma coisa antes que você desmaie!
+[65] Seu estômago está muito vazio e logo você irá morrer de fome! Vá comer algo!
+[66] Você estava com muita fome e... desmaiou... Nós ajudamos a te alimentar dessa vez. Mas recupere sua SAÚDE por si só, da próxima vez.
+[67] Você está com olheiras! Vá DORMIR!
+[68] Seus olhos estão se fechando, e seu cérebro parece não funcionar mais! Vá DORMIR!!!
+[69] Você estava \mcansado\m\fcansada\f demais para continuar a aventura.
+[70] Credo!!! Você tá fedendo! Tome um BANHO, rápido!
+[71] Vá tomar um BANHO! Seu fedor dá náuseas e há moscas voando ao seu redor...
+[72] Você estava fedendo tanto que as pessoas não aguentaram! Você foi forçado a tomar um banho quente, dessa vez!
+[73] Você está praticando um novo passo de dança ou só quer ir ao BANHEIRO?
+[74] Vá ao BANHEIRO! Não quero testemunhar sua sordidez.
+[75] Oops. Você se molhou... Te avisei para ir ao BANHEIRO...
+[76] Tudo que você conseguiu foi economizar 30 minutos da sua vida!
+[77] TROCAR DE MISSÃO?
+[78] Carregando...
+[79] Aperte 5
+[80] Cuidado! Policiais em Miami prendem qualquer um com um nível de crime de 80 ou mais...
+[81]  gosta de 
+[82] MIAMI NIGHTS 2
+[83] Parabéns! Você encontrou todos os anões!
+[84] ITENS
+[85] Dança
+[86] Bebida $5
+[87] Duas horas se passaram e a fiança é mais barata agora.
+[88] ,
+[89] e
+[90] Este lugar está aberto de %i am às %i am!
+[91] Você cometeu crimes demais, \x. Pense nos seus erros na cadeia.
+[92] O Mapa está bloqueado.
+[93] Lembre-se de pagar o aluguel desta semana.
+[94] Você encontrou um anão. Ele vai voltar para o jardim de seu apartamento.
+[95] Gostou deste jogo? Confira outros jogos Gameloft!
