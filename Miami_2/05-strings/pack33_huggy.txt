@@ -1,0 +1,14 @@
+[0] Psst.
+[1] PSSSSTTTTTT!
+[2] Você tem que colar os cartazes, certo?]Uma dica para você. Tudo o que você precisa fazer é jogá-los no lixo ali.]Grana fácil. Ninguém vai ficar sabendo, confie em mim.
+[3] Então, vai jogar os cartazes no lixo?
+[4] Não, obrigado. Minha mãe me ensinou a não ouvir os conselhos de estranhos.
+[5] Valeu! Grana fácil!
+[6] Como quiser, \mcertinho\m\fcertinha\f.
+[7] Ei, peraí! Por que não toma um \p2banho\p1 antes de entrar aqui? (\p2HIGIENE 30\p1)
+[8] Desculpe, \mSenhor\m\fSenhora\f, não posso deixá-\mlo\m\fla\f entrar. Você não é \p2sexy\p1 o suficiente para entrar nesta boate.]Vá se \p2bronzear\p1 na praia ou talvez coloque um pouco de \p2maquiagem\p1 no Salão de Beleza. (\p2SEX APPEAL 20\p1)
+[9] Ei, qual é? Acha que os Miami Degubas vão vencer a temporada?
+[10] De volta depois do jogo dos Degubas. (Em caso de emergência, nos encontre na frente do \p2Estádio\p1.)
+[11] Ah, oi! Quer entrar na Delegacia de Polícia...? Mas... o jogo do \p2Degubas\p1 está muito bom!]Vale a pena largar o jogo por você? (\p21 Estrela\p1)
+[12] OK, OK. Vou voltar para o meu posto... 
+[13] Você está com uma ótima aparência, \mSr.\m\fSrta.\f Divirta-se!

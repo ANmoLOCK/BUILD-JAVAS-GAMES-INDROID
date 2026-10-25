@@ -1,0 +1,19 @@
+[0] Bronze Medallion
+[1] Silver Medallion
+[2] Gold Medallion
+[3] Figurante
+[4] Bartender
+[5] Assistente de Publicidade
+[6] Anão Apaixonado
+[7] Anão de Praia
+[8] Anão Gourmet
+[9] Anão Policial
+[10] Anão Fashion
+[11] Anão Degubas
+[12] Anão de Segurança
+[13] Black Skull
+[14] \mEntregador\m\fEntregadora\f
+[15] \mAgenciador\m\fAgenciadora\f de Modelos
+[16] DJ
+[17] Detetive Particular
+[18] Chefão da Máfia

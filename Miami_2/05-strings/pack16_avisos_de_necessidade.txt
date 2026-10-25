@@ -1,0 +1,8 @@
+[0] Atenção: Você está com muita fome. Coma alguma coisa ou vai desmaiar!
+[1] Atenção: Você está com muito sono. Dê uma cochilada em algum lugar ou vai desmaiar!
+[2] Atenção: Você está muito /msujo/m/fsuja/f. Vá se limpar ou ninguém vai querer conversar com você!
+[3] Atenção: Você precisa muito ir ao banheiro. Vá logo ou vai fazer xixi nas calças!
+[4] Precisa comer
+[5] Precisa dormir
+[6] Precisa de banho
+[7] Precisa ir ao banheiro

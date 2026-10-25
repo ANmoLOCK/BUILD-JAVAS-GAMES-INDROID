@@ -1,0 +1,56 @@
+[0] Me chamo José, mas pode me chamar de Ingrid. Estou brincando, sou Joey.]Novos inquilinos me deixam nervoso e desconfiado. Vamos conversar um pouco pra ver se confio em você. (\p22 Estrelas\p1)
+[1] Ok, você parece normal o bastante. De todo jeito, eu gosto de qualquer pessoa que me chame de Ingrid.]Dê uma olhada no apartamento, depois vou te mostrar minha pequena coleção no \p2jardim\p1!]Lembre-se de pagar o \p2aluguel\p1 ($300) toda semana ou vai acabar na rua. Entiendes?
+[2] O quê...!? Todos os meus \p2anões de jardim\p1 SUMIRAM!!! 
+[3] Hmm, talvez tenham ido procurar emprego... é difícil ficar cuidando do jardim nesses tempos de crise, sabe como é...]Se você encontrá-los na cidade, traga-os de volta, por favor!]Vou te dar um dinheirinho por cada um que você encontrar.  São \p27 anões\p1 no total.
+[4] Platinum, \mquerida\m\fquerido\f! Estava tão \mpreocupada\m\fpreocupado\f com você!]E com você também, meu docinho!]Mas pode atirá-\mla\m\flo\f no mar.
+[5] Agora eu tenho um gato lindo chamado Azria. Ele não é de tirar o fôlego?
+[6] Fique com \ma cadela\m\fo cão\f para você. Deveríamos dar-lhe um novo nome!
+[7] Platinum
+[8] \mGinger\m\fFred\f
+[9] \mBeanie\m\fBuster\f
+[10] \mTasha\m\fTommy\f
+[11] Tem outra sugestão?
+[12] Oh... você é exigente. Que tal...?
+[13] Ei, cachorro! Que diabos você quer? *BAHHH*
+[14] Tem um trocado pro velho aqui tomar um cafezinho?
+[15] Aqui está. ($10)
+[16] Só um trocadinho. ($5)
+[17] Desculpe, não tenho dinheiro, agora.
+[18] Muchas gracias, \mseñor\m\fseñorita\f.
+[19] Obrigado... por nada...
+[20] 30 anos atrás, nós fugimos de Fidel num barquinho a remo. Desde então, eu aprendi a navegar em mar aberto e a fazer meus próprios coletes salva-vidas.]Eu até vi um velho \p2Galeão Espanhol\p1 naufragado perto da costa.]Não acredita em mim? Acredite sempre nas palavras dos loucos! Eles nunca mentem.
+[21] Oh, espere. Antes de ir...
+[22] Qual é a sua ambição, aqui em Miami?
+[23] \p2\mDitador\m\fDitadora\f de Tendências\p1: Eu encontrarei a próxima tendência mundial.
+[24] \p2Magnata da Mídia\p1: A caneta é mais poderosa que a espada!
+[25] \p2Estrela da Alta Sociedade\p1: Serei a pessoa mais rica do mundo.
+[26] \p2\mChefão\m\fChefona\f do Crime\p1: Irei controlar o submundo aqui.
+[27] Tudo bem, tudo bem. Posso te imaginar sendo grande, algum dia.]Mas antes você precisa saber como as coisas funcionam nessa cidade. Vou arrumar algumas oportunidades para você!]Boa sorte na sua busca pelo sucesso em Miami!
+[28] Eu realmente gostei desse banho de sol maravilhoso na praia... com essa barba e aquela pele cor de leite eu parecia um programador!
+[29] \v1Isso é muito louco. Meu irmão é o dentista do Gran Kahuna, mas não temos notícias dele há várias semanas. Agora eu tenho que fazer esse trabalho, mas não tenho coragem suficiente pra isso! Onde você está, meu irmão?\v1\v600Corre, \x, corre!\v600
+[30] Há muito tempo eu me apaixonei por um anãozinho que vivia no velho farol... hmm... tenho muitas saudades dele...
+[31] Você gosta dos pelos nas minhas costas? Tem que ver os pelos aqui da frente, Pirata.
+[32] Ga...aham... ga... ga... \n gar... gar... garçom... mais um drink... por favor...
+[33] Um segurança deixar pessoas entrarem na festa de tênis?]Você tá brincando... Nem pensar, nossa boate é muito chique.
+[34] Corre, \x, corre!
+[35] Que dia lindo, não acha? Precisa de uma boa viagem?
+[36] ... O quê!? Você tem um \p2MAPA\p1?! Entregue-o pra mim!
+[37] Eu quero ser parte da sua expedição também.
+[38] Sem chance! A não ser que eu lidere este plano.
+[39] Hmm. Gosto de você mas não sei se você daria \mum grande capitão\m\fuma grande capitã\f nessa caça ao tesouro.]Deixa eu te conhecer melhor, \x. (\p23 Estrelas\p1)
+[40] OK, fechado. Acho que você é confiável o bastante.
+[41] Você não ousaria! Quer \p2brigar\p1?
+[42] Mas eu admiro a sua coragem.
+[43] Aguarde o meu chamado para nossa expedição, \x!
+[44] Essa foi rápida. Impressionante. O que você descobriu?
+[45] ...
+[46] ...O quê?! Você tem um MAPA?!
+[47] Oh, oi! Você é \mnovo\m\fnova\f por aqui?
+[48] Estamos indo para a praia.]Encontre a gente lá quando tiver tempo!
+[49] Pra quem vai levar a caixa de pizza?
+[50] Ao chefão Hal Pachinko.
+[51] Ao Inspetor.
+[52] Tem trocado?
+[53] Pet Shop Boy, perro happy hoy! Penteado, manicure, e tratamento anti-stress para alguém especial, e seu cachorro também. Deseja alguma coisa?
+[54] Você encontrou todos os anões? Excelente habilidade para encontrar anões! Passe no apartamento e eu te darei a recompensa.
+[55] Ha! Jamais imaginei que encontraria todos... Anõezinhos safados!]Aqui está a recompensa, como eu prometi.]Vou tomar cuidado para que estes espoletas não fujam de novo.

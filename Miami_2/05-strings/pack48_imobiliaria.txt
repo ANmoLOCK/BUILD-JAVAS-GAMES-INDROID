@@ -1,0 +1,3 @@
+[0] Muito prazer, \x! \mHeather\m\fDean\f me falou muito de você!
+[1] Hmm, você me parece uma pessoa meio rude.]Vamos conversar um pouco pra ver se confio em você. (\p23 Estrelas\p1)
+[2] Exatamente como \ma Heather\m\fo Dean\f me contou.]Por que a gente não discute o valor lá dentro, \x?

@@ -1,0 +1,20 @@
+[0] Hmm, não é algo que me interessa, na verdade.
+[1] Uau, atingi um novo nível de tédio!
+[2] Acho que algumas pessoas devem gostar dessas coisas.
+[3] Somos amigos?
+[4] Você é \mestranho\m\festranha\f.
+[5] Vou ter que perguntar aos meus amigos de verdade.
+[6] Isso é tão atrasado!
+[7] Não é muito a minha praia.
+[8] Você estava falando? Acho que dormi.
+[9] Acho que eu tenho um compromisso agora.
+[10] Hmm, eu realmente não me importo, então...
+[11] É. Ótimo. Na verdade, não.
+[12] Ugh! Eu meio que cansei desse assunto.
+[13] Eu não poderia me importar menos.
+[14] Você pode fazer melhor que isso.
+[15] Blá, blá, blá. Isso é tudo que eu ouço.
+[16] Téééédiooooo.
+[17] Zzzzzzzzzz.
+[18] Será que podemos conversar sobre algo interessante?
+[19] É, que seja...

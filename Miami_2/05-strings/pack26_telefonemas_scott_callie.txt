@@ -1,0 +1,95 @@
+[0] \mScott\m\fCallie\f
+[1] \x, sou eu, \mScott\m\fCallie\f. Finalmente me deixaram usar o telefone.]Volte para a \p2delegacia\p1. Eu tenho um plano...]Ah, e não se esqueça de dar comida pro meu gato, ok, \x?
+[2] Spillbeard
+[3] Alô, \mSr.\m\fSrta.\f \x?]\mA Srta.\m\fO Sr.\f Goldsax nos falou de você.]No momento estamos buscando figurantes. Com certeza vai te interessar! Me encontre em \p2South Beach\p1.
+[4] Opal
+[5] Alô, quem fala é a \p2Opal\p1, da Miami Press.]\mA Srta.\m\fO Sr.\f Goldsax me disse que você talvez tenha interesse em fazer carreira na mídia.]Encontre-me em frente ao meu escritório, em \p2Downtown\p1.
+[6] Charm
+[7] Alô, \x? \mO amigo da Srta.\m\fA amiga do Sr.\f Goldsax?]Aqui quem fala é a \p2Charm\p1 do \p2Glight Club\p1.]Tenho um ótimo trabalho pra você na minha boate. Me encontre no \p2Glight Club\p1, em Downtown.
+[8] \v1Restaurante Yuca\v1\v600Hal Pachinko\v600
+[9] Alô, \mSr.\m\fSrta.\f \x?]\mA Srta.\m\fO Sr.\f Goldsax me pediu pra entrar em contato.]Temos uma grande oportunidade pra você. \v1Nos procure no \p2Restaurante Yuca\p1 em Little Havana.\v1\v600Me procure na \p2Ocean Drive\p1.\v600
+[10] \mScott\m\fCallie\f
+[11] E aí, \x! Tá rolando uma festa legal em \p2South Beach\p1 das \p24^pm\p1 até as \p27^am\p1! Venha depressa e vamos fazer a f-e-s-t-a!
+[12] \mScott\m\fCallie\f
+[13] Ei, \x! Sou eu, \mo Scott\m\fa Callie\f.]Estou no seu apê. Você ficou com o cachorro \mda\m\fdo\f Goldsax!?]De qualquer forma, venha para o \p2apartmento\p1! Quero te mostrar uma coisa!
+[14] \mScott\m\fCallie\f
+[15] Oi, \x! É \mo Scott\m\fa Callie\f!]Se conseguir dinheiro o suficiente, volte e pague a minha fiança, por favor!
+[16] Goldsax
+[17] Oi, \x. Que tal esse emprego do cartaz? Dê uma olhada nos outros empregos do jornal também!
+[18] Goldsax
+[19] O quê!? Você festejou demais e não te pagaram?! Cara! Procure outros empregos no jornal.
+[20] Goldsax
+[21] E aí, \x. Que tal esse emprego de bartender? Dê uma olhada nos outros empregos também.
+[22] Goldsax
+[23] O quê!? Você não conseguiu nem fazer uma simples entrega?! Cara! Procure outros empregos no jornal.
+[24] Opal
+[25] Volte para \v1o escritório\v1 \v600a boutique\v600 se tiver terminado e quiser receber!
+[26] Hal Pachinko
+[27] E aí \x! Você tá demorando muito! Volte pra cá!
+[28] 555-FILME
+[29] Agradecemos sua ligação, mas no momento estamos ocupados. Por favor, tente novamente!
+[30] 555-CARTAZES
+[31] Agradecemos sua ligação, mas no momento estamos ocupados. Por favor, tente novamente!
+[32] 555-BEBIDA
+[33] Agradecemos sua ligação, mas no momento estamos ocupados. Por favor, tente novamente!
+[34] 555-PIZZA
+[35] Agradecemos sua ligação, mas no momento estamos ocupados. Por favor, tente novamente!
+[36] \mScott\m\fCallie\f
+[37] \x, acabo de ouvir uma fofoca daquelas.]A MN2TV vai ser a anfitriã da Miami Beach Party esta noite (das \p24 pm\p1 às \p27 am\p1), bem na praia!]Você devia ir! Vou lá te dar uma força! Té mais, \mcara\m\fchica\f.
+[38] Goldsax
+[39] Então você pegou o mapa??? Me encontre no \p2meu iate\p1! Depressa!
+[40] \mHeather\m\fDean\f
+[41] \x? Oi, sou eu, \mHeather\m\fDean\f.]O jantar está pronto, venha quando puder. Minha casa fica em \v1\p2Coconut Grove\p1\v1\v600\p2Pelican Island\p1\v600.]Mal posso esperar pra que você conheça minha tia!
+[42] \mHeather\m\fDean\f
+[43] \mYo\m\fEi\f, \x. Por onde você andou? Tenho uma grande surpresa pra você, \mcara\m\fgarota\f.]Me encontre na \p2Ocean Drive\p1. Até mais!
+[44] \mHeather\m\fDean\f
+[45] E aí, \x? Sou eu, \mScott\m\fCallie\f!]Mortadella Ceviche está buscando alguns \magenciadores\m\fagenciadoras\f de modelos em \p2Coconut Grove\p1.]Ela é durona, mas acho que você vai gostar do trampo.]Boa sorte!
+[46] \mScott\m\fCallie\f
+[47] Alô, alô? Tá me ouvindo, \x?]Ah \mcara\m\fnão\f, um policial tá me seguindo!]Escuta, \x, encontre a Charm no \p2Glight Club\p1 em Downtown.]Ela está buscando alguém para substituir o DJ e é generosa.]Boa sorte!
+[48] \mScott\m\fCallie\f
+[49] \x, sou eu, \mScott\m\fCallie\f!]Vá para o \p2Restaurante Yuca\p1 em Little Havana. Hal Pachinko precisa das suas mãos para ganhar uma boa grana.]Boa sorte!
+[50] Hal Pachinko
+[51] Te devo uma, \x.]Volte ao restaurante, e eu te darei o pagamento merecido.
+[52] Opal
+[53] \x, olá-lá! Tenho uma nova tarefa excitante pra você.]Encontre \ma\m\fo\f \p2melhor cameraman\p1 de Miami para transmitir a temporada de futebol americano na TV.]\p2Spillbeard\p1 pode te dar uma dica sobre onde encontrar a pessoa certa.
+[54] \mHeather\m\fDean\f
+[55] \mO que tá pegando, malandro?\m\fO que tá pegando, colega?\f]Haha. Só estava brincando. Sou eu, \mHeather\m\fDean\f! Venha me encontrar no \p2Estádio\p1, em downtown.
+[56] Inspetor
+[57] \x, \mum homem\m\fuma mulher\f como você seria muito útil à Polícia de Miami.]Neste momento, as maiores \p2somas de apostas\p1 vão sendo acumuladas por todo país, devido às finais do futebol.]\p2Pachinko\p1 está subornando o time adversário e ele tem que apodrecer na cadeia.]Uma fonte anônima disse que o acordo vai acontecer no \p2Yuca\p1.
+[58] \mScott\m\fCallie\f
+[59] Oi, \x! Parabéns! Todos as celebridades estão aqui te esperando!]Volte e vamos começar a festa!
+[60] Ceviche
+[61] Olá, \x! Você encontrou dois modelos!?]EXCELENTE! Volte pra cá depressa!
+[62] \mScott\m\fCallie\f
+[63] \mYo\m\fEi\f, \x!!!! O que você está fazendo, \mcara\m\fgarota\f? Brincando com o cachorro?]Ei, por acaso você já falou com \ma Heather\m\fo Dean\f?]Esqueci de avisá-\mla\m\flo\f sobre a nossa reuniãozinha.
+[64] \mScott\m\fCallie\f
+[65] Ouvi dizer que \mela\m\fele\f está namorando \maquele jogador de futebol estúpido\m\faquela cheerleader estúpida\f... É uma pena.
+[66] \mScott\m\fCallie\f
+[67] Que seja.]Olha, eu conheço pessoas importantes aqui.]Deixe \mseu amigo\m\fsua amiga\f te arrumar um emprego.]Conheço gente que está procurando \magenciador\m\fagenciadora\f de modelos e detetive particular. Por qual desses você se interessa?
+[68] \mScott\m\fCallie\f
+[69] Conheço gente que está procurando \magenciador\m\fagenciadora\f de modelos\v1, DJ\v1 e detetive particular. Por qual desses você se interessa?
+[70] \mScott\m\fCallie\f
+[71] Encontre Mortadella Ceviche \p2\v1em Coconut Grove\v1\v600na Ocean Drive\v600\p1. Ela é difícil, mas acho que você vai curtir o trabalho. Boa sorte!
+[72] \mScott\m\fCallie\f
+[73] Beleza. Encontre a Opal Wintery no escritório da Miami Newsbeat em \p2Downtown\p1.]Ela é a editora chefe. Boa sorte!
+[74] \mScott\m\fCallie\f
+[75] Beleza!]Encontre a Charm no \p2Glight Club\p1. Ela é a dona de uma boate famosa em \p2Downtown\p1.]Boa sorte!
+[76] \mScott\m\fCallie\f
+[77] É isso aí!]Vá até \p2Ocean Drive\p1 e procure pelo Hal Pachinko.]Ele é o chefão lá. Boa sorte!
+[78] Proprietário
+[79] Excelente habilidade para encontrar anões! Passe no apartamento e eu te darei a recompensa.
+[80] \i
+[81] Claro, adoraria sair com você. Mas tenho que passar em casa primeiro. Te ligo quando chegar lá.
+[82] \i
+[83] Ei! A gente tinha um encontro! Não lembra?
+[84] Você ainda é novo na cidade. Explore um pouco mais para descobrir um ótimo lugar para encontros!
+[85] \i
+[86] E quem é aquela pessoa com quem você está saindo agora? \mSeu malandro!\m\fSua malandra!\f
+[87] Eu não estou te entendendo! Você está muito \mLOUCO\m\fLOUCA\f. Vá dormir um pouco pra ver se melhora!
+[88] Não é a minha praia...
+[89] Ah... Entendo. Você pode me ligar alguma outra hora, então!
+[90] Oi \x! Achei que você me ligaria antes...]Ligue pra mim quando quiser sair comigo!
+[91] Olá, \x! Só estou ligando para saber como você está. Liga pra mim, ok?
+[92] Ei, \x! O que tá rolando \mcara\m\fgarota\f? Você sabe, ligue pra mim se quiser conversar ou beber alguma coisa.
+[93] Alô, \x! Não consegui esperar sua ligação!]Não tenho nada pra fazer! Me liga se você quiser sair junto comigo.
+[94] \x? Como andam as coisas.]Ah, eu estou bem! ... Liga pra mim quando der, tá bom?

@@ -1,0 +1,136 @@
+[0] SAIR
+[1] VOLTAR
+[2] PRÓX.
+[3] OK
+[4] CANCELAR
+[5] SELEC.
+[6] TROCAR
+[7] APERTE UMA TECLA
+[8] SIM
+[9] NÃO
+[10] ATIVAR SOM?
+[11] ACEITAR
+[12] CRIAR
+[13] APAGAR
+[14] CONFIRMAR
+[15] PEGAR
+[16] PULAR
+[17] CRIAR PERSONAGEM
+[18] DESEJA\nATIVAR O SOM?
+[19] DESEJA\nSAIR DO JOGO?
+[20] VOCÊ QUER ESTE\nPERSONAGEM?
+[21] MENU
+[22] MENU PRINCIPAL
+[23] CONTINUAR
+[24] NOVA PARTIDA
+[25] MAIS JOGOS!
+[26] OPÇÕES
+[27] AJUDA
+[28] SOBRE
+[29] SAIR DO JOGO
+[30] TEST GAME ROOMS
+[31] TEST_ROOM1
+[32] TEST_ROOM2
+[33] SELECIONAR LOCAL
+[34] MIAMI NIGHTS 2\nVersão \v\n\n© 2009 Gameloft.\n\p2INFORMAÇÃO E SUPORTE\p1\nwww.gameloft.com\nsupport@gameloft.com
+[35] MIAMI NIGHTS 2\nVersão \v\n\n© 2009 Gameloft.\nAll Rights Reserved.\nGameloft and the\nGameloft logo are\ntrademarks of Gameloft\nin the U.S. and/or\nother countries.
+[36] \p2PRODUTOR EXECUTIVO\p1\nYang Wen\n\n\p2PRODUTOR LOCAL\p1\nMiguel Calvo
+[37] \p2DIRETORES DE PROJETO\p1\nMatthieu Gosnet\nStanislas Dewavrin\n^Diego Barragán^
+[38] \p2CHEFE DE PROJETO\p1\nAska Suzuki\n\n\p2PROJETO DO JOGO\p1\nPaco Jover\nGuillem Reig
+[39] \p2ARTISTA GRÁFICO CHEFE\p1\nToni Yeste\n\n\p2ARTISTAS GRÁFICOS\p1\nLuis Sebastián Martínez\nMartina Witjaksana\nPaco Martínez
+[40] \p2CONSULTOR TÉCNICO\p1\nBrice Ramard\n\n\p2COORDENADOR DE PROGRAMAÇÃO\p1\nDavid Flix
+[41] \p2PROGRAMADOR CHEFE\p1\nSergi Díaz\n\n\p2PROGRAMADOR\p1\nChema Solís\nJordi Granados
+[42] \p2ESCRITORES\p1\nTammy Blythe Goodman\nAska Suzuki\nPaco Jover
+[43] \p2GERENTE DE LOCALIZAÇÃO\p1\nAlexis Green-Painchaud\n\n\p2EQUIPE DE LOCALIZAÇÃO\p1\nMarina Beretta Araujo\nRafael Portugal\nRafael França\nKarin Gabardo
+[44] \p2DIRETOR DE SOM\p1\nMathieu Vachon\n\n\p2PROJETO DE SOM\p1\nPascal Dion\nJorge Peirano
+[45] \p2CHEFE DE CQ DE SOM\p1\nUlrich Frantz\n\n\p2TESTADORES DE SOM\p1\nMaria Colona\nGabriel Vinazza\nNicolas Trovato\nChristian Heinz
+[46] \p2APROVAÇÃO DE CONTEÚDO\p1\nKelvin Braswell\nDaniel Macilvain
+[47] \p2GERENTE DE CQ\p1\nLam Hong Phu\n\n\p2GERENTE DE PROJETO CQ\p1\nNguyen Hoang Anh\n\n\p2CHEFE DE CQ\p1\nNguyen Hoang Anh
+[48] \p2CONTROLE DE QUALIDADE\p1\nDinh Vo Hoang Dong\nTang Chi Dat\nNguyen Thanh Son\nLe Minh Tam\nBui Duc Trung
+[49] \p2GERENTE DO ESTÚDIO BARCELONA\p1\nAlexandru Adam
+[50] \p2"Mr. Vain"\p1 \n(Katzmann, Nosie/Zick, Stephan/Supreme Jay)\n\nPublicada pela Warner-Chappell Publishing, Get Into Magic, Frank Fenslau Musikverlag.\nUsada sob permissão. Todos os direitos reservados.
+[51] AVISO:\nQualquer bronzeado que você tenha pego durante o jogo não aumenta o seu verdadeiro sex-appeal.\nAlguns dos métodos de paquera do jogo talvez não sejam efetivos com pessoas reais. \nObrigado por jogar.
+[52] \p2AGRADECIMENTOS\p1\ntodo mundo
+[53] MOVIMENTO
+[54] Use 2, 4, 6, 8 ou Tecla de Direção pra cima, esquerda, direita, pra baixo para se mover. Use 1, 3, 7, 9 para se mover na diagonal.
+[55] INTERAÇÕES
+[56] Aperte 5 ou Tecla de Direção OK para interagir com objetos próximos. Um menu contendo as opções disponíveis de interação surgirá na tela.
+[57] INTERAÇÕES
+[58] Você também pode apertar 5 ou a Tecla de Direção OK para interagir com outros personagens do jogo, abrindo o menu de interação.
+[59] DICA
+[60] Após desbloquear o apartamento, aperte 0 para ativar ou desativar as setas de direção.
+[61] CRIAR
+[62] PAUSA
+[63] ESCOLHER
+[64] TELEFONE
+[65] SALVAR
+[66] SOM
+[67] VIBRAÇÃO
+[68] AUTOSALVAR
+[69] SETAS AUXIL.
+[70] DICAS
+[71] ABRIR MAPA
+[72] LIG.
+[73] DESL.
+[74] Vestir essas roupas?
+[75] REDEFINIR JOGO?
+[76] MAPA
+[77] DESBL. MAPA
+[78] DIAS EM MIAMI
+[79] DIA EM MIAMI
+[80] ESGOTADO!
+[81] BLUSAS
+[82] CALÇA/SAIA
+[83] SAPATO
+[84] TIPO DE CAMISA
+[85] TIPO DE CALÇA
+[86] TIPO DE CALÇADO
+[87] SEU DINHEIRO
+[88] SEU PERSONAGEM
+[89] COMPRAR ROUPAS
+[90] COMPRAR
+[91] TERNO
+[92] EXECUTIVO
+[93] FORMAL
+[94] DANÇA
+[95] ESTRÉIA DE FILME
+[96] ÚNICO
+[97] TRAJE
+[98] TERNO EXECUTIVO
+[99] TERNO FORMAL
+[100] PERSONALIZAR
+[101] Vestir sua última compra?
+[102] Pegar
+[103] Para ter esse traje único, confira o site WAP da Gameloft para ver mais jogos!
+[104] Sim, aceitar
+[105] Não, decidir depois
+[106] Comprar
+[107] GÊNERO
+[108] NOME
+[109] PRÉ-DEFINIDOS
+[110] ALEATÓRIO
+[111] PELE
+[112] CABELO
+[113] CAMISA
+[114] ALEX
+[115] ALEXANDRA
+[116] CARREGANDO...
+[117] DE
+[118] ASSUNTO
+[119] Amigos
+[120] Amores
+[121] Cor. Partidos
+[122] Medalhas
+[123] Trabalhos
+[124] Anões
+[125] Mr. Vain
+[126] Katzmann, Nosie/Zick,
+[127] Stephan/Supreme Jay
+[128] MOBÍLIA
+[129] Confirmar alterações?
+[130] RAÇA
+[131] PELO
+[132] PERSONALIZAR ANIMAL DE ESTIMAÇÃO
+[133] TOTAL
+[134] Sair sem alterações?
+[135] Aumentou suas ESTATÍSTICAS!

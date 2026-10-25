@@ -1,0 +1,31 @@
+[0] \mCamiseta gola V\m\fCamisa\f
+[1] \mJaqueta de couro 1\m\fCamiseta decote\f
+[2] \mJaqueta de couro 2\m\fRegata\f
+[3] Camisa
+[4] \mCamiseta listrada\m\fListrada\f
+[5] \mColete\m\fCasaqueto 1\f
+[6] \mAgasalho\m\fAgasalho 1\f 
+[7] \mJaqueta aberta\m\fNáutica\f
+[8] \mCamisa de marca\m\fCasaqueto 2\f
+[9] \mJaqueta de capuz\m\fCardigan\f
+[10] \mCamiseta esportiva\m\fRegata com pérolas\f
+[11] \mColete curto\m\fTop por cima\f
+[12] \mCardigan\m\fTop\f
+[13] \mCamisa e gravata\m\fCardigan\f
+[14] \mSuéter\m\fAgasalho 2\f 
+[15] \mJaqueta curta\m\fJaqueta de couro\f
+[16] \mTerno\m\fTop com laço\f
+[17] \mColete aberto\m\fTop estampado\f
+[18] \mCamisa florida\m\fEspartilho\f
+[19] \mCamisa sem manga\m\fBustiê\f
+[20] \mSem camisa\m\fToalha\f
+[21] \mPorteiro\m\f???\f
+[22] \mUniforme de futebol\m\fCheerleader\f
+[23] \mPijama\m\fIdosa\f
+[24] \mMédico\m\fSexy\f
+[25] Roupa larga
+[26] \mGuarda-Costas\m\fBiquíni de gorducha\f
+[27] \mSmoking\m\fVestido chique\f
+[28] Guarda
+[29] Policial
+[30] \mGarçom\m\fGarçonete\f

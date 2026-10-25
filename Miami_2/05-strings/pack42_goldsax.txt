@@ -1,0 +1,148 @@
+[0] Quer conversar comigo?
+[1] \mAmigo\m\fAmiga\f \mdo Scott\m\fda Callie\f, hein? Precisa de um bico?]Com certeza, os seus sapatos me dizem que você precisa de um trabalho. Há muuuuuuito tempo.]Mas antes preciso saber se posso confiar em você.]Converse comigo até que eu me sinta à vontade. (\p22 Estrelas\p1)
+[2] Muito bem, você parece normal... Uma pessoa normal que não tem dinheiro para comprar sapatos, eu quero dizer...]OK, vou te dar um bico como \mentregador\m\fentregadora\f.]Entregue estes charutos cubanos ao \v1dono do \p2Restaurante Yuca\p1\v1\v600Hal Pachinko na \p2Ocean Drive\p1\v600 e ele vai te dar algum dinheiro.
+[3] Podemos te ajudar?
+[4] Oh, você parece um cachorrinho perdido.
+[5] Já sei! Você deve estar procurando pelo seu cachorro desaparecido!
+[6] Tem um com aquela apresentadora de TV, a Opal. Talvez seja o seu. Ela está na praia meditando.
+[7] Eu sei que o cachorro está por aqui.
+[8] Ei, \mcara\m\fgarota\f! Está vendo \mas garotas\m\fos rapazes\f ali?
+[9] Vamos tomar alguma coisa com \melas\m\feles\f antes de encontrar este cachorro!]Não se esqueça de pedir os \p2números de telefone\p1 \mdelas\m\fdeles\f! Você vai precisar se quiser \p2convidar para sair\p1.
+[10] Eu simplesmente adoro este lugar!]Por que não vamos todos dar um mergulho?
+[11] Vamos encontrar com \messa Srta.\m\fesse Sr.\f Goldsax!
+[12] Oh... \x... Parece que o cachorro...
+[13] Você quer vir comigo e tomar alguma coisa com \melas\m\feles\f antes de encontrar este cachorro?]Não se esqueça de pedir os \p2números do telefone\p1! Você vai precisar se quiser \p2convidar para sair\p1.
+[14] Ei, por que não vamos todos dar um mergulho?
+[15] Então você encontrou! \mDa\m\fDo\f Goldsax?]\mO proprietário\m\fA proprietária\f do Miami Degubas? Você está brincando.
+[16] Ei, cachorrinho fofo! O quê? Você está procurando por um cachorro perdido?
+[17] Eeeeeeiiii! Você sabia que os cachorros se parecem com os donos? Esse cachorro é seu? 
+[18] Você não adora scottish terriers?
+[19] Eu amo até o bafo deles!
+[20] Eu prefiro cair num precipício.
+[21] Claro que adora. Eles são os cachorros mais inteligentes.
+[22] Não leve a mal, mas eu gosto até de pinguins.
+[23] Olhe aqui na coleira!]É o cachorro \mda Srta.\m\fdo Sr.\f Goldsax?! Você deveria devolvê-lo agora mesmo.]\mEla\m\fEle\f deve estar em seu iate na \p2Pelican Island\p1.
+[24] Você quer ser \mator\m\fatriz\f? Eu acho que você pode levantar uma pedra de isopor ou algo do tipo.]Eu não gosto de contratar gente assim do nada, então vamos conversar um pouco. (\p22 Estrelas\p1)
+[25] Ok, chega de conversa.]Escuta só, seu trabalho é sentar na praia e parecer que está \msentando\m\fsentada\f na praia, entendeu?]Espere até eu dizer ''Ação'' antes de fazer qualquer coisa, ok?]Agora, saia da minha frente!
+[26] Não está vendo que estou filmando aqui?
+[27] Sim.
+[28] Não.
+[29] Ei, você! Eu disse para você esperar o diretor dizer ''Ação''.]Aprenda a seguir as ordens, senão vão te demitir.
+[30] Eca! \mEssa garota\m\fEsse cara\f cheira a queijo Muenster podre!]Se você ficar perto \mdela\m\fdele\f, o cheiro vai impregnar em você.
+[31] Ei, \mcowboy\m\fgatinha\f. Gosto \mdo seu bigode\m\fdos seus culotes\f.]E eu trabalho como câmera, então eu tenho um olho bom pra isso.]O que acha de eu focar minha câmera em você durante a filmagem pra poder pegar toda a ação de verdade do seu rosto \mbonito\m\flindo\f...
+[32] Gosto da sua \msobrancelha cabeluda\m\fpele bronzeada\f. Que tal se eu focar a câmera em você durante a filmagem?
+[33] Err... desculpa, mas eu tenho que jogar xadrez aqui com um esquilo impaciente.
+[34] Por mim, tudo bem.
+[35] Oh, desculpa. Até mais.
+[36] Me siga para eu para eu dar um close em você.
+[37] Foi um prazer te conhecer, \x. Foi maravilhoso.]Vamos nos preparar para a filmagem.
+[38] Ei! Todo mundo! Por favor, fiquem nas suas posições!
+[39] Bom trabalho. Você pode ter futuro no negócio, talvez em serviço de buffet.]Por outro lado, há milhares de pessoas como você. Vá para a festa lá na praia!
+[40] Você! É, você está \mdemitido\m\fdemitida\f .
+[41] E... 3... 2... 1...]AÇÃO!!!
+[42] Ei, procurando uma vitamina?
+[43] Ei, \mcara\m\fgarota\f. Você chegou cedo para a festa.
+[44] Você quer uma aula de dança ou vai cuidar do seu bronzeado? 
+[45] Eu preciso pegar um bronze.
+[46] Que tipo de dança?
+[47] Se você mudar de ideia, sabe onde me encontrar.]E não durma, senão você vai ficar igual a um camarão.
+[48] Ei. Você viu algum salva-vidas por aí?
+[49] Não? Hmm. Talvez eu esteja na cidade errada...
+[50] Todos os tipos. Salsa, merengue e até swing! E... 5-6-7-8!
+[51] Eu compro uma bebida pra você, o que acha?
+[52] Desculpa, é que estou na pressão a noite toda.
+[53] Ok.
+[54] Ugh, estraga-prazeres. Você não vai receber boas gorjetas sendo sensível assim.
+[55] Ok, tá bem, tudo bem! 
+[56] Oi, você é \mnovo\m\fnova\f por aqui? Aceita um drink?
+[57] Oi, você vem sempre aqui? Aceita um drink?
+[58] Você é um pouco \msério\m\fséria\f demais para \mum\m\fuma\f bartender.
+[59] Incrível!
+[60] Como vai? Eu preciso de uma boa dose!
+[61] Eu preciso de uma boa dose! Que tal você me acompanhar?
+[62] Que pena. Fica pra próxima.
+[63] Bueno!
+[64] Ei! Toca aqui quem estiver pronto para a festa de hoje à noite em Miami Beach!]Vocês... estão... prontos?!
+[65] Eu perguntei... vocês estão prontos?
+[66] Você aí. É, você, \mcara\m\fgarota\f com a roupa descolada. Venha até o palco.
+[67] Legal, bacana. Olha, essas pessoas não estão me sentindo, entende o que estou falando?]Eu até usei minhas cuecas da sorte a semana inteira...]Sabe de uma coisa? Devíamos criar uma verdadeira atmosfera de festa.]Legal, legal... talvez uma \p2iluminação\p1 chique pra começar?
+[68] Preciso criar uma verdadeira atmosfera de festa.]E não temos como comprar vitaminas pra todo mundo como na minha festa de casamento... Que tal uma iluminação bacana pra começar?
+[69] Som na caixa, \mcara\m\fchica\f!
+[70] Ok, ok, ok! Faça o doce sabor da fama tomar conta da nossa festa fabulosa, \x.]É hora de \p2música\p1!
+[71] \mCara\m\fGarota\f, eu poderia fazer isso com os olhos fechados, mas você me ajudou.]Você deveria começar a \p2OFERECER BEBIDAS\p1 para as pessoas agora.]Dê bebidas para pelo menos dois dos convidados! 
+[72] Agora, passemos a coisas maiores e melhores, como EU!
+[73] Ah, \x, você é tão adorável!
+[74] Uau, agora você tem um fã-clube.]Pergunte a \mela\m\fele\f se você pode \p2VISITAR\p1 o barraco \mdela\m\fdele\f!
+[75] BEIJA! BEIJA! BEIJA!
+[76] W-E-S-T-W-O-O-O-O-O-D!!!
+[77] Ótimo, \x! Mais um!
+[78] Tesouro? Quem está falando em tesouro aqui?
+[79] Você pode me ajudar?
+[80] Preciso de informação... AGORA!
+[81] Talvez... Eu precise de uma bebida para refrescar a minha memória. Você tem dinheiro?
+[82] Aqui está, lorde Caribenho. $5.
+[83] Desculpa, mas eu prefiro investir na minha hipoteca.
+[84] Muchas gracias! Então, o que posso fazer por você?
+[85] Hmpf. Você serve pra que então? Sai da minha frente, imprestável...
+[86] Haha... Você está me ameaçando? Eu já matei milhares de tubarões com minhas próprias mãos, \mamigo\m\famiga\f.
+[87] Você sabe alguma coisa sobre o Galeão Espanhol perdido?
+[88] Quando você diz tubarão, você quer dizer sardinha, né?
+[89] Por que, você... seu pé no s...
+[90] Hahaha, vai precisar de mais 100 anos para me derrotar!]É melhor você melhorar sua FORMA FÍSICA, \mcara\m\fsenhorita\f. (\p2BOA FORMA 35\p1)
+[91] Quanto isso vale pra você, minha informação sobre o Galeão?
+[92] Vale um soco na sua cara.
+[93] $5?
+[94] Você e qual exército? Ha, ha, ha...
+[95] O Galeão está perto \v1\p2de Key Biscayne\p1\v1\v600\p2da South Beach\p1\v600, no ponto mais ao sul da praia.]Tem um grande tesouro lá. Eu só peguei algumas moedas de ouro.]E umas jóias.]E a coroa de ouro de Felipe II.]E uma... bem, não importa, ainda tem muita coisa lá.
+[96] Eu tenho um \p2mapa\p1 que te mostra exatamente onde, mas tem um preço.
+[97] Aceita uma \p2VITAMINA\p1?
+[98] Eu vou \p2BRIGAR\p1 com você!
+[99] Deus lhe pague, \mamigo\m\famiga\f.
+[100] Ah, você não tem nenhuma \p2VITAMINA\p1...]Tenho certeza de que alguém por aqui vende.
+[101] O mapa está no estômago do Gran Kahuna, o famoso crocodilo que vive nos \p2Everglades\p1.
+[102] Muitos anos atrás, o Gran Kahuna me mordeu e comeu o mapa!
+[103] \v600Aqui está o mapa. \v600Você precisa \v1encontrá-lo\v1\v600encontrar o tesouro\v600 pra mim. Pra você. Para todos nós.
+[104] Eu tenho um \p2mapa\p1 que mostra exatamente onde!]\p2VITAMINA\p1 ou \p2BRIGA\p1?
+[105] ... Não está vendo que estou meditando?
+[106] \x, como você o achou?
+[107] \x, \x! Aqui!
+[108] Como é a sensação de ser \mum herói\m\fuma heroína\f?
+[109] \x, há um mandado de prisão contra \mScott\m\fCallie\f.]\mEle\m\fEla\f roubou o crocodilo Gran Kahuna dos Everglades.
+[110] Eugh...?
+[111] Arrgghhh! Hahahahaha.
+[112] Estou só brincando! Alguns turistas encontraram o Gran Kahuna morto anos atrás.]Era a nossa atração turística mais popular, por isso \mseu amigo\m\fsua amiga\f finge que é um crocodilo desde então!
+[113] E aí, \mcara\m\fgarota\f?]Ei, valeu pelo burrito aquele dia. Estava muito bom.
+[114] Vejam!!! É \mo nosso\m\fa nossa\f \x! \mEle\m\fEla\f está chegando!
+[115] É mesmo \mo\m\fa\f \x? \mO\m\fA\f inigualável! Nossa estrela favorita, \x?
+[116] Quem sabe... Essas pessoas da alta sociedade têm tantos iates!
+[117] Ouvi dizer que, se \mele\m\fela\f colocá-los em fila, dá pra chegar à Califórnia a pé!
+[118] Lá esta \mele\m\fela\f!
+[119] Você chegou, \x! Todos em Miami estavam a sua espera!
+[120] \mSr.\m\fSrta.\f \x!]Você acaba de se tornar a pessoa mais famosa de todo o mundo!
+[121] Qual é o segredo do seu sucesso?
+[122] Sempre escolha o melhor caminho.
+[123] Às vezes é preciso fazer sacrifícios para alcançar o sucesso.
+[124] Onde está o Galeão?
+[125] \x, você pode localizar o Galeão usando o \p2radar\p1.
+[126] Acertou na mosca!
+[127] Você acabou de localizar o \p2Galeão Espanhol Perdido\p1!!!
+[128] Nós conseguimos, \x! Nós conseguimos!
+[129] Ha!
+[130] Você achou mesmo que iria roubar isso e escapar impune?]O tesouro sagrado está ligado a mim!]Eu trabalhei todos esse anos para encontrá-lo!
+[131] ENTREGUE O TESOURO, \x!!! Ou \msua namorada\m\fseu namorado\f vai pagar caro...
+[132] Tudo bem, aqui está. 
+[133] Quero 60% das ações da empresa e o Miami Degubas.
+[134] Eu sabia que você era inteligente.
+[135] Ah, \x\!
+[136] Estou disposto a te oferecer 25% das ações da minha empresa mas pode esquecer dos Miami Degubas.
+[137] Ok, 50% das ações da empresa e parte dos Miami Degubas. Oferta final.
+[138] Valeu... Eu acho.
+[139] Você está contente, Goldsax?]Vamos voltar pra costa.
+[140] Parabéns! Você explorou com sucesso a cidade de \p2Miami\p1!]Agora é sua vez de fazer sua própria história!
+[141] Deseja continuar esta história?
+[142] Sim!
+[143] Não, iniciar uma nova aventura.
+[144] Se você quer encontrar o tesouro,] 'primeiro, olhe quase no meio, depois do lado mais distante, depois do lado oposto, daí olhe de novo no meio'.] Hum... Vamos ativar as sondas na ordem, depois ativar o radar e verificar.
+[145] Você precisa ativar todas as sondas, \x.
+[146] Ops... parece que não estava na ordem certa. Tente de novo, \x.
+[147] Uau, \x! Sem dúvida nenhuma você será a pessoa mais popular em Miami! Pelo menos, por uma semana...

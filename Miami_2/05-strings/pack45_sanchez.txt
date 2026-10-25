@@ -1,0 +1,39 @@
+[0] O que você está olhando?]É a primeira vez que vê um homem rico?
+[1] Uau! Olha só o que temos aqui, caras. Charutos Pedro Lopez, direto da terra nativa.
+[2] Ei! Diz pra mim, você dança tango?
+[3] Eu amo tango.
+[4] Eu prefiro dar um tiro no próprio pé.
+[5] Bem, é hora de mostrar os seus passos! 
+[6] Tan-tan-ra-tan-tan-TAN-TAN-TAN!
+[7] Vou te dizer uma coisa, me procure de novo se quiser ganhar muita grana.]Sou um homem marcado, então preciso de gente de confiança para tocar alguns negócios, entendeu?]Uau... abram caminho para \mo cara mau\m\fa garota má\f, galera!
+[8] Pega essa grana e some daqui!
+[9] Ei, tô ocupado, vá embora!
+[10] Então você é a pessoa de quem Goldsax tanto gosta... Quer ser grande em Miami...]Vou te falar uma coisa, \mgaroto\m\fgarota\f... Vim para Miami há 10 anos num barco superlotado.]Quando chegamos na costa, a polícia veio pra cima da gente. Eles estão no meu freezer, agora.]Troquei uns charutos por um green card falso com um velho cubano e agora ele tá no meu freezer também.]Mas aí a polícia roubou o meu green card. Então tive que mandá-los para o freezer.]Depois, um dia o freezer começou a degelar...
+[11] ... e agora tem um técnico em refrigeração dentro do freezer também? 
+[12] Está brincando?]Você tem coragem, gosto disso. OK. Tenho um trabalho para você.
+[13] \v1Pegue a pizza na \p2cozinha\p1\v1\v600Pegue a pizza na mesa\v600 e leve-a para a oficina na \p2Pelican Island\p1.]Este primeiro trabalho de entrega é especial, tá? Vou pagar $200... mais um bônus que vai depender da sua performance.]Traga de volta a caixa que ele irá te entregar ou... Eu tenho um freezer novinho e vazio esperando na cozinha.
+[14] \mPronto\m\fPronta\f para a entrega? Sua pizza está pronta!
+[15] O Sr. Pachinko me disse que a pizza deve ser entregue na oficina em \p2Pelican Island\p1.
+[16] Você tem coragem, você é como eu... é... calculista.]Bem-\mvindo\m\fvinda\f à família, \x. Aceite essa grana como um pequeno presente de boas vindas.
+[17] Onde está a caixa?!!!! Você esqueceu?! Minhas simples instruções eram muito difíceis pra você?] Até um macaco de mãos atadas entenderia...
+[18] Hmpf. Vou te perdoar desta vez, porque eu enchi o freezer muito rápido hoje... mas nunca mais!
+[19] Não se preocupe!!! Eu sou \mmédica\m\fmédico\f! ... E bem atraente.
+[20] Obrigado por vir, \mdoutora\m\fdoutor\f. Ele comeu um pedaço dessa pizza de vitamina.
+[21] Hum, até que eu tomei umas vitaminas... Mas nem tantas quanto o cara ali no chão, ao que parece.
+[22] Você!
+[23] Você está bem? Não se preocupe, vou levá-lo pra minha cama... Digo, pro hospital...]Hmm, você me parece familiar... talvez... aquele filme erótico.
+[24] Preciso que você o reanime enquanto eu preparo uma injeção.
+[25] Ok... Posso tentar fazer isso.
+[26] O que é essa coisa branca saindo da boca \mdela\m\fdele\f? Molho carbonara?
+[27] Sou \mHeather\m\fDean\f.]Espero que possamos nos divertir de novo no futuro.
+[28] Então? E a caixa?
+[29] Uau, Pizza Especial! Pra quem?!]Posso provar?
+[30] Ligue pra gente da próxima vez. Entregamos 24 horas, todos os dias!
+[31] O que você quer? Estou louco pra saber.
+[32] Ooo-ah! Tenho uma entrega pra você, \x. Está \mpronto\m\fpronta\f?
+[33] Estou.
+[34] Não sei...
+[35] Se fizer este trabalho pra mim, vou mandar meus melhores clientes pra você. Capiche?
+[36] Você não sabe?!]Você está aqui para trabalhar ou o quê?
+[37] Muito bem, \mmeu filho\m\fmocinha\f.]Entregue esta pizza vitaminada para um dos chefões de Miami.]Estamos falando sobre os homens... os Deuses... responsáveis pela indústria da distribuição nesta cidade.]Você pode encontrar um deles em frente ao \v1\p2Melon Bank\p1, em Little Havana\v1\v600\p2iate de Goldsax\p1, na \p2Pelican Island\p1\v600.
+[38] Preparamos uma pizza especial. Pegue a pizza especial na \v1\p2porta dos fundos\p1\v1\v600mesa\v600, ok?

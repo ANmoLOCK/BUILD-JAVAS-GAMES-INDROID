@@ -1,0 +1,41 @@
+[0] O mapa não está disponível.
+[1] CLASSIFICADOS - EMPREGOS
+[2] Fique famoso! Precisamos de FIGURANTES!
+[3] Venha para onde tem ação! Seja um ASSISTENTE DE PUBLICIDADE!
+[4] Ganhe ótimas gorjetas! Procuram-se BARTENDER.
+[5] Dirija pela cidade! Trabalhe com ENTREGA DE PIZZA.
+[6] PREENCHIDO
+[7] Oh, desculpa, já estou terminando aqui.
+[8] Estou só conferindo se o secador de cabelo funciona. Caso meu cabelo volte a crescer, sabe.
+[9] Sou John, encanador.
+[10] Acabei de consertar o chuveiro com chiclete, eu sou um gênio!]Acho que você deveria usá-lo. Experimente.
+[11] Consertar esse chuveiro foi um erro...]Já estou sentindo falta do sabor doce do meu chiclete... Bem, tenho o direito de comer seus salgadinhos.]Você deveria experimentar alguma coisa da geladeira.
+[12] Mmm, mmm... quanta coisa gostosa...
+[13] Droga, desculpa!]Você devia trocar de roupa! Não só pelo óleo que derramei em você sem querer, mas considerando principalmente o que você está usando agora...
+[14] Vou te dizer uma coisa, \x. Você pode \p2comprar\p1 outros tipos de roupa para vestir ou pode ganhá-las de \p2presente\p1 dos seus \p2amigos\p1!
+[15] Ok, vou nessa!]Me liga se tiver mais problemas hidráulicos ou mais salgadinhos!
+[16] Liberdadeeee!!! Valeu por limpar meu nome, \x.
+[17] Você pode ficar o tempo que quiser - *cof-cof* - desde que pague o aluguel - *cof-cof*.]Oh, não fique \mparado\m\fparada\f aí. Olha o que nós temos neste maravilhoso apartamento!
+[18] Sabe de uma coisa, \x? Você pode personalizar este quarto com o seu estilo - *cof-cof* - horrível.]Vai, experimenta. É por minha conta dessa vez - *cof-cof* - mas só desta vez - *cof-cof*.
+[19] Minha memória está péssima hoje!
+[20] Lembra \mda Heather\m\fdo Dean\f do colégio? 
+[21] Que par de... pernas. Como eu poderia \mesquecê-la\m\fesquecê-lo\f!
+[22] \mA única Heather\m\fO único Dean\f que eu conheço é \ma moça\m\fo cara\f da previsão do tempo. (Mentira)
+[23] \mEla\m\fEle\f se mudou pra Miami também! Eu preciso saber o que \mela\m\fele\f está fazendo.]Tenho certeza que \mela\m\fele\f veio pra cá atrás dos meus beijos. Você pode \mencontrá-la\m\fencontrá-lo\f pra mim?
+[24] Você está falando sério? Deixa eu refrescar a sua memória.]\mMuito sexy, lindas pernas, olhos grandes, andava sempre na moda\m\fSuper lindo, engraçado, inteligente, olhos sedutores, roupas de estilo\f. Lembra?
+[25] ...
+[26] Pode \mencontrá-la\m\fencontrá-lo\f pra mim?
+[27] Boa oportunidade para lembrar dos velhos tempos.
+[28] Eu preferiria discutir sobre armas com um urso.
+[29] Você é \mo\m\fa\f melhor - *cof-cof*... Fácil de manipular - *cof-cof*. Valeu, \mcara\m\fchica\f. Agora te devo uma, pra valer!
+[30] \mCara\m\fGarota\f, se você tivesse a mínima chance, eu faria isso pra você! Deixa disso...
+[31] Por que tanta hostilidade? Prometo que lavo suas roupas por uma semana.
+[32] Fechado
+[33] 2 semanas.
+[34] Um mês.
+[35] 3 semanas.
+[36] Uma semana e meia...
+[37] Você enlouqueceu? 2 semanas.
+[38] Uh... Eu posso jogar esse jogo também. Duas semanas. Oferta final.
+[39] Uhuuu! Eu tenho \mum\m\fuma\f detetive oficial para casos amorosos! Excelente! *cof-cof* É melhor do que nada *cof-cof*.]Ok, o que eu sei é o seguinte... \mEla\m\fEle\f mora em algum lugar perto da praia.]Liga pra mim se você \ma\m\fo\f encontrar por aí, ok?
+[40] Vou nessa, falo com você mais tarde!

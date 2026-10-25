@@ -1,0 +1,90 @@
+[0] Olá, prazer em te conhecer. Como vai?
+[1] Oi, muito prazer. Posso te ajudar?
+[2] Oi! Que tal bater um papinho? 
+[3] Adoro conhecer novas pessoas! Está tendo um bom dia? 
+[4] E aí, belê?
+[5] Oi, quer conversar um pouco?
+[6] Oi \x! Tudo bem?
+[7] \x! Quer bater papo?
+[8] E aí, você! Quais as novas?
+[9] \x! Como você está?
+[10] Ah, olá. O que você quer?
+[11] Seja gentil ou seja breve, ok?
+[12] Oi.
+[13] Veja só você, vindo me ver assim do nada. Voltou pra consertar as coisas, imagino...?
+[14] Bem... Olá, \x.
+[15] Que tal você tomar um BANHO e aí a gente conversa?
+[16] Tenho orgulho de que Miami seja uma cidade limpa! E no momento você não está ajudando. Você está \mSUJO\m\fSUJA\f.
+[17] Desculpe, não consigo te ouvir tão bem por causa do seu FEDOR! Vá tomar um BANHO.
+[18] \mSenhor\m\fSenhorita\f, você tem moscas ao redor da cabeça. Aceite a dica e vá tomar um BANHO.
+[19] Está sentindo esse aroma delicioso de flores e ar fresco? Bem, eu estava até você chegar... Vá tomar um BANHO, ok?
+[20] Eu sei quem você é, \mseu\m\fsua\f sem vergonha! Eu não falo com \mCRIMINOSOS\m\fCRIMINOSAS\f!
+[21] Se liga, cara. Pessoas LOUCAS não são bem vistas por aqui.
+[22] Socorro! Alguém chame a polícia! Tem \mum CRIMINOSO\m\fuma CRIMINOSA\f tentando falar comigo!
+[23] Conheço o seu tipo! Você rouba coisas, fala grosso com as pessoas. Você me dá nojo! Pare de cometer CRIMES!
+[24] Você não acha que já é hora de contribuir com a sociedade? Tente limpar as coisas e ajudar as pessoas. Ninguém quer falar com \mum CRIMINOSO\m\fuma CRIMINOSA\f.
+[25] Uau, você está \mLOUCO\m\fLOUCA\f! Saia daqui por favor.
+[26] Se liga, cara. Pessoas LOUCAS não são bem vistas por aqui.
+[27] Ora, ora, alguém tomou muitas bebidas especiais. Volte pra falar comigo quando estiver menos \mLOUCO\m\fLOUCA\f.
+[28] Olhe pra você! Você mal consegue caminhar em linha reta! E acha que eu vou conversar com alguém tão \mLOUCO\m\fLOUCA\f?
+[29] Ok, sai de perto. Seu bafo de bebida especial está me deixando \mLOUCA\m\fLOUCO\f!
+[30] Uau, você está \mLOUCO\m\fLOUCA\f! Saia daqui por favor.
+[31] Se liga, cara. Pessoas LOUCAS não são bem vistas por aqui.
+[32] Ora, ora, alguém tomou muitas bebidas especiais. Volte pra falar comigo quando estiver menos \mLOUCO\m\fLOUCA\f.
+[33] Olhe pra você! Você mal consegue caminhar em linha reta! E acha que eu vou conversar com alguém tão \mLOUCO\m\fLOUCA\f?
+[34] Ok, sai de perto. Seu bafo de bebida especial está me deixando \mLOUCA\m\fLOUCO\f!
+[35] Ah, você não tem um carro esportivo? Volte a me ver quando for \mRICO\m\fRICA\f o bastante.
+[36] Só me relaciono com socialites. Analise sua condição SOCIAL antes de me dirigir a palavra de novo.
+[37] Viu minhas camisas Verace da última coleção? Caras. Você...? Ah... precisa de um EMPREGO?
+[38] Sinto muito, não quero te julgar... Mas DINHEIRO é importante pra mim.
+[39] Alguma vez você já fez compras online para ENRIQUECER a sua propriedade?
+[40] O que você está fazendo \mparado\m\fparada\f aí? Se quiser conversar, me mostre sua DANÇA.
+[41] Você está ligeiramente no meio do caminho. Se quiser ficar por aqui por que não me OFERECE uma DANÇA?
+[42] Você não vê que estou dançando? Se quiser conversar, me OFEREÇA uma DANÇA.
+[43] Você parece um cego em um tiroteio. Por que você não DANÇA comigo em vez de ficar aí \mperdido\m\fperdida\f no meio de todo mundo?
+[44] DANCE comigo ou me deixe em paz!
+[45] Estou com dor de garganta. Me OFEREÇA uma BEBIDA ESPECIAL se quiser conversar.
+[46] \mOs caras\m\fAs garotas\f não sabem mais como chegar em alguém. Por que não me OFERECE uma BEBIDA ESPECIAL... e aí conversaremos.
+[47] Sabe o que eu adoraria? Que me OFERECESSEM uma BEBIDA ESPECIAL.
+[48] Ouvi dizer que as BEBIDAS ESPECIAIS são muito boas aqui. Por que você não me OFERECE uma?
+[49] Toda vez que eu venho aqui \malgum estranho\m\falguma estranha\f vem falar comigo. Minha nova regra é: se quiser conversar comigo, me OFEREÇA uma BEBIDA ESPECIAL.
+[50] O que você fez partiu o meu coração! Vá embora!
+[51] Você quer roubar o meu amor de mim! Fique longe de mim!
+[52] Não roube o meu chuchuzinho de mim!
+[53] Toda vez que eu encontro alguém legal, alguém como você aparece e acaba com tudo!
+[54] Me deixe em paz! Eu e a minha alma gêmea!
+[55] Se eu te vir perto do meu amor novamente vou quebrar a sua coluna!
+[56] Não fale comigo! Quem você pensa que é! Você flerta com o meu amor e depois vem me implorando perdão?
+[57] Deixe eu te dizer uma coisa, eu sou a última pessoa com quem você quer se meter. Então deixe o meu amor em paz.
+[58] Não chegue nem perto de mim ou do meu amor novamente ou você vai se arrepender de ter colocado os pés em Miami.
+[59] Se afaste de mim e do meu amor ou eu vou descobrir onde você mora e botar fogo no seu carro!
+[60] Por que você vem falar comigo? A pessoa que eu amo já perdeu a graça?
+[61] Esse é o seu joguinho? Paquerar todo mundo da área? Que idiota...
+[62] Você é demais, né? Paquera o meu amor e depois vem como se nada tivesse acontecido! Você me pagar por isso!
+[63] Repare bem na minha cara, \msenhor\m\fsenhorita\f, porque daqui em diante ela significa problema pra você, sempre que der de cara comigo ou com meu amor.
+[64] Ok, aja como se nada tivesse acontecido, mas você vai se arrepender de brincar com os sentimentos do meu amor pelas minhas costas.
+[65] O que você quer?
+[66] Quem é você?
+[67] Eu conheço você?
+[68] Não confio em desconhecidos. O que você quer?
+[69] Você está falando comigo? Você está falando comigo?
+[70] Você de novo, \x. Qual o problema desta vez?
+[71] Ah... \x. O que você quer agora?
+[72] Ei. Eu achei que essa conversa já tinha acabado... O que mais você precisa falar?
+[73] Ah, você de novo. Por que não cuida da sua própria vida?
+[74] Não te falei que não tenho tempo agora? Fale o que tem que falar e vai embora.
+[75] Olá! Adoro conhecer pessoas novas! Qual é o seu nome?
+[76] Oi! Lindo dia, não? Quer conversar um pouco comigo?
+[77] Ei! Estou com vontade de conhecer gente nova! Tudo bem?
+[78] Que dia ótimo para conhecer novas pessoas! Muito prazer.
+[79] Ah, oi! Prazer em te conhecer! Como posso ajudar?
+[80] Olá, \x! Que prazer ver você de novo! Quais as novidades?
+[81] Oi, \x! Tudo bem com você?
+[82] O que tá rolando, \x? Precisa de alguma ajuda?
+[83] \x! Por que não continuamos a nossa conversa da última vez?
+[84] Mas que surpresa! O que tá rolando, \mcara\m\fgarota\f?
+[85] Hihihi... Você sabe o que está vestindo, certo?
+[86] Essa é a última moda?
+[87] Você não está com frio?
+[88] Oh! Você esqueceu de se vestir!
+[89] Vejo muitas pessoas de biquíni, mas... Bem...
