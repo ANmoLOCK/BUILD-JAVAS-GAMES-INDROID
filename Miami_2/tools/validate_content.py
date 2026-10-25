@@ -70,9 +70,16 @@ class Report:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("pack", type=Path)
-    ap.add_argument("--schemas", type=Path, default=Path(__file__).resolve().parent.parent / "schemas")
+    ap.add_argument("--schemas", type=Path, default=None,
+                    help="pasta dos schemas (padrão: ../schemas ao lado do pack, ou 10-remake-3d/schemas)")
     ap.add_argument("--strict", action="store_true", help="trata avisos como erros")
     a = ap.parse_args()
+    if a.schemas is None:
+        here = Path(__file__).resolve().parent
+        candidates = [a.pack.resolve().parent / "schemas", here.parent / "10-remake-3d" / "schemas", here.parent / "schemas"]
+        a.schemas = next((c for c in candidates if c.is_dir()), candidates[0])
+    if not a.schemas.is_dir():
+        sys.exit(f"pasta de schemas não encontrada: {a.schemas}")
 
     schemas, registry = load_schemas(a.schemas)
     rep = Report()

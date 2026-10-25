@@ -63,8 +63,8 @@ dados sem depender do código Java.
 
 ## Aviso legal
 
-Código, arte, textos e áudio do JAR pertencem à Gameloft. Este repositório contém apenas
-**documentação de engenharia reversa e ferramentas** que operam sobre um JAR fornecido pelo
-usuário. Nenhum recurso extraído (sprites, textos, música) deve ser commitado nem redistribuído.
-O remake deve usar **arte, música e textos próprios**; a documentação serve como especificação
-de design e de formatos.
+Código, arte, textos e áudio do JAR pertencem à Gameloft. Os arquivos extraídos nas pastas
+`00`–`08` de `Miami_2/` estão aqui **apenas como referência de estudo**, num repositório
+privado; não os redistribua nem os use dentro do remake publicado. O remake deve usar
+**arte, música e textos próprios**; a documentação serve como especificação de design e de
+formatos, e as pastas extraídas como material de consulta (layout de salas, contagens, ids).

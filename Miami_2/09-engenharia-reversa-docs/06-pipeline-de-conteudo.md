@@ -200,9 +200,9 @@ O interpretador tem ~300 linhas e é totalmente testável sem engine.
 
 ## 6. Usando os dados do original como referência (sem copiar)
 
-As ferramentas em `tools/` produzem, a partir do JAR do usuário, JSON intermediários
-(`rooms/room_NN.json`, `strings.json`, `manifest.json`). Eles **não** vão para o repositório,
-mas servem para:
+Os dados extraídos do original estão em `../07-salas/room_NN.json`, `../05-strings/strings.json`
+e `../CATALOGO.md` (gerados por `tools/mn2_extract_all.py`). São material de referência, não
+de uso direto no remake, e servem para:
 
 1. Reconstruir o layout de cada local (posição de objetos, portais, spawn) ao modelar a cena
    3D — importe `room_NN.json` num *addon* Blender ou num script Godot que posiciona

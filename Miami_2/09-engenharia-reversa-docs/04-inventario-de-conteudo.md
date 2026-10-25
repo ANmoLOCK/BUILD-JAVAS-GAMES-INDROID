@@ -2,8 +2,8 @@
 
 Lista do que existe no jogo original, por categoria, com o **id usado nos dados** (índice no
 pacote de strings indicado). Serve como *checklist* de paridade para o remake e como base
-para o conteúdo novo. Os textos em si não estão aqui (direitos da Gameloft); gere-os
-localmente com `tools/mn2_strings.py --txt`.
+para o conteúdo novo. Os textos completos estão em `../05-strings/packNN_<nome>.txt`
+(um arquivo por pacote), gerados por `tools/mn2_strings.py`.
 
 ## 1. Locais (25) — pacote 13, ids 2–27
 
