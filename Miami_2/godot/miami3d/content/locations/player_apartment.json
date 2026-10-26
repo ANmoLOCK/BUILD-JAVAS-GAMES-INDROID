@@ -1,0 +1,50 @@
+{
+  "id": "player_apartment",
+  "name": "@loc.player_apartment",
+  "region": "downtown",
+  "scene": "res://game/world/apartment_low.tscn",
+  "indoor": true,
+  "openHours": [0, 24],
+  "music": "apartment_calm",
+  "grid": { "width": 14, "height": 19 },
+  "spawn": { "cell": [7, 17], "facing": "N" },
+  "spawns": {
+    "bathroom": { "cell": [3, 4], "facing": "S" },
+    "from_street": { "cell": [7, 17], "facing": "N" }
+  },
+  "blocked": [ [0, 0, 14, 1], [0, 0, 1, 19], [13, 0, 1, 19], [0, 18, 14, 1], [5, 0, 1, 7] ],
+  "portals": [
+    { "id": "front_door", "cell": [7, 18], "to": "first_street", "spawn": "from_apartment" },
+    { "id": "garden_door", "cell": [12, 10], "to": "apartment_garden", "spawn": "from_apartment",
+      "requires": { "flag": "met_landlord" }, "closedMessage": "@msg.garden_locked" }
+  ],
+  "zones": [ { "id": "bathroom_zone", "rect": [1, 1, 4, 6], "tag": "indoor" } ],
+  "furnitureSlots": [
+    { "id": "slot_bed", "category": "bed", "cell": [9, 2], "facing": "S", "default": "bed_standard" },
+    { "id": "slot_sofa", "category": "sofa", "cell": [8, 9], "facing": "E", "default": "sofa_basic" },
+    { "id": "slot_tv", "category": "tv", "cell": [11, 9], "facing": "W" },
+    { "id": "slot_computer", "category": "computer", "cell": [11, 3], "facing": "W" },
+    { "id": "slot_chair", "category": "chair", "cell": [10, 4], "facing": "E" }
+  ],
+  "objects": [
+    { "id": "shower", "template": "shower", "cell": [1, 1], "facing": "S" },
+    { "id": "toilet", "template": "toilet", "cell": [3, 1], "facing": "S" },
+    { "id": "sink", "template": "sink", "cell": [1, 4], "facing": "E" },
+    { "id": "fridge", "template": "fridge", "cell": [1, 12], "facing": "E" },
+    { "id": "stove", "template": "kitchen", "cell": [1, 14], "facing": "E" },
+    { "id": "closet", "template": "closet", "cell": [12, 1], "facing": "W" },
+    { "id": "phone", "template": "phone", "cell": [6, 9], "facing": "S" },
+    { "id": "plant", "template": "plant", "cell": [12, 16], "facing": "W" }
+  ],
+  "npcs": [
+    { "npc": "landlord", "schedule": "landlord_visit" }
+  ],
+  "triggers": [
+    { "on": "enter", "once": true, "when": { "notFlag": "visited_apartment" },
+      "do": [ { "setFlag": "visited_apartment" }, { "dialogue": "@apt.first_time_home" }, { "startQuest": "q_landlord" } ] },
+    { "on": "periodic", "everyMinutes": 5, "when": { "time": { "dayOfWeek": 0, "hour": { ">=": 8 } }, "notFlag": "rent_paid_this_week" },
+      "do": [ { "notify": "@msg.rent_reminder" }, { "setFlag": "rent_reminded" } ] },
+    { "on": "use", "object": "fridge", "when": { "quest": { "id": "q_landlord", "stage": "tour" } },
+      "do": [ { "notify": "@apt.fridge_hint" } ] }
+  ]
+}

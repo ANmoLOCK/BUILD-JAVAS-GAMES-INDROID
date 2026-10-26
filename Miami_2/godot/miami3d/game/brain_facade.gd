@@ -1,0 +1,173 @@
+class_name BrainFacade
+extends RefCounted
+## Fachada única: prefere MnBrain (C++ GDExtension) e cai no MnGame (GDScript).
+
+var backend
+var is_native: bool = false
+var ready: bool = false
+
+# Compat: alguns scripts esperam .events / .time / .stats…
+var events # só no GDScript MnGame
+var time
+var stats
+var world
+var economy
+var content
+var strings
+var quests
+var inventory
+var relationships
+var rules
+var appearance
+var dating
+var crime
+var home
+var pets
+var jobs
+var saves
+var rng
+
+
+func boot(content_dir: String = "res://content", save_dir: String = "user://saves") -> Error:
+	if ClassDB.class_exists("MnBrain"):
+		backend = ClassDB.instantiate("MnBrain")
+		is_native = true
+		var err: Error = backend.boot(content_dir, save_dir)
+		ready = backend.is_ready()
+		print("[BrainFacade] usando C++ MnBrain")
+		return err
+	backend = MnGame.new()
+	is_native = false
+	var err2: Error = backend.boot(content_dir, save_dir)
+	ready = backend.ready
+	events = backend.events
+	time = backend.time
+	stats = backend.stats
+	world = backend.world
+	economy = backend.economy
+	content = backend.content
+	strings = backend.strings
+	quests = backend.quests
+	inventory = backend.inventory
+	relationships = backend.relationships
+	rules = backend.rules
+	appearance = backend.appearance
+	dating = backend.dating
+	crime = backend.crime
+	home = backend.home
+	pets = backend.pets
+	jobs = backend.jobs
+	saves = backend.saves
+	rng = backend.rng
+	print("[BrainFacade] usando GDScript MnGame (compile native/ para C++)")
+	return err2
+
+
+func new_game(player_name: String = "Você", gender: String = "m") -> void:
+	backend.new_game(player_name, gender)
+
+
+func tick_real(delta_s: float) -> void:
+	backend.tick_real(delta_s)
+
+
+func enter_location(location_id: String, spawn_id: String = "") -> void:
+	backend.enter_location(location_id, spawn_id)
+
+
+func interact(object_id: String, action_id: String) -> Dictionary:
+	return backend.interact(object_id, action_id)
+
+
+func talk(npc_id: String, action_id: String, payload: Dictionary = {}) -> Dictionary:
+	return backend.talk(npc_id, action_id, payload)
+
+
+func resolve_text(key: String, ctx: Dictionary = {}) -> String:
+	return backend.resolve_text(key, ctx)
+
+
+func save_game(slot: int = 0) -> Error:
+	return backend.save_game(slot) if is_native else backend.saves.save_game(backend, slot)
+
+
+func load_game(slot: int = 0) -> Error:
+	return backend.load_game(slot) if is_native else backend.saves.load_game(backend, slot)
+
+
+func connect_signal(sig: String, callable: Callable) -> void:
+	if is_native:
+		backend.connect(sig, callable)
+	else:
+		backend.events.connect(sig, callable)
+
+
+# --- getters unificados (HUD / UI) ---
+
+func get_stat(stat_id: String) -> int:
+	return backend.get_stat(stat_id) if is_native else backend.stats.get_value(stat_id)
+
+
+func get_cash() -> int:
+	return backend.get_cash() if is_native else backend.economy.cash
+
+
+func get_day() -> int:
+	return backend.get_day() if is_native else backend.time.day
+
+
+func get_hour() -> int:
+	return backend.get_hour() if is_native else backend.time.hour()
+
+
+func get_minute_of_day() -> int:
+	return backend.get_minute_of_day() if is_native else backend.time.minute_of_day
+
+
+func get_location() -> String:
+	return backend.get_location() if is_native else backend.world.location_id
+
+
+func get_cell() -> Vector2i:
+	return backend.get_cell() if is_native else backend.world.cell
+
+
+func snapshot() -> Dictionary:
+	if is_native:
+		return backend.snapshot()
+	return {
+		"day": backend.time.day,
+		"minute": backend.time.minute_of_day,
+		"location": backend.world.location_id,
+		"cash": backend.economy.cash,
+		"stats": backend.stats.to_dict(),
+	}
+
+
+func get_content_location(id: String) -> Dictionary:
+	if is_native:
+		# MnBrain não expõe content registry; lê via snapshot/path — use GDScript content se preciso
+		# Fallback: carregar do ContentRegistry auxiliar
+		if content == null:
+			content = MnContentRegistry.new()
+			content.load_pack("res://content")
+		return content.get_location(id)
+	return backend.content.get_location(id)
+
+
+func get_content_item(id: String) -> Dictionary:
+	if content == null and is_native:
+		content = MnContentRegistry.new()
+		content.load_pack("res://content")
+	if is_native:
+		return content.get_item(id)
+	return backend.content.get_item(id)
+
+
+func get_content_interaction(id: String) -> Dictionary:
+	if content == null and is_native:
+		content = MnContentRegistry.new()
+		content.load_pack("res://content")
+	if is_native:
+		return content.get_interaction(id)
+	return backend.content.get_interaction(id)

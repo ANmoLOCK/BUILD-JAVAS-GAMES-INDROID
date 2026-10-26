@@ -1,0 +1,41 @@
+{
+  "id": "q_landlord",
+  "sender": "npc:landlord",
+  "title": "@q_landlord.title",
+  "text": "@q_landlord.text",
+  "chapter": "apartment",
+  "start": "befriend",
+  "stages": {
+    "befriend": {
+      "objective": "@q_landlord.obj_befriend",
+      "marker": { "npc": "landlord" },
+      "onEnter": [ { "dialogue": "@q_landlord.intro" } ],
+      "transitions": [
+        { "when": { "event": "talked_to", "npc": "landlord", "friendshipLevel": { ">=": 2 } }, "to": "tour" }
+      ]
+    },
+    "tour": {
+      "objective": "@q_landlord.obj_tour",
+      "marker": { "location": "player_apartment", "object": "closet" },
+      "onEnter": [ { "setFlag": "met_landlord" }, { "unlockLocation": "apartment_garden" } ],
+      "transitions": [
+        { "when": { "event": "used_object", "object": "closet" },
+          "do": [ { "dialogue": "@q_landlord.closet_ok" } ], "to": "garden" }
+      ]
+    },
+    "garden": {
+      "objective": "@q_landlord.obj_garden",
+      "marker": { "location": "apartment_garden" },
+      "transitions": [
+        { "when": { "event": "entered", "location": "apartment_garden" },
+          "do": [ { "dialogue": "@q_landlord.gnomes_gone" }, { "startQuest": "q_gnomes" }, { "money": 0 } ],
+          "to": "done" }
+      ]
+    },
+    "done": {
+      "final": true,
+      "onEnter": [ { "notify": "@msg.rent_rules" }, { "achievement": "tenant" } ]
+    }
+  },
+  "rewards": { "achievement": "tenant" }
+}
