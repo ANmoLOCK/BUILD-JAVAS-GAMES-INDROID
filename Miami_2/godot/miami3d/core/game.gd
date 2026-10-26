@@ -6,6 +6,7 @@ var events := MnEvents.new()
 var rng := MnRng.new()
 var content := MnContentRegistry.new()
 var phases := MnPhaseCatalog.new()
+var director := MnPhaseDirector.new()
 var strings := MnStringTable.new()
 var time := MnTimeSystem.new()
 var stats := MnStatSystem.new()
@@ -85,10 +86,33 @@ func set_phase(phase_id: String, reenter: bool = true) -> Dictionary:
 		return {"ok": false, "reason": "unknown_phase", "phase": phase_id}
 	apply_phase_unlocks()
 	world.set_flag("phase_%s" % phases.current, true)
-	if reenter and ready and world.location_id != "" and not world.is_unlocked(world.location_id):
-		var start := phases.start_location()
-		enter_location(start, "")
+	if reenter and ready:
+		# re-bootstrap leve (sem resetar save inteiro): só unlocks + local se bloqueado
+		if world.location_id == "" or not world.is_unlocked(world.location_id):
+			var start := phases.start_location()
+			enter_location(start, "")
 	return {"ok": true, "phase": phases.current, "locations": Array(phases.unlocked_locations())}
+
+
+func start_phase(phase_id: String) -> Dictionary:
+	## New-game style dentro da fase (quests/cash/local do bootstrap).
+	if not phases.set_phase(phase_id):
+		return {"ok": false, "reason": "unknown_phase"}
+	return director.bootstrap(self, phase_id)
+
+
+func audit_phase(phase_id: String = "") -> Dictionary:
+	return director.audit(self, phase_id)
+
+
+func audit_all_phases() -> Dictionary:
+	return director.audit_all(self)
+
+
+func load_mods() -> Dictionary:
+	if not phases.system_unlocked("mods"):
+		return require_system("mods")
+	return director.mods.load_all(content, self)
 
 
 func apply_phase_unlocks() -> void:
@@ -118,14 +142,15 @@ func new_game(player_name: String = "Você", gender: String = "m") -> void:
 	time.day = 0
 	time.minute_of_day = 8 * 60
 	world.flags.clear()
-	apply_phase_unlocks()
-	var start := phases.start_location()
-	if content.locations.has(start):
-		enter_location(start, "from_street" if start == "player_apartment" else "")
-	elif content.locations.has("player_apartment"):
-		enter_location("player_apartment", "from_street")
-	elif content.locations.has("first_street"):
-		enter_location("first_street", "")
+	# bootstrap operacional da fase ativa (locais, quests, cash, cutscene)
+	var boot: Dictionary = director.bootstrap(self, phases.current)
+	if not bool(boot.get("ok", false)):
+		apply_phase_unlocks()
+		var start := phases.start_location()
+		if content.locations.has(start):
+			enter_location(start, "from_street" if start == "player_apartment" else "")
+		elif content.locations.has("player_apartment"):
+			enter_location("player_apartment", "from_street")
 
 
 func tick_real(delta_s: float) -> void:

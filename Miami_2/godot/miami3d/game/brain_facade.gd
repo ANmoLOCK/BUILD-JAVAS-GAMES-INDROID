@@ -27,6 +27,7 @@ var jobs
 var saves
 var rng
 var phases
+var director
 var assets: MnAssetRegistry
 
 
@@ -65,6 +66,7 @@ func boot(content_dir: String = "res://content", save_dir: String = "user://save
 	saves = backend.saves
 	rng = backend.rng
 	phases = backend.phases
+	director = backend.director
 	print("[BrainFacade] usando GDScript MnGame (compile native/ para C++)")
 	_log_assets()
 	_log_phase()
@@ -144,6 +146,22 @@ func advance_time_request(minutes: int) -> Dictionary:
 
 func set_phase(phase_id: String, reenter: bool = true) -> Dictionary:
 	return _cmd("set_phase", [phase_id, reenter])
+
+
+func start_phase(phase_id: String) -> Dictionary:
+	return _cmd("start_phase", [phase_id])
+
+
+func audit_phase(phase_id: String = "") -> Dictionary:
+	return _cmd("audit_phase", [phase_id])
+
+
+func audit_all_phases() -> Dictionary:
+	return _cmd("audit_all_phases", [])
+
+
+func load_mods() -> Dictionary:
+	return _cmd("load_mods", [])
 
 
 func require_system(system_id: String) -> Dictionary:

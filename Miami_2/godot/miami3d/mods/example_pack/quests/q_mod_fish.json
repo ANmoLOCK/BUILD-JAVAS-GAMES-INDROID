@@ -1,0 +1,24 @@
+{
+  "id": "q_mod_fish",
+  "sender": "npc:mod_fisher",
+  "title": "@q_mod_fish.title",
+  "text": "@q_mod_fish.text",
+  "chapter": "mod",
+  "start": "talk",
+  "stages": {
+    "talk": {
+      "objective": "@q_mod_fish.obj",
+      "marker": { "npc": "mod_fisher" },
+      "onEnter": [{ "dialogue": "@q_mod_fish.intro" }],
+      "transitions": [
+        {
+          "when": { "event": "talked_to", "npc": "mod_fisher" },
+          "do": [{ "money": 25 }, { "notify": "@q_mod_fish.done" }],
+          "to": "done"
+        }
+      ]
+    },
+    "done": { "final": true }
+  },
+  "rewards": { "money": 25 }
+}

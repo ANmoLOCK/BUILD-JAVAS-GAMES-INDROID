@@ -1,6 +1,9 @@
 # Fase G — Mods / packs externos
 
-Sem locais fixos. Qualquer local novo entra via pack JSON + cena em
-`content/` / `game/world/locations/`, e o sistema `mods` libera o carregador.
+Sem locais fixos. Packs em `res://mods/` ou `user://mods/` com `pack.json`.
+Loader: `core/mod_loader.gd` · guia: `CRIADORES.md` · exemplo: `res://mods/example_pack/`.
 
-Use `miami/phase=g` no `project.godot` (ou `BrainFacade.set_phase("g")`) para testes.
+```gdscript
+Bootstrap.game.start_phase("g")
+Bootstrap.game.load_mods()
+```
