@@ -1,0 +1,75 @@
+{
+  "id": "stadium",
+  "name": "@loc.stadium",
+  "region": "downtown",
+  "scene": "res://game/world/locations/stadium.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 40,
+    "height": 36
+  },
+  "spawn": {
+    "cell": [
+      20,
+      18
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        20,
+        18
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      40,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      36
+    ],
+    [
+      39,
+      0,
+      1,
+      36
+    ],
+    [
+      0,
+      35,
+      40,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        36,
+        32
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": [],
+  "stub": true
+}

@@ -395,7 +395,7 @@ Cada pedido deve citar a fase: ex. *“implementa a Fase A do plano 08”*.
 
 Antes de declarar Fase F pronta, conferir:
 
-- [ ] 25 `content/locations/*.json` + 25 `game/world/locations/*.tscn`
+- [x] 25 `content/locations/*.json` + 25 `game/world/locations/*.tscn` (3 detalhados + stubs; jardim extra)
 - [ ] 94 `content/npcs/*.json` (ou generativos + overrides do elenco)
 - [ ] 16 entradas em `stats.json`
 - [ ] ≥ 77 templates em `items/` (objetos) + 60 móveis + 8 presentes + roupas + quest items

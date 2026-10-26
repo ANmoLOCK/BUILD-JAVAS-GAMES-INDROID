@@ -1,4 +1,4 @@
-; Engine=Godot 4.3 — Miami 3D (Fase A: cérebro + apartamento)
+; Engine=Godot 4.3 — Miami 3D (cérebro + corpo 3D)
 ; ConfigFile format
 
 config_version=5
@@ -6,8 +6,8 @@ config_version=5
 [application]
 
 config/name="Miami 3D"
-config/description="Remake 3D nativo Android — Fase A (cérebro operacional)"
-config/version="0.1.0-fase-a"
+config/description="Remake 3D nativo Android — cérebro + camada game/"
+config/version="0.2.0-corpo"
 run/main_scene="res://game/main.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://game/ui/icon.svg"

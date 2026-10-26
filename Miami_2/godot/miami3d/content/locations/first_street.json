@@ -2,28 +2,120 @@
   "id": "first_street",
   "name": "@loc.first_street",
   "region": "downtown",
-  "scene": "res://game/world/first_street.tscn",
+  "scene": "res://game/world/locations/first_street.tscn",
   "indoor": false,
-  "openHours": [0, 24],
-  "music": "downtown_day",
-  "grid": { "width": 80, "height": 70 },
-  "spawn": { "cell": [40, 35], "facing": "S" },
-  "spawns": { "from_apartment": { "cell": [22, 30], "facing": "S" } },
-  "portals": [
-    { "id": "apartment_door", "cell": [22, 29], "to": "player_apartment", "spawn": "from_street" }
+  "openHours": [
+    0,
+    24
   ],
-  "zones": [ { "id": "arcade_shade", "rect": [30, 10, 20, 4], "tag": "shade" } ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 80,
+    "height": 70
+  },
+  "spawn": {
+    "cell": [
+      40,
+      35
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "from_apartment": {
+      "cell": [
+        22,
+        30
+      ],
+      "facing": "S"
+    }
+  },
+  "portals": [
+    {
+      "id": "apartment_door",
+      "cell": [
+        22,
+        29
+      ],
+      "to": "player_apartment",
+      "spawn": "from_street"
+    }
+  ],
+  "zones": [
+    {
+      "id": "arcade_shade",
+      "rect": [
+        30,
+        10,
+        20,
+        4
+      ],
+      "tag": "shade"
+    }
+  ],
   "objects": [
-    { "id": "mailbox_1", "template": "mailbox", "cell": [25, 31], "facing": "S" },
-    { "id": "bench_1", "template": "bench", "cell": [40, 40], "facing": "S" },
-    { "id": "trash_1", "template": "trash_can", "cell": [42, 40], "facing": "S" },
-    { "id": "gnome_hidden_1", "template": "gnome", "cell": [70, 12], "facing": "S", "hiddenUntil": "met_landlord" }
+    {
+      "id": "mailbox_1",
+      "template": "mailbox",
+      "cell": [
+        25,
+        31
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "bench_1",
+      "template": "bench",
+      "cell": [
+        40,
+        40
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "trash_1",
+      "template": "trash_can",
+      "cell": [
+        42,
+        40
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "gnome_hidden_1",
+      "template": "gnome",
+      "cell": [
+        70,
+        12
+      ],
+      "facing": "S",
+      "hiddenUntil": "met_landlord"
+    }
   ],
   "npcs": [
-    { "generic": true, "count": 6, "area": [10, 20, 60, 30] }
+    {
+      "generic": true,
+      "count": 6,
+      "area": [
+        10,
+        20,
+        60,
+        30
+      ]
+    }
   ],
   "triggers": [
-    { "on": "use", "object": "gnome_hidden_1", "once": true,
-      "do": [ { "setFlag": "gnome_1_found" }, { "notify": "@msg.gnome_found" } ] }
+    {
+      "on": "use",
+      "object": "gnome_hidden_1",
+      "once": true,
+      "do": [
+        {
+          "setFlag": "gnome_1_found"
+        },
+        {
+          "notify": "@msg.gnome_found"
+        }
+      ]
+    }
   ]
 }

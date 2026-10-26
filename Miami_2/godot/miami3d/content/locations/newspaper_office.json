@@ -1,0 +1,75 @@
+{
+  "id": "newspaper_office",
+  "name": "@loc.newspaper_office",
+  "region": "downtown",
+  "scene": "res://game/world/locations/newspaper_office.tscn",
+  "indoor": true,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "apartment_calm",
+  "grid": {
+    "width": 18,
+    "height": 14
+  },
+  "spawn": {
+    "cell": [
+      9,
+      7
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        9,
+        7
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      18,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      14
+    ],
+    [
+      17,
+      0,
+      1,
+      14
+    ],
+    [
+      0,
+      13,
+      18,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        14,
+        10
+      ],
+      "tag": "indoor"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": [],
+  "stub": true
+}

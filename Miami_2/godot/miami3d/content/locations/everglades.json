@@ -1,0 +1,75 @@
+{
+  "id": "everglades",
+  "name": "@loc.everglades",
+  "region": "everglades",
+  "scene": "res://game/world/locations/everglades.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 40,
+    "height": 40
+  },
+  "spawn": {
+    "cell": [
+      20,
+      20
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        20,
+        20
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      40,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      40
+    ],
+    [
+      39,
+      0,
+      1,
+      40
+    ],
+    [
+      0,
+      39,
+      40,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        36,
+        36
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": [],
+  "stub": true
+}

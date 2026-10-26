@@ -165,9 +165,29 @@ func get_content_item(id: String) -> Dictionary:
 
 
 func get_content_interaction(id: String) -> Dictionary:
-	if content == null and is_native:
-		content = MnContentRegistry.new()
-		content.load_pack("res://content")
+	_ensure_content()
 	if is_native:
 		return content.get_interaction(id)
 	return backend.content.get_interaction(id)
+
+
+func get_content_npc(id: String) -> Dictionary:
+	_ensure_content()
+	if is_native:
+		return content.get_npc(id)
+	return backend.content.get_npc(id)
+
+
+func get_all_locations() -> Dictionary:
+	_ensure_content()
+	return content.locations if is_native else backend.content.locations
+
+
+func _ensure_content() -> void:
+	if content != null:
+		return
+	if is_native:
+		content = MnContentRegistry.new()
+		content.load_pack("res://content")
+	else:
+		content = backend.content

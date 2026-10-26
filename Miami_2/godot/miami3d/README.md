@@ -7,10 +7,12 @@ Abra **este** `project.godot` no Godot 4.3+.
 | Pasta | O que é | Quem mexe |
 |---|---|---|
 | `core/` | Cérebro operacional (RefCounted, sem Node) | Estável — só estende |
-| `game/` | Corpo: bootstrap, main, UI, phases | Cresce por fase |
-| `game/phases/a_apartment/` | Cenas/UI da Fase A | Fase A |
+| `game/` | Corpo 3D: flow, world, actors, ui, minigames, fx | Cresce por fase |
+| `game/flow/` | Splash → menu → play_root | Loop principal |
+| `game/world/locations/` | 25 cenas de local (controller + JSON) | Mundo |
+| `game/phases/a_apartment/` | UI legado Fase A (painel 2D) | Referência |
 | `game/phases/b_social/` | Reserva Fase B | Fase B |
-| `content/` | Pack JSON do remake | Conteúdo |
+| `content/` | Pack JSON do remake (locais, itens, NPCs…) | Conteúdo |
 | `tests/` | Testes headless do cérebro | CI / local |
 
 ## Rodar
