@@ -123,6 +123,73 @@ func summary() -> Dictionary:
 	}
 
 
+func merge_pack(pack_dir: String) -> Error:
+	## Fase G: mescla um pack externo (locations/npcs/items/… + strings).
+	if pack_dir == "":
+		return ERR_INVALID_PARAMETER
+	if not FileAccess.file_exists(pack_dir.path_join("pack.json")):
+		return ERR_FILE_NOT_FOUND
+	var meta := _read_dict(pack_dir.path_join("pack.json"))
+	if meta.is_empty():
+		return ERR_INVALID_DATA
+	_merge_folder(pack_dir, "locations", locations)
+	_merge_folder(pack_dir, "npcs", npcs)
+	_merge_folder(pack_dir, "items", items)
+	_merge_folder(pack_dir, "interactions", interactions)
+	_merge_folder(pack_dir, "quests", quests)
+	_merge_folder(pack_dir, "jobs", jobs)
+	_merge_folder(pack_dir, "schedules", schedules)
+	# strings overlay
+	var locale := str(pack.get("locale", meta.get("locale", "pt-BR")))
+	var s_path := pack_dir.path_join("strings/%s.json" % locale)
+	if not FileAccess.file_exists(s_path):
+		s_path = pack_dir.path_join("strings.json")
+	if FileAccess.file_exists(s_path):
+		var extra: Dictionary = _read_dict(s_path)
+		for k in extra.keys():
+			strings[str(k)] = extra[k]
+	# dialogue topics merge (categories append)
+	var topics_path := pack_dir.path_join("dialogue/topics.json")
+	if FileAccess.file_exists(topics_path):
+		var t: Dictionary = _read_dict(topics_path)
+		if dialogue_topics.is_empty():
+			dialogue_topics = t
+		else:
+			for cat in t.get("categories", []):
+				dialogue_topics.setdefault("categories", []).append(cat)
+	return OK
+
+
+func _merge_folder(pack_dir: String, folder: String, into: Dictionary) -> void:
+	var path := pack_dir.path_join(folder)
+	var dir := DirAccess.open(path)
+	if dir == null:
+		# arquivo único folder.json
+		var single := pack_dir.path_join(folder + ".json")
+		if FileAccess.file_exists(single):
+			var data = _read_any(single)
+			if typeof(data) == TYPE_DICTIONARY and data.has("id"):
+				into[str(data["id"])] = data
+			elif typeof(data) == TYPE_ARRAY:
+				for d in data:
+					if typeof(d) == TYPE_DICTIONARY and d.has("id"):
+						into[str(d["id"])] = d
+		return
+	dir.list_dir_begin()
+	var fn := dir.get_next()
+	while fn != "":
+		if not dir.current_is_dir() and fn.ends_with(".json"):
+			var data = _read_any(path.path_join(fn))
+			if typeof(data) == TYPE_DICTIONARY and data.has("id"):
+				into[str(data["id"])] = data
+			elif typeof(data) == TYPE_ARRAY:
+				for d in data:
+					if typeof(d) == TYPE_DICTIONARY and d.has("id"):
+						into[str(d["id"])] = d
+		fn = dir.get_next()
+	dir.list_dir_end()
+
+
 func _load_folder(folder: String, into: Dictionary) -> void:
 	var path := content_dir.path_join(folder)
 	var dir := DirAccess.open(path)

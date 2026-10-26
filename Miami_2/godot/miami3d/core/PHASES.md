@@ -1,31 +1,32 @@
-# Fases A–G — locais e sistemas
+# Fases progressivas 0–G (operacionais)
 
-Fonte canônica: `../content/phases.json` (`MnPhaseCatalog`).
+Fonte: `content/phases.json` · runtime: `MnPhaseCatalog` + `MnPhaseDirector` + `MnModLoader`.
 
-## Locais (cumulativos)
+## Fase 0 — Base ✅
+Extração 00–08, docs, schemas, tools (`validate_content.py`, `mn2_extract_all.py`).
 
-| Fase | Locais liberados nesta etapa |
-|---|---|
-| A | `player_apartment` (LOW) + `apartment_garden` + `first_street` |
-| B | `police_station` |
-| C | `south_beach` |
-| D | `yuca_restaurant`, `glight_club`, `newspaper_office`, `stadium` |
-| E | `little_havana`, `ocean_drive`, `coconut_grove`, `lounge`, `beauty_clinic`, `cuban_cafe` |
-| F | aptos NPC / Heather-Dean, `mansion`, `everglades`, porto/iate, ilhas, Beach, downtown, grand_avenue |
-| G / Expansão | packs externos (`mods`) |
+## A–G — o que o diretor faz no New Game
 
-Aliases do plano → IDs reais: `restaurant_yuca`→`yuca_restaurant`, `press_office`→`newspaper_office`, `beauty_salon`→`beauty_clinic`.
+| Fase | Bootstrap | Pronto quando |
+|---|---|---|
+| A | Apto LOW, necessidades | 1 dia sem desmaio |
+| B | `q_landlord`, $40, NPC landlord | tutorial senhorio + jardim |
+| C | `south_beach` + missões q001–q005 | praia → chaves do apto |
+| D | unlock empregos + NPCs Huggy/Hal/… | 4 jobs pagam e avançam tempo |
+| E | `q_gnomes`, dating/casa/pets | namoro, anões, pet |
+| F | todos locais restantes, home tier ≥1 | checklist 04 / final |
+| G | `load_mods` (`user://mods` + `res://mods`) | zip de mod aparece no jogo |
 
-## Sistemas (fase mínima)
+API:
 
-| Sistema | Fase |
-|---|---|
-| Time + 4 necessidades + colapso | A |
-| Relacionamento / social / quests / rules / economy / appearance / crime | B |
-| 12 stats restantes + city_map | C |
-| Jobs ×4 + dança | D |
-| Dating / home / móveis / anões / pets / cirurgia | E |
-| Mid/Hi + paridade história | F |
-| Mods | G |
+```gdscript
+Bootstrap.game.start_phase("c")     # bootstrap completo
+Bootstrap.game.set_phase("d")       # só unlocks
+Bootstrap.game.audit_phase("b")     # checklist arquivos/content
+Bootstrap.game.load_mods()          # Fase G
+```
 
-API: `MnGame.set_phase("e")`, `require_system("jobs")`, `BrainFacade.system_unlocked("dating")`.
+Menu principal: seletor de fase A–G antes de Novo jogo.
+
+## Expansão (G)
+Ver `game/phases/g_mods/CRIADORES.md` e `mods/example_pack/`.

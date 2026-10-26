@@ -16,4 +16,7 @@ O mapa de locais + sistemas fica no cérebro: `content/phases.json` + `core/phas
 **Regra:** locais são **cumulativos** — fase D inclui A+B+C+D.
 Sistemas usam `BrainFacade.system_unlocked("jobs")` / `MnGame.require_system(...)`.
 
-Ver também: `../../core/EVENT_CONTRACT.md` e `../../content/phases.json`.
+**Operação:** `MnPhaseDirector.start` via `Bootstrap.game.start_phase("b")` —
+aplica `bootstrap` (quests, cash, local, cutscene) e `checklist` de cada `phase.json`.
+
+Ver: `../../core/PHASES.md`, `../../core/EVENT_CONTRACT.md`, `../../content/phases.json`.

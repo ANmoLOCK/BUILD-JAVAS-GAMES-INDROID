@@ -1,6 +1,6 @@
 {
   "id": "phases",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "default_phase": "a",
   "order": ["a", "b", "c", "d", "e", "f", "g"],
   "aliases": {
@@ -14,14 +14,33 @@
       "name": "@phase.a",
       "title": "Apartamento",
       "body_folder": "res://game/phases/a_apartment",
-      "locations": [
-        "player_apartment",
-        "apartment_garden",
-        "first_street"
-      ],
+      "locations": ["player_apartment", "apartment_garden", "first_street"],
       "systems": ["time", "needs4", "collapse"],
       "start_location": "player_apartment",
-      "notes": "MVP: 4 necessidades + ciclo 24h + portais apto↔rua/jardim"
+      "ready_when": "1 dia de jogo sem desmaio, só com necessidades",
+      "bootstrap": {
+        "start_location": "player_apartment",
+        "start_spawn": "from_street",
+        "cash": 0,
+        "bank": 0,
+        "minute_of_day": 480,
+        "quests": [],
+        "flags": ["phase_a"],
+        "notify": "@phase.a.welcome"
+      },
+      "checklist": [
+        "core:time_system",
+        "core:stat_system",
+        "location:player_apartment",
+        "location:apartment_garden",
+        "location:first_street",
+        "ui:hud",
+        "ui:radial_menu",
+        "test:test_stats",
+        "test:text_day",
+        "action:sleep",
+        "action:take_shower"
+      ]
     },
     "b": {
       "id": "b",
@@ -30,15 +49,35 @@
       "body_folder": "res://game/phases/b_social",
       "locations": ["police_station"],
       "systems": [
-        "relationships",
-        "social_menus",
-        "quests",
-        "rules",
-        "economy",
-        "appearance",
-        "crime"
+        "relationships", "social_menus", "quests", "rules",
+        "economy", "appearance", "crime"
       ],
-      "notes": "Creator, NPCs, diálogo, missões, ATM/aluguel, crime base"
+      "ready_when": "tutorial do senhorio + jardim jogável",
+      "bootstrap": {
+        "start_location": "player_apartment",
+        "start_spawn": "from_street",
+        "cash": 40,
+        "quests": ["q_landlord"],
+        "flags": ["phase_b"],
+        "notify": "@phase.b.welcome",
+        "ensure_npcs": ["landlord"]
+      },
+      "checklist": [
+        "core:appearance_system",
+        "core:relationship_system",
+        "core:dialogue_system",
+        "core:quest_machine",
+        "core:economy_system",
+        "ui:character_creator",
+        "ui:social_menu",
+        "ui:dialogue_panel",
+        "ui:phone",
+        "ui:bank_atm",
+        "npc:landlord",
+        "quest:q_landlord",
+        "actor:npc",
+        "actor:paper_doll"
+      ]
     },
     "c": {
       "id": "c",
@@ -47,7 +86,34 @@
       "body_folder": "res://game/phases/c_prologue",
       "locations": ["south_beach"],
       "systems": ["stats_full", "city_map"],
-      "notes": "Prólogo praia → delegacia; mapa parcial; 12 stats restantes"
+      "ready_when": "do acordar na praia até as chaves do apartamento",
+      "bootstrap": {
+        "start_location": "south_beach",
+        "start_spawn": "",
+        "cash": 0,
+        "minute_of_day": 600,
+        "quests": [
+          "q001_encontre_scott",
+          "q002_um_bico",
+          "q003_encontre_o_cachorro",
+          "q004_plano",
+          "q005_pague_a_fianca"
+        ],
+        "flags": ["phase_c", "prologue_active"],
+        "notify": "@phase.c.welcome",
+        "ensure_npcs": ["scott", "callie"],
+        "cutscene": { "fx": "stars", "notify": "@phase.c.wake" }
+      },
+      "checklist": [
+        "location:south_beach",
+        "location:police_station",
+        "npc:scott",
+        "npc:callie",
+        "core:crime_system",
+        "ui:city_map",
+        "quest:q001_encontre_scott",
+        "quest:q012_chaves_do_apartamento"
+      ]
     },
     "d": {
       "id": "d",
@@ -55,13 +121,32 @@
       "title": "Empregos",
       "body_folder": "res://game/phases/d_jobs",
       "locations": [
-        "yuca_restaurant",
-        "glight_club",
-        "newspaper_office",
-        "stadium"
+        "yuca_restaurant", "glight_club", "newspaper_office", "stadium"
       ],
       "systems": ["jobs", "minigame_dance"],
-      "notes": "4 empregos + dança/cartazes"
+      "ready_when": "os 4 empregos contratam, pagam e avançam o relógio",
+      "bootstrap": {
+        "start_location": "first_street",
+        "cash": 20,
+        "flags": ["phase_d"],
+        "notify": "@phase.d.welcome",
+        "ensure_npcs": ["huggy", "hal_pachinko", "opal", "charm", "spillbeard"]
+      },
+      "checklist": [
+        "core:job_system",
+        "location:yuca_restaurant",
+        "location:glight_club",
+        "location:newspaper_office",
+        "location:stadium",
+        "job:pizza_delivery",
+        "job:bartender",
+        "job:ad_assistant",
+        "job:extra",
+        "npc:huggy",
+        "npc:opal",
+        "minigame:dance",
+        "minigame:posters"
+      ]
     },
     "e": {
       "id": "e",
@@ -69,22 +154,35 @@
       "title": "Vida social",
       "body_folder": "res://game/phases/e_life",
       "locations": [
-        "little_havana",
-        "ocean_drive",
-        "coconut_grove",
-        "lounge",
-        "beauty_clinic",
-        "cuban_cafe"
+        "little_havana", "ocean_drive", "coconut_grove",
+        "lounge", "beauty_clinic", "cuban_cafe"
       ],
       "systems": [
-        "dating",
-        "home_tiers",
-        "furniture_shop",
-        "gnomes",
-        "pets",
-        "surgery"
+        "dating", "home_tiers", "furniture_shop",
+        "gnomes", "pets", "surgery"
       ],
-      "notes": "Dating, casa, anões, pets, cirurgia"
+      "ready_when": "namoro, colega de quarto, decorar casa, achar anões, ter um pet",
+      "bootstrap": {
+        "start_location": "player_apartment",
+        "cash": 100,
+        "quests": ["q_gnomes"],
+        "flags": ["phase_e"],
+        "notify": "@phase.e.welcome"
+      },
+      "checklist": [
+        "core:dating_system",
+        "core:home_system",
+        "core:pet_system",
+        "location:little_havana",
+        "location:ocean_drive",
+        "location:coconut_grove",
+        "location:lounge",
+        "location:beauty_clinic",
+        "location:cuban_cafe",
+        "quest:q_gnomes",
+        "content:surgery",
+        "content:gifts"
+      ]
     },
     "f": {
       "id": "f",
@@ -92,20 +190,28 @@
       "title": "Paridade de história",
       "body_folder": "res://game/phases/f_story",
       "locations": [
-        "npc_apartment",
-        "heather_dean_apartment",
-        "mansion",
-        "everglades",
-        "pelican_port",
-        "yacht",
-        "pelican_island",
-        "key_biscayne",
-        "miami_beach",
-        "downtown",
-        "grand_avenue"
+        "npc_apartment", "heather_dean_apartment", "mansion",
+        "everglades", "pelican_port", "yacht", "pelican_island",
+        "key_biscayne", "miami_beach", "downtown", "grand_avenue"
       ],
       "systems": ["home_hi", "story_parity"],
-      "notes": "Locais restantes + Mid/Hi apt via home tiers + arcos finais"
+      "ready_when": "checklist 04; final Sua Própria História",
+      "bootstrap": {
+        "start_location": "player_apartment",
+        "cash": 200,
+        "flags": ["phase_f"],
+        "notify": "@phase.f.welcome",
+        "home_tier": 1
+      },
+      "checklist": [
+        "location:mansion",
+        "location:everglades",
+        "location:miami_beach",
+        "location:heather_dean_apartment",
+        "content:achievements",
+        "content:quests_99",
+        "content:regions_9"
+      ]
     },
     "g": {
       "id": "g",
@@ -114,7 +220,17 @@
       "body_folder": "res://game/phases/g_mods",
       "locations": [],
       "systems": ["mods"],
-      "notes": "Packs externos via content JSON + cena; sem locais fixos"
+      "ready_when": "um zip de mod adiciona local+NPC+missão",
+      "bootstrap": {
+        "flags": ["phase_g"],
+        "notify": "@phase.g.welcome",
+        "load_mods": true
+      },
+      "checklist": [
+        "core:mod_loader",
+        "doc:CRIADORES",
+        "mod:example"
+      ]
     }
   },
   "systems": {

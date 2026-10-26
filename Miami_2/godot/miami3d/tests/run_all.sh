@@ -7,9 +7,10 @@ if ! command -v "$GODOT" >/dev/null 2>&1; then
   GODOT="godot"
 fi
 if ! command -v "$GODOT" >/dev/null 2>&1; then
-  echo "Godot não encontrado (defina GODOT=...). Validando só o pack Python."
-  python3 "$ROOT/../../tools/validate_content.py" "$ROOT/content" --lite
+  echo "Godot não encontrado (defina GODOT=...). Validando pack + fases (Python)."
+  python3 "$ROOT/tools/validate_content_pack.py" --lite "$ROOT/content"
   python3 "$ROOT/tools/validate_assets.py"
+  python3 "$ROOT/tools/audit_phases.py"
   exit 0
 fi
 
@@ -22,6 +23,7 @@ for script in \
   test_interactions.gd \
   test_event_commands.gd \
   test_phases.gd \
+  test_phase_ops.gd \
   text_day.gd
 do
   echo "=== $script ==="
