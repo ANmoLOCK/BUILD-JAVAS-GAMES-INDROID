@@ -21,6 +21,7 @@ for script in \
   test_asset_registry.gd \
   test_interactions.gd \
   test_event_commands.gd \
+  test_phases.gd \
   text_day.gd
 do
   echo "=== $script ==="

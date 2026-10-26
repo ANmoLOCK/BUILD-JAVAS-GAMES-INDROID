@@ -23,6 +23,8 @@ func _ready() -> void:
 				summary.get("items", 0), summary.get("interactions", 0),
 				summary.get("quests", 0), summary.get("jobs", 0),
 			])
+		if game.has_method("get_phase"):
+			print("[Bootstrap] fase ativa: %s (miami/phase)" % game.get_phase())
 
 
 func _process(delta: float) -> void:

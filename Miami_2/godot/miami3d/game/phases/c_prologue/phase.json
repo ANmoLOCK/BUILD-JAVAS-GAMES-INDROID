@@ -1,0 +1,7 @@
+{
+  "id": "c",
+  "title": "Prólogo praia",
+  "locations": ["south_beach"],
+  "systems": ["stats_full", "city_map"],
+  "ready_when": "do acordar na praia até as chaves do apartamento"
+}

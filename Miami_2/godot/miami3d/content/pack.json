@@ -1,8 +1,8 @@
 {
   "id": "base",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "name": "Miami 3D — pacote base",
-  "description": "Conteúdo alinhado ao inventário 04 (locais, NPCs, ações, missões, empregos).",
+  "description": "Conteúdo alinhado ao inventário 04 + fases A–G (locais/sistemas).",
   "dependencies": [],
   "priority": 0,
   "locale": "pt-BR"

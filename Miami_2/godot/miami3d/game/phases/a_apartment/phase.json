@@ -1,0 +1,7 @@
+{
+  "id": "a",
+  "title": "Apartamento",
+  "locations": ["player_apartment", "apartment_garden", "first_street"],
+  "systems": ["time", "needs4", "collapse"],
+  "ready_when": "1 dia de jogo sem desmaio, só com necessidades"
+}

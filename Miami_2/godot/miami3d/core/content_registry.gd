@@ -20,6 +20,7 @@ var regions: Dictionary = {}
 var gifts: Dictionary = {}
 var surgery: Dictionary = {}
 var rent: Dictionary = {}
+var phases: Dictionary = {}
 
 
 func load_pack(dir: String = "") -> Error:
@@ -47,6 +48,7 @@ func load_pack(dir: String = "") -> Error:
 	gifts = _read_dict(content_dir.path_join("gifts.json"))
 	surgery = _read_dict(content_dir.path_join("surgery.json"))
 	rent = _read_dict(content_dir.path_join("rent.json"))
+	phases = _read_dict(content_dir.path_join("phases.json"))
 	# aliases de missão: não poluem o registry de stages
 	if quests.has("quest_aliases"):
 		quests.erase("quest_aliases")
@@ -116,6 +118,8 @@ func summary() -> Dictionary:
 		"topic_categories": dialogue_topics.get("categories", []).size() if dialogue_topics else 0,
 		"interests": int(dialogue_topics.get("interestCount", 0)) if dialogue_topics else 0,
 		"strings": strings.size(),
+		"phase_default": phases.get("default_phase", "a") if phases else "a",
+		"phase_count": phases.get("order", []).size() if phases else 0,
 	}
 
 

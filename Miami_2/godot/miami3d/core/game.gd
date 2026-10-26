@@ -5,6 +5,7 @@ extends RefCounted
 var events := MnEvents.new()
 var rng := MnRng.new()
 var content := MnContentRegistry.new()
+var phases := MnPhaseCatalog.new()
 var strings := MnStringTable.new()
 var time := MnTimeSystem.new()
 var stats := MnStatSystem.new()
@@ -32,6 +33,9 @@ func boot(content_dir: String = "res://content", save_dir: String = "user://save
 	var err := content.load_pack(content_dir)
 	if err != OK:
 		return err
+	phases.load_from(content_dir.path_join("phases.json"))
+	if not content.phases.is_empty():
+		phases.load_dict(content.phases)
 	strings.load_map(content.strings)
 	time.setup(events, content.stats)
 	world.setup(events)
@@ -65,8 +69,43 @@ func boot(content_dir: String = "res://content", save_dir: String = "user://save
 	events.day_tick.connect(_on_day)
 	events.minute_tick.connect(_on_minute)
 
+	# fase ativa: ProjectSettings miami/phase ou default do pack
+	var pref := str(phases.doc.get("default_phase", "a"))
+	if ProjectSettings.has_setting("miami/phase"):
+		pref = str(ProjectSettings.get_setting("miami/phase", pref))
+	set_phase(pref, false)
+
 	ready = true
 	return OK
+
+
+func set_phase(phase_id: String, reenter: bool = true) -> Dictionary:
+	## Avança/define fase A–G e reaplica locais desbloqueados.
+	if not phases.set_phase(phase_id):
+		return {"ok": false, "reason": "unknown_phase", "phase": phase_id}
+	apply_phase_unlocks()
+	world.set_flag("phase_%s" % phases.current, true)
+	if reenter and ready and world.location_id != "" and not world.is_unlocked(world.location_id):
+		var start := phases.start_location()
+		enter_location(start, "")
+	return {"ok": true, "phase": phases.current, "locations": Array(phases.unlocked_locations())}
+
+
+func apply_phase_unlocks() -> void:
+	## Locais cumulativos da fase atual → world.unlocked_locations.
+	world.unlocked_locations.clear()
+	for lid in phases.unlocked_locations():
+		world.unlocked_locations[lid] = true
+		if events:
+			events.unlock_location.emit(lid)
+
+
+func require_system(system_id: String) -> Dictionary:
+	if phases.system_unlocked(system_id):
+		return {"ok": true}
+	var need := phases.system_min_phase(system_id)
+	events.notify.emit("@msg.phase_locked")
+	return {"ok": false, "reason": "phase", "system": system_id, "need": need, "current": phases.current}
 
 
 func new_game(player_name: String = "Você", gender: String = "m") -> void:
@@ -79,8 +118,11 @@ func new_game(player_name: String = "Você", gender: String = "m") -> void:
 	time.day = 0
 	time.minute_of_day = 8 * 60
 	world.flags.clear()
-	# começa no apartamento se existir
-	if content.locations.has("player_apartment"):
+	apply_phase_unlocks()
+	var start := phases.start_location()
+	if content.locations.has(start):
+		enter_location(start, "from_street" if start == "player_apartment" else "")
+	elif content.locations.has("player_apartment"):
 		enter_location("player_apartment", "from_street")
 	elif content.locations.has("first_street"):
 		enter_location("first_street", "")
@@ -93,9 +135,13 @@ func tick_real(delta_s: float) -> void:
 
 
 func enter_location(location_id: String, spawn_id: String = "") -> void:
+	location_id = phases.resolve_location_id(location_id)
 	var loc: Dictionary = content.get_location(location_id)
 	if loc.is_empty():
 		push_warning("local desconhecido: " + location_id)
+		return
+	if not world.is_unlocked(location_id):
+		events.notify.emit("@msg.locked")
 		return
 	if loc.has("openHours") and not time.is_open(loc["openHours"]):
 		events.notify.emit("@msg.closed")
@@ -155,6 +201,14 @@ func interact(object_id: String, action_id: String) -> Dictionary:
 
 
 func talk(npc_id: String, action_id: String, payload: Dictionary = {}) -> Dictionary:
+	var gate := require_system("social_menus")
+	if not bool(gate.get("ok", false)):
+		return gate
+	var aid := action_id.to_lower()
+	if aid in ["date", "sair_junto", "invite_date"]:
+		var dg := require_system("dating")
+		if not bool(dg.get("ok", false)):
+			return dg
 	relationships.ensure(npc_id, content.get_npc(npc_id))
 	if action_id == "topic" and payload.has("interest"):
 		var r := dialogue.talk_topic(npc_id, str(payload["interest"]))
@@ -197,8 +251,14 @@ func use_phone(action: String, payload: Dictionary = {}) -> Dictionary:
 				"minute": time.minute_of_day,
 			}
 		"quests":
+			var qg := require_system("quests")
+			if not bool(qg.get("ok", false)):
+				return qg
 			return {"ok": true, "action": action, "quests": quests.to_dict() if quests.has_method("to_dict") else {}}
 		"call":
+			var cg := require_system("social_menus")
+			if not bool(cg.get("ok", false)):
+				return cg
 			var npc_id := str(payload.get("npc", payload.get("npc_id", "")))
 			if npc_id == "":
 				events.notify.emit("@msg.phone_no_contact")
@@ -206,18 +266,27 @@ func use_phone(action: String, payload: Dictionary = {}) -> Dictionary:
 			var topic := str(payload.get("topic", "greet"))
 			return talk(npc_id, topic, payload)
 		"deposit":
+			var eg := require_system("economy")
+			if not bool(eg.get("ok", false)):
+				return eg
 			var n := int(payload.get("amount", 0))
 			if not economy.deposit(n):
 				events.notify.emit("@msg.no_money")
 				return {"ok": false, "reason": "money"}
 			return {"ok": true, "action": action, "amount": n, "cash": economy.cash, "bank": economy.bank}
 		"withdraw":
+			var eg2 := require_system("economy")
+			if not bool(eg2.get("ok", false)):
+				return eg2
 			var w := int(payload.get("amount", 0))
 			if not economy.withdraw(w):
 				events.notify.emit("@msg.no_money")
 				return {"ok": false, "reason": "bank"}
 			return {"ok": true, "action": action, "amount": w, "cash": economy.cash, "bank": economy.bank}
 		"pay_rent":
+			var eg3 := require_system("economy")
+			if not bool(eg3.get("ok", false)):
+				return eg3
 			var rent := int(payload.get("amount", economy.rent_per_week))
 			if economy.rent_paid_this_week:
 				events.notify.emit("@msg.rent_already")
@@ -231,7 +300,33 @@ func use_phone(action: String, payload: Dictionary = {}) -> Dictionary:
 			events.save_hint.emit()
 			return {"ok": true, "action": action, "paid": rent}
 		"open_map":
+			var mg := require_system("city_map")
+			if not bool(mg.get("ok", false)):
+				# Fase A/B: mapa ainda parcial — permite só locais já desbloqueados via travel direto
+				return {"ok": true, "action": action, "ui": "map", "partial": true}
 			return {"ok": true, "action": action, "ui": "map"}
+		"surgery":
+			var sg := require_system("surgery")
+			if not bool(sg.get("ok", false)):
+				return sg
+			var kind := str(payload.get("kind", ""))
+			var sdef: Dictionary = content.surgery.get(kind, content.surgery.get("items", {}))
+			if typeof(content.surgery.get("items", null)) == TYPE_ARRAY:
+				sdef = {}
+				for it in content.surgery.get("items", []):
+					if str(it.get("id", "")) == kind:
+						sdef = it
+						break
+			var price := int(sdef.get("price", payload.get("price", 200)))
+			var mins := int(sdef.get("durationMinutes", payload.get("minutes", 60)))
+			if not economy.pay(price):
+				events.notify.emit("@msg.no_money")
+				return {"ok": false, "reason": "money"}
+			appearance.sex_appeal_bonus += int(sdef.get("sexAppeal", 5))
+			time.advance_minutes(mins)
+			events.notify.emit("@msg.surgery_done")
+			events.save_hint.emit()
+			return {"ok": true, "action": action, "kind": kind, "price": price}
 		"save":
 			events.save_hint.emit()
 			return {"ok": true, "action": action}
@@ -247,6 +342,23 @@ func buy(item_id: String) -> Dictionary:
 	var item: Dictionary = content.get_item(item_id)
 	if item.is_empty():
 		return {"ok": false, "reason": "unknown_item"}
+	var kind := str(item.get("kind", ""))
+	if kind == "furniture" or str(item.get("shop", "")) == "furniture_store":
+		var fg := require_system("furniture_shop")
+		if not bool(fg.get("ok", false)):
+			return fg
+	elif kind == "clothing":
+		var ag := require_system("appearance")
+		if not bool(ag.get("ok", false)):
+			return ag
+	elif kind == "pet":
+		var pg := require_system("pets")
+		if not bool(pg.get("ok", false)):
+			return pg
+	else:
+		var eg := require_system("economy")
+		if not bool(eg.get("ok", false)):
+			return eg
 	var price := int(item.get("price", 0))
 	if price > 0 and not economy.pay(price):
 		events.notify.emit("@msg.no_money")
@@ -261,6 +373,9 @@ func equip(item_id: String = "", payload: Dictionary = {}) -> Dictionary:
 	## Closet / boutique: aplica peça no paper-doll.
 	if not ready:
 		return {"ok": false, "reason": "not_ready"}
+	var ag := require_system("appearance")
+	if not bool(ag.get("ok", false)):
+		return ag
 	# Modo slot direto: equip("", {slot, variant, color?})
 	if item_id == "" and payload.has("slot"):
 		var slot := str(payload["slot"])
@@ -298,6 +413,11 @@ func place_furniture(slot_id: String, item_id: String) -> Dictionary:
 	## Apartamento: instala móvel no slot (consome inventário).
 	if not ready:
 		return {"ok": false, "reason": "not_ready"}
+	# Trocar móvel da loja exige home_tiers (E+); manter default do apto é ok em A.
+	if item_id != "" and str(home.slots.get(slot_id, "")) != item_id:
+		var hg := require_system("home_tiers")
+		if not bool(hg.get("ok", false)):
+			return hg
 	if slot_id == "":
 		return {"ok": false, "reason": "bad_slot"}
 	if item_id != "":
@@ -323,6 +443,10 @@ func start_minigame_result(minigame_id: String, won: bool, score: int = 0) -> Di
 	## Corpo reporta fim de dança / cartazes / foto.
 	if not ready:
 		return {"ok": false, "reason": "not_ready"}
+	if minigame_id in ["dance", "posters"] or minigame_id.begins_with("dance"):
+		var dg := require_system("minigame_dance")
+		if not bool(dg.get("ok", false)):
+			return dg
 	quests.notify_event({
 		"event": "minigame",
 		"id": minigame_id,
@@ -349,6 +473,50 @@ func advance_time_request(minutes: int) -> Dictionary:
 	time.advance_minutes(minutes)
 	events.save_hint.emit()
 	return {"ok": true, "minutes": minutes, "day": time.day, "minute": time.minute_of_day}
+
+
+func work_shift(job_id: String = "") -> Dictionary:
+	## Emprego (fase D+).
+	var jg := require_system("jobs")
+	if not bool(jg.get("ok", false)):
+		return jg
+	if job_id != "" and jobs.current_job == "":
+		if not jobs.apply(job_id):
+			return {"ok": false, "reason": "unknown_job"}
+	return jobs.do_shift(self)
+
+
+func adopt_pet(pet_id: String, kind: String = "dog", breed: String = "") -> Dictionary:
+	var pg := require_system("pets")
+	if not bool(pg.get("ok", false)):
+		return pg
+	pets.add_pet(pet_id, kind, breed)
+	quests.notify_event({"event": "pet_adopted", "pet": pet_id})
+	return {"ok": true, "pet": pet_id, "kind": kind}
+
+
+func find_gnome(gnome_id: String) -> Dictionary:
+	var gg := require_system("gnomes")
+	if not bool(gg.get("ok", false)):
+		return gg
+	home.find_gnome(gnome_id)
+	quests.notify_event({"event": "gnome_found", "gnome": gnome_id})
+	events.notify.emit("@msg.gnome_found")
+	return {"ok": true, "gnome": gnome_id, "count": home.gnomes_count()}
+
+
+func set_home_tier(tier: int) -> Dictionary:
+	## Mid/Hi apartment — liberado plenamente na fase F (home_hi); tiers base em E.
+	if tier >= 2:
+		var hg := require_system("home_hi")
+		if not bool(hg.get("ok", false)):
+			return hg
+	else:
+		var ht := require_system("home_tiers")
+		if not bool(ht.get("ok", false)):
+			return ht
+	home.tier = clampi(tier, 0, 3)
+	return {"ok": true, "tier": home.tier}
 
 
 func _fire_location_triggers(on: String, object_id: String = "", npc_id: String = "") -> void:

@@ -1,10 +1,11 @@
-# Fase B — Social (reservada)
+# Fase B — Social / senhorio
 
-Ainda vazia de propósito. Quando pedir **“implementa a Fase B”**, entram aqui:
+Locais novos: `police_station` (prólogo).
 
-- character creator
-- menu social / diálogo
-- NPC senhorio em 3D
-- ATM / economia na UI
+Sistemas: relacionamento, 4 menus sociais, QuestMachine, RuleInterpreter,
+economia/ATM/aluguel, paper-doll + creator, crime base.
 
-Não coloque arquivos de outras fases nesta pasta.
+**Pronto quando:** tutorial do senhorio + jardim jogável.
+
+UI já genérica (`character_creator`, `social_menu`, `bank_atm`) vive em `game/ui/`;
+conteúdo específico desta fase (cutscenes do senhorio) entra nesta pasta.

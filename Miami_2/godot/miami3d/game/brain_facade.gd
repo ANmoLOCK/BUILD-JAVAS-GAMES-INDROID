@@ -26,6 +26,7 @@ var pets
 var jobs
 var saves
 var rng
+var phases
 var assets: MnAssetRegistry
 
 
@@ -39,7 +40,7 @@ func boot(content_dir: String = "res://content", save_dir: String = "user://save
 		ready = backend.is_ready()
 		print("[BrainFacade] usando C++ MnBrain")
 		_log_assets()
-		return err
+		return err # fases A–G: GDScript MnGame até MnBrain espelhar phase API
 	backend = MnGame.new()
 	is_native = false
 	var err2: Error = backend.boot(content_dir, save_dir)
@@ -63,8 +64,10 @@ func boot(content_dir: String = "res://content", save_dir: String = "user://save
 	jobs = backend.jobs
 	saves = backend.saves
 	rng = backend.rng
+	phases = backend.phases
 	print("[BrainFacade] usando GDScript MnGame (compile native/ para C++)")
 	_log_assets()
+	_log_phase()
 	return err2
 
 
@@ -77,6 +80,17 @@ func _log_assets() -> void:
 	print("[BrainFacade] assets v%s — furniture=%s props=%s kits=%s clips=%s" % [
 		assets.root_manifest.get("version", "?"),
 		c.get("furniture", 0), c.get("props", 0), c.get("kits", 0), c.get("anim_clips", 0),
+	])
+
+
+func _log_phase() -> void:
+	if phases == null:
+		return
+	var s: Dictionary = phases.summary() if phases.has_method("summary") else {}
+	print("[BrainFacade] fase %s — locais=%s sistemas=%s" % [
+		s.get("current", "?"),
+		s.get("locations", []).size() if s.has("locations") else "?",
+		s.get("systems", []).size() if s.has("systems") else "?",
 	])
 
 
@@ -126,6 +140,48 @@ func start_minigame_result(minigame_id: String, won: bool, score: int = 0) -> Di
 
 func advance_time_request(minutes: int) -> Dictionary:
 	return _cmd("advance_time_request", [minutes])
+
+
+func set_phase(phase_id: String, reenter: bool = true) -> Dictionary:
+	return _cmd("set_phase", [phase_id, reenter])
+
+
+func require_system(system_id: String) -> Dictionary:
+	return _cmd("require_system", [system_id])
+
+
+func work_shift(job_id: String = "") -> Dictionary:
+	return _cmd("work_shift", [job_id])
+
+
+func adopt_pet(pet_id: String, kind: String = "dog", breed: String = "") -> Dictionary:
+	return _cmd("adopt_pet", [pet_id, kind, breed])
+
+
+func find_gnome(gnome_id: String) -> Dictionary:
+	return _cmd("find_gnome", [gnome_id])
+
+
+func set_home_tier(tier: int) -> Dictionary:
+	return _cmd("set_home_tier", [tier])
+
+
+func get_phase() -> String:
+	if is_native:
+		return str(backend.get_phase()) if backend.has_method("get_phase") else "a"
+	return phases.current if phases else "a"
+
+
+func system_unlocked(system_id: String) -> bool:
+	if is_native:
+		return true
+	return phases.system_unlocked(system_id) if phases else true
+
+
+func is_location_unlocked(location_id: String) -> bool:
+	if is_native:
+		return true
+	return world.is_unlocked(phases.resolve_location_id(location_id) if phases else location_id)
 
 
 func _cmd(method: String, args: Array) -> Dictionary:
@@ -198,6 +254,8 @@ func snapshot() -> Dictionary:
 		"stats": backend.stats.to_dict(),
 		"quests": backend.quests.to_dict() if backend.quests.has_method("to_dict") else {},
 		"appearance": backend.appearance.vector.duplicate(),
+		"phase": backend.phases.current,
+		"unlocked": backend.world.unlocked_locations.keys(),
 	}
 
 

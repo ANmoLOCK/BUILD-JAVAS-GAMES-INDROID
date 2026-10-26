@@ -6,12 +6,12 @@ Abra **este** `project.godot` no Godot 4.3+.
 
 | Pasta | O que é | Quem mexe |
 |---|---|---|
-| `core/` | Cérebro operacional + `EVENT_CONTRACT.md` | Estável — só estende |
-| `game/` | Corpo 3D + `event_bridge.gd` + `brain_facade.gd` | Cresce por fase |
+| `core/` | Cérebro + `EVENT_CONTRACT.md` + `phase_catalog.gd` | Estável — só estende |
+| `game/` | Corpo 3D + event bridge + fachada | Cresce por fase |
 | `game/flow/` | Splash → menu → play_root | Loop principal |
 | `game/world/locations/` | 25 cenas de local (controller + JSON) | Mundo |
-| `game/phases/a_apartment/` | UI legado Fase A (painel 2D) | Referência |
-| `game/phases/b_social/` | Reserva Fase B | Fase B |
+| `game/phases/` | Pastas A–G + `phase.json` por fase | Progressão |
+| `content/phases.json` | Locais e sistemas por fase (fonte) | Conteúdo |
 | `content/` | Pack JSON completo (25 locais, 94 NPCs, 99 missões, 4 jobs…) | Conteúdo |
 | `assets/` | Models, animações, texturas, áudio, UI (placeholders) | Arte |
 | `tools/` | generate/validate content + assets + `run_tools_pipeline.sh` | Conteúdo/Arte |

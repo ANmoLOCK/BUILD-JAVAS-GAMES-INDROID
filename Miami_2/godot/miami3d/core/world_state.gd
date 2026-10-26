@@ -43,7 +43,10 @@ func lock_location(id: String) -> void:
 
 
 func is_unlocked(id: String) -> bool:
-	return bool(unlocked_locations.get(id, true)) # default aberto na Fase A
+	## Default fechado — MnGame.apply_phase_unlocks() libera os da fase.
+	if unlocked_locations.is_empty():
+		return false
+	return bool(unlocked_locations.get(id, false))
 
 
 func set_location(id: String, spawn: String = "", c: Vector2i = Vector2i.ZERO) -> void:
