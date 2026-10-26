@@ -1,5 +1,5 @@
 extends Control
-## Cena principal Fase A: HUD + painel do apartamento (texto/3D placeholder).
+## Cena principal Fase A: HUD + painel do apartamento.
 
 @onready var hud: Control = $HUD
 @onready var phase_root: Control = $PhaseRoot
@@ -10,39 +10,36 @@ var _apartment
 
 
 func _ready() -> void:
-	title.text = "Miami 3D — Fase A (cérebro + apartamento)"
-	var g: MnGame = Bootstrap.game
+	var mode := "C++" if Bootstrap.game.is_native else "GDScript"
+	title.text = "Miami 3D — Fase A (%s)" % mode
+	var g: BrainFacade = Bootstrap.game
 	if g == null or not g.ready:
 		log_line("[erro] cérebro não inicializado")
 		return
-	g.events.notify.connect(_on_notify)
-	g.events.dialogue_requested.connect(_on_dialogue)
-	g.events.warning.connect(_on_warning)
-	g.events.collapse.connect(_on_collapse)
-	g.events.quest_stage_entered.connect(_on_quest)
-	g.events.stat_changed.connect(_on_stat)
-	g.events.teleport.connect(_on_teleport)
+	g.connect_signal("notify", _on_notify)
+	g.connect_signal("dialogue_requested", _on_dialogue)
+	g.connect_signal("warning", _on_warning)
+	g.connect_signal("collapse", _on_collapse)
+	g.connect_signal("quest_stage_entered", _on_quest)
+	g.connect_signal("stat_changed", _on_stat)
+	g.connect_signal("teleport", _on_teleport)
 	g.new_game("Alex", "m")
 	hud.setup(g)
-	# carrega UI da Fase A
 	var scene: PackedScene = load("res://game/phases/a_apartment/apartment_panel.tscn")
 	if scene:
 		_apartment = scene.instantiate()
 		phase_root.add_child(_apartment)
 		if _apartment.has_method("setup"):
 			_apartment.setup(g, self)
-	log_line("Novo jogo. Local: %s — %s" % [g.world.location_id, _clock(g)])
-	# inicia missão do senhorio se o trigger não disparou ainda
-	if g.content.quests.has("q_landlord") and not g.quests.is_active("q_landlord"):
-		pass # trigger on enter do apartamento cuida
+	log_line("Novo jogo [%s]. Local: %s — %s" % [mode, g.get_location(), _clock(g)])
 
 
 func log_line(t: String) -> void:
 	log_box.append_text(t + "\n")
 
 
-func _clock(g: MnGame) -> String:
-	return "Dia %d  %02d:%02d" % [g.time.day, g.time.hour(), g.time.minute_of_day % 60]
+func _clock(g: BrainFacade) -> String:
+	return "Dia %d  %02d:%02d" % [g.get_day(), g.get_hour(), g.get_minute_of_day() % 60]
 
 
 func _on_notify(key: String) -> void:
@@ -67,9 +64,8 @@ func _on_quest(qid: String, stage: String) -> void:
 	log_line("🎯 Missão %s → estágio %s" % [qid, stage])
 
 
-func _on_stat(stat_id: String, value: int, level: int) -> void:
-	if stat_id in ["hunger", "sleep", "hygiene", "bladder"]:
-		hud.refresh()
+func _on_stat(_stat_id: String, _value: int, _level: int) -> void:
+	hud.refresh()
 
 
 func _on_teleport(location_id: String, spawn_id: String) -> void:

@@ -22,9 +22,22 @@ Miami_2/godot/
 ## Como abrir
 
 1. Instale **Godot 4.3+** (renderer Mobile ou Compatibility).
-2. Importe `miami3d/project.godot`.
-3. Rode a cena principal `game/main.tscn` (F5).
-4. No Android: Project → Export → Android (preset já esboçado em `export_presets.cfg`).
+2. *(Opcional mas recomendado)* compile o cérebro C++:
+   ```bash
+   cd Miami_2/godot/native && ./build.sh
+   ```
+3. Importe `miami3d/project.godot`.
+4. Rode a cena principal `game/main.tscn` (F5) — o título mostra se está em **C++** ou **GDScript**.
+5. No Android: compile `./build.sh release android` (NDK) e exporte pelo preset em `export_presets.cfg`.
+
+### Duas implementações do cérebro (mesmo comportamento)
+
+| Camada | Onde | Quando usa |
+|---|---|---|
+| **C++ GDExtension** `MnBrain` | `native/src/` → `miami3d/bin/libmiami_brain.*.so` | Se a `.so` estiver compilada |
+| **GDScript** `MnGame` | `miami3d/core/*.gd` | Fallback automático |
+
+A fachada `game/brain_facade.gd` escolhe sozinha. Detalhes: [`native/README.md`](native/README.md).
 
 ## Como pedir a próxima fase (para não virar bagunça)
 

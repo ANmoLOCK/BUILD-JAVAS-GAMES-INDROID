@@ -5,7 +5,7 @@ Detalhe completo: `../09-engenharia-reversa-docs/08-plano-progressivo-godot.md`.
 
 | Fase | Nome | Status | Onde vive no disco |
 |---|---|---|---|
-| **A** | Cérebro + apartamento jogável | **em andamento (este branch)** | `core/*` + `game/phases/a_apartment/` |
+| **A** | Cérebro + apartamento jogável | **feito (GDScript + C++ compilável)** | `core/*` + `native/` + `game/phases/a_apartment/` |
 | B | Personagem, NPC, diálogo, 1 missão, economia | pendente | `game/phases/b_social/` + sistemas já no core |
 | C | Prólogo (praia → delegacia) | pendente | `game/phases/c_prologue/` |
 | D | 4 empregos + minigames | pendente | `game/phases/d_jobs/` |
@@ -17,6 +17,8 @@ Detalhe completo: `../09-engenharia-reversa-docs/08-plano-progressivo-godot.md`.
 ## Fase A — critério de pronto
 
 - [x] Todos os arquivos `core/*.gd` do plano 08 existem e compilam em Godot 4
+- [x] Cérebro C++ `MnBrain` (GDExtension) compila com `native/build.sh` → `.so` em `miami3d/bin/`
+- [x] `BrainFacade` escolhe C++ ou GDScript automaticamente
 - [x] `ContentRegistry` carrega `content/`
 - [x] Time 1 s = 1 min; 16 stats com taxas/colapso
 - [x] Interagir com objeto aplica efeitos (dormir / banho / lanchar)

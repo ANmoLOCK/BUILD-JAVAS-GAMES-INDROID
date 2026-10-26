@@ -1,7 +1,7 @@
 extends Control
 ## HUD Fase A: 4 necessidades + relógio + dinheiro.
 
-var game: MnGame
+var game: BrainFacade
 @onready var clock: Label = $Clock
 @onready var money: Label = $Money
 @onready var bars: Dictionary = {}
@@ -14,10 +14,10 @@ func _ready() -> void:
 			bars[id] = get_node(path)
 
 
-func setup(g: MnGame) -> void:
+func setup(g: BrainFacade) -> void:
 	game = g
-	game.events.minute_tick.connect(func(_m, _d): refresh())
-	game.events.money_changed.connect(func(_c, _b): refresh())
+	g.connect_signal("minute_tick", func(_m, _d): refresh())
+	g.connect_signal("money_changed", func(_c, _b): refresh())
 	refresh()
 
 
@@ -29,9 +29,9 @@ func _process(_dt: float) -> void:
 func refresh() -> void:
 	if game == null:
 		return
-	clock.text = "Dia %d  %02d:%02d" % [game.time.day, game.time.hour(), game.time.minute_of_day % 60]
-	money.text = "$%d" % game.economy.cash
+	clock.text = "Dia %d  %02d:%02d" % [game.get_day(), game.get_hour(), game.get_minute_of_day() % 60]
+	money.text = "$%d" % game.get_cash()
 	for id in bars.keys():
 		var bar: ProgressBar = bars[id]
-		bar.value = game.stats.get_value(id)
-		bar.tooltip_text = "%s: %d" % [id, game.stats.get_value(id)]
+		bar.value = game.get_stat(id)
+		bar.tooltip_text = "%s: %d" % [id, game.get_stat(id)]

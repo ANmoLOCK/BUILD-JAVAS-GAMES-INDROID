@@ -1,15 +1,14 @@
 extends VBoxContainer
-## Fase A — painel do apartamento: ações de objeto + troca de local.
-## (Placeholder de UI; depois vira cena 3D em location_controller.)
+## Fase A — painel do apartamento (UI placeholder).
 
-var game: MnGame
+var game: BrainFacade
 var main
 @onready var loc_label: Label = $LocLabel
 @onready var actions: VBoxContainer = $Actions
 @onready var places: HBoxContainer = $Places
 
 
-func setup(g: MnGame, main_ref) -> void:
+func setup(g: BrainFacade, main_ref) -> void:
 	game = g
 	main = main_ref
 	refresh()
@@ -18,7 +17,7 @@ func setup(g: MnGame, main_ref) -> void:
 func refresh() -> void:
 	if game == null:
 		return
-	loc_label.text = "Local: %s  célula %s" % [game.world.location_id, str(game.world.cell)]
+	loc_label.text = "Local: %s  célula %s" % [game.get_location(), str(game.get_cell())]
 	_rebuild_actions()
 	_rebuild_places()
 
@@ -26,28 +25,24 @@ func refresh() -> void:
 func _rebuild_actions() -> void:
 	for c in actions.get_children():
 		c.queue_free()
-	var loc: Dictionary = game.content.get_location(game.world.location_id)
-	# ações dos objetos do local
+	var loc: Dictionary = game.get_content_location(game.get_location())
 	for obj in loc.get("objects", []):
 		var oid := str(obj.get("id", ""))
 		var template := str(obj.get("template", ""))
-		var item: Dictionary = game.content.get_item(template)
-		var act_ids: Array = item.get("actions", [])
-		for aid in act_ids:
-			var idef: Dictionary = game.content.get_interaction(str(aid))
+		var item: Dictionary = game.get_content_item(template)
+		for aid in item.get("actions", []):
+			var idef: Dictionary = game.get_content_interaction(str(aid))
 			var btn := Button.new()
-			var name_key := str(idef.get("name", aid))
-			btn.text = "%s — %s" % [oid, game.resolve_text(name_key)]
+			btn.text = "%s — %s" % [oid, game.resolve_text(str(idef.get("name", aid)))]
 			btn.pressed.connect(_on_action.bind(oid, str(aid)))
 			actions.add_child(btn)
-	# slots de móvel com default
 	for slot in loc.get("furnitureSlots", []):
 		var def_item := str(slot.get("default", ""))
 		if def_item == "":
 			continue
-		var item2: Dictionary = game.content.get_item(def_item)
+		var item2: Dictionary = game.get_content_item(def_item)
 		for aid2 in item2.get("actions", []):
-			var idef2: Dictionary = game.content.get_interaction(str(aid2))
+			var idef2: Dictionary = game.get_content_interaction(str(aid2))
 			var btn2 := Button.new()
 			btn2.text = "%s — %s" % [def_item, game.resolve_text(str(idef2.get("name", aid2)))]
 			btn2.pressed.connect(_on_action.bind(str(slot.get("id", def_item)), str(aid2)))
@@ -57,7 +52,7 @@ func _rebuild_actions() -> void:
 func _rebuild_places() -> void:
 	for c in places.get_children():
 		c.queue_free()
-	var loc: Dictionary = game.content.get_location(game.world.location_id)
+	var loc: Dictionary = game.get_content_location(game.get_location())
 	for p in loc.get("portals", []):
 		var btn := Button.new()
 		var to := str(p.get("to", ""))

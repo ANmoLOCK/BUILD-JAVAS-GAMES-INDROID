@@ -1,0 +1,8 @@
+godot-cpp/
+bin/*.os
+bin/*.o
+bin/*.obj
+*.o
+*.os
+.sconsign*
+src/gen/
