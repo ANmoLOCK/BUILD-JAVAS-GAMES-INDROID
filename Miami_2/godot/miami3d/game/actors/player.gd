@@ -25,28 +25,17 @@ func _ready() -> void:
 func _ensure_visual() -> void:
 	if has_node("PaperDoll"):
 		_doll = $PaperDoll
+		if _doll.has_method("ensure_parts"):
+			_doll.ensure_parts()
+		_bind_assets()
 		return
-	# monta paper-doll placeholder
 	var doll := Node3D.new()
 	doll.name = "PaperDoll"
 	doll.set_script(preload("res://game/actors/paper_doll.gd"))
-	for part in [
-		["Head", Vector3(0, 1.55, 0), Vector3(0.28, 0.28, 0.28)],
-		["Hair", Vector3(0, 1.72, 0), Vector3(0.32, 0.16, 0.32)],
-		["Top", Vector3(0, 1.15, 0), Vector3(0.45, 0.5, 0.25)],
-		["Bottom", Vector3(0, 0.65, 0), Vector3(0.4, 0.45, 0.25)],
-		["Shoes", Vector3(0, 0.12, 0), Vector3(0.35, 0.12, 0.4)],
-	]:
-		var mi := MeshInstance3D.new()
-		mi.name = part[0]
-		var box := BoxMesh.new()
-		box.size = part[2]
-		mi.mesh = box
-		mi.position = part[1]
-		doll.add_child(mi)
 	add_child(doll)
 	_doll = doll
-	# colisão cápsula
+	_doll.ensure_parts()
+	_bind_assets()
 	if not has_node("Col"):
 		var col := CollisionShape3D.new()
 		col.name = "Col"
@@ -56,6 +45,11 @@ func _ensure_visual() -> void:
 		col.shape = sh
 		col.position.y = 0.9
 		add_child(col)
+
+
+func _bind_assets() -> void:
+	if _doll and Bootstrap.game and Bootstrap.game.get("assets") != null:
+		_doll.bind_assets(Bootstrap.game.assets)
 
 
 func set_grid(g: MnGridMap) -> void:
@@ -85,7 +79,7 @@ func go_to_world(pos: Vector3, run: bool = false) -> void:
 	go_to_cell(grid.world_to_cell(pos), run)
 
 
-func _physics_process(delta: float) -> void:
+func _physics_process(_delta: float) -> void:
 	if path.is_empty():
 		velocity = Vector3.ZERO
 		anim_state = "idle"

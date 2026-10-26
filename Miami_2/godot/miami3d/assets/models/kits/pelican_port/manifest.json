@@ -1,0 +1,16 @@
+{
+  "location": "pelican_port",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/pelican_port/albedo.png",
+    "normal": "res://assets/textures/kits/pelican_port/normal.png",
+    "roughness": "res://assets/textures/kits/pelican_port/roughness.png"
+  },
+  "status": "placeholder"
+}

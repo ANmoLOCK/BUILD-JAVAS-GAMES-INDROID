@@ -1,0 +1,16 @@
+{
+  "location": "miami_beach",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/miami_beach/albedo.png",
+    "normal": "res://assets/textures/kits/miami_beach/normal.png",
+    "roughness": "res://assets/textures/kits/miami_beach/roughness.png"
+  },
+  "status": "placeholder"
+}

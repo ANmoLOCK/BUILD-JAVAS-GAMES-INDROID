@@ -1,0 +1,16 @@
+{
+  "location": "player_apartment",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/player_apartment/albedo.png",
+    "normal": "res://assets/textures/kits/player_apartment/normal.png",
+    "roughness": "res://assets/textures/kits/player_apartment/roughness.png"
+  },
+  "status": "placeholder"
+}

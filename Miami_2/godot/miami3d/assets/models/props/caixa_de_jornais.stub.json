@@ -1,0 +1,12 @@
+{
+  "id": "caixa_de_jornais",
+  "mesh": "res://assets/models/props/caixa_de_jornais.glb",
+  "kind": "prop",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

@@ -1,0 +1,16 @@
+{
+  "location": "glight_club",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/glight_club/albedo.png",
+    "normal": "res://assets/textures/kits/glight_club/normal.png",
+    "roughness": "res://assets/textures/kits/glight_club/roughness.png"
+  },
+  "status": "placeholder"
+}

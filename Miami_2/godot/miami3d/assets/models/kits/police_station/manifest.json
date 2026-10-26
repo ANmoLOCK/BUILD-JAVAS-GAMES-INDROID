@@ -1,0 +1,16 @@
+{
+  "location": "police_station",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/police_station/albedo.png",
+    "normal": "res://assets/textures/kits/police_station/normal.png",
+    "roughness": "res://assets/textures/kits/police_station/roughness.png"
+  },
+  "status": "placeholder"
+}

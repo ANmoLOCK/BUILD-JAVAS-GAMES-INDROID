@@ -13,7 +13,8 @@ Abra **este** `project.godot` no Godot 4.3+.
 | `game/phases/a_apartment/` | UI legado Fase A (painel 2D) | Referência |
 | `game/phases/b_social/` | Reserva Fase B | Fase B |
 | `content/` | Pack JSON completo (25 locais, 94 NPCs, 99 missões, 4 jobs…) | Conteúdo |
-| `tools/` | `generate_content_pack.py` / `validate_content_pack.py` | Conteúdo |
+| `assets/` | Models, animações, texturas, áudio, UI (placeholders) | Arte |
+| `tools/` | generate/validate content + scaffold/validate assets | Conteúdo/Arte |
 | `tests/` | Testes headless do cérebro | CI / local |
 
 ## Rodar

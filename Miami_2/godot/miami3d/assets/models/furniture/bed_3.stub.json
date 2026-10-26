@@ -1,0 +1,11 @@
+{
+  "id": "bed_3",
+  "mesh": "res://assets/models/furniture/bed_3.glb",
+  "kind": "furniture",
+  "footprint": [
+    2,
+    2
+  ],
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

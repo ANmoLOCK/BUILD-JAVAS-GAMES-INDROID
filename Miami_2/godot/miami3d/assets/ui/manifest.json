@@ -1,0 +1,25 @@
+{
+  "hud": [
+    "hunger",
+    "sleep",
+    "hygiene",
+    "bladder",
+    "fitness",
+    "culture",
+    "charisma",
+    "crime",
+    "kindness",
+    "dance",
+    "craziness",
+    "sex_appeal",
+    "mood",
+    "social",
+    "health",
+    "self_esteem",
+    "cash",
+    "phone",
+    "map",
+    "pause"
+  ],
+  "logo": "res://assets/ui/logo.png"
+}

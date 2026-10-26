@@ -1,0 +1,33 @@
+{
+  "id": "miami3d_assets",
+  "version": "0.1.0-placeholders",
+  "note": "Placeholders procedurais + stubs. Troque .glb/.ogg reais mantendo os mesmos paths/ids.",
+  "sharedPlaceholder": "res://assets/models/_shared/placeholder.glb",
+  "sections": {
+    "characters": "res://assets/models/characters/manifest.json",
+    "npc_unique": "res://assets/models/npc_unique/manifest.json",
+    "furniture": "res://assets/models/furniture/manifest.json",
+    "props": "res://assets/models/props/manifest.json",
+    "pets": "res://assets/models/pets/manifest.json",
+    "kits": "res://assets/models/kits/manifest.json",
+    "animations": "res://assets/animations/anims_human.manifest.json",
+    "textures": "res://assets/textures/manifest.json",
+    "audio_music": "res://assets/audio/music/manifest.json",
+    "audio_sfx": "res://assets/audio/sfx/manifest.json",
+    "ui": "res://assets/ui/manifest.json"
+  },
+  "counts": {
+    "heads": 30,
+    "hair": 30,
+    "tops": 31,
+    "bottoms": 30,
+    "shoes": 13,
+    "npc_unique": 32,
+    "furniture": 60,
+    "props": 93,
+    "pets": 6,
+    "kits": 26,
+    "anim_clips": 31,
+    "hud_icons": 20
+  }
+}

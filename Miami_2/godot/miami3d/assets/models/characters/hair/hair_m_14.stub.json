@@ -1,0 +1,9 @@
+{
+  "id": "hair_m_14",
+  "slot": "hair",
+  "gender": "m",
+  "variant": 14,
+  "mesh": "res://assets/models/characters/hair/hair_m_14.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

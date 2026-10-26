@@ -1,0 +1,12 @@
+{
+  "id": "mailbox",
+  "mesh": "res://assets/models/props/mailbox.glb",
+  "kind": "object",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "res://assets/models/street/mailbox.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

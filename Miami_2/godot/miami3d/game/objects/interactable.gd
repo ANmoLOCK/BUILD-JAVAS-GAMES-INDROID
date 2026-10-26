@@ -1,6 +1,6 @@
 class_name MnInteractable
 extends StaticBody3D
-## Objeto do mundo: footprint visual + sinal de ações disponíveis.
+## Objeto do mundo: mesh via AssetRegistry / MeshFactory + menu de ações.
 
 signal chosen(actions: Array)
 
@@ -21,30 +21,37 @@ func setup(oid: String, template: String, item: Dictionary, _obj: Dictionary) ->
 	template_id = template
 	item_def = item
 	action_ids = item.get("actions", []).duplicate()
-	# visual placeholder
 	var fp: Array = item.get("footprint", [1, 1])
 	var sx := float(fp[0]) if fp.size() > 0 else 1.0
 	var sz := float(fp[1]) if fp.size() > 1 else 1.0
-	var mi := MeshInstance3D.new()
-	var box := BoxMesh.new()
-	box.size = Vector3(maxf(0.4, sx * 0.85), 0.9, maxf(0.4, sz * 0.85))
-	mi.mesh = box
-	var mat := StandardMaterial3D.new()
-	mat.albedo_color = _color_for(template)
-	mi.material_override = mat
-	mi.position.y = 0.45
-	add_child(mi)
+
+	var visual: Node3D = null
+	var mesh_path := ""
+	if Bootstrap.game and Bootstrap.game.get("assets") != null:
+		mesh_path = Bootstrap.game.assets.item_mesh_path(template, str(item.get("mesh", "")))
+		if Bootstrap.game.assets.has_real_mesh(mesh_path):
+			visual = MnMeshFactory.try_instance_scene(mesh_path)
+
+	if visual == null:
+		visual = MnMeshFactory.item_visual(template, fp, _color_for(template))
+	else:
+		visual.name = "Visual"
+	add_child(visual)
+
 	var col := CollisionShape3D.new()
 	var sh := BoxShape3D.new()
-	sh.size = box.size
+	var h := 0.9
+	if visual is MeshInstance3D and (visual as MeshInstance3D).mesh is BoxMesh:
+		h = ((visual as MeshInstance3D).mesh as BoxMesh).size.y
+	sh.size = Vector3(maxf(0.4, sx * 0.85), h, maxf(0.4, sz * 0.85))
 	col.shape = sh
-	col.position.y = 0.45
+	col.position.y = h * 0.5
 	add_child(col)
-	# rótulo
+
 	var label := Label3D.new()
 	label.text = oid
 	label.font_size = 28
-	label.position = Vector3(0, 1.2, 0)
+	label.position = Vector3(0, h + 0.35, 0)
 	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 	add_child(label)
 

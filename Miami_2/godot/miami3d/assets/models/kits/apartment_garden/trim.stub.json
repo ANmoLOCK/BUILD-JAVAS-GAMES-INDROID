@@ -1,0 +1,6 @@
+{
+  "id": "apartment_garden_trim",
+  "mesh": "res://assets/models/kits/apartment_garden/trim.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

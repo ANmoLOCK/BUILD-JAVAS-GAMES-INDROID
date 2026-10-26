@@ -1,0 +1,12 @@
+{
+  "id": "cafe",
+  "mesh": "res://assets/models/props/cafe.glb",
+  "kind": "food",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

@@ -1,0 +1,16 @@
+{
+  "location": "npc_apartment",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/npc_apartment/albedo.png",
+    "normal": "res://assets/textures/kits/npc_apartment/normal.png",
+    "roughness": "res://assets/textures/kits/npc_apartment/roughness.png"
+  },
+  "status": "placeholder"
+}

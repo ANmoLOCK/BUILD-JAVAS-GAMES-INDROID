@@ -1,0 +1,413 @@
+{
+  "count": 60,
+  "entries": [
+    {
+      "id": "bed_1",
+      "path": "res://assets/models/furniture/bed_1.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "bed_2",
+      "path": "res://assets/models/furniture/bed_2.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "bed_3",
+      "path": "res://assets/models/furniture/bed_3.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "bed_standard",
+      "path": "res://assets/models/furniture/bed_standard.glb",
+      "footprint": [
+        2,
+        3
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "cadeira",
+      "path": "res://assets/models/furniture/cadeira.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "chair_1",
+      "path": "res://assets/models/furniture/chair_1.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "chair_2",
+      "path": "res://assets/models/furniture/chair_2.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "computador",
+      "path": "res://assets/models/furniture/computador.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "computer_1",
+      "path": "res://assets/models/furniture/computer_1.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "computer_2",
+      "path": "res://assets/models/furniture/computer_2.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "cushion_1",
+      "path": "res://assets/models/furniture/cushion_1.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "cushion_2",
+      "path": "res://assets/models/furniture/cushion_2.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "cushion_3",
+      "path": "res://assets/models/furniture/cushion_3.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "cushion_4",
+      "path": "res://assets/models/furniture/cushion_4.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "dresser_1",
+      "path": "res://assets/models/furniture/dresser_1.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "dresser_2",
+      "path": "res://assets/models/furniture/dresser_2.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "dresser_3",
+      "path": "res://assets/models/furniture/dresser_3.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "dresser_4",
+      "path": "res://assets/models/furniture/dresser_4.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "espreguicadeira",
+      "path": "res://assets/models/furniture/espreguicadeira.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "sofa",
+      "path": "res://assets/models/furniture/sofa.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "sofa_1",
+      "path": "res://assets/models/furniture/sofa_1.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "sofa_2",
+      "path": "res://assets/models/furniture/sofa_2.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "sofa_3",
+      "path": "res://assets/models/furniture/sofa_3.glb",
+      "footprint": [
+        2,
+        2
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "sofa_basic",
+      "path": "res://assets/models/furniture/sofa_basic.glb",
+      "footprint": [
+        2,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "tv",
+      "path": "res://assets/models/furniture/tv.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "tv_1",
+      "path": "res://assets/models/furniture/tv_1.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "tv_2",
+      "path": "res://assets/models/furniture/tv_2.glb",
+      "footprint": [
+        1,
+        1
+      ],
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_27",
+      "path": "res://assets/models/furniture/furniture_pad_27.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_28",
+      "path": "res://assets/models/furniture/furniture_pad_28.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_29",
+      "path": "res://assets/models/furniture/furniture_pad_29.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_30",
+      "path": "res://assets/models/furniture/furniture_pad_30.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_31",
+      "path": "res://assets/models/furniture/furniture_pad_31.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_32",
+      "path": "res://assets/models/furniture/furniture_pad_32.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_33",
+      "path": "res://assets/models/furniture/furniture_pad_33.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_34",
+      "path": "res://assets/models/furniture/furniture_pad_34.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_35",
+      "path": "res://assets/models/furniture/furniture_pad_35.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_36",
+      "path": "res://assets/models/furniture/furniture_pad_36.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_37",
+      "path": "res://assets/models/furniture/furniture_pad_37.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_38",
+      "path": "res://assets/models/furniture/furniture_pad_38.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_39",
+      "path": "res://assets/models/furniture/furniture_pad_39.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_40",
+      "path": "res://assets/models/furniture/furniture_pad_40.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_41",
+      "path": "res://assets/models/furniture/furniture_pad_41.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_42",
+      "path": "res://assets/models/furniture/furniture_pad_42.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_43",
+      "path": "res://assets/models/furniture/furniture_pad_43.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_44",
+      "path": "res://assets/models/furniture/furniture_pad_44.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_45",
+      "path": "res://assets/models/furniture/furniture_pad_45.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_46",
+      "path": "res://assets/models/furniture/furniture_pad_46.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_47",
+      "path": "res://assets/models/furniture/furniture_pad_47.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_48",
+      "path": "res://assets/models/furniture/furniture_pad_48.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_49",
+      "path": "res://assets/models/furniture/furniture_pad_49.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_50",
+      "path": "res://assets/models/furniture/furniture_pad_50.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_51",
+      "path": "res://assets/models/furniture/furniture_pad_51.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_52",
+      "path": "res://assets/models/furniture/furniture_pad_52.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_53",
+      "path": "res://assets/models/furniture/furniture_pad_53.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_54",
+      "path": "res://assets/models/furniture/furniture_pad_54.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_55",
+      "path": "res://assets/models/furniture/furniture_pad_55.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_56",
+      "path": "res://assets/models/furniture/furniture_pad_56.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_57",
+      "path": "res://assets/models/furniture/furniture_pad_57.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_58",
+      "path": "res://assets/models/furniture/furniture_pad_58.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "furniture_pad_59",
+      "path": "res://assets/models/furniture/furniture_pad_59.glb",
+      "status": "placeholder"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 class_name MnPet
 extends CharacterBody3D
-## Cão/gato: segue o jogador se fome baixa; ações feed/play/train via UI.
+## Cão/gato/ave/crocodilo: visual via AssetRegistry; segue o jogador.
 
 signal interacted(pet_id: String)
 
 var pet_id: String = ""
-var kind: String = "dog" # dog|cat
+var kind: String = "dog" # dog|cat|bird|crocodile
 var breed: String = ""
 var follow: bool = true
 
@@ -24,17 +24,26 @@ func setup(id: String, p_kind: String, p_breed: String = "") -> void:
 
 func _build() -> void:
 	if has_node("Mesh"):
-		return
-	var mi := MeshInstance3D.new()
-	mi.name = "Mesh"
-	var box := BoxMesh.new()
-	box.size = Vector3(0.45, 0.35, 0.7) if kind == "dog" else Vector3(0.35, 0.28, 0.5)
-	mi.mesh = box
-	mi.position.y = 0.2
-	var mat := StandardMaterial3D.new()
-	mat.albedo_color = Color(0.55, 0.4, 0.25) if kind == "dog" else Color(0.7, 0.7, 0.65)
-	mi.material_override = mat
-	add_child(mi)
+		get_node("Mesh").queue_free()
+	var visual: Node3D = null
+	var mesh_id := breed if breed != "" else ("dog_scottish" if kind == "dog" else ("cat_house" if kind == "cat" else kind))
+	if Bootstrap.game and Bootstrap.game.get("assets") != null:
+		var path: String = Bootstrap.game.assets.pet_mesh_path(mesh_id)
+		if Bootstrap.game.assets.has_real_mesh(path):
+			visual = MnMeshFactory.try_instance_scene(path)
+	if visual == null:
+		visual = MnMeshFactory.pet_visual(kind)
+	visual.name = "Mesh"
+	visual.position.y = 0.2
+	add_child(visual)
+	if not has_node("Col"):
+		var col := CollisionShape3D.new()
+		col.name = "Col"
+		var sh := BoxShape3D.new()
+		sh.size = Vector3(0.4, 0.4, 0.6)
+		col.shape = sh
+		col.position.y = 0.2
+		add_child(col)
 
 
 func _physics_process(delta: float) -> void:

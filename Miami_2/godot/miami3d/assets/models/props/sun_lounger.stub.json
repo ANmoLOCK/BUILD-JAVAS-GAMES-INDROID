@@ -1,0 +1,12 @@
+{
+  "id": "sun_lounger",
+  "mesh": "res://assets/models/props/sun_lounger.glb",
+  "kind": "prop",
+  "footprint": [
+    1,
+    2
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

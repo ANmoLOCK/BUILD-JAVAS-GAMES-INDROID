@@ -1,0 +1,11 @@
+{
+  "id": "sofa_basic",
+  "mesh": "res://assets/models/furniture/sofa_basic.glb",
+  "kind": "furniture",
+  "footprint": [
+    2,
+    1
+  ],
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

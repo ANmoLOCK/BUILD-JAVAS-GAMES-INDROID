@@ -1,0 +1,6 @@
+{
+  "id": "pelican_port_floor",
+  "mesh": "res://assets/models/kits/pelican_port/floor.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

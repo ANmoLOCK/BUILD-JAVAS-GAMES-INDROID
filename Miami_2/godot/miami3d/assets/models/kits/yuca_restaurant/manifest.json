@@ -1,0 +1,16 @@
+{
+  "location": "yuca_restaurant",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/yuca_restaurant/albedo.png",
+    "normal": "res://assets/textures/kits/yuca_restaurant/normal.png",
+    "roughness": "res://assets/textures/kits/yuca_restaurant/roughness.png"
+  },
+  "status": "placeholder"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "beatrice",
+  "mesh": "res://assets/models/npc_unique/beatrice.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

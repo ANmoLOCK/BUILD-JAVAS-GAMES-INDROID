@@ -1,0 +1,9 @@
+{
+  "id": "top_m_13",
+  "slot": "top",
+  "gender": "m",
+  "variant": 13,
+  "mesh": "res://assets/models/characters/tops/top_m_13.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

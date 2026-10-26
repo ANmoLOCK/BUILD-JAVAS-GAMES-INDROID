@@ -1,0 +1,6 @@
+{
+  "id": "yacht_floor",
+  "mesh": "res://assets/models/kits/yacht/floor.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

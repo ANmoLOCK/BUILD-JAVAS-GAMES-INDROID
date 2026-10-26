@@ -1,0 +1,6 @@
+{
+  "id": "cuban_cafe_door",
+  "mesh": "res://assets/models/kits/cuban_cafe/door.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "beach_sand",
+  "mesh": "res://assets/models/props/beach_sand.glb",
+  "kind": "prop",
+  "footprint": [
+    2,
+    2
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

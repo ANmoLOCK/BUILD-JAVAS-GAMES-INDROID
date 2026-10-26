@@ -1,0 +1,6 @@
+{
+  "id": "little_havana_window",
+  "mesh": "res://assets/models/kits/little_havana/window.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

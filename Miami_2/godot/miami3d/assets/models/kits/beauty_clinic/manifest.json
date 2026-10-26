@@ -1,0 +1,16 @@
+{
+  "location": "beauty_clinic",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/beauty_clinic/albedo.png",
+    "normal": "res://assets/textures/kits/beauty_clinic/normal.png",
+    "roughness": "res://assets/textures/kits/beauty_clinic/roughness.png"
+  },
+  "status": "placeholder"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "newspaper_office_floor",
+  "mesh": "res://assets/models/kits/newspaper_office/floor.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}
