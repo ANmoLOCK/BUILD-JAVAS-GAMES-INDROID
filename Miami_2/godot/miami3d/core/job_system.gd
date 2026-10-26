@@ -12,6 +12,10 @@ func register_job(def: Dictionary) -> void:
 	jobs[str(def.get("id", ""))] = def
 
 
+func register(def: Dictionary) -> void:
+	register_job(def)
+
+
 func apply(job_id: String) -> bool:
 	if not jobs.has(job_id):
 		return false

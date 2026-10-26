@@ -1,0 +1,98 @@
+[
+  {
+    "id": "enviar_mensagem",
+    "legacyId": 29,
+    "name": "@act.enviar_mensagem",
+    "target": "object",
+    "animation": "enviar",
+    "durationMinutes": 3,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "social",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "pedir_pizza",
+    "legacyId": 134,
+    "name": "@act.pedir_pizza",
+    "target": "object",
+    "animation": "pedir",
+    "durationMinutes": 3,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "social",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "chamar_a_policia",
+    "legacyId": 135,
+    "name": "@act.chamar_a_policia",
+    "target": "object",
+    "animation": "chamar",
+    "durationMinutes": 3,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "social",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "ligar_para_o_fa_clube_dos_degubas",
+    "legacyId": 136,
+    "name": "@act.ligar_para_o_fa_clube_dos_degubas",
+    "target": "object",
+    "animation": "ligar",
+    "durationMinutes": 3,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "social",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "ligar_para_a_mae",
+    "legacyId": 137,
+    "name": "@act.ligar_para_a_mae",
+    "target": "object",
+    "animation": "ligar",
+    "durationMinutes": 3,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "social",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "enviar_mensagem",
+    "legacyId": 166,
+    "name": "@act.enviar_mensagem",
+    "target": "object",
+    "animation": "enviar",
+    "durationMinutes": 3,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "social",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  }
+]

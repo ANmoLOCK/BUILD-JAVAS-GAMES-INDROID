@@ -1,0 +1,122 @@
+[
+  {
+    "id": "por_lixo",
+    "legacyId": 30,
+    "name": "@act.por_lixo",
+    "target": "object",
+    "animation": "por",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 5
+      },
+      {
+        "stat": "mood",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "por_dinheiro",
+    "legacyId": 35,
+    "name": "@act.por_dinheiro",
+    "target": "object",
+    "animation": "por",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 5
+      },
+      {
+        "stat": "mood",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "alimentar_animal",
+    "legacyId": 63,
+    "name": "@act.alimentar_animal",
+    "target": "object",
+    "animation": "alimentar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 5
+      },
+      {
+        "stat": "mood",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "dar_dinheiro",
+    "legacyId": 142,
+    "name": "@act.dar_dinheiro",
+    "target": "object",
+    "animation": "dar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 5
+      },
+      {
+        "stat": "mood",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "dar_sanduiche",
+    "legacyId": 143,
+    "name": "@act.dar_sanduiche",
+    "target": "object",
+    "animation": "dar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 5
+      },
+      {
+        "stat": "mood",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "regar_a_planta",
+    "legacyId": 145,
+    "name": "@act.regar_a_planta",
+    "target": "object",
+    "animation": "regar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 5
+      },
+      {
+        "stat": "mood",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  }
+]

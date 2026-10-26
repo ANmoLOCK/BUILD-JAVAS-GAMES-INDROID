@@ -55,7 +55,17 @@
       1
     ]
   ],
-  "portals": [],
+  "portals": [
+    {
+      "id": "exit",
+      "cell": [
+        7,
+        14
+      ],
+      "to": "first_street",
+      "spawn": "from_apartment"
+    }
+  ],
   "zones": [
     {
       "id": "main",
@@ -70,6 +80,5 @@
   ],
   "objects": [],
   "npcs": [],
-  "triggers": [],
-  "stub": true
+  "triggers": []
 }

@@ -1,0 +1,28 @@
+{
+  "id": "dj_club",
+  "entries": [
+    {
+      "days": [
+        4,
+        5,
+        6
+      ],
+      "startHour": 21,
+      "endHour": 4,
+      "location": "glight_club",
+      "activity": "dj"
+    },
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "startHour": 14,
+      "endHour": 18,
+      "location": "glight_club",
+      "activity": "idle"
+    }
+  ]
+}

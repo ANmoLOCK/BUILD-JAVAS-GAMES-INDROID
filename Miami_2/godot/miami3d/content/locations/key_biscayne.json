@@ -55,7 +55,26 @@
       1
     ]
   ],
-  "portals": [],
+  "portals": [
+    {
+      "id": "to_mansion",
+      "cell": [
+        18,
+        11
+      ],
+      "to": "mansion",
+      "spawn": "default"
+    },
+    {
+      "id": "to_everglades",
+      "cell": [
+        30,
+        20
+      ],
+      "to": "everglades",
+      "spawn": "default"
+    }
+  ],
   "zones": [
     {
       "id": "main",
@@ -70,6 +89,5 @@
   ],
   "objects": [],
   "npcs": [],
-  "triggers": [],
-  "stub": true
+  "triggers": []
 }

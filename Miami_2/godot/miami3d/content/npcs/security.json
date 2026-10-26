@@ -1,0 +1,43 @@
+{
+  "id": "security",
+  "slot": 22,
+  "name": "@npc.security",
+  "displayName": "Segurança",
+  "gender": "m",
+  "appearance": [
+    0,
+    2,
+    4,
+    2,
+    4,
+    4,
+    2,
+    4,
+    2,
+    2
+  ],
+  "likes": [
+    "security",
+    "sports",
+    "order"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "security_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "stadium",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

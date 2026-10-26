@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "cloth_hair_0",
+    "name": "@item.cloth_hair_0",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 0,
+    "price": 20,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_1",
+    "name": "@item.cloth_hair_1",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 1,
+    "price": 22,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_2",
+    "name": "@item.cloth_hair_2",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 2,
+    "price": 24,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_3",
+    "name": "@item.cloth_hair_3",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 3,
+    "price": 26,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_4",
+    "name": "@item.cloth_hair_4",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 4,
+    "price": 28,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_5",
+    "name": "@item.cloth_hair_5",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 5,
+    "price": 30,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_6",
+    "name": "@item.cloth_hair_6",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 6,
+    "price": 32,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_7",
+    "name": "@item.cloth_hair_7",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 7,
+    "price": 34,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_8",
+    "name": "@item.cloth_hair_8",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 8,
+    "price": 36,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_9",
+    "name": "@item.cloth_hair_9",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 9,
+    "price": 38,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_10",
+    "name": "@item.cloth_hair_10",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 10,
+    "price": 40,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_11",
+    "name": "@item.cloth_hair_11",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 11,
+    "price": 42,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_12",
+    "name": "@item.cloth_hair_12",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 12,
+    "price": 44,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_13",
+    "name": "@item.cloth_hair_13",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 13,
+    "price": 46,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_14",
+    "name": "@item.cloth_hair_14",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 14,
+    "price": 48,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_15",
+    "name": "@item.cloth_hair_15",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 15,
+    "price": 50,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_16",
+    "name": "@item.cloth_hair_16",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 16,
+    "price": 52,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_17",
+    "name": "@item.cloth_hair_17",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 17,
+    "price": 54,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_18",
+    "name": "@item.cloth_hair_18",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 18,
+    "price": 56,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_19",
+    "name": "@item.cloth_hair_19",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 19,
+    "price": 58,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_20",
+    "name": "@item.cloth_hair_20",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 20,
+    "price": 60,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_21",
+    "name": "@item.cloth_hair_21",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 21,
+    "price": 62,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_22",
+    "name": "@item.cloth_hair_22",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 22,
+    "price": 64,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_23",
+    "name": "@item.cloth_hair_23",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 23,
+    "price": 66,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_24",
+    "name": "@item.cloth_hair_24",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 24,
+    "price": 68,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_25",
+    "name": "@item.cloth_hair_25",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 25,
+    "price": 70,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_26",
+    "name": "@item.cloth_hair_26",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 26,
+    "price": 72,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_27",
+    "name": "@item.cloth_hair_27",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 27,
+    "price": 74,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_28",
+    "name": "@item.cloth_hair_28",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 28,
+    "price": 76,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_hair_29",
+    "name": "@item.cloth_hair_29",
+    "kind": "clothing",
+    "slot": "hair",
+    "variant": 29,
+    "price": 78,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_0",
+    "name": "@item.cloth_top_0",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 0,
+    "price": 20,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_1",
+    "name": "@item.cloth_top_1",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 1,
+    "price": 22,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_2",
+    "name": "@item.cloth_top_2",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 2,
+    "price": 24,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_3",
+    "name": "@item.cloth_top_3",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 3,
+    "price": 26,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_4",
+    "name": "@item.cloth_top_4",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 4,
+    "price": 28,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_5",
+    "name": "@item.cloth_top_5",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 5,
+    "price": 30,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_6",
+    "name": "@item.cloth_top_6",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 6,
+    "price": 32,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_7",
+    "name": "@item.cloth_top_7",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 7,
+    "price": 34,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_8",
+    "name": "@item.cloth_top_8",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 8,
+    "price": 36,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_9",
+    "name": "@item.cloth_top_9",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 9,
+    "price": 38,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_10",
+    "name": "@item.cloth_top_10",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 10,
+    "price": 40,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_11",
+    "name": "@item.cloth_top_11",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 11,
+    "price": 42,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_12",
+    "name": "@item.cloth_top_12",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 12,
+    "price": 44,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_13",
+    "name": "@item.cloth_top_13",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 13,
+    "price": 46,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_14",
+    "name": "@item.cloth_top_14",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 14,
+    "price": 48,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_15",
+    "name": "@item.cloth_top_15",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 15,
+    "price": 50,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_16",
+    "name": "@item.cloth_top_16",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 16,
+    "price": 52,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_17",
+    "name": "@item.cloth_top_17",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 17,
+    "price": 54,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_18",
+    "name": "@item.cloth_top_18",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 18,
+    "price": 56,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_19",
+    "name": "@item.cloth_top_19",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 19,
+    "price": 58,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_20",
+    "name": "@item.cloth_top_20",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 20,
+    "price": 60,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_21",
+    "name": "@item.cloth_top_21",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 21,
+    "price": 62,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_22",
+    "name": "@item.cloth_top_22",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 22,
+    "price": 64,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_23",
+    "name": "@item.cloth_top_23",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 23,
+    "price": 66,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_24",
+    "name": "@item.cloth_top_24",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 24,
+    "price": 68,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_25",
+    "name": "@item.cloth_top_25",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 25,
+    "price": 70,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_26",
+    "name": "@item.cloth_top_26",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 26,
+    "price": 72,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_27",
+    "name": "@item.cloth_top_27",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 27,
+    "price": 74,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_28",
+    "name": "@item.cloth_top_28",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 28,
+    "price": 76,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_29",
+    "name": "@item.cloth_top_29",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 29,
+    "price": 78,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_top_30",
+    "name": "@item.cloth_top_30",
+    "kind": "clothing",
+    "slot": "top",
+    "variant": 30,
+    "price": 80,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_0",
+    "name": "@item.cloth_bottom_0",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 0,
+    "price": 20,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_1",
+    "name": "@item.cloth_bottom_1",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 1,
+    "price": 22,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_2",
+    "name": "@item.cloth_bottom_2",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 2,
+    "price": 24,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_3",
+    "name": "@item.cloth_bottom_3",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 3,
+    "price": 26,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_4",
+    "name": "@item.cloth_bottom_4",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 4,
+    "price": 28,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_5",
+    "name": "@item.cloth_bottom_5",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 5,
+    "price": 30,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_6",
+    "name": "@item.cloth_bottom_6",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 6,
+    "price": 32,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_7",
+    "name": "@item.cloth_bottom_7",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 7,
+    "price": 34,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_8",
+    "name": "@item.cloth_bottom_8",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 8,
+    "price": 36,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_9",
+    "name": "@item.cloth_bottom_9",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 9,
+    "price": 38,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_10",
+    "name": "@item.cloth_bottom_10",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 10,
+    "price": 40,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_11",
+    "name": "@item.cloth_bottom_11",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 11,
+    "price": 42,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_12",
+    "name": "@item.cloth_bottom_12",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 12,
+    "price": 44,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_13",
+    "name": "@item.cloth_bottom_13",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 13,
+    "price": 46,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_14",
+    "name": "@item.cloth_bottom_14",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 14,
+    "price": 48,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_15",
+    "name": "@item.cloth_bottom_15",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 15,
+    "price": 50,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_16",
+    "name": "@item.cloth_bottom_16",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 16,
+    "price": 52,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_17",
+    "name": "@item.cloth_bottom_17",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 17,
+    "price": 54,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_18",
+    "name": "@item.cloth_bottom_18",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 18,
+    "price": 56,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_19",
+    "name": "@item.cloth_bottom_19",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 19,
+    "price": 58,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_20",
+    "name": "@item.cloth_bottom_20",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 20,
+    "price": 60,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_21",
+    "name": "@item.cloth_bottom_21",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 21,
+    "price": 62,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_22",
+    "name": "@item.cloth_bottom_22",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 22,
+    "price": 64,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_23",
+    "name": "@item.cloth_bottom_23",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 23,
+    "price": 66,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_24",
+    "name": "@item.cloth_bottom_24",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 24,
+    "price": 68,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_25",
+    "name": "@item.cloth_bottom_25",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 25,
+    "price": 70,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_26",
+    "name": "@item.cloth_bottom_26",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 26,
+    "price": 72,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_27",
+    "name": "@item.cloth_bottom_27",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 27,
+    "price": 74,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_28",
+    "name": "@item.cloth_bottom_28",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 28,
+    "price": 76,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_bottom_29",
+    "name": "@item.cloth_bottom_29",
+    "kind": "clothing",
+    "slot": "bottom",
+    "variant": 29,
+    "price": 78,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_0",
+    "name": "@item.cloth_shoes_0",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 0,
+    "price": 20,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_1",
+    "name": "@item.cloth_shoes_1",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 1,
+    "price": 22,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_2",
+    "name": "@item.cloth_shoes_2",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 2,
+    "price": 24,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_3",
+    "name": "@item.cloth_shoes_3",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 3,
+    "price": 26,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_4",
+    "name": "@item.cloth_shoes_4",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 4,
+    "price": 28,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_5",
+    "name": "@item.cloth_shoes_5",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 5,
+    "price": 30,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_6",
+    "name": "@item.cloth_shoes_6",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 6,
+    "price": 32,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_7",
+    "name": "@item.cloth_shoes_7",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 7,
+    "price": 34,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_8",
+    "name": "@item.cloth_shoes_8",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 8,
+    "price": 36,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_9",
+    "name": "@item.cloth_shoes_9",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 9,
+    "price": 38,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_10",
+    "name": "@item.cloth_shoes_10",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 10,
+    "price": 40,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_11",
+    "name": "@item.cloth_shoes_11",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 11,
+    "price": 42,
+    "shop": "boutique",
+    "colors": 6
+  },
+  {
+    "id": "cloth_shoes_12",
+    "name": "@item.cloth_shoes_12",
+    "kind": "clothing",
+    "slot": "shoes",
+    "variant": 12,
+    "price": 44,
+    "shop": "boutique",
+    "colors": 6
+  }
+]

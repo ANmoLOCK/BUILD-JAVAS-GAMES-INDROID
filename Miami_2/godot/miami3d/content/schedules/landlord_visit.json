@@ -1,0 +1,50 @@
+{
+  "id": "landlord_visit",
+  "entries": [
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startHour": 8,
+      "endHour": 12,
+      "location": "player_apartment",
+      "activity": "idle"
+    },
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startHour": 12,
+      "endHour": 18,
+      "location": "first_street",
+      "activity": "wander"
+    },
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startHour": 18,
+      "endHour": 22,
+      "location": "player_apartment",
+      "activity": "idle"
+    }
+  ]
+}

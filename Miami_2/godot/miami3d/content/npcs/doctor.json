@@ -1,0 +1,43 @@
+{
+  "id": "doctor",
+  "slot": 21,
+  "name": "@npc.doctor",
+  "displayName": "Médico(a)",
+  "gender": "m",
+  "appearance": [
+    0,
+    1,
+    3,
+    1,
+    2,
+    3,
+    7,
+    3,
+    1,
+    1
+  ],
+  "likes": [
+    "health",
+    "surgery",
+    "science"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "doctor_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "beauty_clinic",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

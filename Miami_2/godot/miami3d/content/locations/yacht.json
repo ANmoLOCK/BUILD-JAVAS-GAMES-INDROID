@@ -55,7 +55,17 @@
       1
     ]
   ],
-  "portals": [],
+  "portals": [
+    {
+      "id": "exit",
+      "cell": [
+        10,
+        10
+      ],
+      "to": "pelican_port",
+      "spawn": "default"
+    }
+  ],
   "zones": [
     {
       "id": "main",
@@ -70,6 +80,5 @@
   ],
   "objects": [],
   "npcs": [],
-  "triggers": [],
-  "stub": true
+  "triggers": []
 }

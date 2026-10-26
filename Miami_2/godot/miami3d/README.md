@@ -12,7 +12,8 @@ Abra **este** `project.godot` no Godot 4.3+.
 | `game/world/locations/` | 25 cenas de local (controller + JSON) | Mundo |
 | `game/phases/a_apartment/` | UI legado Fase A (painel 2D) | Referência |
 | `game/phases/b_social/` | Reserva Fase B | Fase B |
-| `content/` | Pack JSON do remake (locais, itens, NPCs…) | Conteúdo |
+| `content/` | Pack JSON completo (25 locais, 94 NPCs, 99 missões, 4 jobs…) | Conteúdo |
+| `tools/` | `generate_content_pack.py` / `validate_content_pack.py` | Conteúdo |
 | `tests/` | Testes headless do cérebro | CI / local |
 
 ## Rodar

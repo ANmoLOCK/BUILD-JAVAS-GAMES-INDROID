@@ -55,21 +55,60 @@
       1
     ]
   ],
-  "portals": [],
-  "zones": [
+  "portals": [
     {
-      "id": "main",
-      "rect": [
-        2,
-        2,
-        20,
-        16
+      "id": "exit",
+      "cell": [
+        12,
+        18
       ],
-      "tag": "indoor"
+      "to": "first_street",
+      "spawn": "from_apartment"
     }
   ],
-  "objects": [],
-  "npcs": [],
-  "triggers": [],
-  "stub": true
+  "zones": [
+    {
+      "id": "floor",
+      "rect": [
+        4,
+        4,
+        16,
+        12
+      ],
+      "tag": "dancefloor"
+    }
+  ],
+  "objects": [
+    {
+      "id": "bar_1",
+      "template": "bar",
+      "cell": [
+        3,
+        8
+      ]
+    },
+    {
+      "id": "dj_desk",
+      "template": "dj_desk",
+      "cell": [
+        18,
+        6
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "npc": "dj",
+      "schedule": "dj_club"
+    },
+    {
+      "npc": "charm",
+      "schedule": "charm_club"
+    },
+    {
+      "generic": true,
+      "count": 10
+    }
+  ],
+  "triggers": []
 }

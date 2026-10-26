@@ -55,7 +55,26 @@
       1
     ]
   ],
-  "portals": [],
+  "portals": [
+    {
+      "id": "to_grand",
+      "cell": [
+        25,
+        25
+      ],
+      "to": "grand_avenue",
+      "spawn": "default"
+    },
+    {
+      "id": "to_lounge",
+      "cell": [
+        35,
+        20
+      ],
+      "to": "lounge",
+      "spawn": "default"
+    }
+  ],
   "zones": [
     {
       "id": "main",
@@ -70,6 +89,5 @@
   ],
   "objects": [],
   "npcs": [],
-  "triggers": [],
-  "stub": true
+  "triggers": []
 }

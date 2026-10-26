@@ -1,0 +1,22 @@
+{
+  "id": "pizza_delivery",
+  "name": "@job.pizza_delivery",
+  "location": "yuca_restaurant",
+  "pay": 45,
+  "durationMinutes": 60,
+  "requires": {
+    "fitness": 1
+  },
+  "effects": [
+    {
+      "stat": "fitness",
+      "delta": 3
+    },
+    {
+      "stat": "hygiene",
+      "delta": -5
+    }
+  ],
+  "minigame": null,
+  "unlockQuest": "q027_entregador"
+}

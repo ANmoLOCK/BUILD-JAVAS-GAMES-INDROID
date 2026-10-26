@@ -1,6 +1,6 @@
 class_name MnContentRegistry
 extends RefCounted
-## Carrega o pack JSON (locations, npcs, items, interactions, quests, strings, stats).
+## Carrega o pack JSON completo (inventário 04 / pipeline 06).
 
 var content_dir: String = "res://content"
 var pack: Dictionary = {}
@@ -15,6 +15,11 @@ var jobs: Dictionary = {}
 var schedules: Dictionary = {}
 var dialogue_topics: Dictionary = {}
 var dialogue_reactions: Dictionary = {}
+var achievements: Dictionary = {}
+var regions: Dictionary = {}
+var gifts: Dictionary = {}
+var surgery: Dictionary = {}
+var rent: Dictionary = {}
 
 
 func load_pack(dir: String = "") -> Error:
@@ -37,6 +42,14 @@ func load_pack(dir: String = "") -> Error:
 	var react_path := content_dir.path_join("dialogue/reactions.json")
 	if FileAccess.file_exists(react_path):
 		dialogue_reactions = _read_dict(react_path)
+	achievements = _read_dict(content_dir.path_join("achievements.json"))
+	regions = _read_dict(content_dir.path_join("regions.json"))
+	gifts = _read_dict(content_dir.path_join("gifts.json"))
+	surgery = _read_dict(content_dir.path_join("surgery.json"))
+	rent = _read_dict(content_dir.path_join("rent.json"))
+	# aliases de missão: não poluem o registry de stages
+	if quests.has("quest_aliases"):
+		quests.erase("quest_aliases")
 	return OK
 
 
@@ -58,6 +71,52 @@ func get_npc(id: String) -> Dictionary:
 
 func get_quest(id: String) -> Dictionary:
 	return quests.get(id, {})
+
+
+func get_job(id: String) -> Dictionary:
+	return jobs.get(id, {})
+
+
+func get_gift(id: String) -> Dictionary:
+	for g in gifts.get("items", []):
+		if str(g.get("id", "")) == id:
+			return g
+	return {}
+
+
+func get_achievement(id: String) -> Dictionary:
+	for a in achievements.get("items", []):
+		if str(a.get("id", "")) == id:
+			return a
+	return {}
+
+
+func region_of(location_id: String) -> String:
+	for r in regions.get("regions", []):
+		var locs: Array = r.get("locations", [])
+		if location_id in locs:
+			return str(r.get("id", ""))
+	var loc: Dictionary = get_location(location_id)
+	return str(loc.get("region", ""))
+
+
+func summary() -> Dictionary:
+	return {
+		"pack": pack.get("id", ""),
+		"version": pack.get("version", ""),
+		"locations": locations.size(),
+		"npcs": npcs.size(),
+		"items": items.size(),
+		"interactions": interactions.size(),
+		"quests": quests.size(),
+		"jobs": jobs.size(),
+		"schedules": schedules.size(),
+		"achievements": achievements.get("items", []).size() if achievements else 0,
+		"gifts": gifts.get("items", []).size() if gifts else 0,
+		"topic_categories": dialogue_topics.get("categories", []).size() if dialogue_topics else 0,
+		"interests": int(dialogue_topics.get("interestCount", 0)) if dialogue_topics else 0,
+		"strings": strings.size(),
+	}
 
 
 func _load_folder(folder: String, into: Dictionary) -> void:

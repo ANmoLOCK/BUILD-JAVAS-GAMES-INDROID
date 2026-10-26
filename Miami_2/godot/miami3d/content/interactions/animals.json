@@ -1,0 +1,142 @@
+[
+  {
+    "id": "assustar",
+    "legacyId": 146,
+    "name": "@act.assustar",
+    "target": "object",
+    "animation": "assustar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 3
+      },
+      {
+        "stat": "mood",
+        "delta": 4
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "perturbar",
+    "legacyId": 147,
+    "name": "@act.perturbar",
+    "target": "object",
+    "animation": "perturbar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 3
+      },
+      {
+        "stat": "mood",
+        "delta": 4
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "alimentar",
+    "legacyId": 148,
+    "name": "@act.alimentar",
+    "target": "object",
+    "animation": "alimentar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 3
+      },
+      {
+        "stat": "mood",
+        "delta": 4
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "brigar",
+    "legacyId": 149,
+    "name": "@act.brigar",
+    "target": "object",
+    "animation": "brigar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 3
+      },
+      {
+        "stat": "mood",
+        "delta": 4
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "brincar",
+    "legacyId": 150,
+    "name": "@act.brincar",
+    "target": "object",
+    "animation": "brincar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 3
+      },
+      {
+        "stat": "mood",
+        "delta": 4
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "treinar_sentar",
+    "legacyId": 151,
+    "name": "@act.treinar_sentar",
+    "target": "object",
+    "animation": "treinar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 3
+      },
+      {
+        "stat": "mood",
+        "delta": 4
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "pet_shop_boy",
+    "legacyId": 153,
+    "name": "@act.pet_shop_boy",
+    "target": "object",
+    "animation": "pet",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "kindness",
+        "delta": 3
+      },
+      {
+        "stat": "mood",
+        "delta": 4
+      }
+    ],
+    "event": "used_object"
+  }
+]

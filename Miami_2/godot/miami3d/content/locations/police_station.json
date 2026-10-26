@@ -78,8 +78,33 @@
       "tag": "indoor"
     }
   ],
-  "objects": [],
-  "npcs": [],
-  "triggers": [],
-  "stub": true
+  "objects": [
+    {
+      "id": "cell_door",
+      "template": "cell_door",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "keys_1",
+      "template": "keys",
+      "cell": [
+        8,
+        3
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "npc": "inspector",
+      "schedule": "inspector_station"
+    },
+    {
+      "npc": "guard",
+      "schedule": "guard_station"
+    }
+  ],
+  "triggers": []
 }

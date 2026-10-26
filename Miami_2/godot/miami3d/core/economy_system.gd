@@ -15,13 +15,18 @@ var bail_half_after: int = 120
 var _days_in_jail: int = 0
 
 
-func setup(ev: MnEvents, stats_json: Dictionary = {}) -> void:
+func setup(ev: MnEvents, stats_json: Dictionary = {}, rent_json: Dictionary = {}) -> void:
 	events = ev
 	var bail: Dictionary = stats_json.get("bail", {})
 	bail_base = int(bail.get("base", 200))
 	bail_min = int(bail.get("min", 40))
 	bail_max = int(bail.get("max", 500))
 	bail_half_after = int(bail.get("halfAfterMinutes", 120))
+	if not rent_json.is_empty():
+		var apt: Dictionary = rent_json.get("apartment", {})
+		rent_per_week = int(apt.get("amount", rent_per_week))
+		var man: Dictionary = rent_json.get("mansion", {})
+		mansion_rent = int(man.get("amount", mansion_rent))
 
 
 func add_cash(n: int) -> void:

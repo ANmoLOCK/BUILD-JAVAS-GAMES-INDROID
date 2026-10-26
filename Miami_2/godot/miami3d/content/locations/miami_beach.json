@@ -55,7 +55,17 @@
       1
     ]
   ],
-  "portals": [],
+  "portals": [
+    {
+      "id": "to_south",
+      "cell": [
+        20,
+        25
+      ],
+      "to": "south_beach",
+      "spawn": "default"
+    }
+  ],
   "zones": [
     {
       "id": "main",
@@ -70,6 +80,5 @@
   ],
   "objects": [],
   "npcs": [],
-  "triggers": [],
-  "stub": true
+  "triggers": []
 }

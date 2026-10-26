@@ -55,7 +55,35 @@
       1
     ]
   ],
-  "portals": [],
+  "portals": [
+    {
+      "id": "to_ocean",
+      "cell": [
+        45,
+        20
+      ],
+      "to": "ocean_drive",
+      "spawn": "default"
+    },
+    {
+      "id": "to_cafe",
+      "cell": [
+        20,
+        15
+      ],
+      "to": "cuban_cafe",
+      "spawn": "default"
+    },
+    {
+      "id": "to_yuca",
+      "cell": [
+        30,
+        25
+      ],
+      "to": "yuca_restaurant",
+      "spawn": "default"
+    }
+  ],
   "zones": [
     {
       "id": "main",
@@ -70,6 +98,5 @@
   ],
   "objects": [],
   "npcs": [],
-  "triggers": [],
-  "stub": true
+  "triggers": []
 }

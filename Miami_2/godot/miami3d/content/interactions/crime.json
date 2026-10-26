@@ -1,0 +1,202 @@
+[
+  {
+    "id": "roubar_correspondencia",
+    "legacyId": 31,
+    "name": "@act.roubar_correspondencia",
+    "target": "object",
+    "animation": "roubar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 8
+      },
+      {
+        "stat": "mood",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "roubar_jornal",
+    "legacyId": 33,
+    "name": "@act.roubar_jornal",
+    "target": "object",
+    "animation": "roubar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 8
+      },
+      {
+        "stat": "mood",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "roubar_dinheiro",
+    "legacyId": 34,
+    "name": "@act.roubar_dinheiro",
+    "target": "object",
+    "animation": "roubar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 8
+      },
+      {
+        "stat": "mood",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "comer_lixo",
+    "legacyId": 40,
+    "name": "@act.comer_lixo",
+    "target": "object",
+    "animation": "comer",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 8
+      },
+      {
+        "stat": "mood",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "cavar",
+    "legacyId": 46,
+    "name": "@act.cavar",
+    "target": "object",
+    "animation": "cavar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 8
+      },
+      {
+        "stat": "mood",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "roubar",
+    "legacyId": 57,
+    "name": "@act.roubar",
+    "target": "object",
+    "animation": "roubar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 8
+      },
+      {
+        "stat": "mood",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "corromper",
+    "legacyId": 58,
+    "name": "@act.corromper",
+    "target": "object",
+    "animation": "corromper",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 8
+      },
+      {
+        "stat": "mood",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "vandalizar",
+    "legacyId": 59,
+    "name": "@act.vandalizar",
+    "target": "object",
+    "animation": "vandalizar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 8
+      },
+      {
+        "stat": "mood",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "roubar_chaves",
+    "legacyId": 104,
+    "name": "@act.roubar_chaves",
+    "target": "object",
+    "animation": "roubar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 8
+      },
+      {
+        "stat": "mood",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "fazer_grafite",
+    "legacyId": 140,
+    "name": "@act.fazer_grafite",
+    "target": "object",
+    "animation": "fazer",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 8
+      },
+      {
+        "stat": "mood",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  }
+]

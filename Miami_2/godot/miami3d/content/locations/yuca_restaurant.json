@@ -55,7 +55,17 @@
       1
     ]
   ],
-  "portals": [],
+  "portals": [
+    {
+      "id": "exit",
+      "cell": [
+        9,
+        12
+      ],
+      "to": "ocean_drive",
+      "spawn": "default"
+    }
+  ],
   "zones": [
     {
       "id": "main",
@@ -68,8 +78,29 @@
       "tag": "indoor"
     }
   ],
-  "objects": [],
-  "npcs": [],
-  "triggers": [],
-  "stub": true
+  "objects": [
+    {
+      "id": "pizza_counter",
+      "template": "pizza",
+      "cell": [
+        6,
+        6
+      ]
+    },
+    {
+      "id": "food_1",
+      "template": "food",
+      "cell": [
+        8,
+        6
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "npc": "hal_pachinko",
+      "schedule": "hal_restaurant"
+    }
+  ],
+  "triggers": []
 }

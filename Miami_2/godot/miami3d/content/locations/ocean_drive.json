@@ -55,7 +55,35 @@
       1
     ]
   ],
-  "portals": [],
+  "portals": [
+    {
+      "id": "to_south",
+      "cell": [
+        50,
+        20
+      ],
+      "to": "south_beach",
+      "spawn": "default"
+    },
+    {
+      "id": "to_yuca",
+      "cell": [
+        20,
+        15
+      ],
+      "to": "yuca_restaurant",
+      "spawn": "default"
+    },
+    {
+      "id": "to_little",
+      "cell": [
+        10,
+        20
+      ],
+      "to": "little_havana",
+      "spawn": "default"
+    }
+  ],
   "zones": [
     {
       "id": "main",
@@ -70,6 +98,5 @@
   ],
   "objects": [],
   "npcs": [],
-  "triggers": [],
-  "stub": true
+  "triggers": []
 }

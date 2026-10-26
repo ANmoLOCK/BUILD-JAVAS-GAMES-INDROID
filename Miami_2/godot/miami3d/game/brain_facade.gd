@@ -183,6 +183,18 @@ func get_all_locations() -> Dictionary:
 	return content.locations if is_native else backend.content.locations
 
 
+func get_regions() -> Dictionary:
+	_ensure_content()
+	return content.regions
+
+
+func get_content_summary() -> Dictionary:
+	_ensure_content()
+	if content.has_method("summary"):
+		return content.summary()
+	return {}
+
+
 func _ensure_content() -> void:
 	if content != null:
 		return

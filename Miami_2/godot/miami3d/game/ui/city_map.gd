@@ -1,28 +1,11 @@
 class_name MnCityMap
 extends Control
-## Mapa da cidade: 9 regiões / locais desbloqueados.
+## Mapa da cidade: 9 regiões a partir de content/regions.json.
 
 signal travel(location_id: String)
 signal closed
 
 @onready var list: VBoxContainer = $Panel/VBox/List
-
-const REGION_ORDER := [
-	"downtown", "south_beach", "little_havana", "ocean_drive",
-	"coconut_grove", "miami_beach", "pelican_island", "key_biscayne", "everglades",
-]
-
-const REGION_NAMES := {
-	"downtown": "Downtown",
-	"south_beach": "South Beach",
-	"little_havana": "Little Havana",
-	"ocean_drive": "Ocean Drive",
-	"coconut_grove": "Coconut Grove",
-	"miami_beach": "Miami Beach / Light House",
-	"pelican_island": "Pelican Island",
-	"key_biscayne": "Key Biscayne",
-	"everglades": "Everglades",
-}
 
 
 func _ready() -> void:
@@ -34,42 +17,50 @@ func open() -> void:
 	for c in list.get_children():
 		c.queue_free()
 	var locs: Dictionary = Bootstrap.game.get_all_locations()
-	var by_region: Dictionary = {}
-	for id in locs.keys():
-		var def: Dictionary = locs[id]
-		var region := str(def.get("region", "downtown"))
-		if not by_region.has(region):
-			by_region[region] = []
-		by_region[region].append(id)
-	for region in REGION_ORDER:
-		if not by_region.has(region):
-			continue
+	var regions_doc: Dictionary = Bootstrap.game.get_regions()
+	var regions: Array = regions_doc.get("regions", [])
+	if regions.is_empty():
+		_fallback_flat(locs)
+		return
+	var listed: Dictionary = {}
+	for r in regions:
 		var header := Label.new()
-		header.text = "— " + str(REGION_NAMES.get(region, region)) + " —"
+		header.text = "— " + Bootstrap.game.resolve_text(str(r.get("name", r.get("id", "")))) + " —"
 		list.add_child(header)
-		var ids: Array = by_region[region]
-		ids.sort()
-		for id in ids:
+		for id in r.get("locations", []):
+			listed[id] = true
+			if not locs.has(id):
+				continue
 			var def: Dictionary = locs[id]
 			var btn := Button.new()
 			btn.text = Bootstrap.game.resolve_text(str(def.get("name", id)))
 			btn.disabled = (id == Bootstrap.game.get_location())
-			btn.pressed.connect(_go.bind(id))
+			btn.pressed.connect(_go.bind(str(id)))
 			list.add_child(btn)
-	# regiões extras não listadas
-	for region in by_region.keys():
-		if region in REGION_ORDER:
+	for id in locs.keys():
+		if listed.has(id):
 			continue
-		var header2 := Label.new()
-		header2.text = "— " + str(region) + " —"
-		list.add_child(header2)
-		for id in by_region[region]:
-			var def2: Dictionary = locs[id]
-			var btn2 := Button.new()
-			btn2.text = Bootstrap.game.resolve_text(str(def2.get("name", id)))
-			btn2.disabled = (id == Bootstrap.game.get_location())
-			btn2.pressed.connect(_go.bind(id))
-			list.add_child(btn2)
+		var def2: Dictionary = locs[id]
+		var btn2 := Button.new()
+		btn2.text = Bootstrap.game.resolve_text(str(def2.get("name", id)))
+		btn2.disabled = (id == Bootstrap.game.get_location())
+		btn2.pressed.connect(_go.bind(str(id)))
+		list.add_child(btn2)
+	_add_close()
+
+
+func _fallback_flat(locs: Dictionary) -> void:
+	for id in locs.keys():
+		var def: Dictionary = locs[id]
+		var btn := Button.new()
+		btn.text = Bootstrap.game.resolve_text(str(def.get("name", id)))
+		btn.disabled = (id == Bootstrap.game.get_location())
+		btn.pressed.connect(_go.bind(str(id)))
+		list.add_child(btn)
+	_add_close()
+
+
+func _add_close() -> void:
 	var close_btn := Button.new()
 	close_btn.text = "Fechar"
 	close_btn.pressed.connect(func(): visible = false; closed.emit())
