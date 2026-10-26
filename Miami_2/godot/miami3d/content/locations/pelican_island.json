@@ -55,7 +55,26 @@
       1
     ]
   ],
-  "portals": [],
+  "portals": [
+    {
+      "id": "to_port",
+      "cell": [
+        18,
+        12
+      ],
+      "to": "pelican_port",
+      "spawn": "default"
+    },
+    {
+      "id": "to_yacht",
+      "cell": [
+        20,
+        20
+      ],
+      "to": "yacht",
+      "spawn": "default"
+    }
+  ],
   "zones": [
     {
       "id": "main",
@@ -70,6 +89,5 @@
   ],
   "objects": [],
   "npcs": [],
-  "triggers": [],
-  "stub": true
+  "triggers": []
 }

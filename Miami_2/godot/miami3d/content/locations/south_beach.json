@@ -55,21 +55,65 @@
       1
     ]
   ],
-  "portals": [],
-  "zones": [
+  "portals": [
     {
-      "id": "main",
-      "rect": [
-        2,
-        2,
-        44,
-        36
+      "id": "to_ocean",
+      "cell": [
+        5,
+        20
       ],
-      "tag": "custom"
+      "to": "ocean_drive",
+      "spawn": "default"
+    },
+    {
+      "id": "to_miami_beach",
+      "cell": [
+        40,
+        5
+      ],
+      "to": "miami_beach",
+      "spawn": "default"
     }
   ],
-  "objects": [],
-  "npcs": [],
-  "triggers": [],
-  "stub": true
+  "zones": [
+    {
+      "id": "sand",
+      "rect": [
+        5,
+        5,
+        35,
+        25
+      ],
+      "tag": "beach"
+    }
+  ],
+  "objects": [
+    {
+      "id": "lounger_1",
+      "template": "sun_lounger",
+      "cell": [
+        12,
+        14
+      ]
+    },
+    {
+      "id": "sand_1",
+      "template": "beach_sand",
+      "cell": [
+        20,
+        18
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "npc": "huggy",
+      "schedule": "huggy_beach"
+    },
+    {
+      "generic": true,
+      "count": 8
+    }
+  ],
+  "triggers": []
 }

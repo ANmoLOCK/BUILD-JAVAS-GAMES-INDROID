@@ -1,0 +1,193 @@
+[
+  {
+    "id": "talk_topic",
+    "name": "@act.talk_topic",
+    "target": "npc",
+    "menu": "talk",
+    "animation": "talk",
+    "durationMinutes": 3,
+    "relationship": {
+      "friendship": 2,
+      "mood": 2
+    },
+    "event": "talked_to"
+  },
+  {
+    "id": "talk_joke",
+    "name": "@act.talk_joke",
+    "target": "npc",
+    "menu": "talk",
+    "animation": "talk",
+    "durationMinutes": 2,
+    "relationship": {
+      "friendship": 3,
+      "mood": 5
+    },
+    "event": "talked_to"
+  },
+  {
+    "id": "talk_talent",
+    "name": "@act.talk_talent",
+    "target": "npc",
+    "menu": "talk",
+    "animation": "talk",
+    "durationMinutes": 3,
+    "relationship": {
+      "friendship": 2,
+      "mood": 3
+    },
+    "event": "talked_to"
+  },
+  {
+    "id": "offer_gift",
+    "name": "@act.offer_gift",
+    "target": "npc",
+    "menu": "offer",
+    "animation": "give",
+    "durationMinutes": 2,
+    "relationship": {
+      "friendship": 5,
+      "romance": 2
+    },
+    "event": "gift_given"
+  },
+  {
+    "id": "offer_trade",
+    "name": "@act.offer_trade",
+    "target": "npc",
+    "menu": "offer",
+    "animation": "give",
+    "durationMinutes": 3,
+    "event": "traded"
+  },
+  {
+    "id": "flirt_cheek",
+    "name": "@act.flirt_cheek",
+    "target": "npc",
+    "menu": "flirt",
+    "animation": "kiss",
+    "durationMinutes": 2,
+    "requires": {
+      "friendshipLevel": {
+        ">=": 1
+      }
+    },
+    "relationship": {
+      "romance": 6,
+      "mood": 4
+    },
+    "event": "flirted"
+  },
+  {
+    "id": "flirt_kiss_lips",
+    "name": "@act.flirt_kiss_lips",
+    "target": "npc",
+    "menu": "flirt",
+    "animation": "kiss",
+    "durationMinutes": 3,
+    "requires": {
+      "friendshipLevel": {
+        ">=": 2
+      }
+    },
+    "relationship": {
+      "romance": 12,
+      "mood": 6
+    },
+    "event": "flirted"
+  },
+  {
+    "id": "flirt_makeout",
+    "name": "@act.flirt_makeout",
+    "target": "npc",
+    "menu": "flirt",
+    "animation": "kiss",
+    "durationMinutes": 10,
+    "requires": {
+      "romance": {
+        ">=": 40
+      }
+    },
+    "relationship": {
+      "romance": 18
+    },
+    "event": "flirted"
+  },
+  {
+    "id": "flirt_date",
+    "name": "@act.flirt_date",
+    "target": "npc",
+    "menu": "flirt",
+    "animation": "talk",
+    "durationMinutes": 5,
+    "requires": {
+      "romance": {
+        ">=": 25
+      }
+    },
+    "event": "date_asked"
+  },
+  {
+    "id": "offend_insult",
+    "name": "@act.offend_insult",
+    "target": "npc",
+    "menu": "offend",
+    "animation": "talk",
+    "durationMinutes": 2,
+    "relationship": {
+      "friendship": -8,
+      "mood": -10
+    },
+    "event": "offended"
+  },
+  {
+    "id": "offend_fight",
+    "name": "@act.offend_fight",
+    "target": "npc",
+    "menu": "offend",
+    "animation": "fight",
+    "durationMinutes": 5,
+    "relationship": {
+      "friendship": -20,
+      "mood": -15
+    },
+    "effects": [
+      {
+        "stat": "crime",
+        "delta": 5
+      }
+    ],
+    "event": "fought"
+  },
+  {
+    "id": "offend_prank",
+    "name": "@act.offend_prank",
+    "target": "npc",
+    "menu": "offend",
+    "animation": "talk",
+    "durationMinutes": 3,
+    "relationship": {
+      "friendship": -4,
+      "mood": -5
+    },
+    "effects": [
+      {
+        "stat": "craziness",
+        "delta": 5
+      }
+    ],
+    "event": "offended"
+  },
+  {
+    "id": "offend_lie",
+    "name": "@act.offend_lie",
+    "target": "npc",
+    "menu": "offend",
+    "animation": "talk",
+    "durationMinutes": 2,
+    "relationship": {
+      "friendship": -6
+    },
+    "event": "offended"
+  }
+]

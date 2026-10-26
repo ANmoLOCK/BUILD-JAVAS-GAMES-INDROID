@@ -36,7 +36,7 @@ func boot(content_dir: String = "res://content", save_dir: String = "user://save
 	time.setup(events, content.stats)
 	world.setup(events)
 	inventory.setup(events)
-	economy.setup(events, content.stats)
+	economy.setup(events, content.stats, content.rent)
 	relationships.setup(events)
 	dating.setup(events)
 	dialogue.setup(events, self)

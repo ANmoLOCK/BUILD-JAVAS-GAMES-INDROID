@@ -14,6 +14,14 @@ func _ready() -> void:
 	else:
 		var mode := "C++" if game.is_native else "GDScript"
 		print("[Bootstrap] cérebro %s pronto — local default após new_game" % mode)
+		var summary: Dictionary = game.get_content_summary() if game.has_method("get_content_summary") else {}
+		if not summary.is_empty():
+			print("[Bootstrap] pack %s v%s — locs=%s npcs=%s items=%s acts=%s quests=%s jobs=%s" % [
+				summary.get("pack", "?"), summary.get("version", "?"),
+				summary.get("locations", 0), summary.get("npcs", 0),
+				summary.get("items", 0), summary.get("interactions", 0),
+				summary.get("quests", 0), summary.get("jobs", 0),
+			])
 
 
 func _process(delta: float) -> void:

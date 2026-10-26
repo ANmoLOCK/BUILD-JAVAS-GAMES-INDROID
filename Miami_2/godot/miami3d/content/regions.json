@@ -1,0 +1,85 @@
+{
+  "id": "city_map",
+  "regions": [
+    {
+      "id": "downtown",
+      "name": "@region.downtown",
+      "locations": [
+        "first_street",
+        "downtown",
+        "police_station",
+        "glight_club",
+        "newspaper_office",
+        "stadium",
+        "beauty_clinic",
+        "player_apartment",
+        "heather_dean_apartment",
+        "npc_apartment",
+        "apartment_garden"
+      ]
+    },
+    {
+      "id": "south_beach",
+      "name": "@region.south_beach",
+      "locations": [
+        "south_beach"
+      ]
+    },
+    {
+      "id": "little_havana",
+      "name": "@region.little_havana",
+      "locations": [
+        "little_havana",
+        "cuban_cafe",
+        "yuca_restaurant"
+      ]
+    },
+    {
+      "id": "ocean_drive",
+      "name": "@region.ocean_drive",
+      "locations": [
+        "ocean_drive"
+      ]
+    },
+    {
+      "id": "coconut_grove",
+      "name": "@region.coconut_grove",
+      "locations": [
+        "coconut_grove",
+        "grand_avenue",
+        "lounge"
+      ]
+    },
+    {
+      "id": "miami_beach",
+      "name": "@region.miami_beach",
+      "locations": [
+        "miami_beach"
+      ]
+    },
+    {
+      "id": "pelican_island",
+      "name": "@region.pelican_island",
+      "locations": [
+        "pelican_island",
+        "pelican_port",
+        "yacht"
+      ]
+    },
+    {
+      "id": "key_biscayne",
+      "name": "@region.key_biscayne",
+      "locations": [
+        "key_biscayne",
+        "mansion"
+      ]
+    },
+    {
+      "id": "everglades",
+      "name": "@region.everglades",
+      "locations": [
+        "everglades"
+      ]
+    }
+  ]
+}

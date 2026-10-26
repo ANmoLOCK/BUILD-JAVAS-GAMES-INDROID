@@ -1,0 +1,43 @@
+{
+  "id": "butcher",
+  "slot": 87,
+  "name": "@npc.butcher",
+  "displayName": "Açougueiro",
+  "gender": "m",
+  "appearance": [
+    0,
+    2,
+    3,
+    3,
+    6,
+    3,
+    5,
+    3,
+    2,
+    3
+  ],
+  "likes": [
+    "food",
+    "meat",
+    "money"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "butcher_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": false,
+  "home": "little_havana",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

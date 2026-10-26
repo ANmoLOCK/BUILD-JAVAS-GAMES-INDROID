@@ -1,0 +1,43 @@
+{
+  "id": "xavier",
+  "slot": 90,
+  "name": "@npc.xavier",
+  "displayName": "Xavier",
+  "gender": "m",
+  "appearance": [
+    0,
+    0,
+    0,
+    2,
+    4,
+    0,
+    6,
+    0,
+    0,
+    2
+  ],
+  "likes": [
+    "luxury",
+    "art",
+    "parties"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "xavier_default",
+  "greetings": "@greet.default",
+  "dateable": true,
+  "roommateable": true,
+  "essential": true,
+  "home": "mansion",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

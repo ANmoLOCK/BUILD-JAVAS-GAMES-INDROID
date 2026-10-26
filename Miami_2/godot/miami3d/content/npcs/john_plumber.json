@@ -1,0 +1,43 @@
+{
+  "id": "john_plumber",
+  "slot": 85,
+  "name": "@npc.john_plumber",
+  "displayName": "John",
+  "gender": "m",
+  "appearance": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    1,
+    7,
+    1,
+    0,
+    1
+  ],
+  "likes": [
+    "plumbing",
+    "work",
+    "coffee"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "john_plumber_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "player_apartment",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

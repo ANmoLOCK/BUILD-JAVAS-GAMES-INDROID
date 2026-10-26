@@ -55,7 +55,26 @@
       1
     ]
   ],
-  "portals": [],
+  "portals": [
+    {
+      "id": "to_grove",
+      "cell": [
+        30,
+        25
+      ],
+      "to": "coconut_grove",
+      "spawn": "default"
+    },
+    {
+      "id": "to_lounge",
+      "cell": [
+        40,
+        20
+      ],
+      "to": "lounge",
+      "spawn": "default"
+    }
+  ],
   "zones": [
     {
       "id": "main",
@@ -70,6 +89,5 @@
   ],
   "objects": [],
   "npcs": [],
-  "triggers": [],
-  "stub": true
+  "triggers": []
 }

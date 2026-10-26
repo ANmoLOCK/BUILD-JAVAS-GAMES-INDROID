@@ -1,0 +1,43 @@
+{
+  "id": "scott",
+  "slot": 5,
+  "name": "@npc.scott",
+  "displayName": "Scott",
+  "gender": "m",
+  "appearance": [
+    0,
+    0,
+    5,
+    1,
+    2,
+    5,
+    7,
+    5,
+    0,
+    1
+  ],
+  "likes": [
+    "parties",
+    "dogs",
+    "jokes"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "scott_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "npc_apartment",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

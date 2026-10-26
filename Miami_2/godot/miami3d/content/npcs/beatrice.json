@@ -1,0 +1,43 @@
+{
+  "id": "beatrice",
+  "slot": 9,
+  "name": "@npc.beatrice",
+  "displayName": "Beatrice",
+  "gender": "f",
+  "appearance": [
+    1,
+    4,
+    3,
+    1,
+    2,
+    3,
+    3,
+    3,
+    4,
+    1
+  ],
+  "likes": [
+    "dogs",
+    "kindness",
+    "family"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "beatrice_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "ocean_drive",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

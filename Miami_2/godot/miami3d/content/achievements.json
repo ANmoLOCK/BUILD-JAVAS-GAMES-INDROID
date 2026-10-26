@@ -1,0 +1,119 @@
+{
+  "id": "achievements",
+  "items": [
+    {
+      "id": "bronze_medallion",
+      "name": "@ach.bronze_medallion",
+      "title": "Bronze Medallion",
+      "order": 0
+    },
+    {
+      "id": "silver_medallion",
+      "name": "@ach.silver_medallion",
+      "title": "Silver Medallion",
+      "order": 1
+    },
+    {
+      "id": "gold_medallion",
+      "name": "@ach.gold_medallion",
+      "title": "Gold Medallion",
+      "order": 2
+    },
+    {
+      "id": "extra",
+      "name": "@ach.extra",
+      "title": "Figurante",
+      "order": 3
+    },
+    {
+      "id": "bartender",
+      "name": "@ach.bartender",
+      "title": "Bartender",
+      "order": 4
+    },
+    {
+      "id": "ad_assistant",
+      "name": "@ach.ad_assistant",
+      "title": "Assistente de Publicidade",
+      "order": 5
+    },
+    {
+      "id": "gnome_lover",
+      "name": "@ach.gnome_lover",
+      "title": "Anão Apaixonado",
+      "order": 6
+    },
+    {
+      "id": "gnome_beach",
+      "name": "@ach.gnome_beach",
+      "title": "Anão de Praia",
+      "order": 7
+    },
+    {
+      "id": "gnome_gourmet",
+      "name": "@ach.gnome_gourmet",
+      "title": "Anão Gourmet",
+      "order": 8
+    },
+    {
+      "id": "gnome_police",
+      "name": "@ach.gnome_police",
+      "title": "Anão Policial",
+      "order": 9
+    },
+    {
+      "id": "gnome_fashion",
+      "name": "@ach.gnome_fashion",
+      "title": "Anão Fashion",
+      "order": 10
+    },
+    {
+      "id": "gnome_degubas",
+      "name": "@ach.gnome_degubas",
+      "title": "Anão Degubas",
+      "order": 11
+    },
+    {
+      "id": "gnome_security",
+      "name": "@ach.gnome_security",
+      "title": "Anão de Segurança",
+      "order": 12
+    },
+    {
+      "id": "black_skull",
+      "name": "@ach.black_skull",
+      "title": "Black Skull",
+      "order": 13
+    },
+    {
+      "id": "delivery",
+      "name": "@ach.delivery",
+      "title": "Entregador",
+      "order": 14
+    },
+    {
+      "id": "model_agent",
+      "name": "@ach.model_agent",
+      "title": "Agenciador de Modelos",
+      "order": 15
+    },
+    {
+      "id": "dj",
+      "name": "@ach.dj",
+      "title": "DJ",
+      "order": 16
+    },
+    {
+      "id": "private_eye",
+      "name": "@ach.private_eye",
+      "title": "Detetive Particular",
+      "order": 17
+    },
+    {
+      "id": "mafia_boss",
+      "name": "@ach.mafia_boss",
+      "title": "Chefão da Máfia",
+      "order": 18
+    }
+  ]
+}

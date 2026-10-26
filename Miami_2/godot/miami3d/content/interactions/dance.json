@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dancar_techno",
+    "legacyId": 70,
+    "name": "@act.dancar_techno",
+    "target": "object",
+    "animation": "dancar",
+    "durationMinutes": 30,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "dance",
+        "delta": 5
+      },
+      {
+        "stat": "fitness",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "dancar_salsa",
+    "legacyId": 71,
+    "name": "@act.dancar_salsa",
+    "target": "object",
+    "animation": "dancar",
+    "durationMinutes": 30,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "dance",
+        "delta": 5
+      },
+      {
+        "stat": "fitness",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "dancar_pop",
+    "legacyId": 72,
+    "name": "@act.dancar_pop",
+    "target": "object",
+    "animation": "dancar",
+    "durationMinutes": 30,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "dance",
+        "delta": 5
+      },
+      {
+        "stat": "fitness",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "dancar_metal",
+    "legacyId": 73,
+    "name": "@act.dancar_metal",
+    "target": "object",
+    "animation": "dancar",
+    "durationMinutes": 30,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "dance",
+        "delta": 5
+      },
+      {
+        "stat": "fitness",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "pet_shop_boy",
+  "slot": 89,
+  "name": "@npc.pet_shop_boy",
+  "displayName": "Pet Shop Boy",
+  "gender": "m",
+  "appearance": [
+    0,
+    4,
+    5,
+    1,
+    2,
+    5,
+    3,
+    5,
+    4,
+    1
+  ],
+  "likes": [
+    "pets",
+    "dogs",
+    "sales"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "pet_shop_boy_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "coconut_grove",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

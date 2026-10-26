@@ -1,0 +1,43 @@
+{
+  "id": "coco",
+  "slot": 86,
+  "name": "@npc.coco",
+  "displayName": "Coco",
+  "gender": "f",
+  "appearance": [
+    1,
+    1,
+    2,
+    2,
+    4,
+    2,
+    2,
+    2,
+    1,
+    2
+  ],
+  "likes": [
+    "vitamins",
+    "health",
+    "sales"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "coco_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "ocean_drive",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

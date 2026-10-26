@@ -1,0 +1,442 @@
+[
+  {
+    "id": "cafe",
+    "legacyId": 42,
+    "name": "@act.cafe",
+    "target": "object",
+    "animation": "cafe",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "comer",
+    "legacyId": 43,
+    "name": "@act.comer",
+    "target": "object",
+    "animation": "comer",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "bebida_especial",
+    "legacyId": 44,
+    "name": "@act.bebida_especial",
+    "target": "object",
+    "animation": "bebida",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "vitamina",
+    "legacyId": 45,
+    "name": "@act.vitamina",
+    "target": "object",
+    "animation": "vitamina",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "suco_de_frutas",
+    "legacyId": 47,
+    "name": "@act.suco_de_frutas",
+    "target": "object",
+    "animation": "suco",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "hamburguer",
+    "legacyId": 66,
+    "name": "@act.hamburguer",
+    "target": "object",
+    "animation": "hamburguer",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "salada",
+    "legacyId": 67,
+    "name": "@act.salada",
+    "target": "object",
+    "animation": "salada",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "sorvete",
+    "legacyId": 68,
+    "name": "@act.sorvete",
+    "target": "object",
+    "animation": "sorvete",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "cappuccino",
+    "legacyId": 82,
+    "name": "@act.cappuccino",
+    "target": "object",
+    "animation": "cappuccino",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "cha",
+    "legacyId": 83,
+    "name": "@act.cha",
+    "target": "object",
+    "animation": "cha",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "torta_de_maca",
+    "legacyId": 84,
+    "name": "@act.torta_de_maca",
+    "target": "object",
+    "animation": "torta",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "pizza",
+    "legacyId": 85,
+    "name": "@act.pizza",
+    "target": "object",
+    "animation": "pizza",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "fruta",
+    "legacyId": 86,
+    "name": "@act.fruta",
+    "target": "object",
+    "animation": "fruta",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "leite",
+    "legacyId": 87,
+    "name": "@act.leite",
+    "target": "object",
+    "animation": "leite",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "sorvete_de_creme",
+    "legacyId": 124,
+    "name": "@act.sorvete_de_creme",
+    "target": "object",
+    "animation": "sorvete",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "sorvete_de_morango",
+    "legacyId": 125,
+    "name": "@act.sorvete_de_morango",
+    "target": "object",
+    "animation": "sorvete",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "sorvete_de_baunilha",
+    "legacyId": 126,
+    "name": "@act.sorvete_de_baunilha",
+    "target": "object",
+    "animation": "sorvete",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "sorvete_de_caramelo",
+    "legacyId": 127,
+    "name": "@act.sorvete_de_caramelo",
+    "target": "object",
+    "animation": "sorvete",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "presunto_defumado",
+    "legacyId": 128,
+    "name": "@act.presunto_defumado",
+    "target": "object",
+    "animation": "presunto",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "bebida_espanhola",
+    "legacyId": 129,
+    "name": "@act.bebida_espanhola",
+    "target": "object",
+    "animation": "bebida",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "queijo_frances",
+    "legacyId": 130,
+    "name": "@act.queijo_frances",
+    "target": "object",
+    "animation": "queijo",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "sushi",
+    "legacyId": 131,
+    "name": "@act.sushi",
+    "target": "object",
+    "animation": "sushi",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -20
+      },
+      {
+        "stat": "bladder",
+        "delta": 5
+      }
+    ],
+    "event": "used_object"
+  }
+]

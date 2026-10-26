@@ -60,10 +60,28 @@
       "id": "to_first",
       "cell": [
         25,
-        20
+        25
       ],
       "to": "first_street",
       "spawn": "from_apartment"
+    },
+    {
+      "id": "to_stadium",
+      "cell": [
+        40,
+        20
+      ],
+      "to": "stadium",
+      "spawn": "default"
+    },
+    {
+      "id": "to_clinic",
+      "cell": [
+        30,
+        30
+      ],
+      "to": "beauty_clinic",
+      "spawn": "default"
     }
   ],
   "zones": [
@@ -80,6 +98,5 @@
   ],
   "objects": [],
   "npcs": [],
-  "triggers": [],
-  "stub": true
+  "triggers": []
 }

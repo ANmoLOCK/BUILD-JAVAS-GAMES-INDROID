@@ -1,0 +1,496 @@
+[
+  {
+    "id": "q080_nos_voltaremos",
+    "legacyId": 80,
+    "sender": "Tira",
+    "title": "@q080.title",
+    "text": "@q080.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q080.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q080_nos_voltaremos"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q081_pequeno_desvio",
+    "legacyId": 81,
+    "sender": "Scott",
+    "title": "@q081.title",
+    "text": "@q081.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q081.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q081_pequeno_desvio"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q082_me_covide_para_dancar",
+    "legacyId": 82,
+    "sender": "Charm",
+    "title": "@q082.title",
+    "text": "@q082.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q082.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q082_me_covide_para_dancar"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q083_presente",
+    "legacyId": 83,
+    "sender": "Scott",
+    "title": "@q083.title",
+    "text": "@q083.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q083.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q083_presente"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q084_dar_um_mergulho",
+    "legacyId": 84,
+    "sender": "Scott",
+    "title": "@q084.title",
+    "text": "@q084.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q084.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q084_dar_um_mergulho"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q085_flores",
+    "legacyId": 85,
+    "sender": "Opal",
+    "title": "@q085.title",
+    "text": "@q085.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q085.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q085_flores"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q086_mansao",
+    "legacyId": 86,
+    "sender": "Elizabeth",
+    "title": "@q086.title",
+    "text": "@q086.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q086.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q086_mansao"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q087_visitas",
+    "legacyId": 87,
+    "sender": "Elizabeth",
+    "title": "@q087.title",
+    "text": "@q087.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q087.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q087_visitas"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q088_corte_de_cabelo",
+    "legacyId": 88,
+    "sender": "Nik e Took",
+    "title": "@q088.title",
+    "text": "@q088.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q088.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q088_corte_de_cabelo"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q089_caca_ao_tesouro",
+    "legacyId": 89,
+    "sender": "Capitão",
+    "title": "@q089.title",
+    "text": "@q089.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q089.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q089_caca_ao_tesouro"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q090_caca_ao_tesouro",
+    "legacyId": 90,
+    "sender": "Capitão",
+    "title": "@q090.title",
+    "text": "@q090.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q090.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q090_caca_ao_tesouro"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q091_sua_propria_historia",
+    "legacyId": 91,
+    "sender": "MN2",
+    "title": "@q091.title",
+    "text": "@q091.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q091.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q091_sua_propria_historia"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q092_1_000",
+    "legacyId": 92,
+    "sender": "DJ",
+    "title": "@q092.title",
+    "text": "@q092.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q092.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q092_1_000"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q093_500",
+    "legacyId": 93,
+    "sender": "Segurança",
+    "title": "@q093.title",
+    "text": "@q093.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q093.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q093_500"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q094_fique_mais_sexy",
+    "legacyId": 94,
+    "sender": "Heather",
+    "title": "@q094.title",
+    "text": "@q094.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q094.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q094_fique_mais_sexy"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q095_pequeno_desvio",
+    "legacyId": 95,
+    "sender": "Transeunte",
+    "title": "@q095.title",
+    "text": "@q095.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q095.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q095_pequeno_desvio"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q096_dar_um_mergulho",
+    "legacyId": 96,
+    "sender": "Transeunte",
+    "title": "@q096.title",
+    "text": "@q096.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q096.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q096_dar_um_mergulho"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q097_recompensa_pelos_anoes",
+    "legacyId": 97,
+    "sender": "Proprietário",
+    "title": "@q097.title",
+    "text": "@q097.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q097.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q097_recompensa_pelos_anoes"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q098_sinta_se_em_casa",
+    "legacyId": 98,
+    "sender": "Scott",
+    "title": "@q098.title",
+    "text": "@q098.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q098.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q098_sinta_se_em_casa"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  }
+]
