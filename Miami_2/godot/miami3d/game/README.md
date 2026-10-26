@@ -23,7 +23,8 @@ game/
 
 **Regra:** não coloque lógica de stats/missões aqui — chame `Bootstrap.game` (comandos) e deixe o `MnEventBridge` reagir aos sinais.
 **Contrato:** ver `../core/EVENT_CONTRACT.md`.
-**Fases:** cenas específicas de fase vão em `phases/<letra>_*/`; sistemas genéricos ficam acima.
+**Fases:** ver `phases/README.md` e `content/phases.json`. Locais cumulativos; sistemas com `min_phase`.
+Troque `miami/phase` no `project.godot` (a…g) ou chame `Bootstrap.game.set_phase("d")`.
 
 ## Fluxo de execução
 

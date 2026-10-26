@@ -1,10 +1,11 @@
 extends Control
-## HUD Fase A: 4 necessidades + relógio + dinheiro.
+## HUD: 4 necessidades + relógio + dinheiro + fase.
 
 var game: BrainFacade
 @onready var clock: Label = $Clock
 @onready var money: Label = $Money
 @onready var bars: Dictionary = {}
+var phase_l: Label
 
 
 func _ready() -> void:
@@ -18,6 +19,12 @@ func setup(g: BrainFacade) -> void:
 	game = g
 	g.connect_signal("minute_tick", func(_m, _d): refresh())
 	g.connect_signal("money_changed", func(_c, _b): refresh())
+	if phase_l == null:
+		phase_l = Label.new()
+		phase_l.name = "Phase"
+		phase_l.position = Vector2(0, -22)
+		phase_l.add_theme_font_size_override("font_size", 12)
+		add_child(phase_l)
 	_attach_icons()
 	refresh()
 
@@ -51,6 +58,9 @@ func refresh() -> void:
 		return
 	clock.text = "Dia %d  %02d:%02d" % [game.get_day(), game.get_hour(), game.get_minute_of_day() % 60]
 	money.text = "$%d" % game.get_cash()
+	if phase_l:
+		var p := game.get_phase() if game.has_method("get_phase") else "?"
+		phase_l.text = game.resolve_text("@phase.%s" % p) if game.has_method("resolve_text") else ("Fase " + p.to_upper())
 	for id in bars.keys():
 		var bar: ProgressBar = bars[id]
 		bar.value = game.get_stat(id)

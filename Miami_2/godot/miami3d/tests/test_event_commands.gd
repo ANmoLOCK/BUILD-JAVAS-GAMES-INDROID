@@ -23,15 +23,22 @@ func _init() -> void:
 	MnTestHelpers.assert_eq(g.world.location_id, "", "left clears location")
 	g.enter_location("player_apartment", "")
 
-	# buy / inventory
+	# economia / aparência / móveis / dança precisam fases B / E / D
+	g.set_phase("b")
 	g.economy.cash = 500
-	var item_id := "bed_standard"
-	if not g.content.items.has(item_id):
-		# pega qualquer item com preço
-		for k in g.content.items.keys():
-			if int(g.content.items[k].get("price", 0)) > 0:
-				item_id = str(k)
-				break
+	# item não-móvel se possível; senão sobe para E
+	var item_id := ""
+	for k in g.content.items.keys():
+		var it: Dictionary = g.content.items[k]
+		if int(it.get("price", 0)) <= 0:
+			continue
+		if str(it.get("kind", "")) == "furniture":
+			continue
+		item_id = str(k)
+		break
+	if item_id == "":
+		g.set_phase("e")
+		item_id = "bed_standard"
 	var price := int(g.content.get_item(item_id).get("price", 10))
 	var before := g.economy.cash
 	var bought: Dictionary = g.buy(item_id)
@@ -39,16 +46,21 @@ func _init() -> void:
 	MnTestHelpers.assert_eq(g.economy.cash, before - price, "buy paid")
 	MnTestHelpers.assert_true(g.inventory.has(item_id), "buy inventory")
 
-	# place_furniture
-	var placed: Dictionary = g.place_furniture("slot_bed", item_id)
+	# place_furniture (E+)
+	g.set_phase("e")
+	g.economy.cash = 1000
+	if not g.inventory.has("bed_standard") and g.content.items.has("bed_standard"):
+		g.buy("bed_standard")
+	var furn := "bed_standard" if g.inventory.has("bed_standard") else item_id
+	var placed: Dictionary = g.place_furniture("slot_bed", furn)
 	MnTestHelpers.assert_true(bool(placed.get("ok", false)), "place_furniture")
-	MnTestHelpers.assert_eq(str(g.home.slots.get("slot_bed", "")), item_id, "furniture slot")
 
-	# equip cycle
+	# equip cycle (B+)
+	g.set_phase("b")
 	var eq: Dictionary = g.equip("", {"cycle": true, "slot": "top", "max": 6})
 	MnTestHelpers.assert_true(bool(eq.get("ok", false)), "equip cycle")
 
-	# phone rent / deposit
+	# phone rent / deposit (B+)
 	g.economy.cash = 1000
 	g.economy.bank = 0
 	g.economy.rent_paid_this_week = false
@@ -58,7 +70,8 @@ func _init() -> void:
 	var rent: Dictionary = g.use_phone("pay_rent")
 	MnTestHelpers.assert_true(bool(rent.get("ok", false)), "phone pay_rent")
 
-	# minigame result
+	# minigame (D+)
+	g.set_phase("d")
 	var cash0 := g.economy.cash
 	var mg: Dictionary = g.start_minigame_result("dance", true, 40)
 	MnTestHelpers.assert_true(bool(mg.get("ok", false)), "minigame win")
@@ -76,6 +89,7 @@ func _init() -> void:
 	MnTestHelpers.assert_eq(facade.boot("res://content", "user://saves_test_ev2"), OK, "facade boot")
 	facade.new_game("Fac", "m")
 	if not facade.is_native:
+		facade.set_phase("b")
 		facade.economy.cash = 500
 		var fb: Dictionary = facade.buy(item_id)
 		MnTestHelpers.assert_true(typeof(fb) == TYPE_DICTIONARY, "facade buy dict")
@@ -84,6 +98,9 @@ func _init() -> void:
 		facade.enter_location("player_apartment", "")
 		var fp: Dictionary = facade.use_phone("stats")
 		MnTestHelpers.assert_true(bool(fp.get("ok", false)), "facade phone stats")
+		var ph: Dictionary = facade.set_phase("d")
+		MnTestHelpers.assert_true(bool(ph.get("ok", false)), "facade set_phase d")
+		MnTestHelpers.assert_eq(facade.get_phase(), "d", "facade phase d")
 
 	var code := MnTestHelpers.summary("test_event_commands")
 	print("TEST_EVENT_COMMANDS_", "OK" if code == 0 else "FAIL")

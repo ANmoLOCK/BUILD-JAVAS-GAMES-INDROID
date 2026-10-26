@@ -28,9 +28,11 @@ func _is_unlocked(id: String) -> bool:
 	if _unlock_override.has(id):
 		return bool(_unlock_override[id])
 	var g: BrainFacade = Bootstrap.game
+	if g and g.has_method("is_location_unlocked"):
+		return g.is_location_unlocked(id)
 	if g and not g.is_native and g.world:
 		return g.world.is_unlocked(id)
-	return true
+	return false
 
 
 func open() -> void:

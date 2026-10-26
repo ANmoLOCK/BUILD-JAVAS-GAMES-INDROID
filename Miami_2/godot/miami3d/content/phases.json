@@ -1,0 +1,145 @@
+{
+  "id": "phases",
+  "version": "1.0.0",
+  "default_phase": "a",
+  "order": ["a", "b", "c", "d", "e", "f", "g"],
+  "aliases": {
+    "restaurant_yuca": "yuca_restaurant",
+    "press_office": "newspaper_office",
+    "beauty_salon": "beauty_clinic"
+  },
+  "phases": {
+    "a": {
+      "id": "a",
+      "name": "@phase.a",
+      "title": "Apartamento",
+      "body_folder": "res://game/phases/a_apartment",
+      "locations": [
+        "player_apartment",
+        "apartment_garden",
+        "first_street"
+      ],
+      "systems": ["time", "needs4", "collapse"],
+      "start_location": "player_apartment",
+      "notes": "MVP: 4 necessidades + ciclo 24h + portais apto↔rua/jardim"
+    },
+    "b": {
+      "id": "b",
+      "name": "@phase.b",
+      "title": "Social / senhorio",
+      "body_folder": "res://game/phases/b_social",
+      "locations": ["police_station"],
+      "systems": [
+        "relationships",
+        "social_menus",
+        "quests",
+        "rules",
+        "economy",
+        "appearance",
+        "crime"
+      ],
+      "notes": "Creator, NPCs, diálogo, missões, ATM/aluguel, crime base"
+    },
+    "c": {
+      "id": "c",
+      "name": "@phase.c",
+      "title": "Prólogo praia",
+      "body_folder": "res://game/phases/c_prologue",
+      "locations": ["south_beach"],
+      "systems": ["stats_full", "city_map"],
+      "notes": "Prólogo praia → delegacia; mapa parcial; 12 stats restantes"
+    },
+    "d": {
+      "id": "d",
+      "name": "@phase.d",
+      "title": "Empregos",
+      "body_folder": "res://game/phases/d_jobs",
+      "locations": [
+        "yuca_restaurant",
+        "glight_club",
+        "newspaper_office",
+        "stadium"
+      ],
+      "systems": ["jobs", "minigame_dance"],
+      "notes": "4 empregos + dança/cartazes"
+    },
+    "e": {
+      "id": "e",
+      "name": "@phase.e",
+      "title": "Vida social",
+      "body_folder": "res://game/phases/e_life",
+      "locations": [
+        "little_havana",
+        "ocean_drive",
+        "coconut_grove",
+        "lounge",
+        "beauty_clinic",
+        "cuban_cafe"
+      ],
+      "systems": [
+        "dating",
+        "home_tiers",
+        "furniture_shop",
+        "gnomes",
+        "pets",
+        "surgery"
+      ],
+      "notes": "Dating, casa, anões, pets, cirurgia"
+    },
+    "f": {
+      "id": "f",
+      "name": "@phase.f",
+      "title": "Paridade de história",
+      "body_folder": "res://game/phases/f_story",
+      "locations": [
+        "npc_apartment",
+        "heather_dean_apartment",
+        "mansion",
+        "everglades",
+        "pelican_port",
+        "yacht",
+        "pelican_island",
+        "key_biscayne",
+        "miami_beach",
+        "downtown",
+        "grand_avenue"
+      ],
+      "systems": ["home_hi", "story_parity"],
+      "notes": "Locais restantes + Mid/Hi apt via home tiers + arcos finais"
+    },
+    "g": {
+      "id": "g",
+      "name": "@phase.g",
+      "title": "Mods / packs",
+      "body_folder": "res://game/phases/g_mods",
+      "locations": [],
+      "systems": ["mods"],
+      "notes": "Packs externos via content JSON + cena; sem locais fixos"
+    }
+  },
+  "systems": {
+    "time": { "min_phase": "a", "label": "TimeSystem" },
+    "needs4": { "min_phase": "a", "label": "Fome/Sono/Higiene/Banheiro" },
+    "collapse": { "min_phase": "a", "label": "Colapso / desmaio" },
+    "relationships": { "min_phase": "b", "label": "Relacionamento + menus sociais" },
+    "social_menus": { "min_phase": "b", "label": "4 menus sociais + assuntos" },
+    "quests": { "min_phase": "b", "label": "QuestMachine" },
+    "rules": { "min_phase": "b", "label": "RuleInterpreter" },
+    "economy": { "min_phase": "b", "label": "Economia + ATM + aluguel" },
+    "appearance": { "min_phase": "b", "label": "Paper-doll + creator" },
+    "crime": { "min_phase": "b", "label": "Crime / prisão (completa em C)" },
+    "stats_full": { "min_phase": "c", "label": "12 stats restantes" },
+    "city_map": { "min_phase": "c", "label": "Mapa 9 regiões + portais" },
+    "jobs": { "min_phase": "d", "label": "Jobs ×4" },
+    "minigame_dance": { "min_phase": "d", "label": "Dança minigame" },
+    "dating": { "min_phase": "e", "label": "Dating / SAIR JUNTO" },
+    "home_tiers": { "min_phase": "e", "label": "Home tiers + móveis" },
+    "furniture_shop": { "min_phase": "e", "label": "Loja ~60 móveis" },
+    "gnomes": { "min_phase": "e", "label": "7 anões" },
+    "pets": { "min_phase": "e", "label": "Pets" },
+    "surgery": { "min_phase": "e", "label": "Cirurgia / Sex Appeal" },
+    "home_hi": { "min_phase": "f", "label": "Apartamento Mid/Hi" },
+    "story_parity": { "min_phase": "f", "label": "99 missões / 19 conquistas" },
+    "mods": { "min_phase": "g", "label": "Mods / packs externos" }
+  }
+}

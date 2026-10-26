@@ -1,6 +1,10 @@
 # Fase A — Apartamento
 
-Cenas e UI desta fase. O cérebro (`core/`) já está completo; aqui só o corpo mínimo:
+Locais: `player_apartment` (LOW) + `apartment_garden` + `first_street`.
 
-- `apartment_panel.tscn` — lista ações/portais do local atual (placeholder até a cena 3D)
-- Próximo passo nesta pasta: `location_3d.tscn` com GridMap + props CSG
+Sistemas: Time + 4 necessidades + colapso.
+
+- `apartment_panel.tscn` — lista ações/portais (legado 2D)
+- Mundo 3D genérico: `game/world/locations/*.tscn` + JSON em `content/locations/`
+
+**Pronto quando:** 1 dia de jogo no editor sem desmaio, só com necessidades.

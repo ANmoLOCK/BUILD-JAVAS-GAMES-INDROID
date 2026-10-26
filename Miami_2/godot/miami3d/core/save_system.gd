@@ -18,6 +18,7 @@ func path_for(slot: int) -> String:
 func save_game(game, slot: int = 0) -> Error:
 	var data := {
 		"version": VERSION,
+		"phase": game.phases.current if game.get("phases") else "a",
 		"time": game.time.to_dict(),
 		"player": game.appearance.to_dict(),
 		"stats": game.stats.to_dict(),
@@ -49,6 +50,8 @@ func load_game(game, slot: int = 0) -> Error:
 	if typeof(data) != TYPE_DICTIONARY:
 		return ERR_INVALID_DATA
 	_migrate(data)
+	if game.get("phases") and data.has("phase"):
+		game.phases.set_phase(str(data.get("phase", "a")))
 	game.time.from_dict(data.get("time", {}))
 	game.appearance.from_dict(data.get("player", {}))
 	game.strings.player_name = game.appearance.player_name
@@ -64,6 +67,9 @@ func load_game(game, slot: int = 0) -> Error:
 	game.jobs.from_dict(data.get("jobs", {}))
 	game.dating.from_dict(data.get("dating", {}))
 	game.crime.from_dict(data.get("crime", {}))
+	# saves antigos sem unlocked → reaplica fase
+	if game.world.unlocked_locations.is_empty() and game.get("phases"):
+		game.apply_phase_unlocks()
 	return OK
 
 

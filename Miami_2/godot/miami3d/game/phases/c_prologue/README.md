@@ -1,3 +1,9 @@
-# Fase C — Prólogo (reservada)
+# Fase C — Prólogo praia
 
-South Beach → Delegacia → amigo. Só será preenchida na Fase C.
+Locais novos: `south_beach`.
+
+Sistemas: 12 stats restantes + mapa 9 regiões (parcial→completo até F).
+
+**Pronto quando:** do “acordar na praia” até as chaves do apartamento.
+
+Cenas de cutscene do prólogo entram aqui.
