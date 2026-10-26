@@ -100,6 +100,43 @@ func talk(npc_id: String, action_id: String, payload: Dictionary = {}) -> Dictio
 	return backend.talk(npc_id, action_id, payload)
 
 
+func leave_location() -> Dictionary:
+	return _cmd("leave_location", [])
+
+
+func use_phone(action: String, payload: Dictionary = {}) -> Dictionary:
+	return _cmd("use_phone", [action, payload])
+
+
+func buy(item_id: String) -> Dictionary:
+	return _cmd("buy", [item_id])
+
+
+func equip(item_id: String = "", payload: Dictionary = {}) -> Dictionary:
+	return _cmd("equip", [item_id, payload])
+
+
+func place_furniture(slot_id: String, item_id: String) -> Dictionary:
+	return _cmd("place_furniture", [slot_id, item_id])
+
+
+func start_minigame_result(minigame_id: String, won: bool, score: int = 0) -> Dictionary:
+	return _cmd("start_minigame_result", [minigame_id, won, score])
+
+
+func advance_time_request(minutes: int) -> Dictionary:
+	return _cmd("advance_time_request", [minutes])
+
+
+func _cmd(method: String, args: Array) -> Dictionary:
+	## Encaminha comando corpo→cérebro (C++ ou GDScript).
+	if backend == null:
+		return {"ok": false, "reason": "no_backend"}
+	if not backend.has_method(method):
+		return {"ok": false, "reason": "unsupported", "method": method}
+	return backend.callv(method, args)
+
+
 func resolve_text(key: String, ctx: Dictionary = {}) -> String:
 	return backend.resolve_text(key, ctx)
 
@@ -157,7 +194,10 @@ func snapshot() -> Dictionary:
 		"minute": backend.time.minute_of_day,
 		"location": backend.world.location_id,
 		"cash": backend.economy.cash,
+		"bank": backend.economy.bank,
 		"stats": backend.stats.to_dict(),
+		"quests": backend.quests.to_dict() if backend.quests.has_method("to_dict") else {},
+		"appearance": backend.appearance.vector.duplicate(),
 	}
 
 

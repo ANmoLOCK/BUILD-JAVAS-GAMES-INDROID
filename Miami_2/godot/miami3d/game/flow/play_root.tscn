@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3]
+[gd_scene load_steps=18 format=3]
 
 [ext_resource type="Script" path="res://game/flow/play_root.gd" id="1"]
 [ext_resource type="PackedScene" path="res://game/world/location_controller.tscn" id="2"]
@@ -16,6 +16,7 @@
 [ext_resource type="PackedScene" path="res://game/ui/closet.tscn" id="14"]
 [ext_resource type="PackedScene" path="res://game/ui/shop.tscn" id="15"]
 [ext_resource type="PackedScene" path="res://game/ui/bank_atm.tscn" id="16"]
+[ext_resource type="PackedScene" path="res://game/ui/toast.tscn" id="17"]
 
 [node name="PlayRoot" type="Node3D"]
 script = ExtResource("1")
@@ -87,3 +88,5 @@ visible = false
 
 [node name="BankAtm" parent="UI" instance=ExtResource("16")]
 visible = false
+
+[node name="Toast" parent="UI" instance=ExtResource("17")]

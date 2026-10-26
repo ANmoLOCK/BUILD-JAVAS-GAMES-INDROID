@@ -1,6 +1,6 @@
 class_name MnShop
 extends Control
-## Loja genérica: lista itens com preço do content.
+## Loja genérica: compra via BrainFacade.buy (contrato corpo→cérebro).
 
 signal closed
 
@@ -29,7 +29,7 @@ func open(p_shop_id: String = "furniture_store") -> void:
 		var price := int(it.get("price", 0))
 		var btn := Button.new()
 		btn.text = "%s — $%d" % [Bootstrap.game.resolve_text(str(it.get("name", id))), price]
-		btn.pressed.connect(_buy.bind(id, price))
+		btn.pressed.connect(_buy.bind(id))
 		list.add_child(btn)
 	var close_btn := Button.new()
 	close_btn.text = "Fechar"
@@ -37,13 +37,7 @@ func open(p_shop_id: String = "furniture_store") -> void:
 	list.add_child(close_btn)
 
 
-func _buy(item_id: String, price: int) -> void:
-	var g: BrainFacade = Bootstrap.game
-	if g.get_cash() < price:
+func _buy(item_id: String) -> void:
+	var r: Dictionary = Bootstrap.game.buy(item_id)
+	if not bool(r.get("ok", false)):
 		return
-	if g.is_native:
-		g.backend.add_cash(-price)
-		# inventário via interact give — simplificado
-	else:
-		g.economy.pay(price)
-		g.inventory.give(item_id)

@@ -5,8 +5,9 @@ Esta pasta só mostra o mundo, coleta toque e pede ações ao `BrainFacade`.
 
 ```
 game/
-  bootstrap.gd          Autoload — sobe o cérebro
-  brain_facade.gd       C++ MnBrain ou GDScript MnGame
+  bootstrap.gd          Autoload — sobe o cérebro + tick_real
+  brain_facade.gd       Comandos corpo→cérebro (C++ ou GDScript)
+  event_bridge.gd       Sinais cérebro→corpo (luz, toast, NPC, save…)
   main.tscn / main.gd   Splash → Menu → Play
   flow/                 Splash, menu, play_root (loop 3D)
   world/                Grade, location_controller, portais, zonas
@@ -14,21 +15,22 @@ game/
   actors/               Player, NPC, Pet, paper-doll
   objects/              Interativos e slots de móvel
   camera/               Câmera isométrica 3/4
-  ui/                   HUD, radial, social, phone, mapa…
+  ui/                   HUD, radial, toast, phone, mapa, loja…
   minigames/            Dança, foto, cartazes
   fx/                   Corações, Zzz, fedor, moscas, estrelas
   phases/               Conteúdo extra por fase (A/B/C…)
 ```
 
-**Regra:** não coloque lógica de stats/missões aqui — chame `Bootstrap.game`.
+**Regra:** não coloque lógica de stats/missões aqui — chame `Bootstrap.game` (comandos) e deixe o `MnEventBridge` reagir aos sinais.
+**Contrato:** ver `../core/EVENT_CONTRACT.md`.
 **Fases:** cenas específicas de fase vão em `phases/<letra>_*/`; sistemas genéricos ficam acima.
 
 ## Fluxo de execução
 
-1. `Bootstrap` instancia `BrainFacade` (C++ se `.so` presente).
+1. `Bootstrap` instancia `BrainFacade` (C++ se `.so` presente) e chama `tick_real` todo frame.
 2. `main.tscn` mostra splash → menu (novo/continuar).
-3. `flow/play_root.tscn` carrega o local atual via `MnLocationController` + player + `MnIsoCamera`.
-4. Toque no chão = pathfinding; toque em objeto = menu radial; NPC = menu social.
+3. `flow/play_root.tscn` liga o `MnEventBridge` e carrega o local via `MnLocationController`.
+4. Toque no chão = pathfinding; objeto = radial → `interact`; NPC = social → `talk`; loja/ATM/closet → `buy` / `use_phone` / `equip`.
 
 ## Locais
 

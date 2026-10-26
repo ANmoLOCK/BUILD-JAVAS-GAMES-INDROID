@@ -6,8 +6,8 @@ Abra **este** `project.godot` no Godot 4.3+.
 
 | Pasta | O que é | Quem mexe |
 |---|---|---|
-| `core/` | Cérebro operacional (RefCounted, sem Node) | Estável — só estende |
-| `game/` | Corpo 3D: flow, world, actors, ui, minigames, fx | Cresce por fase |
+| `core/` | Cérebro operacional + `EVENT_CONTRACT.md` | Estável — só estende |
+| `game/` | Corpo 3D + `event_bridge.gd` + `brain_facade.gd` | Cresce por fase |
 | `game/flow/` | Splash → menu → play_root | Loop principal |
 | `game/world/locations/` | 25 cenas de local (controller + JSON) | Mundo |
 | `game/phases/a_apartment/` | UI legado Fase A (painel 2D) | Referência |

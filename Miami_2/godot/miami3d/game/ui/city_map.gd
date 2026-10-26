@@ -7,9 +7,30 @@ signal closed
 
 @onready var list: VBoxContainer = $Panel/VBox/List
 
+var _unlock_override: Dictionary = {} # location_id -> bool
+var _quest_markers: Dictionary = {} # location_id -> quest_id
+
 
 func _ready() -> void:
 	visible = false
+
+
+func set_unlocked(location_id: String, unlocked: bool) -> void:
+	_unlock_override[location_id] = unlocked
+
+
+func mark_quest(quest_id: String, _stage_id: String) -> void:
+	## Marca missão ativa (texto no botão); local vem do content se houver.
+	_quest_markers[quest_id] = true
+
+
+func _is_unlocked(id: String) -> bool:
+	if _unlock_override.has(id):
+		return bool(_unlock_override[id])
+	var g: BrainFacade = Bootstrap.game
+	if g and not g.is_native and g.world:
+		return g.world.is_unlocked(id)
+	return true
 
 
 func open() -> void:
@@ -31,32 +52,32 @@ func open() -> void:
 			listed[id] = true
 			if not locs.has(id):
 				continue
-			var def: Dictionary = locs[id]
-			var btn := Button.new()
-			btn.text = Bootstrap.game.resolve_text(str(def.get("name", id)))
-			btn.disabled = (id == Bootstrap.game.get_location())
-			btn.pressed.connect(_go.bind(str(id)))
-			list.add_child(btn)
+			list.add_child(_make_loc_btn(str(id), locs[id]))
 	for id in locs.keys():
 		if listed.has(id):
 			continue
-		var def2: Dictionary = locs[id]
-		var btn2 := Button.new()
-		btn2.text = Bootstrap.game.resolve_text(str(def2.get("name", id)))
-		btn2.disabled = (id == Bootstrap.game.get_location())
-		btn2.pressed.connect(_go.bind(str(id)))
-		list.add_child(btn2)
+		list.add_child(_make_loc_btn(str(id), locs[id]))
 	_add_close()
+
+
+func _make_loc_btn(id: String, def: Dictionary) -> Button:
+	var btn := Button.new()
+	var label := Bootstrap.game.resolve_text(str(def.get("name", id)))
+	if not _quest_markers.is_empty():
+		label = "★ " + label
+	btn.text = label
+	var here := (id == Bootstrap.game.get_location())
+	var locked := not _is_unlocked(id)
+	btn.disabled = here or locked
+	if locked:
+		btn.text = label + " (bloqueado)"
+	btn.pressed.connect(_go.bind(id))
+	return btn
 
 
 func _fallback_flat(locs: Dictionary) -> void:
 	for id in locs.keys():
-		var def: Dictionary = locs[id]
-		var btn := Button.new()
-		btn.text = Bootstrap.game.resolve_text(str(def.get("name", id)))
-		btn.disabled = (id == Bootstrap.game.get_location())
-		btn.pressed.connect(_go.bind(str(id)))
-		list.add_child(btn)
+		list.add_child(_make_loc_btn(str(id), locs[id]))
 	_add_close()
 
 

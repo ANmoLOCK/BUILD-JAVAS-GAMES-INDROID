@@ -185,6 +185,53 @@ func _spawn_one_npc(npc_id: String, def: Dictionary) -> void:
 	npc.global_position = grid.cell_to_world(base + Vector2i(2, 1))
 
 
+func spawn_npc_at(npc_id: String, cell: Vector2i, facing: String = "S") -> Node:
+	## EventBridge ← spawn_npc
+	despawn_npc(npc_id)
+	var def: Dictionary = Bootstrap.game.get_content_npc(npc_id) if Bootstrap.game else {}
+	var scene: PackedScene = preload("res://game/actors/npc.tscn")
+	var npc = scene.instantiate()
+	actors_root.add_child(npc)
+	npc.setup(npc_id, def, grid)
+	npc.global_position = grid.cell_to_world(cell)
+	if "facing" in npc:
+		npc.facing = facing
+	return npc
+
+
+func despawn_npc(npc_id: String) -> void:
+	## EventBridge ← despawn_npc
+	if actors_root == null:
+		return
+	for c in actors_root.get_children():
+		if c is Node and str(c.get("npc_id")) == npc_id:
+			c.queue_free()
+
+
+func move_npc_to(npc_id: String, cell: Vector2i, run: bool = false) -> void:
+	## EventBridge ← move_npc
+	if actors_root == null:
+		return
+	for c in actors_root.get_children():
+		if c is Node and str(c.get("npc_id")) == npc_id:
+			if c.has_method("go_to_cell"):
+				c.go_to_cell(cell)
+			else:
+				c.global_position = grid.cell_to_world(cell)
+			if run and "WALK_SPEED" in c:
+				pass
+			return
+
+
+func find_npc(npc_id: String) -> Node:
+	if actors_root == null:
+		return null
+	for c in actors_root.get_children():
+		if c is Node and str(c.get("npc_id")) == npc_id:
+			return c
+	return null
+
+
 func _make_box(color: Color, size: Vector3) -> MeshInstance3D:
 	var mi := MeshInstance3D.new()
 	var box := BoxMesh.new()
