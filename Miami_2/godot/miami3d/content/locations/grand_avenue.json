@@ -1,0 +1,75 @@
+{
+  "id": "grand_avenue",
+  "name": "@loc.grand_avenue",
+  "region": "coconut_grove",
+  "scene": "res://game/world/locations/grand_avenue.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 60,
+    "height": 50
+  },
+  "spawn": {
+    "cell": [
+      30,
+      25
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        30,
+        25
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      60,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      50
+    ],
+    [
+      59,
+      0,
+      1,
+      50
+    ],
+    [
+      0,
+      49,
+      60,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        56,
+        46
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": [],
+  "stub": true
+}

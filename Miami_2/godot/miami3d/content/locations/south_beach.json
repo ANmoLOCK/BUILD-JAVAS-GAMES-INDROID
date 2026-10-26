@@ -1,0 +1,75 @@
+{
+  "id": "south_beach",
+  "name": "@loc.south_beach",
+  "region": "south_beach",
+  "scene": "res://game/world/locations/south_beach.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 48,
+    "height": 40
+  },
+  "spawn": {
+    "cell": [
+      24,
+      20
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        24,
+        20
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      48,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      40
+    ],
+    [
+      47,
+      0,
+      1,
+      40
+    ],
+    [
+      0,
+      39,
+      48,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        44,
+        36
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": [],
+  "stub": true
+}

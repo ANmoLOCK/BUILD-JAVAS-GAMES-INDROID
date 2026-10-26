@@ -1,0 +1,6 @@
+{
+  "id": "trash_can", "name": "@item.trash_can", "kind": "object",
+  "mesh": "res://assets/models/street/trash_can.glb",
+  "footprint": [1, 1], "useCell": [0, 1], "facing": "N",
+  "actions": ["throw_trash", "eat_trash"]
+}

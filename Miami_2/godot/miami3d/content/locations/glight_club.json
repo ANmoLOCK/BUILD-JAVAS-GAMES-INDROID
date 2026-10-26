@@ -1,0 +1,75 @@
+{
+  "id": "glight_club",
+  "name": "@loc.glight_club",
+  "region": "downtown",
+  "scene": "res://game/world/locations/glight_club.tscn",
+  "indoor": true,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "apartment_calm",
+  "grid": {
+    "width": 24,
+    "height": 20
+  },
+  "spawn": {
+    "cell": [
+      12,
+      10
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        12,
+        10
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      24,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      20
+    ],
+    [
+      23,
+      0,
+      1,
+      20
+    ],
+    [
+      0,
+      19,
+      24,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        20,
+        16
+      ],
+      "tag": "indoor"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": [],
+  "stub": true
+}

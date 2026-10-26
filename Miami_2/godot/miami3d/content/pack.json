@@ -1,0 +1,8 @@
+{
+  "id": "base",
+  "version": "0.1.0",
+  "name": "Miami 3D — pacote base (exemplo)",
+  "dependencies": [],
+  "priority": 0,
+  "locale": "pt-BR"
+}

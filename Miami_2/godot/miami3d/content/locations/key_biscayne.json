@@ -1,0 +1,75 @@
+{
+  "id": "key_biscayne",
+  "name": "@loc.key_biscayne",
+  "region": "key_biscayne",
+  "scene": "res://game/world/locations/key_biscayne.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 36,
+    "height": 28
+  },
+  "spawn": {
+    "cell": [
+      18,
+      14
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        18,
+        14
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      36,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      28
+    ],
+    [
+      35,
+      0,
+      1,
+      28
+    ],
+    [
+      0,
+      27,
+      36,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        32,
+        24
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": [],
+  "stub": true
+}

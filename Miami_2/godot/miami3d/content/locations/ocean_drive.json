@@ -1,0 +1,75 @@
+{
+  "id": "ocean_drive",
+  "name": "@loc.ocean_drive",
+  "region": "ocean_drive",
+  "scene": "res://game/world/locations/ocean_drive.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 55,
+    "height": 40
+  },
+  "spawn": {
+    "cell": [
+      27,
+      20
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        27,
+        20
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      55,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      40
+    ],
+    [
+      54,
+      0,
+      1,
+      40
+    ],
+    [
+      0,
+      39,
+      55,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        51,
+        36
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": [],
+  "stub": true
+}

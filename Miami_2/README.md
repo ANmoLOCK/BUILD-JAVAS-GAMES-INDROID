@@ -7,7 +7,8 @@ etapa de engenharia reversa, mais a documentação, as ferramentas e a base do r
 entrada (MIDlet) → [`GloftMMN2.java`](02-codigo-descompilado/GloftMMN2.java) ·
 regras do jogo → [`03-sistemas-de-jogo.md`](09-engenharia-reversa-docs/03-sistemas-de-jogo.md) ·
 plano 3D Android → [`05-arquitetura-android-3d.md`](09-engenharia-reversa-docs/05-arquitetura-android-3d.md) ·
-**plano progressivo (cérebro + fases + todos os arquivos)** → [`08-plano-progressivo-godot.md`](09-engenharia-reversa-docs/08-plano-progressivo-godot.md)
+**plano progressivo** → [`08-plano-progressivo-godot.md`](09-engenharia-reversa-docs/08-plano-progressivo-godot.md) ·
+**projeto Godot 4 (comece a jogar/implementar aqui)** → [`godot/README.md`](godot/README.md)
 
 ## Do que se trata, em poucas palavras
 

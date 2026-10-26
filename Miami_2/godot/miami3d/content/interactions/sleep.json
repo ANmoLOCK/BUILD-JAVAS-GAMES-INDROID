@@ -1,0 +1,17 @@
+{
+  "id": "sleep",
+  "name": "@act.sleep",
+  "target": "object",
+  "animation": "sleep",
+  "durationMinutes": 480,
+  "advancesTime": true,
+  "requires": { "stat": { "sleep": { ">=": 20 } } },
+  "effects": [
+    { "stat": "sleep", "delta": -80 },
+    { "stat": "hunger", "delta": 16 },
+    { "stat": "bladder", "delta": 8 },
+    { "stat": "health", "delta": 5 }
+  ],
+  "reactions": { "fail": "@act.sleep.not_tired" },
+  "event": "slept"
+}

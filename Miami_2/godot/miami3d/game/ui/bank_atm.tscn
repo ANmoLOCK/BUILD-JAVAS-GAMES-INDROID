@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/ui/bank_atm.gd" id="1"]
+
+[node name="BankAtm" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="Dim" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0, 0.4)
+
+[node name="Panel" type="PanelContainer" parent="."]
+offset_left = 420.0
+offset_top = 160.0
+offset_right = 860.0
+offset_bottom = 480.0
+
+[node name="VBox" type="VBoxContainer" parent="Panel"]
+layout_mode = 2
+
+[node name="Info" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "ATM"
+
+[node name="Amount" type="SpinBox" parent="Panel/VBox"]
+layout_mode = 2
+max_value = 10000.0
+value = 50.0
+
+[node name="Deposit" type="Button" parent="Panel/VBox"]
+layout_mode = 2
+text = "Depositar"
+
+[node name="Withdraw" type="Button" parent="Panel/VBox"]
+layout_mode = 2
+text = "Sacar"
+
+[node name="Rent" type="Button" parent="Panel/VBox"]
+layout_mode = 2
+text = "Pagar aluguel ($300)"
+
+[node name="Close" type="Button" parent="Panel/VBox"]
+layout_mode = 2
+text = "Fechar"

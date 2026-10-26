@@ -1,0 +1,9 @@
+.godot/
+*.translation
+export/
+../build/
+android/
+*.apk
+*.aab
+*.pck
+# mantém bin/*.so e .gdextension versionados (cérebro C++ pré-compilado Linux)

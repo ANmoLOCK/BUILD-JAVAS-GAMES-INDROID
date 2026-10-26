@@ -1,0 +1,75 @@
+{
+  "id": "pelican_port",
+  "name": "@loc.pelican_port",
+  "region": "pelican_island",
+  "scene": "res://game/world/locations/pelican_port.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 30,
+    "height": 24
+  },
+  "spawn": {
+    "cell": [
+      15,
+      12
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        15,
+        12
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      30,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      24
+    ],
+    [
+      29,
+      0,
+      1,
+      24
+    ],
+    [
+      0,
+      23,
+      30,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        26,
+        20
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": [],
+  "stub": true
+}

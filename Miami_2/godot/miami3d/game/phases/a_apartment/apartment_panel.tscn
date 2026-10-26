@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/phases/a_apartment/apartment_panel.gd" id="1"]
+
+[node name="ApartmentPanel" type="VBoxContainer"]
+offset_right = 600.0
+offset_bottom = 520.0
+script = ExtResource("1")
+
+[node name="LocLabel" type="Label" parent="."]
+layout_mode = 2
+text = "Local: —"
+
+[node name="PlacesLabel" type="Label" parent="."]
+layout_mode = 2
+text = "Portais"
+
+[node name="Places" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="ActionsLabel" type="Label" parent="."]
+layout_mode = 2
+text = "Ações no local"
+
+[node name="Actions" type="VBoxContainer" parent="."]
+layout_mode = 2
