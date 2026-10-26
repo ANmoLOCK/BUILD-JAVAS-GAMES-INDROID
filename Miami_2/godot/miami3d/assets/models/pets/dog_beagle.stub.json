@@ -1,0 +1,7 @@
+{
+  "id": "dog_beagle",
+  "species": "dog",
+  "mesh": "res://assets/models/pets/dog_beagle.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sink",
+  "mesh": "res://assets/models/props/sink.glb",
+  "kind": "object",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "res://assets/models/bathroom/sink.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

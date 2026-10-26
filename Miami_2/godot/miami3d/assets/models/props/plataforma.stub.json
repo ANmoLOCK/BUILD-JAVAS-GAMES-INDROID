@@ -1,0 +1,12 @@
+{
+  "id": "plataforma",
+  "mesh": "res://assets/models/props/plataforma.glb",
+  "kind": "prop",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

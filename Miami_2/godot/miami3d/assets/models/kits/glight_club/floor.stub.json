@@ -1,0 +1,6 @@
+{
+  "id": "glight_club_floor",
+  "mesh": "res://assets/models/kits/glight_club/floor.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

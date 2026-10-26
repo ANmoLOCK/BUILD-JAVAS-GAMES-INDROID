@@ -36,5 +36,6 @@ textures/vram_compression/import_etc2_astc=true
 [miami]
 
 content_dir="res://content"
+assets_dir="res://assets"
 save_dir="user://saves"
 phase="a"

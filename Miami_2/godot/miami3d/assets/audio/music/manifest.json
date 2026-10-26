@@ -1,0 +1,65 @@
+{
+  "format": "ogg",
+  "entries": [
+    {
+      "id": "title",
+      "path": "res://assets/audio/music/title.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "apartment_calm",
+      "path": "res://assets/audio/music/apartment_calm.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "downtown_day",
+      "path": "res://assets/audio/music/downtown_day.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "beach_day",
+      "path": "res://assets/audio/music/beach_day.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "club_night",
+      "path": "res://assets/audio/music/club_night.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "police_tension",
+      "path": "res://assets/audio/music/police_tension.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "victory",
+      "path": "res://assets/audio/music/victory.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "defeat",
+      "path": "res://assets/audio/music/defeat.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "dance_techno",
+      "path": "res://assets/audio/music/dance_techno.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "dance_salsa",
+      "path": "res://assets/audio/music/dance_salsa.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "dance_pop",
+      "path": "res://assets/audio/music/dance_pop.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "dance_metal",
+      "path": "res://assets/audio/music/dance_metal.ogg",
+      "status": "missing"
+    }
+  ]
+}

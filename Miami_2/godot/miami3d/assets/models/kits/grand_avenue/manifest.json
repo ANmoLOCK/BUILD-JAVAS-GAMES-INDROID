@@ -1,0 +1,16 @@
+{
+  "location": "grand_avenue",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/grand_avenue/albedo.png",
+    "normal": "res://assets/textures/kits/grand_avenue/normal.png",
+    "roughness": "res://assets/textures/kits/grand_avenue/roughness.png"
+  },
+  "status": "placeholder"
+}

@@ -1,0 +1,45 @@
+{
+  "format": "ogg",
+  "entries": [
+    {
+      "id": "ui_click",
+      "path": "res://assets/audio/sfx/ui_click.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "coin",
+      "path": "res://assets/audio/sfx/coin.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "bark",
+      "path": "res://assets/audio/sfx/bark.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "meow",
+      "path": "res://assets/audio/sfx/meow.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "kiss",
+      "path": "res://assets/audio/sfx/kiss.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "punch",
+      "path": "res://assets/audio/sfx/punch.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "notify",
+      "path": "res://assets/audio/sfx/notify.ogg",
+      "status": "missing"
+    },
+    {
+      "id": "portal",
+      "path": "res://assets/audio/sfx/portal.ogg",
+      "status": "missing"
+    }
+  ]
+}

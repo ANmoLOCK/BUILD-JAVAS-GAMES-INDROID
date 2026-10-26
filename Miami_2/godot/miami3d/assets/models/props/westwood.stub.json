@@ -1,0 +1,12 @@
+{
+  "id": "westwood",
+  "mesh": "res://assets/models/props/westwood.glb",
+  "kind": "prop",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

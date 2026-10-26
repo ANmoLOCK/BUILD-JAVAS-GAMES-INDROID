@@ -1,0 +1,16 @@
+{
+  "location": "everglades",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/everglades/albedo.png",
+    "normal": "res://assets/textures/kits/everglades/normal.png",
+    "roughness": "res://assets/textures/kits/everglades/roughness.png"
+  },
+  "status": "placeholder"
+}

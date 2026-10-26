@@ -66,25 +66,20 @@ func load_location(id: String, spawn_id: String = "") -> void:
 
 
 func _build_floor() -> void:
-	# chão único + tiles bloqueados como caixas
-	var mesh := MeshInstance3D.new()
-	var box := BoxMesh.new()
-	box.size = Vector3(grid.width * grid.cell_size, 0.1, grid.height * grid.cell_size)
-	mesh.mesh = box
-	var mat := StandardMaterial3D.new()
-	mat.albedo_color = Color(0.22, 0.35, 0.28) if bool(location_def.get("indoor", false)) else Color(0.30, 0.42, 0.25)
-	mesh.material_override = mat
-	mesh.position = Vector3(grid.width * 0.5, -0.05, grid.height * 0.5)
-	floor_root.add_child(mesh)
-	# paredes / bloqueios
+	var indoor := bool(location_def.get("indoor", false))
+	var tex := ""
+	if Bootstrap.game and Bootstrap.game.get("assets") != null:
+		tex = Bootstrap.game.assets.kit_texture(location_id, "albedo")
+	var floor := MnMeshFactory.kit_floor(grid.width * grid.cell_size, grid.height * grid.cell_size, indoor, tex)
+	floor_root.add_child(floor)
+	# paredes / bloqueios (kit wall placeholder por célula)
 	for y in grid.height:
 		for x in grid.width:
 			var c := Vector2i(x, y)
 			if grid.get_flags(c) & MnGridMap.FLAG_BLOCKED:
-				var wall := _make_box(Color(0.45, 0.40, 0.35), Vector3(0.95, 2.2, 0.95))
+				var wall := MnMeshFactory.kit_wall_cell()
 				wall.position = grid.cell_to_world(c) + Vector3(0, 1.1, 0)
 				wall.add_to_group("cutaway_wall")
-				# colisão
 				var body := StaticBody3D.new()
 				var col := CollisionShape3D.new()
 				var sh := BoxShape3D.new()

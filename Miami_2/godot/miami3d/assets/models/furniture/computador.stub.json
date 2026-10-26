@@ -1,0 +1,11 @@
+{
+  "id": "computador",
+  "mesh": "res://assets/models/furniture/computador.glb",
+  "kind": "furniture",
+  "footprint": [
+    1,
+    1
+  ],
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

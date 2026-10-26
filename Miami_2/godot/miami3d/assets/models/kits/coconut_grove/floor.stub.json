@@ -1,0 +1,6 @@
+{
+  "id": "coconut_grove_floor",
+  "mesh": "res://assets/models/kits/coconut_grove/floor.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

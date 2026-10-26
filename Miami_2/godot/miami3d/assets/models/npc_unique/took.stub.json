@@ -1,0 +1,6 @@
+{
+  "id": "took",
+  "mesh": "res://assets/models/npc_unique/took.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

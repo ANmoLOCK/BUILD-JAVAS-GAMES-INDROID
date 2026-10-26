@@ -1,0 +1,16 @@
+{
+  "location": "first_street",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/first_street/albedo.png",
+    "normal": "res://assets/textures/kits/first_street/normal.png",
+    "roughness": "res://assets/textures/kits/first_street/roughness.png"
+  },
+  "status": "placeholder"
+}

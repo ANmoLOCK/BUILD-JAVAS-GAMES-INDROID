@@ -18,7 +18,27 @@ func setup(g: BrainFacade) -> void:
 	game = g
 	g.connect_signal("minute_tick", func(_m, _d): refresh())
 	g.connect_signal("money_changed", func(_c, _b): refresh())
+	_attach_icons()
 	refresh()
+
+
+func _attach_icons() -> void:
+	if game == null or game.assets == null:
+		return
+	for id in bars.keys():
+		var icon_path: String = game.assets.hud_icon(id)
+		if icon_path == "":
+			continue
+		var bar: ProgressBar = bars[id]
+		if bar.get_node_or_null("Icon"):
+			continue
+		var tex := TextureRect.new()
+		tex.name = "Icon"
+		tex.texture = load(icon_path)
+		tex.custom_minimum_size = Vector2(18, 18)
+		tex.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		tex.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+		bar.add_child(tex)
 
 
 func _process(_dt: float) -> void:

@@ -8,6 +8,7 @@ Detalhe completo: `../09-engenharia-reversa-docs/08-plano-progressivo-godot.md`.
 | **A** | Cérebro + apartamento jogável | **feito (GDScript + C++ compilável)** | `core/*` + `native/` + `game/phases/a_apartment/` |
 | **corpo** | Camada `game/` 3D (world/actors/ui/flow) | **feito (placeholders CSG)** | `game/{flow,world,actors,objects,camera,ui,minigames,fx}/` |
 | **conteúdo** | Pack JSON inventário 04 | **feito (stubs jogáveis + curados)** | `miami3d/content/` |
+| **assets** | Músculos: models/anims/textures/audio/ui | **feito (placeholders + registry)** | `miami3d/assets/` + `core/asset_registry.gd` |
 | B | Personagem, NPC, diálogo, 1 missão, economia | pendente | `game/phases/b_social/` + sistemas já no core |
 | C | Prólogo (praia → delegacia) | pendente | `game/phases/c_prologue/` |
 | D | 4 empregos + minigames | pendente | `game/phases/d_jobs/` |

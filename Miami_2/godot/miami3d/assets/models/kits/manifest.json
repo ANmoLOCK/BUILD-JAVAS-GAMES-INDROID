@@ -1,0 +1,108 @@
+{
+  "kits": [
+    {
+      "location": "first_street",
+      "path": "res://assets/models/kits/first_street/"
+    },
+    {
+      "location": "police_station",
+      "path": "res://assets/models/kits/police_station/"
+    },
+    {
+      "location": "glight_club",
+      "path": "res://assets/models/kits/glight_club/"
+    },
+    {
+      "location": "newspaper_office",
+      "path": "res://assets/models/kits/newspaper_office/"
+    },
+    {
+      "location": "stadium",
+      "path": "res://assets/models/kits/stadium/"
+    },
+    {
+      "location": "beauty_clinic",
+      "path": "res://assets/models/kits/beauty_clinic/"
+    },
+    {
+      "location": "heather_dean_apartment",
+      "path": "res://assets/models/kits/heather_dean_apartment/"
+    },
+    {
+      "location": "grand_avenue",
+      "path": "res://assets/models/kits/grand_avenue/"
+    },
+    {
+      "location": "lounge",
+      "path": "res://assets/models/kits/lounge/"
+    },
+    {
+      "location": "south_beach",
+      "path": "res://assets/models/kits/south_beach/"
+    },
+    {
+      "location": "cuban_cafe",
+      "path": "res://assets/models/kits/cuban_cafe/"
+    },
+    {
+      "location": "little_havana",
+      "path": "res://assets/models/kits/little_havana/"
+    },
+    {
+      "location": "yuca_restaurant",
+      "path": "res://assets/models/kits/yuca_restaurant/"
+    },
+    {
+      "location": "ocean_drive",
+      "path": "res://assets/models/kits/ocean_drive/"
+    },
+    {
+      "location": "player_apartment",
+      "path": "res://assets/models/kits/player_apartment/"
+    },
+    {
+      "location": "pelican_port",
+      "path": "res://assets/models/kits/pelican_port/"
+    },
+    {
+      "location": "yacht",
+      "path": "res://assets/models/kits/yacht/"
+    },
+    {
+      "location": "everglades",
+      "path": "res://assets/models/kits/everglades/"
+    },
+    {
+      "location": "mansion",
+      "path": "res://assets/models/kits/mansion/"
+    },
+    {
+      "location": "downtown",
+      "path": "res://assets/models/kits/downtown/"
+    },
+    {
+      "location": "coconut_grove",
+      "path": "res://assets/models/kits/coconut_grove/"
+    },
+    {
+      "location": "npc_apartment",
+      "path": "res://assets/models/kits/npc_apartment/"
+    },
+    {
+      "location": "miami_beach",
+      "path": "res://assets/models/kits/miami_beach/"
+    },
+    {
+      "location": "pelican_island",
+      "path": "res://assets/models/kits/pelican_island/"
+    },
+    {
+      "location": "key_biscayne",
+      "path": "res://assets/models/kits/key_biscayne/"
+    },
+    {
+      "location": "apartment_garden",
+      "path": "res://assets/models/kits/apartment_garden/"
+    }
+  ]
+}

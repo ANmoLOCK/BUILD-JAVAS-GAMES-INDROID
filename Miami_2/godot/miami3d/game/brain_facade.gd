@@ -26,15 +26,19 @@ var pets
 var jobs
 var saves
 var rng
+var assets: MnAssetRegistry
 
 
-func boot(content_dir: String = "res://content", save_dir: String = "user://saves") -> Error:
+func boot(content_dir: String = "res://content", save_dir: String = "user://saves", assets_dir: String = "res://assets") -> Error:
+	assets = MnAssetRegistry.new()
+	assets.boot(assets_dir)
 	if ClassDB.class_exists("MnBrain"):
 		backend = ClassDB.instantiate("MnBrain")
 		is_native = true
 		var err: Error = backend.boot(content_dir, save_dir)
 		ready = backend.is_ready()
 		print("[BrainFacade] usando C++ MnBrain")
+		_log_assets()
 		return err
 	backend = MnGame.new()
 	is_native = false
@@ -60,7 +64,20 @@ func boot(content_dir: String = "res://content", save_dir: String = "user://save
 	saves = backend.saves
 	rng = backend.rng
 	print("[BrainFacade] usando GDScript MnGame (compile native/ para C++)")
+	_log_assets()
 	return err2
+
+
+func _log_assets() -> void:
+	if assets == null:
+		return
+	var c: Dictionary = assets.summary()
+	if c.is_empty():
+		return
+	print("[BrainFacade] assets v%s — furniture=%s props=%s kits=%s clips=%s" % [
+		assets.root_manifest.get("version", "?"),
+		c.get("furniture", 0), c.get("props", 0), c.get("kits", 0), c.get("anim_clips", 0),
+	])
 
 
 func new_game(player_name: String = "Você", gender: String = "m") -> void:

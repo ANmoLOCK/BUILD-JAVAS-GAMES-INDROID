@@ -1,0 +1,47 @@
+{
+  "shared": [
+    "white.png",
+    "grid.png",
+    "normal_flat.png",
+    "roughness.png"
+  ],
+  "regions": [
+    "downtown",
+    "south_beach",
+    "little_havana",
+    "ocean_drive",
+    "coconut_grove",
+    "miami_beach",
+    "pelican_island",
+    "key_biscayne",
+    "everglades"
+  ],
+  "kits": [
+    "first_street",
+    "police_station",
+    "glight_club",
+    "newspaper_office",
+    "stadium",
+    "beauty_clinic",
+    "heather_dean_apartment",
+    "grand_avenue",
+    "lounge",
+    "south_beach",
+    "cuban_cafe",
+    "little_havana",
+    "yuca_restaurant",
+    "ocean_drive",
+    "player_apartment",
+    "pelican_port",
+    "yacht",
+    "everglades",
+    "mansion",
+    "downtown",
+    "coconut_grove",
+    "npc_apartment",
+    "miami_beach",
+    "pelican_island",
+    "key_biscayne",
+    "apartment_garden"
+  ]
+}

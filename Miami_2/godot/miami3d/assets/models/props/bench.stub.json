@@ -1,0 +1,12 @@
+{
+  "id": "bench",
+  "mesh": "res://assets/models/props/bench.glb",
+  "kind": "object",
+  "footprint": [
+    2,
+    1
+  ],
+  "contentMesh": "res://assets/models/street/bench.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

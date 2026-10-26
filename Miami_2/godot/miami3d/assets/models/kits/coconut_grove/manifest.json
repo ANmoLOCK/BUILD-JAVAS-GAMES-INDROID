@@ -1,0 +1,16 @@
+{
+  "location": "coconut_grove",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/coconut_grove/albedo.png",
+    "normal": "res://assets/textures/kits/coconut_grove/normal.png",
+    "roughness": "res://assets/textures/kits/coconut_grove/roughness.png"
+  },
+  "status": "placeholder"
+}

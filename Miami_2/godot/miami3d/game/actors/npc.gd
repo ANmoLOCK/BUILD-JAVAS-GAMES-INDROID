@@ -1,6 +1,6 @@
 class_name MnNpc
 extends CharacterBody3D
-## NPC: rotina simples, pathfinding na grade, abre menu social.
+## NPC: rotina simples, pathfinding na grade, paper-doll / cabeça única.
 
 signal talked(npc_id: String)
 
@@ -11,6 +11,7 @@ var def: Dictionary = {}
 var grid: MnGridMap
 var path: Array[Vector2i] = []
 var schedule_id: String = ""
+var _doll: MnPaperDoll
 
 
 func _ready() -> void:
@@ -26,24 +27,31 @@ func setup(id: String, p_def: Dictionary, g: MnGridMap) -> void:
 	grid = g
 	schedule_id = str(def.get("schedule", ""))
 	_build_visual()
-	if def.has("appearance") and has_node("Doll"):
-		var gender := str(def.get("gender", "m"))
-		$Doll.apply_appearance(gender, def["appearance"])
+	var gender := str(def.get("gender", "m"))
+	var appearance: Array = def.get("appearance", [0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+	if _doll:
+		_doll.apply_appearance(gender, appearance)
+		if def.get("essential", false) and not str(npc_id).begins_with("generic_"):
+			_doll.apply_unique_head(npc_id)
 
 
 func _build_visual() -> void:
-	if has_node("Mesh"):
+	if has_node("Doll"):
+		_doll = $Doll
+		if Bootstrap.game and Bootstrap.game.get("assets") != null:
+			_doll.bind_assets(Bootstrap.game.assets)
 		return
-	var mi := MeshInstance3D.new()
-	mi.name = "Mesh"
-	var box := BoxMesh.new()
-	box.size = Vector3(0.45, 1.6, 0.3)
-	mi.mesh = box
-	mi.position.y = 0.8
-	var mat := StandardMaterial3D.new()
-	mat.albedo_color = Color(0.85, 0.65, 0.45)
-	mi.material_override = mat
-	add_child(mi)
+	# remove mesh placeholder antigo se existir
+	if has_node("Mesh"):
+		$Mesh.queue_free()
+	var doll := Node3D.new()
+	doll.name = "Doll"
+	doll.set_script(preload("res://game/actors/paper_doll.gd"))
+	add_child(doll)
+	_doll = doll
+	_doll.ensure_parts()
+	if Bootstrap.game and Bootstrap.game.get("assets") != null:
+		_doll.bind_assets(Bootstrap.game.assets)
 	var label := Label3D.new()
 	label.text = npc_id
 	label.position = Vector3(0, 1.9, 0)
@@ -78,13 +86,10 @@ func _physics_process(_d: float) -> void:
 	var dest := grid.cell_to_world(path[0])
 	var to := dest - global_position
 	to.y = 0
-	if to.length() < 0.1:
+	if to.length() < 0.08:
 		path.pop_front()
 		return
 	velocity = to.normalized() * WALK_SPEED
-	look_at(global_position + to, Vector3.UP)
+	if to.length_squared() > 0.0001:
+		look_at(global_position + to, Vector3.UP)
 	move_and_slide()
-
-
-func request_talk() -> void:
-	talked.emit(npc_id)

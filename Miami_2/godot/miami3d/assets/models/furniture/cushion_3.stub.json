@@ -1,0 +1,11 @@
+{
+  "id": "cushion_3",
+  "mesh": "res://assets/models/furniture/cushion_3.glb",
+  "kind": "furniture",
+  "footprint": [
+    1,
+    1
+  ],
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

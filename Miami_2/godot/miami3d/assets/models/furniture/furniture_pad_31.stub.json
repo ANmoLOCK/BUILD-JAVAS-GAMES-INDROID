@@ -1,0 +1,7 @@
+{
+  "id": "furniture_pad_31",
+  "mesh": "res://assets/models/furniture/furniture_pad_31.glb",
+  "kind": "furniture",
+  "status": "placeholder",
+  "fallback": "res://assets/models/_shared/placeholder.glb"
+}

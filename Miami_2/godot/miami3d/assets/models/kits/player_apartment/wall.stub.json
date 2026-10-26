@@ -1,0 +1,6 @@
+{
+  "id": "player_apartment_wall",
+  "mesh": "res://assets/models/kits/player_apartment/wall.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

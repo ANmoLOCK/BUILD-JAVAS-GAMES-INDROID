@@ -1,0 +1,16 @@
+{
+  "location": "newspaper_office",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/newspaper_office/albedo.png",
+    "normal": "res://assets/textures/kits/newspaper_office/normal.png",
+    "roughness": "res://assets/textures/kits/newspaper_office/roughness.png"
+  },
+  "status": "placeholder"
+}

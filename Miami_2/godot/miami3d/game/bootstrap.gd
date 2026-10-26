@@ -8,7 +8,8 @@ func _ready() -> void:
 	game = BrainFacade.new()
 	var content_dir := str(ProjectSettings.get_setting("miami/content_dir", "res://content"))
 	var save_dir := str(ProjectSettings.get_setting("miami/save_dir", "user://saves"))
-	var err := game.boot(content_dir, save_dir)
+	var assets_dir := str(ProjectSettings.get_setting("miami/assets_dir", "res://assets"))
+	var err := game.boot(content_dir, save_dir, assets_dir)
 	if err != OK:
 		push_error("Falha ao carregar content pack em %s" % content_dir)
 	else:

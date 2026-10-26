@@ -1,0 +1,16 @@
+{
+  "location": "pelican_island",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/pelican_island/albedo.png",
+    "normal": "res://assets/textures/kits/pelican_island/normal.png",
+    "roughness": "res://assets/textures/kits/pelican_island/roughness.png"
+  },
+  "status": "placeholder"
+}

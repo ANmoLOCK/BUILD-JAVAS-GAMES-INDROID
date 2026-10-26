@@ -1,0 +1,6 @@
+{
+  "id": "key_biscayne_trim",
+  "mesh": "res://assets/models/kits/key_biscayne/trim.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

@@ -1,0 +1,16 @@
+{
+  "location": "cuban_cafe",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/cuban_cafe/albedo.png",
+    "normal": "res://assets/textures/kits/cuban_cafe/normal.png",
+    "roughness": "res://assets/textures/kits/cuban_cafe/roughness.png"
+  },
+  "status": "placeholder"
+}

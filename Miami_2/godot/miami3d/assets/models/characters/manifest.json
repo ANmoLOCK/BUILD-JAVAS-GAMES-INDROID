@@ -1,0 +1,18 @@
+{
+  "rig": "res://assets/models/characters/rig_human.glb",
+  "slots": [
+    "heads",
+    "hair",
+    "tops",
+    "bottoms",
+    "shoes"
+  ],
+  "paletteColors": 6,
+  "parts": {
+    "heads": 30,
+    "hair": 30,
+    "tops": 31,
+    "bottoms": 30,
+    "shoes": 13
+  }
+}
