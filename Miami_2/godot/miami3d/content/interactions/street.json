@@ -1,0 +1,22 @@
+[
+  { "id": "steal_mail", "name": "@act.steal_mail", "animation": "sneak", "durationMinutes": 3,
+    "crime": 8, "then": [ { "money": 15 } ],
+    "reactions": { "success": "@react.steal_ok" } },
+
+  { "id": "watch_people", "name": "@act.watch_people", "animation": "sit", "durationMinutes": 30, "advancesTime": true,
+    "effects": [ { "stat": "culture", "delta": 2 }, { "stat": "sleep", "delta": -3 } ] },
+
+  { "id": "throw_trash", "name": "@act.throw_trash", "animation": "throw", "durationMinutes": 1,
+    "effects": [ { "stat": "kindness", "delta": 2 } ], "cooldownMinutes": 240 },
+
+  { "id": "eat_trash", "name": "@act.eat_trash", "animation": "eat", "durationMinutes": 5,
+    "effects": [ { "stat": "hunger", "delta": -15 }, { "stat": "hygiene", "delta": -20 }, { "stat": "health", "delta": -10 }, { "stat": "self_esteem", "delta": -10 } ] },
+
+  { "id": "pick_up_gnome", "name": "@act.pick_up_gnome", "animation": "pick_up", "durationMinutes": 1,
+    "then": [ { "giveItem": "gnome" }, { "notify": "@msg.gnome_found" } ], "event": "item_gained" },
+
+  { "id": "place_gnome", "name": "@act.place_gnome", "animation": "pick_up", "durationMinutes": 1,
+    "requiresItem": "gnome", "consumesItem": true,
+    "then": [ { "stat": { "kindness": 2 } }, { "relationship": { "npc": "landlord", "friendship": 10, "mood": 10 } } ],
+    "event": "used_object" }
+]

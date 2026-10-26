@@ -1,0 +1,6 @@
+{
+  "id": "plant", "name": "@item.plant", "kind": "object",
+  "mesh": "res://assets/models/misc/plant_pot.glb",
+  "footprint": [1, 1], "useCell": [-1, 0], "facing": "E",
+  "actions": ["water_plant"]
+}

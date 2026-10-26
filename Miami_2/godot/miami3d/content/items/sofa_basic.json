@@ -1,0 +1,9 @@
+{
+  "id": "sofa_basic", "name": "@item.sofa_basic", "kind": "furniture",
+  "mesh": "res://assets/models/furniture/sofa_basic.glb",
+  "icon": "res://assets/ui/items/sofa_basic.png",
+  "footprint": [2, 1], "useCell": [0, 1], "facing": "N",
+  "category": "sofa", "price": 80, "sellPrice": 20, "shop": "furniture_store",
+  "colors": ["orange", "blue", "yellow", "green", "red", "white"],
+  "actions": ["nap", "relax"]
+}

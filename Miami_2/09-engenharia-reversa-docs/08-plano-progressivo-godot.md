@@ -51,7 +51,9 @@ o Godot nunca inventa regras — só mostra e coleta input.
 
 ## 1. Mapa completo de arquivos do projeto Godot
 
-Raiz proposta: `Miami_2/10-remake-3d/miami3d/` (ao lado de `schemas/` e `content/`).
+Raiz real do projeto Godot: **`Miami_2/godot/miami3d/`** (ver `Miami_2/godot/PHASES.md`).
+Schemas continuam em `Miami_2/10-remake-3d/schemas/`; o pack de runtime fica em
+`godot/miami3d/content/`.
 
 ### 1.1 Cérebro — `core/` (nenhum `Node`, nenhum `extends Node`)
 

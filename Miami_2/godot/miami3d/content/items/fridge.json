@@ -1,0 +1,6 @@
+{
+  "id": "fridge", "name": "@item.fridge", "kind": "object",
+  "mesh": "res://assets/models/kitchen/fridge.glb",
+  "footprint": [1, 1], "useCell": [1, 0], "facing": "W",
+  "actions": ["snack", "drink_milk"]
+}

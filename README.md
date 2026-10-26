@@ -11,7 +11,8 @@
 | Como o jogo funciona (regras, números, sistemas) | [`03-sistemas-de-jogo.md`](Miami_2/09-engenharia-reversa-docs/03-sistemas-de-jogo.md) |
 | Como fazer o remake 3D para Android | [`05-arquitetura-android-3d.md`](Miami_2/09-engenharia-reversa-docs/05-arquitetura-android-3d.md) |
 | Como adicionar conteúdo novo | [`06-pipeline-de-conteudo.md`](Miami_2/09-engenharia-reversa-docs/06-pipeline-de-conteudo.md) |
-| **Plano progressivo Godot (cérebro + tudo do jogo + expansão)** | [`08-plano-progressivo-godot.md`](Miami_2/09-engenharia-reversa-docs/08-plano-progressivo-godot.md) |
+| **Plano progressivo Godot** | [`08-plano-progressivo-godot.md`](Miami_2/09-engenharia-reversa-docs/08-plano-progressivo-godot.md) |
+| **Projeto Godot 4 (Fase A — cérebro rodando)** | [`Miami_2/godot/README.md`](Miami_2/godot/README.md) |
 | Lista de todos os recursos extraídos | [`CATALOGO.md`](Miami_2/CATALOGO.md) |
 
 ## Do que se trata
