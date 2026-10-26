@@ -1,5 +1,6 @@
 extends Node3D
 ## Loop de jogo 3D: local + player + câmera + overlays UI.
+## Sinais do cérebro passam pelo MnEventBridge; ações passam pelo BrainFacade.
 
 signal request_menu
 
@@ -7,6 +8,8 @@ signal request_menu
 @onready var player: MnPlayer = $World/Player
 @onready var camera: MnIsoCamera = $World/IsoCamera
 @onready var cutaway: MnCutawayWalls = $World/Cutaway
+@onready var sun: DirectionalLight3D = $World/Sun
+@onready var fill: OmniLight3D = $World/Fill
 @onready var ui: CanvasLayer = $UI
 @onready var hud = $UI/HUD
 @onready var radial = $UI/RadialMenu
@@ -19,9 +22,11 @@ signal request_menu
 @onready var closet_ui = $UI/Closet
 @onready var shop_ui = $UI/Shop
 @onready var bank_ui = $UI/BankAtm
+@onready var toast: MnToast = $UI/Toast
 @onready var btn_bar: HBoxContainer = $UI/BtnBar
 
 var fx := MnFxSpawner.new()
+var bridge: MnEventBridge
 var _pending_appearance: Array = []
 var _gender: String = "m"
 
@@ -33,11 +38,10 @@ func setup(new_game: bool, player_name: String = "Você", gender: String = "m", 
 	camera.bind_target(player)
 	cutaway.bind_camera(camera)
 	var g: BrainFacade = Bootstrap.game
-	g.connect_signal("notify", _on_notify)
-	g.connect_signal("dialogue_requested", _on_dialogue)
-	g.connect_signal("teleport", _on_teleport)
-	g.connect_signal("stat_changed", func(_a, _b, _c): hud.refresh())
-	g.connect_signal("money_changed", func(_a, _b): hud.refresh())
+	bridge = MnEventBridge.new()
+	bridge.name = "EventBridge"
+	add_child(bridge)
+	bridge.bind(g, world, player, hud, dialogue, toast, city_map, sun, fill, fx, camera)
 	world.portal_used.connect(_on_portal)
 	world.object_chosen.connect(_on_object_chosen)
 	world.location_ready.connect(_on_location_ready)
@@ -45,6 +49,10 @@ func setup(new_game: bool, player_name: String = "Você", gender: String = "m", 
 	if social.has_signal("action_picked"):
 		social.action_picked.connect(_on_social_action)
 	city_map.travel.connect(_travel)
+	if phone.has_signal("open_map_requested"):
+		phone.open_map_requested.connect(func(): city_map.open())
+	if closet_ui.has_signal("appearance_changed"):
+		closet_ui.appearance_changed.connect(_on_closet_appearance)
 	pause_menu.resume.connect(func(): pause_menu.close_unpause())
 	pause_menu.to_menu.connect(func(): request_menu.emit())
 	_wire_buttons()
@@ -74,6 +82,12 @@ func _on_creator_done(n: String, gender: String, vector: Array) -> void:
 	_enter_current()
 
 
+func _on_closet_appearance(vector: Array) -> void:
+	_pending_appearance = vector
+	if vector.size() > 0:
+		_gender = "f" if int(vector[0]) == 1 else "m"
+
+
 func _enter_current() -> void:
 	var loc := Bootstrap.game.get_location()
 	if loc == "" or loc == null:
@@ -87,38 +101,63 @@ func _on_location_ready(_id: String) -> void:
 
 
 func _on_portal(to_loc: String, spawn: String) -> void:
+	Bootstrap.game.leave_location()
 	Bootstrap.game.enter_location(to_loc, spawn)
 	world.load_location(to_loc, spawn)
 	fx.spawn("stars", player.global_position + Vector3(0, 1.5, 0), self)
 
 
-func _on_teleport(location_id: String, spawn_id: String) -> void:
-	world.load_location(location_id, spawn_id)
-
-
 func _travel(location_id: String) -> void:
+	Bootstrap.game.leave_location()
 	Bootstrap.game.enter_location(location_id, "")
 	world.load_location(location_id)
 
 
 func _on_object_chosen(object_id: String, actions: Array) -> void:
+	# atalhos de UI embutidos em ações de content
+	var lower_actions: Array = []
+	for a in actions:
+		lower_actions.append(str(a).to_lower())
+	if "open_shop" in lower_actions or object_id.begins_with("shop_"):
+		shop_ui.open()
+		return
+	if "open_closet" in lower_actions or "change_clothes" in lower_actions:
+		closet_ui.open()
+		return
+	if "use_atm" in lower_actions or "pay_rent" in lower_actions:
+		bank_ui.open()
+		return
 	radial.open_for(object_id, actions)
 
 
 func _on_action(action_id: String) -> void:
 	var oid := radial.object_id
-	var result: Dictionary = Bootstrap.game.interact(oid, action_id)
-	_feedback_for_action(action_id, result)
+	var a := action_id.to_lower()
+	# dormir / trabalho / cirurgia → confirma e pede advance_time_request
+	if "sleep" in a or "dorm" in a or "nap" in a:
+		var result: Dictionary = Bootstrap.game.interact(oid, action_id)
+		if bool(result.get("ok", false)):
+			# duração extra se a ação não avançou sozinha
+			var act: Dictionary = Bootstrap.game.get_content_interaction(action_id)
+			var mins := int(act.get("durationMinutes", 0))
+			if mins > 0 and not bool(act.get("advancesTime", false)):
+				Bootstrap.game.advance_time_request(mins)
+		_feedback_for_action(action_id, result)
+		hud.refresh()
+		return
+	var result2: Dictionary = Bootstrap.game.interact(oid, action_id)
+	_feedback_for_action(action_id, result2)
 	hud.refresh()
 
 
 func _on_social_action(npc_id: String, action_id: String) -> void:
 	var result: Dictionary = Bootstrap.game.talk(npc_id, action_id)
-	if action_id in ["flirt", "FLERTAR", "offer", "OFERECER"]:
+	if action_id.to_lower() in ["flirt", "flertar", "offer", "oferecer"]:
 		fx.spawn("hearts", player.global_position + Vector3(0, 1.6, 0), self)
 	hud.refresh()
 	if result.has("line") or result.has("key"):
-		_on_dialogue(result)
+		if bridge:
+			bridge._on_dialogue(result)
 
 
 func _feedback_for_action(action_id: String, _result: Dictionary) -> void:
@@ -132,21 +171,6 @@ func _feedback_for_action(action_id: String, _result: Dictionary) -> void:
 		fx.spawn("hearts", at, self)
 	elif "stink" in a or "trash" in a or "lixo" in a:
 		fx.spawn("stink", at, self)
-
-
-func _on_notify(key: String) -> void:
-	if dialogue and dialogue.has_method("show_text"):
-		dialogue.show_text(Bootstrap.game.resolve_text(key))
-
-
-func _on_dialogue(payload: Dictionary) -> void:
-	var key := str(payload.get("key", payload.get("line", "")))
-	if key == "":
-		return
-	if dialogue and dialogue.has_method("show_key"):
-		dialogue.show_key(key, payload)
-	elif dialogue and dialogue.has_method("show_text"):
-		dialogue.show_text(Bootstrap.game.resolve_text(key, payload))
 
 
 func _wire_buttons() -> void:
@@ -180,7 +204,6 @@ func _unhandled_input(event: InputEvent) -> void:
 		is_tap = true
 	if not is_tap:
 		return
-	# UI em cima? ignora se mouse sobre Control opaco — Godot já marca handled
 	_handle_tap(tap_pos)
 
 
@@ -193,7 +216,6 @@ func _handle_tap(screen_pos: Vector2) -> void:
 	q.collision_mask = 1 | 2 | 4
 	var hit := space.intersect_ray(q)
 	if hit.is_empty():
-		# chão: projeta no plano y=0
 		if absf(dir.y) > 0.001:
 			var t := -from.y / dir.y
 			if t > 0:
@@ -212,5 +234,4 @@ func _handle_tap(screen_pos: Vector2) -> void:
 			var nid := str(collider.get("npc_id")) if collider.get("npc_id") != null else str(collider.name)
 			social.open_for(nid)
 		return
-	# chão / parede → move perto do ponto
 	player.go_to_world(hit.position)

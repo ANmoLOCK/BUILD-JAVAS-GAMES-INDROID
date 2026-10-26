@@ -93,6 +93,23 @@ func hud_icon(stat_id: String) -> String:
 	return ""
 
 
+func sfx_path(sound_id: String) -> String:
+	return _audio_path("sfx", sound_id)
+
+
+func music_path(music_id: String) -> String:
+	return _audio_path("music", music_id)
+
+
+func _audio_path(kind: String, id: String) -> String:
+	var base := "res://assets/audio/%s/%s" % [kind, id]
+	for ext in [".ogg", ".wav", ".mp3"]:
+		if ResourceLoader.exists(base + ext):
+			return base + ext
+	return ""
+
+
+
 func resolve_mesh(path: String) -> String:
 	if path != "" and ResourceLoader.exists(path):
 		return path

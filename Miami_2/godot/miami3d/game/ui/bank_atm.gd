@@ -1,6 +1,6 @@
 class_name MnBankAtm
 extends Control
-## Caixa automático: depósito / saque / pagar aluguel.
+## Caixa automático: depósito / saque / aluguel via use_phone.
 
 signal closed
 
@@ -23,43 +23,20 @@ func open() -> void:
 
 func _refresh() -> void:
 	var g: BrainFacade = Bootstrap.game
-	var bank := 0
-	if g.is_native:
-		bank = g.backend.get_bank()
-	else:
-		bank = g.economy.bank
-	info.text = "Carteira $%d  |  Banco $%d" % [g.get_cash(), bank]
+	var snap: Dictionary = g.use_phone("stats")
+	info.text = "Carteira $%d  |  Banco $%d" % [int(snap.get("cash", g.get_cash())), int(snap.get("bank", 0))]
 
 
 func _deposit() -> void:
-	var n := int(amount.value)
-	var g: BrainFacade = Bootstrap.game
-	if g.is_native:
-		if g.get_cash() >= n:
-			g.backend.add_cash(-n)
-			# bank via snapshot hack — use add through economy if gdscript
-	else:
-		g.economy.deposit(n)
+	Bootstrap.game.use_phone("deposit", {"amount": int(amount.value)})
 	_refresh()
 
 
 func _withdraw() -> void:
-	var n := int(amount.value)
-	var g: BrainFacade = Bootstrap.game
-	if not g.is_native:
-		g.economy.withdraw(n)
+	Bootstrap.game.use_phone("withdraw", {"amount": int(amount.value)})
 	_refresh()
 
 
 func _rent() -> void:
-	var g: BrainFacade = Bootstrap.game
-	var rent := 300
-	if g.is_native:
-		if g.get_cash() >= rent:
-			g.backend.add_cash(-rent)
-			g.backend.set_flag("rent_paid_this_week", true)
-	else:
-		if g.economy.pay(rent):
-			g.economy.rent_paid_this_week = true
-			g.world.set_flag("rent_paid_this_week", true)
+	Bootstrap.game.use_phone("pay_rent")
 	_refresh()

@@ -18,9 +18,16 @@ func setup(def: Dictionary) -> void:
 
 
 func place(new_item_id: String) -> void:
-	item_id = new_item_id
-	if Bootstrap.game and not Bootstrap.game.is_native:
-		Bootstrap.game.home.set_furniture(slot_id, item_id)
+	## Preferir comando do cérebro; fallback visual se backend não tiver place_furniture.
+	if Bootstrap.game and Bootstrap.game.has_method("place_furniture"):
+		var r: Dictionary = Bootstrap.game.place_furniture(slot_id, new_item_id)
+		if not bool(r.get("ok", false)):
+			return
+		item_id = str(r.get("item", new_item_id))
+	else:
+		item_id = new_item_id
+		if Bootstrap.game and not Bootstrap.game.is_native and Bootstrap.game.home:
+			Bootstrap.game.home.set_furniture(slot_id, item_id)
 	_rebuild()
 	changed.emit(slot_id, item_id)
 

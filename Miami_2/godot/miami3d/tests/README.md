@@ -19,6 +19,7 @@ godot4 --path . --headless -s res://tests/test_stats.gd
 | `test_economy.gd` | Cash, banco, aluguel |
 | `test_asset_registry.gd` | Assets / anim map |
 | `test_interactions.gd` | Dormir / banho / portal |
+| `test_event_commands.gd` | Contrato: phone/buy/equip/furniture/minigame/time |
 | `run_all.sh` | CI local |
 
 Se `godot4` não estiver no PATH, `run_all.sh` cai na validação Python do pack/assets.

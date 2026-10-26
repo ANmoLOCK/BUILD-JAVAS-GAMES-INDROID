@@ -168,6 +168,189 @@ func talk(npc_id: String, action_id: String, payload: Dictionary = {}) -> Dictio
 	return r2
 
 
+func leave_location() -> Dictionary:
+	## Corpo → cérebro: sai do local atual (portais / cutscene).
+	if not ready:
+		return {"ok": false, "reason": "not_ready"}
+	if world.location_id == "":
+		return {"ok": false, "reason": "no_location"}
+	var prev := world.location_id
+	_fire_location_triggers("leave")
+	world.set_location("", "")
+	quests.notify_event({"event": "left", "location": prev})
+	return {"ok": true, "from": prev}
+
+
+func use_phone(action: String, payload: Dictionary = {}) -> Dictionary:
+	## Agenda, ligar, ATM (depósito/saque/aluguel), atalhos de UI.
+	if not ready:
+		return {"ok": false, "reason": "not_ready"}
+	match action:
+		"stats", "agenda":
+			return {
+				"ok": true,
+				"action": action,
+				"cash": economy.cash,
+				"bank": economy.bank,
+				"stats": stats.to_dict(),
+				"day": time.day,
+				"minute": time.minute_of_day,
+			}
+		"quests":
+			return {"ok": true, "action": action, "quests": quests.to_dict() if quests.has_method("to_dict") else {}}
+		"call":
+			var npc_id := str(payload.get("npc", payload.get("npc_id", "")))
+			if npc_id == "":
+				events.notify.emit("@msg.phone_no_contact")
+				return {"ok": false, "reason": "npc"}
+			var topic := str(payload.get("topic", "greet"))
+			return talk(npc_id, topic, payload)
+		"deposit":
+			var n := int(payload.get("amount", 0))
+			if not economy.deposit(n):
+				events.notify.emit("@msg.no_money")
+				return {"ok": false, "reason": "money"}
+			return {"ok": true, "action": action, "amount": n, "cash": economy.cash, "bank": economy.bank}
+		"withdraw":
+			var w := int(payload.get("amount", 0))
+			if not economy.withdraw(w):
+				events.notify.emit("@msg.no_money")
+				return {"ok": false, "reason": "bank"}
+			return {"ok": true, "action": action, "amount": w, "cash": economy.cash, "bank": economy.bank}
+		"pay_rent":
+			var rent := int(payload.get("amount", economy.rent_per_week))
+			if economy.rent_paid_this_week:
+				events.notify.emit("@msg.rent_already")
+				return {"ok": false, "reason": "already"}
+			if not economy.pay(rent):
+				events.notify.emit("@msg.no_money")
+				return {"ok": false, "reason": "money"}
+			economy.rent_paid_this_week = true
+			world.set_flag("rent_paid_this_week", true)
+			events.notify.emit("@msg.rent_paid")
+			events.save_hint.emit()
+			return {"ok": true, "action": action, "paid": rent}
+		"open_map":
+			return {"ok": true, "action": action, "ui": "map"}
+		"save":
+			events.save_hint.emit()
+			return {"ok": true, "action": action}
+		_:
+			events.notify.emit("@msg.phone_unknown")
+			return {"ok": false, "reason": "unknown_action", "action": action}
+
+
+func buy(item_id: String) -> Dictionary:
+	## Loja: paga e coloca no inventário.
+	if not ready:
+		return {"ok": false, "reason": "not_ready"}
+	var item: Dictionary = content.get_item(item_id)
+	if item.is_empty():
+		return {"ok": false, "reason": "unknown_item"}
+	var price := int(item.get("price", 0))
+	if price > 0 and not economy.pay(price):
+		events.notify.emit("@msg.no_money")
+		return {"ok": false, "reason": "money"}
+	inventory.give(item_id)
+	quests.notify_event({"event": "bought", "item": item_id})
+	events.notify.emit("@msg.bought")
+	return {"ok": true, "item": item_id, "price": price}
+
+
+func equip(item_id: String = "", payload: Dictionary = {}) -> Dictionary:
+	## Closet / boutique: aplica peça no paper-doll.
+	if not ready:
+		return {"ok": false, "reason": "not_ready"}
+	# Modo slot direto: equip("", {slot, variant, color?})
+	if item_id == "" and payload.has("slot"):
+		var slot := str(payload["slot"])
+		var variant := int(payload.get("variant", 0))
+		var color := int(payload.get("color", -1))
+		if not appearance.equip_slot(slot, variant, color):
+			return {"ok": false, "reason": "bad_slot"}
+		events.notify.emit("@msg.equipped")
+		return {"ok": true, "slot": slot, "variant": variant, "appearance": appearance.vector.duplicate()}
+	# Ciclar slot (closet rápido)
+	if item_id == "" and payload.get("cycle", false):
+		var cslot := str(payload.get("slot", "top"))
+		var nv := appearance.cycle_slot(cslot, int(payload.get("max", 6)))
+		if nv < 0:
+			return {"ok": false, "reason": "bad_slot"}
+		return {"ok": true, "slot": cslot, "variant": nv, "appearance": appearance.vector.duplicate()}
+	var item: Dictionary = content.get_item(item_id)
+	if item.is_empty():
+		return {"ok": false, "reason": "unknown_item"}
+	if str(item.get("kind", "")) != "clothing":
+		return {"ok": false, "reason": "not_clothing"}
+	var owned := bool(payload.get("owned", false)) or inventory.has(item_id)
+	if not owned:
+		return {"ok": false, "reason": "not_owned"}
+	var islot := str(item.get("slot", ""))
+	var ivar := int(item.get("variant", 0))
+	var icolor := int(payload.get("color", 0))
+	if not appearance.equip_slot(islot, ivar, icolor):
+		return {"ok": false, "reason": "bad_slot"}
+	events.notify.emit("@msg.equipped")
+	return {"ok": true, "item": item_id, "slot": islot, "variant": ivar, "appearance": appearance.vector.duplicate()}
+
+
+func place_furniture(slot_id: String, item_id: String) -> Dictionary:
+	## Apartamento: instala móvel no slot (consome inventário).
+	if not ready:
+		return {"ok": false, "reason": "not_ready"}
+	if slot_id == "":
+		return {"ok": false, "reason": "bad_slot"}
+	if item_id != "":
+		var item: Dictionary = content.get_item(item_id)
+		if item.is_empty():
+			return {"ok": false, "reason": "unknown_item"}
+		if not inventory.has(item_id):
+			events.notify.emit("@msg.no_item")
+			return {"ok": false, "reason": "item"}
+	var prev := str(home.slots.get(slot_id, ""))
+	if prev != "" and prev != item_id:
+		inventory.give(prev)
+	if item_id != "":
+		inventory.take(item_id)
+	home.set_furniture(slot_id, item_id)
+	if events:
+		events.inventory_changed.emit()
+	quests.notify_event({"event": "placed_furniture", "slot": slot_id, "item": item_id})
+	return {"ok": true, "slot": slot_id, "item": item_id, "previous": prev}
+
+
+func start_minigame_result(minigame_id: String, won: bool, score: int = 0) -> Dictionary:
+	## Corpo reporta fim de dança / cartazes / foto.
+	if not ready:
+		return {"ok": false, "reason": "not_ready"}
+	quests.notify_event({
+		"event": "minigame",
+		"id": minigame_id,
+		"won": won,
+		"score": score,
+	})
+	var reward := 0
+	if won:
+		reward = clampi(int(score / 2), 5, 50)
+		economy.add_cash(reward)
+		stats.apply_effects([{ "stat": "mood", "delta": 5 }])
+		events.notify.emit("@msg.minigame_win")
+	else:
+		events.notify.emit("@msg.minigame_lose")
+	return {"ok": true, "id": minigame_id, "won": won, "score": score, "reward": reward}
+
+
+func advance_time_request(minutes: int) -> Dictionary:
+	## Dormir / trabalho / cirurgia — UI já confirmou.
+	if not ready:
+		return {"ok": false, "reason": "not_ready"}
+	if minutes <= 0:
+		return {"ok": false, "reason": "bad_minutes"}
+	time.advance_minutes(minutes)
+	events.save_hint.emit()
+	return {"ok": true, "minutes": minutes, "day": time.day, "minute": time.minute_of_day}
+
+
 func _fire_location_triggers(on: String, object_id: String = "", npc_id: String = "") -> void:
 	var loc: Dictionary = content.get_location(world.location_id)
 	for t in loc.get("triggers", []):
