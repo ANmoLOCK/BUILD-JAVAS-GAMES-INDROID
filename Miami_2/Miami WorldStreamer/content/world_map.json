@@ -1,0 +1,261 @@
+{
+  "id": "miami_city_streamer",
+  "version": "1.0.0",
+  "label": "Miami quase open-world — streaming por chunks",
+  "cell_size": 1.0,
+  "chunk_size": [64, 64],
+  "load_radius": 1,
+  "unload_radius": 2,
+  "mode_default": "discrete",
+  "modes": ["discrete", "stream"],
+  "notes": "Modo stream NÃO substitui enter_location do cérebro: só muda o corpo. Indoor continua discreto.",
+  "anchors": {
+    "first_street": {
+      "outdoor": true,
+      "origin_cell": [0, 0],
+      "chunk": [0, 0],
+      "size": [80, 70]
+    },
+    "downtown": {
+      "outdoor": true,
+      "origin_cell": [80, 0],
+      "chunk": [1, 0],
+      "size": [50, 40]
+    },
+    "stadium": {
+      "outdoor": false,
+      "parent": "downtown",
+      "origin_cell": [100, 10],
+      "chunk": [1, 0]
+    },
+    "beauty_clinic": {
+      "outdoor": false,
+      "parent": "downtown",
+      "origin_cell": [110, 20],
+      "chunk": [1, 0]
+    },
+    "police_station": {
+      "outdoor": false,
+      "parent": "downtown",
+      "origin_cell": [90, 25],
+      "chunk": [1, 0]
+    },
+    "glight_club": {
+      "outdoor": false,
+      "parent": "downtown",
+      "origin_cell": [95, 5],
+      "chunk": [1, 0]
+    },
+    "newspaper_office": {
+      "outdoor": false,
+      "parent": "downtown",
+      "origin_cell": [105, 5],
+      "chunk": [1, 0]
+    },
+    "player_apartment": {
+      "outdoor": false,
+      "parent": "first_street",
+      "origin_cell": [20, 28],
+      "chunk": [0, 0]
+    },
+    "heather_dean_apartment": {
+      "outdoor": false,
+      "parent": "first_street",
+      "origin_cell": [30, 28],
+      "chunk": [0, 0]
+    },
+    "npc_apartment": {
+      "outdoor": false,
+      "parent": "first_street",
+      "origin_cell": [40, 28],
+      "chunk": [0, 0]
+    },
+    "apartment_garden": {
+      "outdoor": false,
+      "parent": "first_street",
+      "origin_cell": [22, 20],
+      "chunk": [0, 0]
+    },
+    "south_beach": {
+      "outdoor": true,
+      "origin_cell": [0, 80],
+      "chunk": [0, 1],
+      "size": [48, 40]
+    },
+    "ocean_drive": {
+      "outdoor": true,
+      "origin_cell": [48, 80],
+      "chunk": [0, 1],
+      "size": [55, 40]
+    },
+    "miami_beach": {
+      "outdoor": true,
+      "origin_cell": [0, 120],
+      "chunk": [0, 1],
+      "size": [40, 30]
+    },
+    "little_havana": {
+      "outdoor": true,
+      "origin_cell": [103, 80],
+      "chunk": [1, 1],
+      "size": [50, 40]
+    },
+    "cuban_cafe": {
+      "outdoor": false,
+      "parent": "little_havana",
+      "origin_cell": [110, 90],
+      "chunk": [1, 1]
+    },
+    "yuca_restaurant": {
+      "outdoor": false,
+      "parent": "little_havana",
+      "origin_cell": [120, 95],
+      "chunk": [1, 1]
+    },
+    "coconut_grove": {
+      "outdoor": true,
+      "origin_cell": [160, 0],
+      "chunk": [2, 0],
+      "size": [50, 40]
+    },
+    "grand_avenue": {
+      "outdoor": true,
+      "origin_cell": [160, 40],
+      "chunk": [2, 0],
+      "size": [40, 30]
+    },
+    "lounge": {
+      "outdoor": false,
+      "parent": "coconut_grove",
+      "origin_cell": [170, 10],
+      "chunk": [2, 0]
+    },
+    "pelican_island": {
+      "outdoor": true,
+      "origin_cell": [210, 80],
+      "chunk": [3, 1],
+      "size": [40, 30]
+    },
+    "pelican_port": {
+      "outdoor": true,
+      "origin_cell": [210, 110],
+      "chunk": [3, 1],
+      "size": [30, 20]
+    },
+    "yacht": {
+      "outdoor": false,
+      "parent": "pelican_port",
+      "origin_cell": [220, 115],
+      "chunk": [3, 1]
+    },
+    "key_biscayne": {
+      "outdoor": true,
+      "origin_cell": [160, 120],
+      "chunk": [2, 1],
+      "size": [40, 30]
+    },
+    "mansion": {
+      "outdoor": false,
+      "parent": "key_biscayne",
+      "origin_cell": [170, 130],
+      "chunk": [2, 1]
+    },
+    "everglades": {
+      "outdoor": true,
+      "origin_cell": [0, 160],
+      "chunk": [0, 2],
+      "size": [60, 50]
+    }
+  },
+  "chunks": [
+    {
+      "id": "c_0_0",
+      "coord": [0, 0],
+      "label": "Downtown / First Street",
+      "locations": ["first_street", "downtown"],
+      "neighbors": ["c_1_0", "c_0_1", "c_2_0"]
+    },
+    {
+      "id": "c_1_0",
+      "coord": [1, 0],
+      "label": "Downtown East",
+      "locations": ["downtown"],
+      "neighbors": ["c_0_0", "c_1_1", "c_2_0"]
+    },
+    {
+      "id": "c_2_0",
+      "coord": [2, 0],
+      "label": "Coconut Grove",
+      "locations": ["coconut_grove", "grand_avenue"],
+      "neighbors": ["c_0_0", "c_1_0", "c_2_1"]
+    },
+    {
+      "id": "c_0_1",
+      "coord": [0, 1],
+      "label": "South Beach / Ocean Drive",
+      "locations": ["south_beach", "ocean_drive", "miami_beach"],
+      "neighbors": ["c_0_0", "c_1_1", "c_0_2"]
+    },
+    {
+      "id": "c_1_1",
+      "coord": [1, 1],
+      "label": "Little Havana",
+      "locations": ["little_havana"],
+      "neighbors": ["c_0_1", "c_1_0", "c_2_1", "c_3_1"]
+    },
+    {
+      "id": "c_2_1",
+      "coord": [2, 1],
+      "label": "Key Biscayne",
+      "locations": ["key_biscayne"],
+      "neighbors": ["c_2_0", "c_1_1", "c_3_1"]
+    },
+    {
+      "id": "c_3_1",
+      "coord": [3, 1],
+      "label": "Pelican Island",
+      "locations": ["pelican_island", "pelican_port"],
+      "neighbors": ["c_1_1", "c_2_1"]
+    },
+    {
+      "id": "c_0_2",
+      "coord": [0, 2],
+      "label": "Everglades",
+      "locations": ["everglades"],
+      "neighbors": ["c_0_1"]
+    }
+  ],
+  "seams": [
+    {
+      "from": "first_street",
+      "to": "downtown",
+      "kind": "outdoor_walk",
+      "note": "Portal vira costura: player anda; cérebro só sincroniza location_id"
+    },
+    {
+      "from": "south_beach",
+      "to": "ocean_drive",
+      "kind": "outdoor_walk"
+    },
+    {
+      "from": "south_beach",
+      "to": "miami_beach",
+      "kind": "outdoor_walk"
+    },
+    {
+      "from": "ocean_drive",
+      "to": "little_havana",
+      "kind": "outdoor_walk"
+    },
+    {
+      "from": "coconut_grove",
+      "to": "grand_avenue",
+      "kind": "outdoor_walk"
+    },
+    {
+      "from": "pelican_island",
+      "to": "pelican_port",
+      "kind": "outdoor_walk"
+    }
+  ]
+}
