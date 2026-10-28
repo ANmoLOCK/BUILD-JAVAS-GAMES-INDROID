@@ -15,7 +15,7 @@ func _ready() -> void:
 	if studio_label:
 		studio_label.text = MnBrand.studio()
 	if legal:
-		legal.text = MnBrand.studio_legal() + "  ·  placeholder de marca"
+		legal.text = MnBrand.studio_legal()
 	modulate.a = 0.0
 	var hold := float(MnBrand.boot().get("studio_hold_s", 1.6))
 	var tw := create_tween()
