@@ -1,25 +1,22 @@
-# Boot — Miami Life
-
-Fluxo de abertura (substitui splash Gameloft do Java original):
+# Boot cutscene — Miami Life
 
 ```
-Coral Pulse (estúdio)  →  Loading Miami Life  →  Menu principal  →  Play
+tela preta → logo HueHueGames → logo/nome Miami Life → barra de carregamento → menu
 ```
 
-## Trocar nomes / arte
+Cena: `boot_cutscene.tscn` (entrada em `main.gd`).
 
-Edite só `content/brand.json`:
+## Marca
 
-| Campo | Exemplo |
+Edite `content/brand.json`:
+
+| Campo | Valor atual |
 |---|---|
-| `studio_name` / `studio_legal` | Seu estúdio (no lugar de Gameloft) |
+| `studio_name` | `HueHueGames` |
 | `game_title` | `Miami Life` |
-| `assets.*` | Paths dos PNGs em `assets/ui/brand/` |
+| `assets.studio_logo` | `assets/ui/brand/huehuegames_logo.png` |
+| `assets.game_logo` | `assets/ui/brand/miami_life_logo.png` |
 
-Sugestões de estúdio no JSON: Coral Pulse, Neon Palm Studio, Tideshift Interactive, Bayline Games, Sunset Circuit.
+## Preview HTML
 
-## Placeholders IA atuais
-
-- `coral_pulse_studio.png` — marca do estúdio
-- `miami_life_logo.png` — logo do game
-- `miami_life_hero.png` — fundo full-bleed menu/loading
+`assets/ui/brand/demo/index.html` — mesma sequência no browser.

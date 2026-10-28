@@ -1,42 +1,32 @@
 extends Control
-## Fluxo: Splash estúdio → Loading → Menu → Play (3D).
+## Fluxo: cutscene (preto → HueHueGames → Miami Life + loading) → Menu → Play.
 
-enum State { SPLASH, LOADING, MENU, PLAY }
+enum State { BOOT, MENU, PLAY }
 
-var state: State = State.SPLASH
-var _splash: Control
-var _loading: Control
+var state: State = State.BOOT
+var _boot: Control
 var _menu: Control
 var _play: Node3D
 
 
 func _ready() -> void:
-	_show_splash()
+	_show_boot()
 
 
 func _clear_stage() -> void:
 	for c in $Stage.get_children():
 		c.queue_free()
-	_splash = null
-	_loading = null
+	_boot = null
 	_menu = null
 	_play = null
 
 
-func _show_splash() -> void:
+func _show_boot() -> void:
 	_clear_stage()
-	state = State.SPLASH
-	_splash = preload("res://game/flow/splash.tscn").instantiate()
-	$Stage.add_child(_splash)
-	_splash.finished.connect(_show_loading, CONNECT_ONE_SHOT)
-
-
-func _show_loading() -> void:
-	_clear_stage()
-	state = State.LOADING
-	_loading = preload("res://game/flow/loading_screen.tscn").instantiate()
-	$Stage.add_child(_loading)
-	_loading.finished.connect(_show_menu, CONNECT_ONE_SHOT)
+	state = State.BOOT
+	_boot = preload("res://game/flow/boot_cutscene.tscn").instantiate()
+	$Stage.add_child(_boot)
+	_boot.finished.connect(_show_menu, CONNECT_ONE_SHOT)
 
 
 func _show_menu() -> void:

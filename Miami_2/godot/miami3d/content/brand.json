@@ -4,20 +4,18 @@
   "game_title_short": "MIAMI LIFE",
   "tagline_pt": "A cidade é sua — viva a noite.",
   "tagline_en": "The city is yours — live the night.",
-  "studio_id": "coral_pulse",
-  "studio_name": "Coral Pulse",
-  "studio_legal": "Coral Pulse Interactive",
-  "studio_note": "Placeholder de estúdio — troque em content/brand.json (substitui Gameloft).",
-  "studio_suggestions": [
-    "Coral Pulse",
-    "Neon Palm Studio",
-    "Tideshift Interactive",
-    "Bayline Games",
-    "Sunset Circuit"
-  ],
+  "studio_id": "huehuegames",
+  "studio_name": "HueHueGames",
+  "studio_legal": "HueHueGames",
+  "studio_note": "Estúdio no boot — substitui Gameloft. Editável aqui.",
   "boot": {
-    "studio_hold_s": 1.6,
-    "loading_min_s": 1.8,
+    "black_hold_s": 0.55,
+    "studio_fade_in_s": 0.7,
+    "studio_hold_s": 1.8,
+    "studio_fade_out_s": 0.5,
+    "title_fade_in_s": 0.75,
+    "title_hold_s": 0.6,
+    "loading_min_s": 2.2,
     "tips_pt": [
       "Durma o suficiente — Miami não espera por ninguém.",
       "O mapa libera locais conforme sua fase.",
@@ -26,7 +24,7 @@
     ]
   },
   "assets": {
-    "studio_logo": "res://assets/ui/brand/coral_pulse_studio.png",
+    "studio_logo": "res://assets/ui/brand/huehuegames_logo.png",
     "game_logo": "res://assets/ui/brand/miami_life_logo.png",
     "hero_bg": "res://assets/ui/brand/miami_life_hero.png"
   }
