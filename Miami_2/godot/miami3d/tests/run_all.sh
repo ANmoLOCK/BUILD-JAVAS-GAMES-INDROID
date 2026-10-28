@@ -11,6 +11,7 @@ if ! command -v "$GODOT" >/dev/null 2>&1; then
   python3 "$ROOT/tools/validate_content_pack.py" --lite "$ROOT/content"
   python3 "$ROOT/tools/validate_assets.py"
   python3 "$ROOT/tools/audit_phases.py"
+  python3 "$ROOT/tools/validate_brand.py"
   python3 "$ROOT/../../Miami WorldStreamer/tools/validate_world_streamer.py"
   exit 0
 fi
