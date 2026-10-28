@@ -16,6 +16,7 @@ func _init() -> void:
 		"res://tests/test_event_commands.gd",
 		"res://tests/test_phases.gd",
 		"res://tests/test_phase_ops.gd",
+		"res://tests/test_world_streamer.gd",
 		"res://tests/text_day.gd",
 	]
 	for s in suites:

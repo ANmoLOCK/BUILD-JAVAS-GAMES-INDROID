@@ -1,10 +1,12 @@
 extends Node3D
 ## Loop de jogo 3D: local + player + câmera + overlays UI.
 ## Sinais do cérebro passam pelo MnEventBridge; ações passam pelo BrainFacade.
+## WorldStreamer (opt-in miami/world_mode=stream) costura outdoors sem quebrar discrete.
 
 signal request_menu
 
 @onready var world: MnLocationController = $World/Location
+@onready var streamer: MnWorldStreamer = $World/Streamer
 @onready var player: MnPlayer = $World/Player
 @onready var camera: MnIsoCamera = $World/IsoCamera
 @onready var cutaway: MnCutawayWalls = $World/Cutaway
@@ -27,8 +29,10 @@ signal request_menu
 
 var fx := MnFxSpawner.new()
 var bridge: MnEventBridge
+var stream_bridge := MnStreamBridge.new()
 var _pending_appearance: Array = []
 var _gender: String = "m"
+var _stream_tick: float = 0.0
 
 
 func setup(new_game: bool, player_name: String = "Você", gender: String = "m", appearance: Array = []) -> void:
@@ -38,6 +42,7 @@ func setup(new_game: bool, player_name: String = "Você", gender: String = "m", 
 	camera.bind_target(player)
 	cutaway.bind_camera(camera)
 	var g: BrainFacade = Bootstrap.game
+	_setup_streamer()
 	bridge = MnEventBridge.new()
 	bridge.name = "EventBridge"
 	add_child(bridge)
@@ -73,6 +78,27 @@ func setup(new_game: bool, player_name: String = "Você", gender: String = "m", 
 		_enter_current()
 
 
+func _setup_streamer() -> void:
+	if streamer == null:
+		streamer = MnWorldStreamer.new()
+		streamer.name = "Streamer"
+		$World.add_child(streamer)
+	var err := streamer.setup()
+	if err != OK:
+		push_warning("WorldStreamer map: %s — caindo para discrete" % err)
+		stream_bridge.setup(streamer, world)
+		stream_bridge.set_enabled(false)
+		return
+	stream_bridge.setup(streamer, world)
+	var on := Bootstrap.is_stream_mode()
+	stream_bridge.set_enabled(on)
+	streamer.portal_used.connect(_on_stream_portal)
+	streamer.object_chosen.connect(_on_object_chosen)
+	streamer.focus_changed.connect(_on_stream_focus)
+	if not on:
+		streamer.visible = false
+
+
 func _on_creator_done(n: String, gender: String, vector: Array) -> void:
 	_gender = gender
 	_pending_appearance = vector
@@ -93,7 +119,13 @@ func _enter_current() -> void:
 	if loc == "" or loc == null:
 		loc = "player_apartment"
 		Bootstrap.game.enter_location(loc, "")
-	world.load_location(loc)
+	var spawn := ""
+	if Bootstrap.game.world:
+		spawn = str(Bootstrap.game.world.spawn_id)
+	if stream_bridge.enabled:
+		stream_bridge.enter(loc, spawn)
+	else:
+		world.load_location(loc, spawn)
 
 
 func _on_location_ready(_id: String) -> void:
@@ -101,16 +133,59 @@ func _on_location_ready(_id: String) -> void:
 
 
 func _on_portal(to_loc: String, spawn: String) -> void:
-	Bootstrap.game.leave_location()
-	Bootstrap.game.enter_location(to_loc, spawn)
-	world.load_location(to_loc, spawn)
+	var from_id := Bootstrap.game.get_location()
+	if stream_bridge.enabled:
+		stream_bridge.handle_portal(from_id, to_loc, spawn)
+	else:
+		Bootstrap.game.leave_location()
+		Bootstrap.game.enter_location(to_loc, spawn)
+		world.load_location(to_loc, spawn)
 	fx.spawn("stars", player.global_position + Vector3(0, 1.5, 0), self)
 
 
+func _on_stream_portal(to_loc: String, spawn: String) -> void:
+	_on_portal(to_loc, spawn)
+
+
+func _on_stream_focus(location_id: String) -> void:
+	## Sincroniza cérebro ao cruzar quarteirão sem portal explícito.
+	if Bootstrap.game.get_location() == location_id:
+		return
+	if Bootstrap.game.world and Bootstrap.game.world.is_unlocked(location_id):
+		Bootstrap.game.enter_location(location_id, "")
+		_sync_global_cell()
+	hud.refresh()
+
+
 func _travel(location_id: String) -> void:
-	Bootstrap.game.leave_location()
-	Bootstrap.game.enter_location(location_id, "")
-	world.load_location(location_id)
+	if stream_bridge.enabled:
+		stream_bridge.handle_travel(location_id)
+	else:
+		Bootstrap.game.leave_location()
+		Bootstrap.game.enter_location(location_id, "")
+		world.load_location(location_id)
+	_sync_global_cell()
+
+
+func _sync_global_cell() -> void:
+	if not stream_bridge.enabled or streamer == null or Bootstrap.game.world == null:
+		return
+	var gcell := streamer.coords.world_to_global(player.global_position)
+	Bootstrap.game.world.global_cell = gcell
+	var loc := Bootstrap.game.get_location()
+	if loc != "" and streamer.coords.is_outdoor(loc):
+		Bootstrap.game.world.cell = streamer.coords.global_to_local(loc, gcell)
+
+
+func _process(delta: float) -> void:
+	if not stream_bridge.enabled or streamer == null or not streamer.active:
+		return
+	_stream_tick += delta
+	if _stream_tick < 0.35:
+		return
+	_stream_tick = 0.0
+	streamer.update_from_player_world(player.global_position)
+	_sync_global_cell()
 
 
 func _on_object_chosen(object_id: String, actions: Array) -> void:

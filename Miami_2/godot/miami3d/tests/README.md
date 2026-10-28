@@ -22,6 +22,7 @@ godot4 --path . --headless -s res://tests/test_stats.gd
 | `test_event_commands.gd` | Contrato: phone/buy/equip/furniture/minigame/time |
 | `test_phases.gd` | Fases A–G: locais cumulativos + sistemas |
 | `test_phase_ops.gd` | Bootstrap A–G, checklist, merge de mods |
+| `test_world_streamer.gd` | Catalog/coords/seams do WorldStreamer |
 | `run_all.sh` | CI local |
 
-Se `godot4` não estiver no PATH, `run_all.sh` cai na validação Python do pack/assets.
+Se `godot4` não estiver no PATH, `run_all.sh` cai na validação Python do pack/assets + WorldStreamer.

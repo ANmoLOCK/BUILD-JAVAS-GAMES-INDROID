@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3]
+[gd_scene load_steps=19 format=3]
 
 [ext_resource type="Script" path="res://game/flow/play_root.gd" id="1"]
 [ext_resource type="PackedScene" path="res://game/world/location_controller.tscn" id="2"]
@@ -17,6 +17,7 @@
 [ext_resource type="PackedScene" path="res://game/ui/shop.tscn" id="15"]
 [ext_resource type="PackedScene" path="res://game/ui/bank_atm.tscn" id="16"]
 [ext_resource type="PackedScene" path="res://game/ui/toast.tscn" id="17"]
+[ext_resource type="Script" path="res://game/world/streamer/world_streamer.gd" id="18"]
 
 [node name="PlayRoot" type="Node3D"]
 script = ExtResource("1")
@@ -24,6 +25,9 @@ script = ExtResource("1")
 [node name="World" type="Node3D" parent="."]
 
 [node name="Location" parent="World" instance=ExtResource("2")]
+
+[node name="Streamer" type="Node3D" parent="World"]
+script = ExtResource("18")
 
 [node name="Player" parent="World" instance=ExtResource("3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 0, 17)

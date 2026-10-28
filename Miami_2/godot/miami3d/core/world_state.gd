@@ -6,6 +6,8 @@ var events: MnEvents
 var location_id: String = ""
 var spawn_id: String = ""
 var cell: Vector2i = Vector2i.ZERO
+## Célula global (WorldStreamer). Opcional — saves antigos ignoram.
+var global_cell: Vector2i = Vector2i.ZERO
 var facing: String = "S"
 var flags: Dictionary = {} # String -> bool
 var unlocked_locations: Dictionary = {} # id -> true
@@ -71,6 +73,7 @@ func to_dict() -> Dictionary:
 		"location": location_id,
 		"spawn": spawn_id,
 		"cell": [cell.x, cell.y],
+		"global_cell": [global_cell.x, global_cell.y],
 		"facing": facing,
 		"flags": flags.duplicate(),
 		"unlocked": unlocked_locations.keys(),
@@ -83,6 +86,8 @@ func from_dict(d: Dictionary) -> void:
 	spawn_id = str(d.get("spawn", ""))
 	var ca: Array = d.get("cell", [0, 0])
 	cell = Vector2i(int(ca[0]), int(ca[1]) if ca.size() > 1 else 0)
+	var ga: Array = d.get("global_cell", [0, 0])
+	global_cell = Vector2i(int(ga[0]), int(ga[1]) if ga.size() > 1 else 0)
 	facing = str(d.get("facing", "S"))
 	flags = d.get("flags", {}).duplicate()
 	unlocked_locations.clear()

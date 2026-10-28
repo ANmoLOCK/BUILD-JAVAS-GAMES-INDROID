@@ -42,3 +42,12 @@ Implementação: `MnGame` + `MnEvents` (`core/`), espelho em `BrainFacade`, rea�
 
 - UI **não** mexe em `economy` / `inventory` / `home` direto — chama a fachada.
 - Lógica de stats/missões fica no cérebro; o corpo só mostra e coleta input.
+
+## WorldStreamer (corpo, opt-in)
+
+Pacote `Miami_2/Miami WorldStreamer/`. Com `miami/world_mode=stream`:
+
+- Outdoor: `MnWorldStreamer` carrega chunks; portais outdoor→outdoor viram **costura** (ainda chama `enter_location` só para sync).
+- Indoor: continua `MnLocationController` + `leave_location` / `enter_location`.
+- Default `discrete` — contrato e saves antigos intactos.
+- `world.global_cell` é opcional no save (ignorado se ausente).
