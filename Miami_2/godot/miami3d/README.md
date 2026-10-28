@@ -1,6 +1,9 @@
-# miami3d — projeto Godot 4.3
+# miami3d — Miami Life (Godot 4.3)
 
 Abra **este** `project.godot` no Godot 4.3+.
+
+Boot: **Coral Pulse** (estúdio, no lugar da Gameloft) → loading → menu **Miami Life**.  
+Troca de marca: `content/brand.json` + arte em `assets/ui/brand/` (ver `game/flow/BOOT.md`).
 
 ## Pastas
 

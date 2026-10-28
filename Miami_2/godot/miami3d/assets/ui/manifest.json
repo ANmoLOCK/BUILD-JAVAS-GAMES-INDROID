@@ -21,5 +21,10 @@
     "map",
     "pause"
   ],
-  "logo": "res://assets/ui/logo.png"
+  "logo": "res://assets/ui/logo.png",
+  "brand": {
+    "studio_logo": "res://assets/ui/brand/coral_pulse_studio.png",
+    "game_logo": "res://assets/ui/brand/miami_life_logo.png",
+    "hero_bg": "res://assets/ui/brand/miami_life_hero.png"
+  }
 }

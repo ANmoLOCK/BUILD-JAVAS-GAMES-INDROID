@@ -1,10 +1,11 @@
 extends Control
-## Fluxo: Splash → Menu → Play (3D). Mantém Fase A acessível via debug.
+## Fluxo: Splash estúdio → Loading → Menu → Play (3D).
 
-enum State { SPLASH, MENU, PLAY }
+enum State { SPLASH, LOADING, MENU, PLAY }
 
 var state: State = State.SPLASH
 var _splash: Control
+var _loading: Control
 var _menu: Control
 var _play: Node3D
 
@@ -17,6 +18,7 @@ func _clear_stage() -> void:
 	for c in $Stage.get_children():
 		c.queue_free()
 	_splash = null
+	_loading = null
 	_menu = null
 	_play = null
 
@@ -26,7 +28,15 @@ func _show_splash() -> void:
 	state = State.SPLASH
 	_splash = preload("res://game/flow/splash.tscn").instantiate()
 	$Stage.add_child(_splash)
-	_splash.finished.connect(_show_menu, CONNECT_ONE_SHOT)
+	_splash.finished.connect(_show_loading, CONNECT_ONE_SHOT)
+
+
+func _show_loading() -> void:
+	_clear_stage()
+	state = State.LOADING
+	_loading = preload("res://game/flow/loading_screen.tscn").instantiate()
+	$Stage.add_child(_loading)
+	_loading.finished.connect(_show_menu, CONNECT_ONE_SHOT)
 
 
 func _show_menu() -> void:

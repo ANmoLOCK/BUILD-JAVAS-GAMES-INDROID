@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Miami Life — demo boot</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;600&display=swap');
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; background: #02060c; color: #ffeeda; font-family: Outfit, system-ui, sans-serif; overflow: hidden; }
+  .phone { width: min(960px, 100vw); height: min(540px, 100vh); margin: calc(50vh - min(270px, 50vh)) auto 0; position: relative; border-radius: 18px; overflow: hidden; box-shadow: 0 30px 80px rgba(0,0,0,.55); }
+  .screen { position: absolute; inset: 0; opacity: 0; pointer-events: none; transition: opacity .55s ease; display: grid; place-items: center; }
+  .screen.on { opacity: 1; pointer-events: auto; }
+  .studio { background: radial-gradient(circle at 50% 42%, #1a3a40 0%, #061018 62%); }
+  .studio img { width: 180px; height: 180px; object-fit: contain; }
+  .studio h1 { font-family: Bebas Neue, sans-serif; letter-spacing: .12em; font-size: 2rem; margin-top: .6rem; font-weight: 400; }
+  .studio p { color: #7ec8d4; font-size: .85rem; letter-spacing: .25em; text-transform: uppercase; margin-top: .35rem; }
+  .studio small { position: absolute; bottom: 18px; left: 0; right: 0; text-align: center; color: #6a838c; font-size: .75rem; }
+  .loading, .menu { background: #061018 center/cover no-repeat; background-image: linear-gradient(180deg, rgba(6,16,24,.35), rgba(6,16,24,.78)), url('../miami_life_hero.png'); }
+  .loading .stack, .menu .stack { width: min(420px, 86%); text-align: center; margin-top: 12%; }
+  .loading img, .menu .brand img { width: 120px; height: 120px; object-fit: contain; margin: 0 auto .4rem; display: block; }
+  .title { font-family: Bebas Neue, sans-serif; font-size: clamp(2.4rem, 6vw, 3.4rem); letter-spacing: .08em; font-weight: 400; }
+  .tip { color: #c7e6ec; margin: .7rem 0 1rem; min-height: 2.4em; font-size: .95rem; }
+  .bar { height: 10px; border-radius: 99px; background: rgba(255,255,255,.12); overflow: hidden; }
+  .bar > i { display: block; height: 100%; width: 0%; background: linear-gradient(90deg, #f0a070, #7ec8d4); }
+  .status { margin-top: .55rem; color: #8aa8b2; font-size: .8rem; }
+  .menu .stack { margin-top: 0; }
+  .tag { color: #c7e6ec; margin-top: .25rem; }
+  .panel { display: grid; gap: .55rem; margin-top: 1rem; }
+  .panel button { border: 0; border-radius: 10px; padding: .85rem 1rem; font: 600 1rem Outfit, sans-serif; cursor: pointer; background: rgba(255,238,218,.92); color: #132029; }
+  .panel button.ghost { background: rgba(10,24,32,.55); color: #ffeeda; outline: 1px solid rgba(255,255,255,.18); }
+  .panel button:disabled { opacity: .45; cursor: not-allowed; }
+  .hud { position: fixed; left: 16px; bottom: 16px; right: 16px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; font-size: .8rem; color: #9bb4bc; }
+  .hud b { color: #ffeeda; }
+  .chip { background: rgba(255,255,255,.06); padding: .35rem .7rem; border-radius: 999px; }
+</style>
+</head>
+<body>
+  <div class="phone">
+    <section class="screen studio on" id="s1">
+      <div>
+        <img src="../coral_pulse_studio.png" alt="Coral Pulse" />
+        <h1>CORAL PULSE</h1>
+        <p>apresenta</p>
+      </div>
+      <small>Coral Pulse Interactive · placeholder (substitui Gameloft)</small>
+    </section>
+    <section class="screen loading" id="s2">
+      <div class="stack">
+        <img src="../miami_life_logo.png" alt="Miami Life" />
+        <div class="title">MIAMI LIFE</div>
+        <div class="tip" id="tip">A cidade é sua — viva a noite.</div>
+        <div class="bar"><i id="bar"></i></div>
+        <div class="status" id="status">Preparando Miami…</div>
+      </div>
+    </section>
+    <section class="screen menu" id="s3">
+      <div class="stack">
+        <div class="brand">
+          <img src="../miami_life_logo.png" alt="Miami Life" />
+          <div class="title">MIAMI LIFE</div>
+          <div class="tag">A cidade é sua — viva a noite.</div>
+        </div>
+        <div class="panel">
+          <button type="button">Novo jogo</button>
+          <button type="button" class="ghost" disabled>Continuar</button>
+          <button type="button" class="ghost">Sair</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="hud">
+    <span class="chip">Demo boot · <b id="stepLabel">1 · Estúdio</b></span>
+    <span class="chip">Game: <b>Miami Life</b></span>
+    <span class="chip">Estúdio: <b>Coral Pulse</b> (editável)</span>
+  </div>
+<script>
+const tips = ["Durma o suficiente — Miami não espera por ninguém.","O mapa libera locais conforme sua fase.","Toque nos objetos para interagir.","Salve pelo telefone quando a vida esquentar."];
+const steps = [{id:"s1",label:"1 · Estúdio (ex-Gameloft)"},{id:"s2",label:"2 · Loading"},{id:"s3",label:"3 · Menu Miami Life"}];
+function show(n){document.querySelectorAll(".screen").forEach(el=>el.classList.remove("on"));document.getElementById(steps[n].id).classList.add("on");document.getElementById("stepLabel").textContent=steps[n].label;if(n===1)runLoading();}
+function runLoading(){const bar=document.getElementById("bar"),tip=document.getElementById("tip"),status=document.getElementById("status");let p=0,t=0;tip.textContent=tips[0];status.textContent="Preparando Miami…";const timer=setInterval(()=>{p=Math.min(100,p+4+Math.random()*6);bar.style.width=p+"%";if(p>30)status.textContent="Cérebro pronto";if(p>60)status.textContent="Carregando cidade…";if(p>85)status.textContent="Quase lá";t++;if(t%12===0)tip.textContent=tips[(t/12)%tips.length|0];if(p>=100){clearInterval(timer);setTimeout(()=>show(2),400);}},90);}
+setTimeout(()=>show(1),1800);
+</script>
+</body>
+</html>

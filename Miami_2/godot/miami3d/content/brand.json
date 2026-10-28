@@ -1,0 +1,33 @@
+{
+  "game_id": "miami_life",
+  "game_title": "Miami Life",
+  "game_title_short": "MIAMI LIFE",
+  "tagline_pt": "A cidade é sua — viva a noite.",
+  "tagline_en": "The city is yours — live the night.",
+  "studio_id": "coral_pulse",
+  "studio_name": "Coral Pulse",
+  "studio_legal": "Coral Pulse Interactive",
+  "studio_note": "Placeholder de estúdio — troque em content/brand.json (substitui Gameloft).",
+  "studio_suggestions": [
+    "Coral Pulse",
+    "Neon Palm Studio",
+    "Tideshift Interactive",
+    "Bayline Games",
+    "Sunset Circuit"
+  ],
+  "boot": {
+    "studio_hold_s": 1.6,
+    "loading_min_s": 1.8,
+    "tips_pt": [
+      "Durma o suficiente — Miami não espera por ninguém.",
+      "O mapa libera locais conforme sua fase.",
+      "Toque nos objetos para interagir.",
+      "Salve pelo telefone quando a vida esquentar."
+    ]
+  },
+  "assets": {
+    "studio_logo": "res://assets/ui/brand/coral_pulse_studio.png",
+    "game_logo": "res://assets/ui/brand/miami_life_logo.png",
+    "hero_bg": "res://assets/ui/brand/miami_life_hero.png"
+  }
+}
