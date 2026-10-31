@@ -193,10 +193,10 @@ func _run_one(a: Dictionary, ctx: Dictionary) -> void:
 		game.time.advance_minutes(int(a["advanceTime"]))
 	elif a.has("schedule"):
 		var sc: Dictionary = a["schedule"]
-		var when_min := game.time.minute_of_day + int(sc.get("inMinutes", 60))
-		var day := game.time.day
+		var when_min: int = int(game.time.minute_of_day) + int(sc.get("inMinutes", 60))
+		var day: int = int(game.time.day)
 		if when_min >= 1440:
-			day += when_min / 1440
+			day += int(when_min / 1440)
 			when_min = when_min % 1440
 		game.dating.invite(str(sc.get("npc", "")), str(sc.get("location", "")), day, when_min)
 	elif a.has("unlockLocation"):

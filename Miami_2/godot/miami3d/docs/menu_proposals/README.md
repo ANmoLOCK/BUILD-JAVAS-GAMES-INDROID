@@ -3,7 +3,7 @@
 Referência extraída do JAR (`menutitle.png` + packs de strings) e **duas** propostas visuais
 alinhadas à marca atual (logo coral→ciano, hero de praia, HueHueGames).
 
-Nada destas propostas está ligado no Godot ainda — escolha **A** ou **B** para implementar.
+**Sugestão B implementada** em `game/flow/main_menu.tscn` (v0.8.1). HueHueGames no canto inferior esquerdo; Opções / Ajuda / Créditos / Resetar ativos.
 
 ---
 

@@ -15,6 +15,20 @@ func path_for(slot: int) -> String:
 	return save_dir.path_join("slot_%d.json" % slot)
 
 
+func has_slot(slot: int = 0) -> bool:
+	return FileAccess.file_exists(path_for(slot))
+
+
+func delete_slot(slot: int = 0) -> Error:
+	var path := path_for(slot)
+	if not FileAccess.file_exists(path):
+		return ERR_FILE_NOT_FOUND
+	var d := DirAccess.open(save_dir)
+	if d == null:
+		return ERR_CANT_OPEN
+	return d.remove(path.get_file())
+
+
 func save_game(game, slot: int = 0) -> Error:
 	var data := {
 		"version": VERSION,

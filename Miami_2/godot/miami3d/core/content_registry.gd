@@ -155,8 +155,11 @@ func merge_pack(pack_dir: String) -> Error:
 		if dialogue_topics.is_empty():
 			dialogue_topics = t
 		else:
+			if not dialogue_topics.has("categories") or typeof(dialogue_topics["categories"]) != TYPE_ARRAY:
+				dialogue_topics["categories"] = []
+			var cats: Array = dialogue_topics["categories"]
 			for cat in t.get("categories", []):
-				dialogue_topics.setdefault("categories", []).append(cat)
+				cats.append(cat)
 	return OK
 
 

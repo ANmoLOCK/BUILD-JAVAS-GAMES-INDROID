@@ -223,6 +223,22 @@ func load_game(slot: int = 0) -> Error:
 	return backend.load_game(slot) if is_native else backend.saves.load_game(backend, slot)
 
 
+func delete_save(slot: int = 0) -> Error:
+	if is_native:
+		if backend.has_method("delete_save"):
+			return backend.delete_save(slot)
+		return ERR_UNAVAILABLE
+	return backend.saves.delete_slot(slot)
+
+
+func has_save(slot: int = 0) -> bool:
+	if is_native:
+		if backend.has_method("has_save"):
+			return backend.has_save(slot)
+		return false
+	return backend.saves.has_slot(slot)
+
+
 func connect_signal(sig: String, callable: Callable) -> void:
 	if is_native:
 		backend.connect(sig, callable)
