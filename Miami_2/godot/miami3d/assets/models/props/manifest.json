@@ -1,0 +1,563 @@
+{
+  "count": 93,
+  "entries": [
+    {
+      "id": "agua",
+      "path": "res://assets/models/props/agua.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "anao",
+      "path": "res://assets/models/props/anao.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "areia_da_praia",
+      "path": "res://assets/models/props/areia_da_praia.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "ave",
+      "path": "res://assets/models/props/ave.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "banco_supino",
+      "path": "res://assets/models/props/banco_supino.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "bar",
+      "path": "res://assets/models/props/bar.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "barbearia",
+      "path": "res://assets/models/props/barbearia.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "beach_sand",
+      "path": "res://assets/models/props/beach_sand.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "bench",
+      "path": "res://assets/models/props/bench.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "boutique_de_moda",
+      "path": "res://assets/models/props/boutique_de_moda.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "bronzeamento",
+      "path": "res://assets/models/props/bronzeamento.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "cafe",
+      "path": "res://assets/models/props/cafe.glb",
+      "kind": "food",
+      "status": "placeholder"
+    },
+    {
+      "id": "caixa_automatico",
+      "path": "res://assets/models/props/caixa_automatico.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "caixa_de_jornais",
+      "path": "res://assets/models/props/caixa_de_jornais.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "cao",
+      "path": "res://assets/models/props/cao.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "carrinho_de_comida",
+      "path": "res://assets/models/props/carrinho_de_comida.glb",
+      "kind": "food",
+      "status": "placeholder"
+    },
+    {
+      "id": "cartazes",
+      "path": "res://assets/models/props/cartazes.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "cell_door",
+      "path": "res://assets/models/props/cell_door.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "cesto_de_roupas",
+      "path": "res://assets/models/props/cesto_de_roupas.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "chaves",
+      "path": "res://assets/models/props/chaves.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "cinema",
+      "path": "res://assets/models/props/cinema.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "clinica_de_beleza",
+      "path": "res://assets/models/props/clinica_de_beleza.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "closet",
+      "path": "res://assets/models/props/closet.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "comida",
+      "path": "res://assets/models/props/comida.glb",
+      "kind": "food",
+      "status": "placeholder"
+    },
+    {
+      "id": "console_de_jogo",
+      "path": "res://assets/models/props/console_de_jogo.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "detector_de_metal",
+      "path": "res://assets/models/props/detector_de_metal.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "dj_desk",
+      "path": "res://assets/models/props/dj_desk.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "escultura",
+      "path": "res://assets/models/props/escultura.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "estante",
+      "path": "res://assets/models/props/estante.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "fonte",
+      "path": "res://assets/models/props/fonte.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "food",
+      "path": "res://assets/models/props/food.glb",
+      "kind": "food",
+      "status": "placeholder"
+    },
+    {
+      "id": "fridge",
+      "path": "res://assets/models/props/fridge.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "gato",
+      "path": "res://assets/models/props/gato.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "gelatos",
+      "path": "res://assets/models/props/gelatos.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "globetrotter",
+      "path": "res://assets/models/props/globetrotter.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "gnome",
+      "path": "res://assets/models/props/gnome.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "gnome_1",
+      "path": "res://assets/models/props/gnome_1.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "gnome_2",
+      "path": "res://assets/models/props/gnome_2.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "gnome_3",
+      "path": "res://assets/models/props/gnome_3.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "gnome_4",
+      "path": "res://assets/models/props/gnome_4.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "gnome_5",
+      "path": "res://assets/models/props/gnome_5.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "gnome_6",
+      "path": "res://assets/models/props/gnome_6.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "gnome_7",
+      "path": "res://assets/models/props/gnome_7.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "gnome_pedestal",
+      "path": "res://assets/models/props/gnome_pedestal.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "gran_kahuna",
+      "path": "res://assets/models/props/gran_kahuna.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "iluminacao",
+      "path": "res://assets/models/props/iluminacao.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "ir",
+      "path": "res://assets/models/props/ir.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "jack",
+      "path": "res://assets/models/props/jack.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "jacuzzi",
+      "path": "res://assets/models/props/jacuzzi.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "jornal",
+      "path": "res://assets/models/props/jornal.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "keys",
+      "path": "res://assets/models/props/keys.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "kitchen",
+      "path": "res://assets/models/props/kitchen.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "lampada",
+      "path": "res://assets/models/props/lampada.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "loja",
+      "path": "res://assets/models/props/loja.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "mailbox",
+      "path": "res://assets/models/props/mailbox.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "mesa",
+      "path": "res://assets/models/props/mesa.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "mesa_de_operacao",
+      "path": "res://assets/models/props/mesa_de_operacao.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "mesa_do_dj",
+      "path": "res://assets/models/props/mesa_do_dj.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "palmeira",
+      "path": "res://assets/models/props/palmeira.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "parede",
+      "path": "res://assets/models/props/parede.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "parquimetro",
+      "path": "res://assets/models/props/parquimetro.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "pet_shop_boy",
+      "path": "res://assets/models/props/pet_shop_boy.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "phone",
+      "path": "res://assets/models/props/phone.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "pia",
+      "path": "res://assets/models/props/pia.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "piano",
+      "path": "res://assets/models/props/piano.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "piscina",
+      "path": "res://assets/models/props/piscina.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "pizza",
+      "path": "res://assets/models/props/pizza.glb",
+      "kind": "food",
+      "status": "placeholder"
+    },
+    {
+      "id": "plant",
+      "path": "res://assets/models/props/plant.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "plataforma",
+      "path": "res://assets/models/props/plataforma.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "porta_da_cela",
+      "path": "res://assets/models/props/porta_da_cela.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "pote_de_cafe",
+      "path": "res://assets/models/props/pote_de_cafe.glb",
+      "kind": "food",
+      "status": "placeholder"
+    },
+    {
+      "id": "quadro",
+      "path": "res://assets/models/props/quadro.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "quest_box",
+      "path": "res://assets/models/props/quest_box.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "quest_cigars",
+      "path": "res://assets/models/props/quest_cigars.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "quest_id",
+      "path": "res://assets/models/props/quest_id.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "quest_keys",
+      "path": "res://assets/models/props/quest_keys.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "quest_posters",
+      "path": "res://assets/models/props/quest_posters.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "quest_ticket",
+      "path": "res://assets/models/props/quest_ticket.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "quest_treasure_map",
+      "path": "res://assets/models/props/quest_treasure_map.glb",
+      "kind": "quest",
+      "status": "placeholder"
+    },
+    {
+      "id": "radar",
+      "path": "res://assets/models/props/radar.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "restaurante",
+      "path": "res://assets/models/props/restaurante.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "sair",
+      "path": "res://assets/models/props/sair.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "sala_de_cirurgia",
+      "path": "res://assets/models/props/sala_de_cirurgia.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "scott",
+      "path": "res://assets/models/props/scott.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "shower",
+      "path": "res://assets/models/props/shower.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "sink",
+      "path": "res://assets/models/props/sink.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "som",
+      "path": "res://assets/models/props/som.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "sonda",
+      "path": "res://assets/models/props/sonda.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "sun_lounger",
+      "path": "res://assets/models/props/sun_lounger.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "tela",
+      "path": "res://assets/models/props/tela.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    },
+    {
+      "id": "toilet",
+      "path": "res://assets/models/props/toilet.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "trash_can",
+      "path": "res://assets/models/props/trash_can.glb",
+      "kind": "object",
+      "status": "placeholder"
+    },
+    {
+      "id": "westwood",
+      "path": "res://assets/models/props/westwood.glb",
+      "kind": "prop",
+      "status": "placeholder"
+    }
+  ]
+}

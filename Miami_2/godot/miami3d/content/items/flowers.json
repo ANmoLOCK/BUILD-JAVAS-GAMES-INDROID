@@ -1,0 +1,10 @@
+{
+  "id": "flowers",
+  "name": "@item.flowers",
+  "kind": "gift",
+  "icon": "res://assets/ui/items/flowers.png",
+  "price": 10,
+  "shop": "street_vendor",
+  "gift": { "friendship": 6, "romance": 8, "mood": 10, "requiresRomanceLevel": 0 },
+  "stackable": true
+}

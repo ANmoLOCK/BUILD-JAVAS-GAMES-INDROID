@@ -1,0 +1,6 @@
+{
+  "id": "everglades_wall",
+  "mesh": "res://assets/models/kits/everglades/wall.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

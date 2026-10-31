@@ -1,0 +1,43 @@
+{
+  "id": "danny",
+  "slot": 7,
+  "name": "@npc.danny",
+  "displayName": "Danny",
+  "gender": "m",
+  "appearance": [
+    0,
+    2,
+    1,
+    3,
+    6,
+    1,
+    5,
+    1,
+    2,
+    3
+  ],
+  "likes": [
+    "music",
+    "parties",
+    "dance"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "danny_default",
+  "greetings": "@greet.default",
+  "dateable": true,
+  "roommateable": false,
+  "essential": false,
+  "home": "glight_club",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

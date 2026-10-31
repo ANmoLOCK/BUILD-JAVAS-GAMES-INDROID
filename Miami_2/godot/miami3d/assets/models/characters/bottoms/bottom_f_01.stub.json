@@ -1,0 +1,9 @@
+{
+  "id": "bottom_f_01",
+  "slot": "bottom",
+  "gender": "f",
+  "variant": 1,
+  "mesh": "res://assets/models/characters/bottoms/bottom_f_01.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

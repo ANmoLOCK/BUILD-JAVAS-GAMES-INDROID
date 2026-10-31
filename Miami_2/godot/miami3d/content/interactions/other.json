@@ -1,0 +1,658 @@
+[
+  {
+    "id": "usar_banheiro",
+    "legacyId": 48,
+    "name": "@act.usar_banheiro",
+    "target": "object",
+    "animation": "usar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "sala_de_visitas",
+    "legacyId": 49,
+    "name": "@act.sala_de_visitas",
+    "target": "object",
+    "animation": "sala",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "lavar_se",
+    "legacyId": 50,
+    "name": "@act.lavar_se",
+    "target": "object",
+    "animation": "lavar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "se_arrumar",
+    "legacyId": 51,
+    "name": "@act.se_arrumar",
+    "target": "object",
+    "animation": "se",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "secar_o_cabelo",
+    "legacyId": 52,
+    "name": "@act.secar_o_cabelo",
+    "target": "object",
+    "animation": "secar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "ir",
+    "legacyId": 56,
+    "name": "@act.ir",
+    "target": "object",
+    "animation": "ir",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "anao",
+    "legacyId": 60,
+    "name": "@act.anao",
+    "target": "object",
+    "animation": "anao",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "tomar_banho",
+    "legacyId": 61,
+    "name": "@act.tomar_banho",
+    "target": "object",
+    "animation": "tomar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "cozinha",
+    "legacyId": 64,
+    "name": "@act.cozinha",
+    "target": "object",
+    "animation": "cozinha",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "restaurante",
+    "legacyId": 65,
+    "name": "@act.restaurante",
+    "target": "object",
+    "animation": "restaurante",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "vomitar",
+    "legacyId": 69,
+    "name": "@act.vomitar",
+    "target": "object",
+    "animation": "vomitar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "filme_de_terror",
+    "legacyId": 74,
+    "name": "@act.filme_de_terror",
+    "target": "object",
+    "animation": "filme",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "filme_europeu",
+    "legacyId": 75,
+    "name": "@act.filme_europeu",
+    "target": "object",
+    "animation": "filme",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "noticias",
+    "legacyId": 76,
+    "name": "@act.noticias",
+    "target": "object",
+    "animation": "noticias",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "jogar_videogame",
+    "legacyId": 77,
+    "name": "@act.jogar_videogame",
+    "target": "object",
+    "animation": "jogar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "pular_na_cama",
+    "legacyId": 78,
+    "name": "@act.pular_na_cama",
+    "target": "object",
+    "animation": "pular",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "cantar_a_capela",
+    "legacyId": 79,
+    "name": "@act.cantar_a_capela",
+    "target": "object",
+    "animation": "cantar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "arrumar_a_cama",
+    "legacyId": 80,
+    "name": "@act.arrumar_a_cama",
+    "target": "object",
+    "animation": "arrumar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "lavar_loucas",
+    "legacyId": 81,
+    "name": "@act.lavar_loucas",
+    "target": "object",
+    "animation": "lavar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "relaxar",
+    "legacyId": 88,
+    "name": "@act.relaxar",
+    "target": "object",
+    "animation": "relaxar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "mass_infection",
+    "legacyId": 89,
+    "name": "@act.mass_infection",
+    "target": "object",
+    "animation": "mass",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "treino_cerebral",
+    "legacyId": 90,
+    "name": "@act.treino_cerebral",
+    "target": "object",
+    "animation": "treino",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "paris_nights",
+    "legacyId": 91,
+    "name": "@act.paris_nights",
+    "target": "object",
+    "animation": "paris",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "bubble_bash_2",
+    "legacyId": 92,
+    "name": "@act.bubble_bash_2",
+    "target": "object",
+    "animation": "bubble",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "programa_de_tv",
+    "legacyId": 93,
+    "name": "@act.programa_de_tv",
+    "target": "object",
+    "animation": "programa",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "ler_revista_em_quadrinhos",
+    "legacyId": 94,
+    "name": "@act.ler_revista_em_quadrinhos",
+    "target": "object",
+    "animation": "ler",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "romance",
+    "legacyId": 95,
+    "name": "@act.romance",
+    "target": "object",
+    "animation": "romance",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "livro_erotico",
+    "legacyId": 96,
+    "name": "@act.livro_erotico",
+    "target": "object",
+    "animation": "livro",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "videos_engracados",
+    "legacyId": 97,
+    "name": "@act.videos_engracados",
+    "target": "object",
+    "animation": "videos",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "sites_pagos",
+    "legacyId": 98,
+    "name": "@act.sites_pagos",
+    "target": "object",
+    "animation": "sites",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "checar_email",
+    "legacyId": 99,
+    "name": "@act.checar_email",
+    "target": "object",
+    "animation": "checar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "limpar",
+    "legacyId": 101,
+    "name": "@act.limpar",
+    "target": "object",
+    "animation": "limpar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "comprar_vitamina",
+    "legacyId": 108,
+    "name": "@act.comprar_vitamina",
+    "target": "object",
+    "animation": "comprar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "admirar_arte",
+    "legacyId": 117,
+    "name": "@act.admirar_arte",
+    "target": "object",
+    "animation": "admirar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "filme_de_comedia",
+    "legacyId": 132,
+    "name": "@act.filme_de_comedia",
+    "target": "object",
+    "animation": "filme",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "filme_de_romance",
+    "legacyId": 133,
+    "name": "@act.filme_de_romance",
+    "target": "object",
+    "animation": "filme",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "mixar_musica",
+    "legacyId": 139,
+    "name": "@act.mixar_musica",
+    "target": "object",
+    "animation": "mixar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "discurso",
+    "legacyId": 154,
+    "name": "@act.discurso",
+    "target": "object",
+    "animation": "discurso",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "cantar_hino",
+    "legacyId": 155,
+    "name": "@act.cantar_hino",
+    "target": "object",
+    "animation": "cantar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "tocar_piano",
+    "legacyId": 164,
+    "name": "@act.tocar_piano",
+    "target": "object",
+    "animation": "tocar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "nadar",
+    "legacyId": 165,
+    "name": "@act.nadar",
+    "target": "object",
+    "animation": "nadar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  }
+]

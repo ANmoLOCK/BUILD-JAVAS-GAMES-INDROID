@@ -1,0 +1,164 @@
+{
+  "entries": [
+    {
+      "id": "landlord",
+      "path": "res://assets/models/npc_unique/landlord.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "goldsax",
+      "path": "res://assets/models/npc_unique/goldsax.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "sanchez",
+      "path": "res://assets/models/npc_unique/sanchez.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "dean",
+      "path": "res://assets/models/npc_unique/dean.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "heather",
+      "path": "res://assets/models/npc_unique/heather.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "scott",
+      "path": "res://assets/models/npc_unique/scott.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "callie",
+      "path": "res://assets/models/npc_unique/callie.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "danny",
+      "path": "res://assets/models/npc_unique/danny.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "amy",
+      "path": "res://assets/models/npc_unique/amy.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "beatrice",
+      "path": "res://assets/models/npc_unique/beatrice.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "inspector",
+      "path": "res://assets/models/npc_unique/inspector.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "hal_pachinko",
+      "path": "res://assets/models/npc_unique/hal_pachinko.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "dj",
+      "path": "res://assets/models/npc_unique/dj.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "spillbeard",
+      "path": "res://assets/models/npc_unique/spillbeard.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "opal",
+      "path": "res://assets/models/npc_unique/opal.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "charm",
+      "path": "res://assets/models/npc_unique/charm.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "guard",
+      "path": "res://assets/models/npc_unique/guard.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "captain",
+      "path": "res://assets/models/npc_unique/captain.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "nip",
+      "path": "res://assets/models/npc_unique/nip.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "took",
+      "path": "res://assets/models/npc_unique/took.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "mortadella",
+      "path": "res://assets/models/npc_unique/mortadella.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "doctor",
+      "path": "res://assets/models/npc_unique/doctor.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "security",
+      "path": "res://assets/models/npc_unique/security.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "huggy",
+      "path": "res://assets/models/npc_unique/huggy.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "john_plumber",
+      "path": "res://assets/models/npc_unique/john_plumber.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "coco",
+      "path": "res://assets/models/npc_unique/coco.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "boss",
+      "path": "res://assets/models/npc_unique/boss.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "pet_shop_boy",
+      "path": "res://assets/models/npc_unique/pet_shop_boy.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "xavier",
+      "path": "res://assets/models/npc_unique/xavier.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "elizabeth",
+      "path": "res://assets/models/npc_unique/elizabeth.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shaman",
+      "path": "res://assets/models/npc_unique/shaman.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "mia",
+      "path": "res://assets/models/npc_unique/mia.glb",
+      "status": "placeholder"
+    }
+  ]
+}

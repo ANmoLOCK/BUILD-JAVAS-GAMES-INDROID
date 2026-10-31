@@ -1,0 +1,48 @@
+[
+  { "id": "nap", "name": "@act.nap", "animation": "sleep", "durationMinutes": 120, "advancesTime": true,
+    "effects": [ { "stat": "sleep", "delta": -25 }, { "stat": "hunger", "delta": 4 } ] },
+
+  { "id": "jump_on_bed", "name": "@act.jump_on_bed", "animation": "jump", "durationMinutes": 5,
+    "effects": [ { "stat": "mood", "delta": 5 }, { "stat": "fitness", "delta": 1 } ], "diminishingAfter": 2 },
+
+  { "id": "make_bed", "name": "@act.make_bed", "animation": "sweep", "durationMinutes": 10,
+    "effects": [ { "stat": "self_esteem", "delta": 3 } ], "cooldownMinutes": 1440 },
+
+  { "id": "relax", "name": "@act.relax", "animation": "sit", "durationMinutes": 30, "advancesTime": true,
+    "effects": [ { "stat": "sleep", "delta": -5 }, { "stat": "health", "delta": 2 } ] },
+
+  { "id": "take_shower", "name": "@act.take_shower", "animation": "shower", "durationMinutes": 20, "advancesTime": true,
+    "effects": [ { "stat": "hygiene", "delta": 50 } ], "event": "showered" },
+
+  { "id": "use_toilet", "name": "@act.use_toilet", "animation": "pee", "durationMinutes": 5,
+    "effects": [ { "stat": "bladder", "delta": -100 }, { "stat": "hygiene", "delta": -3 } ] },
+
+  { "id": "wash_up", "name": "@act.wash_up", "animation": "wash", "durationMinutes": 5,
+    "effects": [ { "stat": "hygiene", "delta": 10 } ], "diminishingAfter": 2 },
+
+  { "id": "snack", "name": "@act.snack", "animation": "eat", "durationMinutes": 10,
+    "effects": [ { "stat": "hunger", "delta": -20 }, { "stat": "bladder", "delta": 5 } ] },
+
+  { "id": "drink_milk", "name": "@act.drink_milk", "animation": "drink", "durationMinutes": 3,
+    "effects": [ { "stat": "hunger", "delta": -8 }, { "stat": "health", "delta": 2 }, { "stat": "bladder", "delta": 8 } ] },
+
+  { "id": "cook_burger", "name": "@act.cook_burger", "animation": "cook", "durationMinutes": 30, "advancesTime": true,
+    "requires": { "stat": { "culture": { ">=": 0 } } },
+    "effects": [ { "stat": "hunger", "delta": -45 }, { "stat": "culture", "delta": 2 }, { "stat": "fitness", "delta": -2 } ] },
+
+  { "id": "cook_salad", "name": "@act.cook_salad", "animation": "cook", "durationMinutes": 20, "advancesTime": true,
+    "effects": [ { "stat": "hunger", "delta": -30 }, { "stat": "culture", "delta": 2 }, { "stat": "health", "delta": 3 } ] },
+
+  { "id": "wash_dishes", "name": "@act.wash_dishes", "animation": "wash", "durationMinutes": 15,
+    "effects": [ { "stat": "kindness", "delta": 1 }, { "stat": "self_esteem", "delta": 2 } ], "cooldownMinutes": 360 },
+
+  { "id": "change_clothes", "name": "@act.change_clothes", "animation": "idle", "durationMinutes": 2,
+    "then": [ { "minigame": { "id": "closet_ui" } } ], "event": "used_object" },
+
+  { "id": "call_mom", "name": "@act.call_mom", "animation": "talk", "durationMinutes": 10,
+    "effects": [ { "stat": "self_esteem", "delta": 5 }, { "stat": "mood", "delta": 5 } ], "cooldownMinutes": 720,
+    "reactions": { "success": "@react.call_mom" } },
+
+  { "id": "water_plant", "name": "@act.water_plant", "animation": "water", "durationMinutes": 3,
+    "effects": [ { "stat": "kindness", "delta": 1 } ], "cooldownMinutes": 1440 }
+]

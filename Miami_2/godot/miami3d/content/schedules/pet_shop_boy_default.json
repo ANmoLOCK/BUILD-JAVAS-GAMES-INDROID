@@ -1,0 +1,35 @@
+{
+  "id": "pet_shop_boy_default",
+  "entries": [
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startHour": 9,
+      "endHour": 18,
+      "location": "coconut_grove",
+      "activity": "idle"
+    },
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startHour": 18,
+      "endHour": 23,
+      "location": "coconut_grove",
+      "activity": "social"
+    }
+  ]
+}

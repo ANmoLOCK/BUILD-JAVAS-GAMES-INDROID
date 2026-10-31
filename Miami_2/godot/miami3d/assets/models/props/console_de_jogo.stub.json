@@ -1,0 +1,12 @@
+{
+  "id": "console_de_jogo",
+  "mesh": "res://assets/models/props/console_de_jogo.glb",
+  "kind": "prop",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

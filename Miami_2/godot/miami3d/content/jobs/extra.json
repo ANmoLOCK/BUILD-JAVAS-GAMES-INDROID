@@ -1,0 +1,22 @@
+{
+  "id": "extra",
+  "name": "@job.extra",
+  "location": "stadium",
+  "pay": 40,
+  "durationMinutes": 120,
+  "requires": {
+    "charisma": 1
+  },
+  "effects": [
+    {
+      "stat": "mood",
+      "delta": -5
+    },
+    {
+      "stat": "fitness",
+      "delta": 2
+    }
+  ],
+  "minigame": null,
+  "unlockQuest": "q024_figurante"
+}

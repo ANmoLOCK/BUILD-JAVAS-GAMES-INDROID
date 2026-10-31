@@ -1,0 +1,20 @@
+{
+  "id": "charm_club",
+  "entries": [
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startHour": 18,
+      "endHour": 4,
+      "location": "glight_club",
+      "activity": "manage"
+    }
+  ]
+}

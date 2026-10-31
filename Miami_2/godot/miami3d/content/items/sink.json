@@ -1,0 +1,6 @@
+{
+  "id": "sink", "name": "@item.sink", "kind": "object",
+  "mesh": "res://assets/models/bathroom/sink.glb",
+  "footprint": [1, 1], "useCell": [1, 0], "facing": "W",
+  "actions": ["wash_up"]
+}

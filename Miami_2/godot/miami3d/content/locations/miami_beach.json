@@ -1,0 +1,84 @@
+{
+  "id": "miami_beach",
+  "name": "@loc.miami_beach",
+  "region": "miami_beach",
+  "scene": "res://game/world/locations/miami_beach.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 40,
+    "height": 30
+  },
+  "spawn": {
+    "cell": [
+      20,
+      15
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        20,
+        15
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      40,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      30
+    ],
+    [
+      39,
+      0,
+      1,
+      30
+    ],
+    [
+      0,
+      29,
+      40,
+      1
+    ]
+  ],
+  "portals": [
+    {
+      "id": "to_south",
+      "cell": [
+        20,
+        25
+      ],
+      "to": "south_beach",
+      "spawn": "default"
+    }
+  ],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        36,
+        26
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": []
+}

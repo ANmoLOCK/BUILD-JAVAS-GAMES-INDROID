@@ -1,0 +1,6 @@
+{
+  "id": "security",
+  "mesh": "res://assets/models/npc_unique/security.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

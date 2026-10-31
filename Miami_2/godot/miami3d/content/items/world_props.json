@@ -1,0 +1,1055 @@
+[
+  {
+    "id": "sair",
+    "legacyId": 0,
+    "name": "@item.sair",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "palmeira",
+    "legacyId": 1,
+    "name": "@item.palmeira",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "caixa_de_jornais",
+    "legacyId": 3,
+    "name": "@item.caixa_de_jornais",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "detector_de_metal",
+    "legacyId": 4,
+    "name": "@item.detector_de_metal",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "espreguicadeira",
+    "legacyId": 7,
+    "name": "@item.espreguicadeira",
+    "kind": "furniture",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "sunbathe",
+      "relax"
+    ],
+    "price": 0
+  },
+  {
+    "id": "restaurante",
+    "legacyId": 8,
+    "name": "@item.restaurante",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "cafe",
+    "legacyId": 9,
+    "name": "@item.cafe",
+    "kind": "food",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "areia_da_praia",
+    "legacyId": 10,
+    "name": "@item.areia_da_praia",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "dig",
+      "sunbathe"
+    ],
+    "price": 0
+  },
+  {
+    "id": "computador",
+    "legacyId": 16,
+    "name": "@item.computador",
+    "kind": "furniture",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "check_email",
+      "watch_funny_videos"
+    ],
+    "price": 0
+  },
+  {
+    "id": "pia",
+    "legacyId": 17,
+    "name": "@item.pia",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "wash_up"
+    ],
+    "price": 0
+  },
+  {
+    "id": "porta_da_cela",
+    "legacyId": 18,
+    "name": "@item.porta_da_cela",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "chaves",
+    "legacyId": 19,
+    "name": "@item.chaves",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "pote_de_cafe",
+    "legacyId": 20,
+    "name": "@item.pote_de_cafe",
+    "kind": "food",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "scott",
+    "legacyId": 21,
+    "name": "@item.scott",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "jornal",
+    "legacyId": 22,
+    "name": "@item.jornal",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "agua",
+    "legacyId": 23,
+    "name": "@item.agua",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "comida",
+    "legacyId": 24,
+    "name": "@item.comida",
+    "kind": "food",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "barbearia",
+    "legacyId": 26,
+    "name": "@item.barbearia",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "special_drink",
+      "serve_drinks"
+    ],
+    "price": 0
+  },
+  {
+    "id": "anao",
+    "legacyId": 27,
+    "name": "@item.anao",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "parquimetro",
+    "legacyId": 28,
+    "name": "@item.parquimetro",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "lampada",
+    "legacyId": 29,
+    "name": "@item.lampada",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "pizza",
+    "legacyId": 30,
+    "name": "@item.pizza",
+    "kind": "food",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "bar",
+    "legacyId": 31,
+    "name": "@item.bar",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "special_drink",
+      "serve_drinks"
+    ],
+    "price": 0
+  },
+  {
+    "id": "mesa_do_dj",
+    "legacyId": 32,
+    "name": "@item.mesa_do_dj",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "mix_music"
+    ],
+    "price": 0
+  },
+  {
+    "id": "sofa",
+    "legacyId": 33,
+    "name": "@item.sofa",
+    "kind": "furniture",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "relax",
+      "nap",
+      "watch_tv"
+    ],
+    "price": 0
+  },
+  {
+    "id": "tela",
+    "legacyId": 34,
+    "name": "@item.tela",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "som",
+    "legacyId": 35,
+    "name": "@item.som",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "console_de_jogo",
+    "legacyId": 36,
+    "name": "@item.console_de_jogo",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "tv",
+    "legacyId": 37,
+    "name": "@item.tv",
+    "kind": "furniture",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "watch_tv",
+      "play_videogame"
+    ],
+    "price": 0
+  },
+  {
+    "id": "banco_supino",
+    "legacyId": 38,
+    "name": "@item.banco_supino",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "watch_people",
+      "relax"
+    ],
+    "price": 0
+  },
+  {
+    "id": "parede",
+    "legacyId": 39,
+    "name": "@item.parede",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "cartazes",
+    "legacyId": 40,
+    "name": "@item.cartazes",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "post_posters",
+      "trash_posters"
+    ],
+    "price": 0
+  },
+  {
+    "id": "jack",
+    "legacyId": 41,
+    "name": "@item.jack",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "carrinho_de_comida",
+    "legacyId": 42,
+    "name": "@item.carrinho_de_comida",
+    "kind": "food",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "plataforma",
+    "legacyId": 43,
+    "name": "@item.plataforma",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "sala_de_cirurgia",
+    "legacyId": 44,
+    "name": "@item.sala_de_cirurgia",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "lipo",
+      "rhinoplasty",
+      "lifting",
+      "implants"
+    ],
+    "price": 0
+  },
+  {
+    "id": "clinica_de_beleza",
+    "legacyId": 45,
+    "name": "@item.clinica_de_beleza",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "mesa_de_operacao",
+    "legacyId": 46,
+    "name": "@item.mesa_de_operacao",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "feed_animal",
+      "play",
+      "train_sit"
+    ],
+    "price": 0
+  },
+  {
+    "id": "escultura",
+    "legacyId": 47,
+    "name": "@item.escultura",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "cesto_de_roupas",
+    "legacyId": 48,
+    "name": "@item.cesto_de_roupas",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "iluminacao",
+    "legacyId": 49,
+    "name": "@item.iluminacao",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "feed_animal",
+      "play",
+      "train_sit"
+    ],
+    "price": 0
+  },
+  {
+    "id": "boutique_de_moda",
+    "legacyId": 50,
+    "name": "@item.boutique_de_moda",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "fonte",
+    "legacyId": 51,
+    "name": "@item.fonte",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "cinema",
+    "legacyId": 52,
+    "name": "@item.cinema",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "gelatos",
+    "legacyId": 53,
+    "name": "@item.gelatos",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "loja",
+    "legacyId": 54,
+    "name": "@item.loja",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "gran_kahuna",
+    "legacyId": 56,
+    "name": "@item.gran_kahuna",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "westwood",
+    "legacyId": 57,
+    "name": "@item.westwood",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "piscina",
+    "legacyId": 59,
+    "name": "@item.piscina",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "swim"
+    ],
+    "price": 0
+  },
+  {
+    "id": "jacuzzi",
+    "legacyId": 60,
+    "name": "@item.jacuzzi",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "globetrotter",
+    "legacyId": 61,
+    "name": "@item.globetrotter",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "gato",
+    "legacyId": 62,
+    "name": "@item.gato",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "feed_animal",
+      "play"
+    ],
+    "price": 0
+  },
+  {
+    "id": "cao",
+    "legacyId": 63,
+    "name": "@item.cao",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "feed_animal",
+      "play",
+      "train_sit"
+    ],
+    "price": 0
+  },
+  {
+    "id": "mesa",
+    "legacyId": 64,
+    "name": "@item.mesa",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "caixa_automatico",
+    "legacyId": 65,
+    "name": "@item.caixa_automatico",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "atm"
+    ],
+    "price": 0
+  },
+  {
+    "id": "radar",
+    "legacyId": 66,
+    "name": "@item.radar",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "estante",
+    "legacyId": 67,
+    "name": "@item.estante",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "bronzeamento",
+    "legacyId": 68,
+    "name": "@item.bronzeamento",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "ir",
+    "legacyId": 69,
+    "name": "@item.ir",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "pia",
+    "legacyId": 70,
+    "name": "@item.pia",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "wash_up"
+    ],
+    "price": 0
+  },
+  {
+    "id": "piano",
+    "legacyId": 71,
+    "name": "@item.piano",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "wash_up"
+    ],
+    "price": 0
+  },
+  {
+    "id": "cadeira",
+    "legacyId": 72,
+    "name": "@item.cadeira",
+    "kind": "furniture",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "pet_shop_boy",
+    "legacyId": 73,
+    "name": "@item.pet_shop_boy",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "quadro",
+    "legacyId": 74,
+    "name": "@item.quadro",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "sonda",
+    "legacyId": 75,
+    "name": "@item.sonda",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "ave",
+    "legacyId": 76,
+    "name": "@item.ave",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "use"
+    ],
+    "price": 0
+  },
+  {
+    "id": "sun_lounger",
+    "name": "@item.sun_lounger",
+    "kind": "prop",
+    "footprint": [
+      1,
+      2
+    ],
+    "actions": [
+      "sunbathe",
+      "relax"
+    ],
+    "price": 0
+  },
+  {
+    "id": "beach_sand",
+    "name": "@item.beach_sand",
+    "kind": "prop",
+    "footprint": [
+      2,
+      2
+    ],
+    "actions": [
+      "dig",
+      "sunbathe"
+    ],
+    "price": 0
+  },
+  {
+    "id": "bar",
+    "name": "@item.bar",
+    "kind": "prop",
+    "footprint": [
+      2,
+      1
+    ],
+    "actions": [
+      "special_drink",
+      "serve_drinks"
+    ],
+    "price": 0
+  },
+  {
+    "id": "dj_desk",
+    "name": "@item.dj_desk",
+    "kind": "prop",
+    "footprint": [
+      2,
+      1
+    ],
+    "actions": [
+      "mix_music"
+    ],
+    "price": 0
+  },
+  {
+    "id": "cell_door",
+    "name": "@item.cell_door",
+    "kind": "prop",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "visit_room",
+      "steal_keys"
+    ],
+    "price": 0
+  },
+  {
+    "id": "keys",
+    "name": "@item.keys",
+    "kind": "quest",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "steal_keys"
+    ],
+    "price": 0
+  },
+  {
+    "id": "pizza",
+    "name": "@item.pizza",
+    "kind": "food",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "eat",
+      "deliver_pizza"
+    ],
+    "price": 12
+  },
+  {
+    "id": "food",
+    "name": "@item.food",
+    "kind": "food",
+    "footprint": [
+      1,
+      1
+    ],
+    "actions": [
+      "eat"
+    ],
+    "price": 8
+  }
+]

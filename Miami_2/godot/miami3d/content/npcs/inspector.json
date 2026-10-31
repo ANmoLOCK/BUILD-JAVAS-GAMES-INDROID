@@ -1,0 +1,43 @@
+{
+  "id": "inspector",
+  "slot": 10,
+  "name": "@npc.inspector",
+  "displayName": "Inspetor",
+  "gender": "m",
+  "appearance": [
+    0,
+    0,
+    4,
+    2,
+    4,
+    4,
+    6,
+    4,
+    0,
+    2
+  ],
+  "likes": [
+    "crime",
+    "law",
+    "coffee"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "inspector_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "police_station",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

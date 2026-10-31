@@ -1,0 +1,9 @@
+{
+  "id": "top_f_02",
+  "slot": "top",
+  "gender": "f",
+  "variant": 2,
+  "mesh": "res://assets/models/characters/tops/top_f_02.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

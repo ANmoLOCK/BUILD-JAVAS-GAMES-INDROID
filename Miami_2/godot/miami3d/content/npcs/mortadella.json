@@ -1,0 +1,43 @@
+{
+  "id": "mortadella",
+  "slot": 20,
+  "name": "@npc.mortadella",
+  "displayName": "Mortadella",
+  "gender": "m",
+  "appearance": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    2,
+    4,
+    2,
+    0,
+    0
+  ],
+  "likes": [
+    "fashion",
+    "models",
+    "money"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "mortadella_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "newspaper_office",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

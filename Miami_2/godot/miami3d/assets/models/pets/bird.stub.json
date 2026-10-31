@@ -1,0 +1,7 @@
+{
+  "id": "bird",
+  "species": "bird",
+  "mesh": "res://assets/models/pets/bird.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

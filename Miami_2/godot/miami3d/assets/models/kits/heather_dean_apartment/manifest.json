@@ -1,0 +1,16 @@
+{
+  "location": "heather_dean_apartment",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/heather_dean_apartment/albedo.png",
+    "normal": "res://assets/textures/kits/heather_dean_apartment/normal.png",
+    "roughness": "res://assets/textures/kits/heather_dean_apartment/roughness.png"
+  },
+  "status": "placeholder"
+}

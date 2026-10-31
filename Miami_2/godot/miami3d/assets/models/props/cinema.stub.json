@@ -1,0 +1,12 @@
+{
+  "id": "cinema",
+  "mesh": "res://assets/models/props/cinema.glb",
+  "kind": "prop",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

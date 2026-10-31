@@ -1,0 +1,9 @@
+{
+  "id": "example_pack",
+  "version": "0.1.0",
+  "name": "Exemplo de mod Miami 3D",
+  "description": "Pack mínimo: 1 local + 1 NPC + 1 missão (Fase G).",
+  "dependencies": ["base"],
+  "priority": 10,
+  "locale": "pt-BR"
+}

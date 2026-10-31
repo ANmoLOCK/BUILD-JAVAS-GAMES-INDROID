@@ -1,0 +1,16 @@
+{
+  "location": "stadium",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/stadium/albedo.png",
+    "normal": "res://assets/textures/kits/stadium/normal.png",
+    "roughness": "res://assets/textures/kits/stadium/roughness.png"
+  },
+  "status": "placeholder"
+}

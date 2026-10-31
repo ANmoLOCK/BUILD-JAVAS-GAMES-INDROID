@@ -1,0 +1,14 @@
+{
+  "id": "talk_compliment",
+  "name": "@act.compliment",
+  "target": "npc",
+  "menu": "talk",
+  "animation": "talk",
+  "npcAnimation": "laugh",
+  "durationMinutes": 2,
+  "requires": { "npcMood": { ">=": 20 } },
+  "relationship": { "friendship": 4, "mood": 6 },
+  "diminishingAfter": 3,
+  "reactions": { "success": "@react.compliment.ok", "bored": "@react.bored" },
+  "event": "talked_to"
+}

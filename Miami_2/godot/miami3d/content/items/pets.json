@@ -1,0 +1,30 @@
+[
+  {
+    "id": "dog_scottish",
+    "name": "@item.dog_scottish",
+    "kind": "pet",
+    "species": "dog",
+    "price": 200
+  },
+  {
+    "id": "dog_bulldog",
+    "name": "@item.dog_bulldog",
+    "kind": "pet",
+    "species": "dog",
+    "price": 250
+  },
+  {
+    "id": "dog_beagle",
+    "name": "@item.dog_beagle",
+    "kind": "pet",
+    "species": "dog",
+    "price": 180
+  },
+  {
+    "id": "cat_house",
+    "name": "@item.cat_house",
+    "kind": "pet",
+    "species": "cat",
+    "price": 100
+  }
+]

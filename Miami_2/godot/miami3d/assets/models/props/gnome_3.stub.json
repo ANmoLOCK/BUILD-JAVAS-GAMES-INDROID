@@ -1,0 +1,12 @@
+{
+  "id": "gnome_3",
+  "mesh": "res://assets/models/props/gnome_3.glb",
+  "kind": "quest",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

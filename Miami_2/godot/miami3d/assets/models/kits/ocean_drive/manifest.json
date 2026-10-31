@@ -1,0 +1,16 @@
+{
+  "location": "ocean_drive",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/ocean_drive/albedo.png",
+    "normal": "res://assets/textures/kits/ocean_drive/normal.png",
+    "roughness": "res://assets/textures/kits/ocean_drive/roughness.png"
+  },
+  "status": "placeholder"
+}

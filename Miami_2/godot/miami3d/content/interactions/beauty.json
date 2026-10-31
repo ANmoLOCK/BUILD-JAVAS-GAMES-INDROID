@@ -1,0 +1,182 @@
+[
+  {
+    "id": "eshop",
+    "legacyId": 53,
+    "name": "@act.eshop",
+    "target": "object",
+    "animation": "eshop",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "sex_appeal",
+        "delta": 3
+      },
+      {
+        "stat": "self_esteem",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "trocar_de_roupa",
+    "legacyId": 54,
+    "name": "@act.trocar_de_roupa",
+    "target": "object",
+    "animation": "trocar",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "sex_appeal",
+        "delta": 3
+      },
+      {
+        "stat": "self_esteem",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "abrir",
+    "legacyId": 55,
+    "name": "@act.abrir",
+    "target": "object",
+    "animation": "abrir",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "sex_appeal",
+        "delta": 3
+      },
+      {
+        "stat": "self_esteem",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "mudar_imagem_do_perfil",
+    "legacyId": 113,
+    "name": "@act.mudar_imagem_do_perfil",
+    "target": "object",
+    "animation": "mudar",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "sex_appeal",
+        "delta": 3
+      },
+      {
+        "stat": "self_esteem",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "sala_de_cirurgia",
+    "legacyId": 116,
+    "name": "@act.sala_de_cirurgia",
+    "target": "object",
+    "animation": "sala",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "sex_appeal",
+        "delta": 3
+      },
+      {
+        "stat": "self_esteem",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "lipoaspiracao",
+    "legacyId": 118,
+    "name": "@act.lipoaspiracao",
+    "target": "object",
+    "animation": "lipoaspiracao",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "sex_appeal",
+        "delta": 3
+      },
+      {
+        "stat": "self_esteem",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "rinoplastia",
+    "legacyId": 119,
+    "name": "@act.rinoplastia",
+    "target": "object",
+    "animation": "rinoplastia",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "sex_appeal",
+        "delta": 3
+      },
+      {
+        "stat": "self_esteem",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "lifting",
+    "legacyId": 120,
+    "name": "@act.lifting",
+    "target": "object",
+    "animation": "lifting",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "sex_appeal",
+        "delta": 3
+      },
+      {
+        "stat": "self_esteem",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "implantes_de_gelatina",
+    "legacyId": 121,
+    "name": "@act.implantes_de_gelatina",
+    "target": "object",
+    "animation": "implantes",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "sex_appeal",
+        "delta": 3
+      },
+      {
+        "stat": "self_esteem",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  }
+]

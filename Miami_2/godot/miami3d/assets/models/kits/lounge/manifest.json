@@ -1,0 +1,16 @@
+{
+  "location": "lounge",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/lounge/albedo.png",
+    "normal": "res://assets/textures/kits/lounge/normal.png",
+    "roughness": "res://assets/textures/kits/lounge/roughness.png"
+  },
+  "status": "placeholder"
+}

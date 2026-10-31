@@ -1,0 +1,75 @@
+{
+  "id": "reactions",
+  "offended": [
+    "Por que você ainda está falando comigo?",
+    "Isso realmente me ofende.",
+    "Como você pode me dizer uma coisa dessas?",
+    "O que te faz pensar que eu gostaria de discutir esse assunto com você?",
+    "Prefiro pular de uma ponte.",
+    "Vá embora.",
+    "Que tédio!",
+    "Você não me diverte nem um pouco.",
+    "Diga isso a alguém que se importa.",
+    "Saia de perto de mim!",
+    "Por que você está me perguntando isso?",
+    "Socorro! Polícia! Tirem essa pessoa de perto de mim!",
+    "Eu tenho cara de quem se interessa por isso?",
+    "Dá um tempo, vai!",
+    "Cai fora!",
+    "Por que não me deixa em paz?",
+    "Por que não vai dar uma volta?",
+    "Estou começando a não gostar de você de verdade.",
+    "Esse não é um assunto sobre o qual eu gostaria de falar!",
+    "Xô!"
+  ],
+  "bored": [
+    "Hmm, não é algo que me interessa, na verdade.",
+    "Uau, atingi um novo nível de tédio!",
+    "Acho que algumas pessoas devem gostar dessas coisas.",
+    "Somos amigos?",
+    "Você é estranho.",
+    "Vou ter que perguntar aos meus amigos de verdade.",
+    "Isso é tão atrasado!",
+    "Não é muito a minha praia.",
+    "Você estava falando? Acho que dormi.",
+    "Acho que eu tenho um compromisso agora.",
+    "Hmm, eu realmente não me importo, então...",
+    "É. Ótimo. Na verdade, não.",
+    "Ugh! Eu meio que cansei desse assunto.",
+    "Eu não poderia me importar menos.",
+    "Você pode fazer melhor que isso.",
+    "Blá, blá, blá. Isso é tudo que eu ouço.",
+    "Téééédiooooo.",
+    "Zzzzzzzzzz.",
+    "Será que podemos conversar sobre algo interessante?",
+    "É, que seja..."
+  ],
+  "greetings": {
+    "default": [
+      "Olá, prazer em te conhecer. Como vai?",
+      "Oi, muito prazer. Posso te ajudar?",
+      "Oi! Que tal bater um papinho?",
+      "Adoro conhecer novas pessoas! Está tendo um bom dia?",
+      "E aí, belê?",
+      "Oi, quer conversar um pouco?",
+      "Oi ! Tudo bem?",
+      "! Quer bater papo?",
+      "E aí, você! Quais as novas?",
+      "! Como você está?"
+    ],
+    "grumpy": [
+      "Ah, olá. O que você quer?",
+      "Seja gentil ou seja breve, ok?",
+      "Oi.",
+      "Veja só você, vindo me ver assim do nada. Voltou pra consertar as coisas, imagino...?",
+      "Bem... Olá, ."
+    ],
+    "dirty": [
+      "Que tal você tomar um BANHO e aí a gente conversa?",
+      "Tenho orgulho de que Miami seja uma cidade limpa! E no momento você não está ajudando. Você está SUJO.",
+      "Desculpe, não consigo te ouvir tão bem por causa do seu FEDOR! Vá tomar um BANHO.",
+      "Senhor, você tem moscas ao redor da cabeça. Aceite a dica e vá tomar um BANHO.",
+      "Está sentindo esse aroma delicioso de flores e ar fresco? Bem, eu estava até você chegar... Vá tomar um BANHO, ok?"
+    ]
+  }
+}

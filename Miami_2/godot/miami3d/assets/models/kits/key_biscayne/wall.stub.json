@@ -1,0 +1,6 @@
+{
+  "id": "key_biscayne_wall",
+  "mesh": "res://assets/models/kits/key_biscayne/wall.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

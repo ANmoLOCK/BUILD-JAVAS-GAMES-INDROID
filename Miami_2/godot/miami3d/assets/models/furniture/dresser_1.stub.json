@@ -1,0 +1,11 @@
+{
+  "id": "dresser_1",
+  "mesh": "res://assets/models/furniture/dresser_1.glb",
+  "kind": "furniture",
+  "footprint": [
+    1,
+    1
+  ],
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

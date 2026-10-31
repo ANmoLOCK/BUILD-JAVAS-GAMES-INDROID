@@ -1,0 +1,522 @@
+[
+  {
+    "id": "q020_va_ao_apartamento",
+    "legacyId": 20,
+    "sender": "Inspetor",
+    "title": "@q020.title",
+    "text": "@q020.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q020.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q020_va_ao_apartamento"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q021_va_ao_apartamento",
+    "legacyId": 21,
+    "sender": "Inspetor",
+    "title": "@q021.title",
+    "text": "@q021.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q021.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q021_va_ao_apartamento"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q022_personalize_sua_casa",
+    "legacyId": 22,
+    "sender": "Scott",
+    "title": "@q022.title",
+    "text": "@q022.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q022.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q022_personalize_sua_casa"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q023_detetive_particular",
+    "legacyId": 23,
+    "sender": "Scott",
+    "title": "@q023.title",
+    "text": "@q023.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q023.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q023_detetive_particular"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q024_trabalho_figurante",
+    "legacyId": 24,
+    "sender": "Spillbeard",
+    "title": "@q024.title",
+    "text": "@q024.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q024.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q024_trabalho_figurante"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q025_trabalho_assistente_de_publicidade",
+    "legacyId": 25,
+    "sender": "Opal",
+    "title": "@q025.title",
+    "text": "@q025.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q025.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q025_trabalho_assistente_de_publicidade"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q026_trabalho_bartender",
+    "legacyId": 26,
+    "sender": "Charm",
+    "title": "@q026.title",
+    "text": "@q026.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q026.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q026_trabalho_bartender"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q027_trabalho_entregador",
+    "legacyId": 27,
+    "sender": "Restaurante YucaHal Pachinko",
+    "title": "@q027.title",
+    "text": "@q027.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q027.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q027_trabalho_entregador"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q028_anoes",
+    "legacyId": 28,
+    "sender": "Proprietário",
+    "title": "@q028.title",
+    "text": "@q028.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q028.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q028_anoes"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q029_faca_amizade_com_o_coordenador",
+    "legacyId": 29,
+    "sender": "Spillbeard",
+    "title": "@q029.title",
+    "text": "@q029.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q029.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q029_faca_amizade_com_o_coordenador"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q030_trabalho_de_figurante",
+    "legacyId": 30,
+    "sender": "Spillbeard",
+    "title": "@q030.title",
+    "text": "@q030.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q030.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q030_trabalho_de_figurante"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q031_oferta",
+    "legacyId": 31,
+    "sender": "Câmera",
+    "title": "@q031.title",
+    "text": "@q031.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q031.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q031_oferta"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q032_experimente_tudo",
+    "legacyId": 32,
+    "sender": "Scott",
+    "title": "@q032.title",
+    "text": "@q032.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q032.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q032_experimente_tudo"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q033_cartazes",
+    "legacyId": 33,
+    "sender": "Opal",
+    "title": "@q033.title",
+    "text": "@q033.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q033.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q033_cartazes"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q034_pagamento",
+    "legacyId": 34,
+    "sender": "Chefe de Publicidade",
+    "title": "@q034.title",
+    "text": "@q034.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q034.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q034_pagamento"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q035_festa",
+    "legacyId": 35,
+    "sender": "Scott",
+    "title": "@q035.title",
+    "text": "@q035.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q035.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q035_festa"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q036_entrega_de_pizzas",
+    "legacyId": 36,
+    "sender": "Hal Pachinko",
+    "title": "@q036.title",
+    "text": "@q036.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q036.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q036_entrega_de_pizzas"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q037_servir_bebidas",
+    "legacyId": 37,
+    "sender": "Charm",
+    "title": "@q037.title",
+    "text": "@q037.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q037.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q037_servir_bebidas"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q038_mn2tv",
+    "legacyId": 38,
+    "sender": "Scott",
+    "title": "@q038.title",
+    "text": "@q038.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q038.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q038_mn2tv"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q039_luzes",
+    "legacyId": 39,
+    "sender": "MC",
+    "title": "@q039.title",
+    "text": "@q039.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q039.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q039_luzes"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  }
+]

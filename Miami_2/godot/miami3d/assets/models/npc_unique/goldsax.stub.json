@@ -1,0 +1,6 @@
+{
+  "id": "goldsax",
+  "mesh": "res://assets/models/npc_unique/goldsax.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

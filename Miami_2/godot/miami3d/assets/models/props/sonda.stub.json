@@ -1,0 +1,12 @@
+{
+  "id": "sonda",
+  "mesh": "res://assets/models/props/sonda.glb",
+  "kind": "prop",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

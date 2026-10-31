@@ -1,0 +1,6 @@
+{
+  "id": "mansion_window",
+  "mesh": "res://assets/models/kits/mansion/window.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

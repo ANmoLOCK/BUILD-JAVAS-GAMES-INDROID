@@ -1,0 +1,18 @@
+{
+  "id": "inspector_station",
+  "entries": [
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "startHour": 8,
+      "endHour": 18,
+      "location": "police_station",
+      "activity": "work"
+    }
+  ]
+}

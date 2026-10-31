@@ -7,7 +7,8 @@ etapa de engenharia reversa, mais a documentação, as ferramentas e a base do r
 entrada (MIDlet) → [`GloftMMN2.java`](02-codigo-descompilado/GloftMMN2.java) ·
 regras do jogo → [`03-sistemas-de-jogo.md`](09-engenharia-reversa-docs/03-sistemas-de-jogo.md) ·
 plano 3D Android → [`05-arquitetura-android-3d.md`](09-engenharia-reversa-docs/05-arquitetura-android-3d.md) ·
-**plano progressivo (cérebro + fases + todos os arquivos)** → [`08-plano-progressivo-godot.md`](09-engenharia-reversa-docs/08-plano-progressivo-godot.md)
+**plano progressivo** → [`08-plano-progressivo-godot.md`](09-engenharia-reversa-docs/08-plano-progressivo-godot.md) ·
+**projeto Godot 4 (comece a jogar/implementar aqui)** → [`godot/README.md`](godot/README.md)
 
 ## Do que se trata, em poucas palavras
 
@@ -31,6 +32,8 @@ acrescentar novos locais, personagens e missões sem recompilar o jogo.
 | 08 | [`08-audio/`](08-audio) | 29 | 25 músicas MIDI + 4 efeitos WAV |
 | 09 | [`09-engenharia-reversa-docs/`](09-engenharia-reversa-docs) | 7 | Documentação: formatos, sistemas de jogo, inventário, arquitetura Android 3D, pipeline de conteúdo, roadmap |
 | 10 | [`10-remake-3d/`](10-remake-3d) | — | Base do remake: `schemas/` (JSON Schema do conteúdo) e `content/` (pack de exemplo validado) |
+| — | [`Miami WorldStreamer/`](Miami%20WorldStreamer) | — | Quase open-world: streaming por chunks + coords globais (opt-in, sem quebrar discrete) |
+| — | [`godot/releases/android/`](godot/releases/android) | — | **APK Android** Miami Life (`MiamiLife-0.8.0-debug.apk`) |
 | — | [`tools/`](tools) | 7 | Scripts Python que geram as etapas 01–08 a partir do JAR e validam o conteúdo do remake |
 | — | [`CATALOGO.md`](CATALOGO.md) | 1 | Tabela das 1 039 entradas: id, pack, tipo, bytes, nome |
 

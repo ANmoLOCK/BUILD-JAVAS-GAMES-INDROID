@@ -1,0 +1,42 @@
+; Engine=Godot 4.3 — Miami 3D (cérebro + corpo 3D)
+; ConfigFile format
+
+config_version=5
+
+[application]
+
+config/name="Miami Life"
+config/description="Miami Life — life-sim 3D nativo Android (HueHueGames)"
+config/version="0.8.1-menu-b"
+run/main_scene="res://game/main.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
+config/icon="res://game/ui/icon.png"
+
+[autoload]
+
+Bootstrap="*res://game/bootstrap.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=0
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
+
+[miami]
+
+content_dir="res://content"
+assets_dir="res://assets"
+save_dir="user://saves"
+phase="a"
+world_mode="discrete"

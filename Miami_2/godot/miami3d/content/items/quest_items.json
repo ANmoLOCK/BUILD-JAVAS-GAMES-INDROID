@@ -1,0 +1,100 @@
+[
+  {
+    "id": "quest_keys",
+    "name": "@item.quest_keys",
+    "kind": "quest"
+  },
+  {
+    "id": "quest_cigars",
+    "name": "@item.quest_cigars",
+    "kind": "quest"
+  },
+  {
+    "id": "quest_posters",
+    "name": "@item.quest_posters",
+    "kind": "quest"
+  },
+  {
+    "id": "quest_box",
+    "name": "@item.quest_box",
+    "kind": "quest"
+  },
+  {
+    "id": "quest_id",
+    "name": "@item.quest_id",
+    "kind": "quest"
+  },
+  {
+    "id": "quest_treasure_map",
+    "name": "@item.quest_treasure_map",
+    "kind": "quest"
+  },
+  {
+    "id": "quest_ticket",
+    "name": "@item.quest_ticket",
+    "kind": "quest"
+  },
+  {
+    "id": "gnome_1",
+    "name": "@item.gnome_1",
+    "kind": "quest",
+    "actions": [
+      "pick_up_gnome",
+      "place_gnome"
+    ]
+  },
+  {
+    "id": "gnome_2",
+    "name": "@item.gnome_2",
+    "kind": "quest",
+    "actions": [
+      "pick_up_gnome",
+      "place_gnome"
+    ]
+  },
+  {
+    "id": "gnome_3",
+    "name": "@item.gnome_3",
+    "kind": "quest",
+    "actions": [
+      "pick_up_gnome",
+      "place_gnome"
+    ]
+  },
+  {
+    "id": "gnome_4",
+    "name": "@item.gnome_4",
+    "kind": "quest",
+    "actions": [
+      "pick_up_gnome",
+      "place_gnome"
+    ]
+  },
+  {
+    "id": "gnome_5",
+    "name": "@item.gnome_5",
+    "kind": "quest",
+    "actions": [
+      "pick_up_gnome",
+      "place_gnome"
+    ]
+  },
+  {
+    "id": "gnome_6",
+    "name": "@item.gnome_6",
+    "kind": "quest",
+    "actions": [
+      "pick_up_gnome",
+      "place_gnome"
+    ]
+  },
+  {
+    "id": "gnome_7",
+    "name": "@item.gnome_7",
+    "kind": "quest",
+    "actions": [
+      "pick_up_gnome",
+      "place_gnome"
+    ]
+  }
+]

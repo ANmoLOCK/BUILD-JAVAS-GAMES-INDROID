@@ -1,0 +1,6 @@
+{
+  "id": "beauty_clinic_wall",
+  "mesh": "res://assets/models/kits/beauty_clinic/wall.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

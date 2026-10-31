@@ -1,0 +1,130 @@
+[
+  {
+    "id": "musica_lig",
+    "legacyId": 111,
+    "name": "@act.musica_lig",
+    "target": "object",
+    "animation": "musica",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "musica_desl",
+    "legacyId": 112,
+    "name": "@act.musica_desl",
+    "target": "object",
+    "animation": "musica",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "luzes_lig",
+    "legacyId": 122,
+    "name": "@act.luzes_lig",
+    "target": "object",
+    "animation": "luzes",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "luzes_desl",
+    "legacyId": 123,
+    "name": "@act.luzes_desl",
+    "target": "object",
+    "animation": "luzes",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "vasculhar",
+    "legacyId": 138,
+    "name": "@act.vasculhar",
+    "target": "object",
+    "animation": "vasculhar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "tirar_um_sarro",
+    "legacyId": 144,
+    "name": "@act.tirar_um_sarro",
+    "target": "object",
+    "animation": "tirar",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "caixa_automatico",
+    "legacyId": 152,
+    "name": "@act.caixa_automatico",
+    "target": "object",
+    "animation": "caixa",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "pia",
+    "legacyId": 156,
+    "name": "@act.pia",
+    "target": "object",
+    "animation": "pia",
+    "durationMinutes": 10,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 1
+      }
+    ],
+    "event": "used_object"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "id": "kitchen", "name": "@item.kitchen", "kind": "object",
+  "mesh": "res://assets/models/kitchen/stove.glb",
+  "footprint": [1, 2], "useCell": [1, 0], "facing": "W",
+  "actions": ["cook_burger", "cook_salad", "wash_dishes"]
+}

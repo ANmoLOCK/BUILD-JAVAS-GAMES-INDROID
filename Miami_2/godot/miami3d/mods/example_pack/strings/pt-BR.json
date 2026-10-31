@@ -1,0 +1,9 @@
+{
+  "loc.mod_pier": "PIER DO MOD",
+  "npc.mod_fisher": "Pescador do Pier",
+  "q_mod_fish.title": "Peixe fresco",
+  "q_mod_fish.text": "O pescador quer conversar no pier.",
+  "q_mod_fish.obj": "Fale com o pescador no pier.",
+  "q_mod_fish.intro": "Ei! Quer um peixe? Só conversar já me alegra.",
+  "q_mod_fish.done": "Valeu a visita — tome uns trocados."
+}

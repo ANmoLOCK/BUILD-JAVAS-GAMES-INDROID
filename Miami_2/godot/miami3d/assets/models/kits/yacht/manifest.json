@@ -1,0 +1,16 @@
+{
+  "location": "yacht",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/yacht/albedo.png",
+    "normal": "res://assets/textures/kits/yacht/normal.png",
+    "roughness": "res://assets/textures/kits/yacht/roughness.png"
+  },
+  "status": "placeholder"
+}

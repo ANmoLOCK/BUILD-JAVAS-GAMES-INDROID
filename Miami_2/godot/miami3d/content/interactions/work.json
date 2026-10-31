@@ -1,0 +1,162 @@
+[
+  {
+    "id": "jogar_cartazes_no_lixo",
+    "legacyId": 102,
+    "name": "@act.jogar_cartazes_no_lixo",
+    "target": "object",
+    "animation": "jogar",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": -2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "colar_cartazes",
+    "legacyId": 103,
+    "name": "@act.colar_cartazes",
+    "target": "object",
+    "animation": "colar",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": -2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "entregar_pizza",
+    "legacyId": 105,
+    "name": "@act.entregar_pizza",
+    "target": "object",
+    "animation": "entregar",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": -2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "conferir_emprego",
+    "legacyId": 106,
+    "name": "@act.conferir_emprego",
+    "target": "object",
+    "animation": "conferir",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": -2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "entregar_a_caixa",
+    "legacyId": 107,
+    "name": "@act.entregar_a_caixa",
+    "target": "object",
+    "animation": "entregar",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": -2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "servir_bebidas",
+    "legacyId": 109,
+    "name": "@act.servir_bebidas",
+    "target": "object",
+    "animation": "servir",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": -2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "bebida_esquecida",
+    "legacyId": 110,
+    "name": "@act.bebida_esquecida",
+    "target": "object",
+    "animation": "bebida",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": -2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "figurante",
+    "legacyId": 114,
+    "name": "@act.figurante",
+    "target": "object",
+    "animation": "figurante",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": -2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "seguir_camera",
+    "legacyId": 115,
+    "name": "@act.seguir_camera",
+    "target": "object",
+    "animation": "seguir",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": -2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "treinar_modelos",
+    "legacyId": 141,
+    "name": "@act.treinar_modelos",
+    "target": "object",
+    "animation": "treinar",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": -2
+      }
+    ],
+    "event": "used_object"
+  }
+]

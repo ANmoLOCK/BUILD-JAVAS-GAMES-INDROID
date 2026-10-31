@@ -51,7 +51,9 @@ o Godot nunca inventa regras — só mostra e coleta input.
 
 ## 1. Mapa completo de arquivos do projeto Godot
 
-Raiz proposta: `Miami_2/10-remake-3d/miami3d/` (ao lado de `schemas/` e `content/`).
+Raiz real do projeto Godot: **`Miami_2/godot/miami3d/`** (ver `Miami_2/godot/PHASES.md`).
+Schemas continuam em `Miami_2/10-remake-3d/schemas/`; o pack de runtime fica em
+`godot/miami3d/content/`.
 
 ### 1.1 Cérebro — `core/` (nenhum `Node`, nenhum `extends Node`)
 
@@ -162,9 +164,9 @@ Schemas (já em `../schemas/`):
 |---|---|
 | `../tools/mn2_extract_all.py` (+ individuais) | Regenera referência 2D |
 | `../tools/validate_content.py` | Valida packs |
-| `../tools/room_to_godot.py` *(a criar)* | `07-salas/room_NN.json` → placeholders na cena |
-| `../tools/appearance_preview.py` *(a criar)* | Preview do vetor paper-doll |
-| `miami3d/tests/test_*.gd` | Testes do cérebro (GUT/gdUnit4) |
+| `../tools/room_to_godot.py` | `07-salas/room_NN.json` → placeholders na cena |
+| `../tools/appearance_preview.py` | Preview do vetor paper-doll |
+| `miami3d/tests/test_*.gd` | Testes do cérebro (SceneTree headless) |
 | `miami3d/tests/text_day.gd` | "Jogo de texto" de um dia |
 
 ### 1.6 O que NÃO entra no remake (mas fica como referência)
@@ -393,7 +395,10 @@ Cada pedido deve citar a fase: ex. *“implementa a Fase A do plano 08”*.
 
 Antes de declarar Fase F pronta, conferir:
 
-- [ ] 25 `content/locations/*.json` + 25 `game/world/locations/*.tscn`
+- [x] 25 `content/locations/*.json` + 25 `game/world/locations/*.tscn` (3 detalhados + stubs; jardim extra)
+- [x] Pack conteúdo: npcs/items/interactions/quests/dialogue/jobs/schedules/achievements/regions/gifts/surgery/rent
+- [x] `assets/` + `MnAssetRegistry` / `MnMeshFactory` (placeholders GLB, paper-doll, kits, anims, UI)
+- [x] `room_to_godot.py` + `appearance_preview.py` + `validate_content.py --lite` + `tests/test_*.gd`
 - [ ] 94 `content/npcs/*.json` (ou generativos + overrides do elenco)
 - [ ] 16 entradas em `stats.json`
 - [ ] ≥ 77 templates em `items/` (objetos) + 60 móveis + 8 presentes + roupas + quest items

@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "id": "dog_scottish",
+      "species": "dog",
+      "path": "res://assets/models/pets/dog_scottish.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "dog_bulldog",
+      "species": "dog",
+      "path": "res://assets/models/pets/dog_bulldog.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "dog_beagle",
+      "species": "dog",
+      "path": "res://assets/models/pets/dog_beagle.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "cat_house",
+      "species": "cat",
+      "path": "res://assets/models/pets/cat_house.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "bird",
+      "species": "bird",
+      "path": "res://assets/models/pets/bird.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "crocodile",
+      "species": "crocodile",
+      "path": "res://assets/models/pets/crocodile.glb",
+      "status": "placeholder"
+    }
+  ]
+}

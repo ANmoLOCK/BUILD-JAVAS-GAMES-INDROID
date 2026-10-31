@@ -1,0 +1,4 @@
+{
+  "note": "Caminhos legados em content/items/*.json; use props/ ou furniture/ como canônicos.",
+  "fallback": "res://assets/models/_shared/placeholder.glb"
+}

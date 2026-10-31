@@ -1,0 +1,245 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/flow/main_menu.gd" id="1"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+clip_contents = true
+script = ExtResource("1")
+
+[node name="HeroBg" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="LeftVeil" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 0.62
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.02, 0.05, 0.1, 0.28)
+
+[node name="RailBg" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_left = 0.62
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.035, 0.055, 0.09, 0.82)
+
+[node name="RailEdge" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 9
+anchor_left = 0.62
+anchor_top = 0.0
+anchor_right = 0.62
+anchor_bottom = 1.0
+offset_left = -2.0
+offset_right = 0.0
+grow_vertical = 2
+mouse_filter = 2
+color = Color(1, 0.55, 0.45, 0.22)
+
+[node name="BrandColumn" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 0.58
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="BrandBlock" type="VBoxContainer" parent="BrandColumn"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -260.0
+offset_top = -150.0
+offset_right = 260.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="Logo" type="TextureRect" parent="BrandColumn/BrandBlock"]
+custom_minimum_size = Vector2(148, 148)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+pivot_offset = Vector2(74, 74)
+
+[node name="Title" type="Label" parent="BrandColumn/BrandBlock"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 48
+theme_override_colors/font_color = Color(1, 0.93, 0.86, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.05, 0.1, 0.75)
+theme_override_constants/outline_size = 6
+text = "MIAMI LIFE"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Tagline" type="Label" parent="BrandColumn/BrandBlock"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.78, 0.9, 0.94, 1)
+theme_override_colors/font_outline_color = Color(0.02, 0.05, 0.1, 0.65)
+theme_override_constants/outline_size = 3
+text = "A cidade é sua — viva a noite."
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="StudioLine" type="Label" parent="."]
+z_index = 4
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 24.0
+offset_top = -36.0
+offset_right = 380.0
+offset_bottom = -10.0
+grow_horizontal = 0
+grow_vertical = 0
+mouse_filter = 2
+theme_override_font_sizes/font_size = 13
+theme_override_colors/font_color = Color(0.86, 0.92, 0.95, 0.95)
+theme_override_colors/font_outline_color = Color(0.02, 0.05, 0.1, 0.9)
+theme_override_constants/outline_size = 5
+text = "HueHueGames"
+horizontal_alignment = 0
+vertical_alignment = 2
+autowrap_mode = 3
+
+[node name="Rail" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_left = 0.62
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 28
+theme_override_constants/margin_top = 36
+theme_override_constants/margin_right = 28
+theme_override_constants/margin_bottom = 28
+
+[node name="VBox" type="VBoxContainer" parent="Rail"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Scroll" type="ScrollContainer" parent="Rail/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="List" type="VBoxContainer" parent="Rail/VBox/Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="Status" type="Label" parent="Rail/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.7, 0.8, 0.86, 0.9)
+text = "…"
+horizontal_alignment = 0
+autowrap_mode = 3
+
+[node name="Overlay" type="Control" parent="."]
+visible = false
+z_index = 20
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Dim" type="ColorRect" parent="Overlay"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.01, 0.03, 0.06, 0.72)
+
+[node name="Dialog" type="PanelContainer" parent="Overlay"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -280.0
+offset_top = -210.0
+offset_right = 280.0
+offset_bottom = 210.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Margin" type="MarginContainer" parent="Overlay/Dialog"]
+layout_mode = 2
+theme_override_constants/margin_left = 18
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 18
+theme_override_constants/margin_bottom = 16
+
+[node name="VBox" type="VBoxContainer" parent="Overlay/Dialog/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Title" type="Label" parent="Overlay/Dialog/Margin/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+theme_override_colors/font_color = Color(1, 0.93, 0.86, 1)
+text = "…"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="BodyScroll" type="ScrollContainer" parent="Overlay/Dialog/Margin/VBox"]
+custom_minimum_size = Vector2(0, 180)
+layout_mode = 2
+size_flags_vertical = 3
+horizontal_scroll_mode = 0
+
+[node name="Body" type="VBoxContainer" parent="Overlay/Dialog/Margin/VBox/BodyScroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 8
+
+[node name="Actions" type="HBoxContainer" parent="Overlay/Dialog/Margin/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="Cancel" type="Button" parent="Overlay/Dialog/Margin/VBox/Actions"]
+custom_minimum_size = Vector2(120, 40)
+layout_mode = 2
+text = "Voltar"
+
+[node name="Confirm" type="Button" parent="Overlay/Dialog/Margin/VBox/Actions"]
+custom_minimum_size = Vector2(140, 40)
+layout_mode = 2
+text = "OK"

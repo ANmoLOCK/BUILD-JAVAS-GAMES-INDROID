@@ -1,0 +1,6 @@
+{
+  "id": "first_street_floor",
+  "mesh": "res://assets/models/kits/first_street/floor.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

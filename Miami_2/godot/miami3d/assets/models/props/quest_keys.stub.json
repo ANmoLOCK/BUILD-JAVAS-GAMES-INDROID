@@ -1,0 +1,12 @@
+{
+  "id": "quest_keys",
+  "mesh": "res://assets/models/props/quest_keys.glb",
+  "kind": "quest",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

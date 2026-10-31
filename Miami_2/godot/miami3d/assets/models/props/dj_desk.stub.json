@@ -1,0 +1,12 @@
+{
+  "id": "dj_desk",
+  "mesh": "res://assets/models/props/dj_desk.glb",
+  "kind": "prop",
+  "footprint": [
+    2,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

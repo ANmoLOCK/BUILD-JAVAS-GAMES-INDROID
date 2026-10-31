@@ -1,0 +1,43 @@
+{
+  "id": "dean",
+  "slot": 3,
+  "name": "@npc.dean",
+  "displayName": "Dean",
+  "gender": "m",
+  "appearance": [
+    0,
+    3,
+    3,
+    3,
+    6,
+    3,
+    1,
+    3,
+    3,
+    3
+  ],
+  "likes": [
+    "sports",
+    "movies",
+    "food"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "dean_default",
+  "greetings": "@greet.default",
+  "dateable": true,
+  "roommateable": true,
+  "essential": true,
+  "home": "heather_dean_apartment",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "captain",
+  "slot": 17,
+  "name": "@npc.captain",
+  "displayName": "Capitão",
+  "gender": "m",
+  "appearance": [
+    0,
+    2,
+    5,
+    1,
+    2,
+    5,
+    3,
+    5,
+    2,
+    1
+  ],
+  "likes": [
+    "sea",
+    "treasure",
+    "stories"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "captain_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "pelican_port",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

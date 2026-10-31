@@ -1,0 +1,16 @@
+{
+  "location": "little_havana",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/little_havana/albedo.png",
+    "normal": "res://assets/textures/kits/little_havana/normal.png",
+    "roughness": "res://assets/textures/kits/little_havana/roughness.png"
+  },
+  "status": "placeholder"
+}

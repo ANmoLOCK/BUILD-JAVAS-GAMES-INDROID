@@ -1,0 +1,93 @@
+{
+  "id": "coconut_grove",
+  "name": "@loc.coconut_grove",
+  "region": "coconut_grove",
+  "scene": "res://game/world/locations/coconut_grove.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 50,
+    "height": 40
+  },
+  "spawn": {
+    "cell": [
+      25,
+      20
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        25,
+        20
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      50,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      40
+    ],
+    [
+      49,
+      0,
+      1,
+      40
+    ],
+    [
+      0,
+      39,
+      50,
+      1
+    ]
+  ],
+  "portals": [
+    {
+      "id": "to_grand",
+      "cell": [
+        25,
+        25
+      ],
+      "to": "grand_avenue",
+      "spawn": "default"
+    },
+    {
+      "id": "to_lounge",
+      "cell": [
+        35,
+        20
+      ],
+      "to": "lounge",
+      "spawn": "default"
+    }
+  ],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        46,
+        36
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": []
+}

@@ -1,0 +1,6 @@
+{
+  "id": "boss",
+  "mesh": "res://assets/models/npc_unique/boss.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

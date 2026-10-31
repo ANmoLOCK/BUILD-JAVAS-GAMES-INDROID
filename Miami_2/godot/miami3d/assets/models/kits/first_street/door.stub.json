@@ -1,0 +1,6 @@
+{
+  "id": "first_street_door",
+  "mesh": "res://assets/models/kits/first_street/door.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

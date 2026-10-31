@@ -1,0 +1,20 @@
+{
+  "id": "mod_pier",
+  "name": "@loc.mod_pier",
+  "region": "south_beach",
+  "scene": "res://game/world/locations/south_beach.tscn",
+  "indoor": false,
+  "grid": { "width": 12, "height": 8 },
+  "spawn": { "cell": [2, 2], "facing": "S" },
+  "objects": [],
+  "portals": [
+    {
+      "id": "to_beach",
+      "cell": [0, 4],
+      "to": "south_beach",
+      "spawn": "from_pier"
+    }
+  ],
+  "npcs": [{ "npc": "mod_fisher" }],
+  "triggers": []
+}

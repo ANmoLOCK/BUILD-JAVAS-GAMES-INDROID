@@ -1,0 +1,20 @@
+{
+  "id": "huggy_beach",
+  "entries": [
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startHour": 10,
+      "endHour": 20,
+      "location": "south_beach",
+      "activity": "loiter"
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+[
+  {
+    "id": "q040_musica",
+    "legacyId": 40,
+    "sender": "MC",
+    "title": "@q040.title",
+    "text": "@q040.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q040.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q040_musica"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q041_festa",
+    "legacyId": 41,
+    "sender": "MC",
+    "title": "@q041.title",
+    "text": "@q041.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q041.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q041_festa"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q042_visite_sua_amiga",
+    "legacyId": 42,
+    "sender": "MC",
+    "title": "@q042.title",
+    "text": "@q042.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q042.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q042_visite_sua_amiga"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q043_novas_roupas",
+    "legacyId": 43,
+    "sender": "Heather",
+    "title": "@q043.title",
+    "text": "@q043.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q043.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q043_novas_roupas"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q044_galeao_espanhol_perdido",
+    "legacyId": 44,
+    "sender": "Goldsax",
+    "title": "@q044.title",
+    "text": "@q044.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q044.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q044_galeao_espanhol_perdido"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q045_oferta_ofensa",
+    "legacyId": 45,
+    "sender": "Sanchez",
+    "title": "@q045.title",
+    "text": "@q045.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q045.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q045_oferta_ofensa"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q046_gran_kahuna",
+    "legacyId": 46,
+    "sender": "Sanchez",
+    "title": "@q046.title",
+    "text": "@q046.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q046.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q046_gran_kahuna"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q047_crocodilos_adoram_pizza",
+    "legacyId": 47,
+    "sender": "Guarda",
+    "title": "@q047.title",
+    "text": "@q047.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q047.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q047_crocodilos_adoram_pizza"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q048_mapa",
+    "legacyId": 48,
+    "sender": "Goldsax",
+    "title": "@q048.title",
+    "text": "@q048.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q048.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q048_mapa"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q049_amizade_ou_briga",
+    "legacyId": 49,
+    "sender": "Goldsax",
+    "title": "@q049.title",
+    "text": "@q049.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q049.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q049_amizade_ou_briga"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q050_jantar",
+    "legacyId": 50,
+    "sender": "Heather",
+    "title": "@q050.title",
+    "text": "@q050.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q050.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q050_jantar"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q051_treinar_modelos",
+    "legacyId": 51,
+    "sender": "Ceviche",
+    "title": "@q051.title",
+    "text": "@q051.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q051.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q051_treinar_modelos"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q052_agenciador_de_modelos",
+    "legacyId": 52,
+    "sender": "Scott",
+    "title": "@q052.title",
+    "text": "@q052.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q052.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q052_agenciador_de_modelos"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q053_substituir_o_dj",
+    "legacyId": 53,
+    "sender": "Charm",
+    "title": "@q053.title",
+    "text": "@q053.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q053.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q053_substituir_o_dj"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q054_dj",
+    "legacyId": 54,
+    "sender": "Scott",
+    "title": "@q054.title",
+    "text": "@q054.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q054.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q054_dj"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q055_detetive_particular",
+    "legacyId": 55,
+    "sender": "Scott",
+    "title": "@q055.title",
+    "text": "@q055.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q055.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q055_detetive_particular"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q056_modelos_garotos_e_garotas",
+    "legacyId": 56,
+    "sender": "Mortadella",
+    "title": "@q056.title",
+    "text": "@q056.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q056.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q056_modelos_garotos_e_garotas"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q057_velho_marinheiro",
+    "legacyId": 57,
+    "sender": "Capitão do navio",
+    "title": "@q057.title",
+    "text": "@q057.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q057.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q057_velho_marinheiro"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q058_recompensa",
+    "legacyId": 58,
+    "sender": "Hal Pachinko",
+    "title": "@q058.title",
+    "text": "@q058.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q058.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q058_recompensa"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q059_pizza_vitaminada",
+    "legacyId": 59,
+    "sender": "Hal Pachinko",
+    "title": "@q059.title",
+    "text": "@q059.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q059.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q059_pizza_vitaminada"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  }
+]

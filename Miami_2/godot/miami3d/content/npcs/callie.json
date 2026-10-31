@@ -1,0 +1,43 @@
+{
+  "id": "callie",
+  "slot": 6,
+  "name": "@npc.callie",
+  "displayName": "Callie",
+  "gender": "f",
+  "appearance": [
+    1,
+    1,
+    0,
+    2,
+    4,
+    0,
+    2,
+    0,
+    1,
+    2
+  ],
+  "likes": [
+    "parties",
+    "dogs",
+    "jokes"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "callie_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "npc_apartment",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

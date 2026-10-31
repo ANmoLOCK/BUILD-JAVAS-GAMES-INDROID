@@ -1,0 +1,19 @@
+{
+  "id": "f",
+  "title": "Paridade de história",
+  "locations": [
+    "npc_apartment",
+    "heather_dean_apartment",
+    "mansion",
+    "everglades",
+    "pelican_port",
+    "yacht",
+    "pelican_island",
+    "key_biscayne",
+    "miami_beach",
+    "downtown",
+    "grand_avenue"
+  ],
+  "systems": ["home_hi", "story_parity"],
+  "ready_when": "99 missões / 19 conquistas / arcos finais"
+}

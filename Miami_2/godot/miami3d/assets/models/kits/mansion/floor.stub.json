@@ -1,0 +1,6 @@
+{
+  "id": "mansion_floor",
+  "mesh": "res://assets/models/kits/mansion/floor.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

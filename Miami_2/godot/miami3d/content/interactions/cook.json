@@ -1,0 +1,122 @@
+[
+  {
+    "id": "cozinhar",
+    "legacyId": 62,
+    "name": "@act.cozinhar",
+    "target": "object",
+    "animation": "cozinhar",
+    "durationMinutes": 30,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -30
+      },
+      {
+        "stat": "culture",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "fazer_hamburguer",
+    "legacyId": 157,
+    "name": "@act.fazer_hamburguer",
+    "target": "object",
+    "animation": "fazer",
+    "durationMinutes": 30,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -30
+      },
+      {
+        "stat": "culture",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "preparar_salada",
+    "legacyId": 158,
+    "name": "@act.preparar_salada",
+    "target": "object",
+    "animation": "preparar",
+    "durationMinutes": 30,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -30
+      },
+      {
+        "stat": "culture",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "fazer_pizza",
+    "legacyId": 159,
+    "name": "@act.fazer_pizza",
+    "target": "object",
+    "animation": "fazer",
+    "durationMinutes": 30,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -30
+      },
+      {
+        "stat": "culture",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "fazer_torta_de_maca",
+    "legacyId": 160,
+    "name": "@act.fazer_torta_de_maca",
+    "target": "object",
+    "animation": "fazer",
+    "durationMinutes": 30,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -30
+      },
+      {
+        "stat": "culture",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "preparar_sushi",
+    "legacyId": 161,
+    "name": "@act.preparar_sushi",
+    "target": "object",
+    "animation": "preparar",
+    "durationMinutes": 30,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -30
+      },
+      {
+        "stat": "culture",
+        "delta": 3
+      }
+    ],
+    "event": "used_object"
+  }
+]

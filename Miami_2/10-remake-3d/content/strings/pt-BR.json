@@ -15,7 +15,6 @@
   "stat.social": "Social",
   "stat.health": "Saúde",
   "stat.self_esteem": "Autoestima",
-
   "warn.hunger.1": "Seu estômago está roncando. Melhor comer algo.",
   "warn.hunger.2": "Você está faminto! Coma agora ou vai desmaiar.",
   "warn.hunger.collapse": "Você desmaiou de fome. Alguém te ajudou, mas sua saúde sofreu.",
@@ -28,7 +27,6 @@
   "warn.bladder.1": "Você precisa ir ao banheiro.",
   "warn.bladder.2": "URGENTE: banheiro, agora!",
   "warn.bladder.collapse": "Tarde demais... Você se molhou.",
-
   "loc.player_apartment": "Meu apartamento",
   "loc.apartment_garden": "Jardim do prédio",
   "loc.first_street": "First Street",
@@ -38,14 +36,12 @@
   "msg.gnome_found": "Você achou um anão de jardim! Leve-o de volta ao pedestal no jardim.",
   "apt.first_time_home": "Então é aqui que você vai morar. Pequeno, mas é seu. {m:Bem-vindo|f:Bem-vinda}, {player}!",
   "apt.fridge_hint": "A geladeira está meio vazia, mas dá para um lanche.",
-
   "npc.landlord": "Senhorio",
   "greet.grumpy.0": "O que você quer?",
   "greet.grumpy.1": "Ah, é você de novo.",
   "greet.grumpy.2": "E aí, {player}. Tudo em ordem?",
   "greet.grumpy.3": "{player}! Que bom te ver.",
   "greet.grumpy.4": "Meu inquilino favorito! Entra aí, {player}.",
-
   "item.bed_standard": "Cama padrão",
   "item.sofa_basic": "Sofá simples",
   "item.flowers": "Flores",
@@ -62,7 +58,6 @@
   "item.trash_can": "Lixeira",
   "item.gnome": "Anão de jardim",
   "item.gnome_pedestal": "Pedestal do anão",
-
   "act.sleep": "Dormir",
   "act.sleep.not_tired": "Você não está com sono.",
   "act.nap": "Cochilar",
@@ -91,12 +86,10 @@
   "react.bored": "Já ouvi isso hoje... umas três vezes.",
   "react.call_mom": "Sua mãe mandou um beijo e perguntou se você está comendo direito.",
   "react.steal_ok": "Alguns dólares e um cupom de pizza. Ninguém viu... será?",
-
   "q_gnomes.title": "Os anões sumiram",
   "q_gnomes.text": "A coleção de anões de jardim do senhorio foi levada. Encontre os anões espalhados pela cidade e devolva-os aos pedestais do jardim.",
   "q_gnomes.obj_search": "Procure anões de jardim pela cidade e devolva-os ao jardim.",
   "q_gnomes.all_back": "Meus anões! Você é {m:um inquilino|f:uma inquilina} de ouro. Toma, uma recompensa.",
-
   "q_landlord.title": "Conheça o senhorio",
   "q_landlord.text": "Novos inquilinos deixam o senhorio desconfiado. Converse com ele até ganhar a confiança dele ([b]2 estrelas[/b]) e depois dê uma olhada no apartamento.",
   "q_landlord.intro": "Então você é quem vai morar aqui? Antes de entregar a chave do jardim, quero saber com quem estou lidando.",
@@ -105,5 +98,16 @@
   "q_landlord.obj_tour": "Abra o closet para conhecer o apartamento.",
   "q_landlord.obj_garden": "Visite o jardim.",
   "q_landlord.closet_ok": "Você pode trocar de roupa aqui a qualquer hora. Agora vem ver o jardim!",
-  "q_landlord.gnomes_gone": "Espera... onde está a minha coleção? Alguém levou os anões do jardim!"
+  "q_landlord.gnomes_gone": "Espera... onde está a minha coleção? Alguém levou os anões do jardim!",
+  "msg.closed": "Este lugar está fechado agora.",
+  "msg.locked": "Ainda não dá para entrar aqui.",
+  "msg.no_money": "Você não tem dinheiro suficiente.",
+  "msg.free": "Você pagou a fiança e está livre.",
+  "warn.arrest": "A polícia te prendeu. Crime alto demais.",
+  "date.scheduled": "Encontro marcado!",
+  "date.started": "Seu encontro começou.",
+  "date.success": "Que encontro incrível!",
+  "date.fail": "O encontro acabou mal.",
+  "date.hello": "Oi! Que bom que você veio.",
+  "topic.fallback": "…"
 }

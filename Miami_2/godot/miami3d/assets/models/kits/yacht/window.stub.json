@@ -1,0 +1,6 @@
+{
+  "id": "yacht_window",
+  "mesh": "res://assets/models/kits/yacht/window.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

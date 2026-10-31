@@ -1,0 +1,7 @@
+{
+  "id": "b",
+  "title": "Social / senhorio",
+  "locations": ["police_station"],
+  "systems": ["relationships", "social_menus", "quests", "rules", "economy", "appearance", "crime"],
+  "ready_when": "tutorial do senhorio + jardim jogável"
+}

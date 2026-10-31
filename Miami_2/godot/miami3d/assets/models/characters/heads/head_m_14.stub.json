@@ -1,0 +1,9 @@
+{
+  "id": "head_m_14",
+  "slot": "head",
+  "gender": "m",
+  "variant": 14,
+  "mesh": "res://assets/models/characters/heads/head_m_14.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

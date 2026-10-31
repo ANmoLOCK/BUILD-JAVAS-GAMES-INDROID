@@ -1,0 +1,9 @@
+{
+  "id": "shoe_m_10",
+  "slot": "shoe",
+  "gender": "m",
+  "variant": 10,
+  "mesh": "res://assets/models/characters/shoes/shoe_m_10.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

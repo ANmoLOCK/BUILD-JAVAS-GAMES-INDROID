@@ -1,0 +1,6 @@
+{
+  "id": "john_plumber",
+  "mesh": "res://assets/models/npc_unique/john_plumber.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

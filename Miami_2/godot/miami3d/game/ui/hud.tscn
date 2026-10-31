@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/ui/hud.gd" id="1"]
+
+[node name="HUD" type="VBoxContainer"]
+offset_right = 320.0
+offset_bottom = 130.0
+theme_override_constants/separation = 4
+script = ExtResource("1")
+
+[node name="Clock" type="Label" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "Dia 0  08:00"
+autowrap_mode = 3
+
+[node name="Money" type="Label" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "$0"
+autowrap_mode = 3
+
+[node name="Hunger" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(280, 16)
+layout_mode = 2
+max_value = 100.0
+show_percentage = false
+
+[node name="Sleep" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(280, 16)
+layout_mode = 2
+max_value = 100.0
+show_percentage = false
+
+[node name="Hygiene" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(280, 16)
+layout_mode = 2
+max_value = 100.0
+show_percentage = false
+
+[node name="Bladder" type="ProgressBar" parent="."]
+custom_minimum_size = Vector2(280, 16)
+layout_mode = 2
+max_value = 100.0
+show_percentage = false

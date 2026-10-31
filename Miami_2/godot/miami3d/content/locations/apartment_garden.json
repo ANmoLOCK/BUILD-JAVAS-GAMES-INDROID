@@ -1,0 +1,96 @@
+{
+  "id": "apartment_garden",
+  "name": "@loc.apartment_garden",
+  "region": "downtown",
+  "scene": "res://game/world/locations/apartment_garden.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "apartment_calm",
+  "lockedUntil": "met_landlord",
+  "grid": {
+    "width": 12,
+    "height": 10
+  },
+  "spawn": {
+    "cell": [
+      1,
+      5
+    ],
+    "facing": "E"
+  },
+  "spawns": {
+    "from_apartment": {
+      "cell": [
+        1,
+        5
+      ],
+      "facing": "E"
+    }
+  },
+  "portals": [
+    {
+      "id": "back_door",
+      "cell": [
+        0,
+        5
+      ],
+      "to": "player_apartment",
+      "spawn": "from_street"
+    }
+  ],
+  "zones": [
+    {
+      "id": "lawn",
+      "rect": [
+        2,
+        1,
+        9,
+        8
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [
+    {
+      "id": "gnome_pedestal_1",
+      "template": "gnome_pedestal",
+      "cell": [
+        4,
+        2
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "gnome_pedestal_2",
+      "template": "gnome_pedestal",
+      "cell": [
+        6,
+        2
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "gnome_pedestal_3",
+      "template": "gnome_pedestal",
+      "cell": [
+        8,
+        2
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "garden_plant",
+      "template": "plant",
+      "cell": [
+        10,
+        8
+      ],
+      "facing": "W"
+    }
+  ],
+  "npcs": [],
+  "triggers": []
+}

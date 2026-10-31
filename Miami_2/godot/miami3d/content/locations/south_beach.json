@@ -1,0 +1,119 @@
+{
+  "id": "south_beach",
+  "name": "@loc.south_beach",
+  "region": "south_beach",
+  "scene": "res://game/world/locations/south_beach.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 48,
+    "height": 40
+  },
+  "spawn": {
+    "cell": [
+      24,
+      20
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        24,
+        20
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      48,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      40
+    ],
+    [
+      47,
+      0,
+      1,
+      40
+    ],
+    [
+      0,
+      39,
+      48,
+      1
+    ]
+  ],
+  "portals": [
+    {
+      "id": "to_ocean",
+      "cell": [
+        5,
+        20
+      ],
+      "to": "ocean_drive",
+      "spawn": "default"
+    },
+    {
+      "id": "to_miami_beach",
+      "cell": [
+        40,
+        5
+      ],
+      "to": "miami_beach",
+      "spawn": "default"
+    }
+  ],
+  "zones": [
+    {
+      "id": "sand",
+      "rect": [
+        5,
+        5,
+        35,
+        25
+      ],
+      "tag": "beach"
+    }
+  ],
+  "objects": [
+    {
+      "id": "lounger_1",
+      "template": "sun_lounger",
+      "cell": [
+        12,
+        14
+      ]
+    },
+    {
+      "id": "sand_1",
+      "template": "beach_sand",
+      "cell": [
+        20,
+        18
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "npc": "huggy",
+      "schedule": "huggy_beach"
+    },
+    {
+      "generic": true,
+      "count": 8
+    }
+  ],
+  "triggers": []
+}

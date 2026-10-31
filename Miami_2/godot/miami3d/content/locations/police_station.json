@@ -1,0 +1,110 @@
+{
+  "id": "police_station",
+  "name": "@loc.police_station",
+  "region": "downtown",
+  "scene": "res://game/world/locations/police_station.tscn",
+  "indoor": true,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "apartment_calm",
+  "grid": {
+    "width": 20,
+    "height": 16
+  },
+  "spawn": {
+    "cell": [
+      10,
+      8
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        10,
+        8
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      20,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      16
+    ],
+    [
+      19,
+      0,
+      1,
+      16
+    ],
+    [
+      0,
+      15,
+      20,
+      1
+    ]
+  ],
+  "portals": [
+    {
+      "id": "exit",
+      "cell": [
+        10,
+        14
+      ],
+      "to": "first_street",
+      "spawn": "from_apartment"
+    }
+  ],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        16,
+        12
+      ],
+      "tag": "indoor"
+    }
+  ],
+  "objects": [
+    {
+      "id": "cell_door",
+      "template": "cell_door",
+      "cell": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "keys_1",
+      "template": "keys",
+      "cell": [
+        8,
+        3
+      ]
+    }
+  ],
+  "npcs": [
+    {
+      "npc": "inspector",
+      "schedule": "inspector_station"
+    },
+    {
+      "npc": "guard",
+      "schedule": "guard_station"
+    }
+  ],
+  "triggers": []
+}
