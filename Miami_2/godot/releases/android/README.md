@@ -1,34 +1,32 @@
-# Miami Life — APK Android
+# Miami Life — APK Android (retrato)
 
 | Item | Valor |
 |---|---|
-| Arquivo | [`MiamiLife-0.7.0-debug.apk`](./MiamiLife-0.7.0-debug.apk) |
+| Arquivo | [`MiamiLife-0.7.1-debug.apk`](./MiamiLife-0.7.1-debug.apk) |
 | Pacote | `com.huehuegames.miamilife` |
-| Versão | `0.7.0-miami-life` (code 7) |
+| Versão | `0.7.1-portrait` (code 8) |
+| Orientação | **Retrato** (vertical) |
+| Ícone | Logo **Miami Life** (mesma da tela de loading) |
 | Estúdio | HueHueGames |
-| Assinatura | debug (instalável em qualquer Android 5.0+) |
+| Assinatura | debug (Android 5.0+) |
 | Arquitetura | `arm64-v8a` |
 
 ## Download
 
-Após o merge na `main`, use o link raw do GitHub:
+Branch atual:
 
 ```
-https://github.com/ANmoLOCK/BUILD-JAVAS-GAMES-INDROID/raw/main/Miami_2/godot/releases/android/MiamiLife-0.7.0-debug.apk
+https://github.com/ANmoLOCK/BUILD-JAVAS-GAMES-INDROID/raw/cursor/miami-life-apk-1983/Miami_2/godot/releases/android/MiamiLife-0.7.1-debug.apk
 ```
 
-Ou baixe pelo browse do repositório: `Miami_2/godot/releases/android/`.
+Após merge na `main`:
 
-## Instalar no celular
-
-1. Ative **Fontes desconhecidas** / instalar apps desconhecidos.
-2. Transfira o APK (cabo, Drive, ou o link acima).
-3. Abra o arquivo e confirme a instalação.
-4. Ao abrir: tela preta → **HueHueGames** → **Miami Life** + barra → menu.
+```
+https://github.com/ANmoLOCK/BUILD-JAVAS-GAMES-INDROID/raw/main/Miami_2/godot/releases/android/MiamiLife-0.7.1-debug.apk
+```
 
 ## Regenerar
 
 ```bash
-# requer Godot 4.3 + Android SDK (ver tools/export_android_apk.sh)
 bash Miami_2/godot/tools/export_android_apk.sh
 ```

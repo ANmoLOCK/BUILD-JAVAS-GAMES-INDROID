@@ -6,21 +6,21 @@ signal continue_game
 signal quit_game
 
 @onready var bg: TextureRect = $HeroBg
-@onready var logo: TextureRect = $BrandBlock/Logo
-@onready var brand: Label = $BrandBlock/Title
-@onready var tagline: Label = $BrandBlock/Tagline
+@onready var logo: TextureRect = $CenterStack/BrandBlock/Logo
+@onready var brand: Label = $CenterStack/BrandBlock/Title
+@onready var tagline: Label = $CenterStack/BrandBlock/Tagline
 @onready var studio_line: Label = $StudioLine
-@onready var status: Label = $Panel/VBox/Status
-@onready var continue_btn: Button = $Panel/VBox/Continue
+@onready var status: Label = $CenterStack/Panel/VBox/Status
+@onready var continue_btn: Button = $CenterStack/Panel/VBox/Continue
 
 var _phase_pick: OptionButton
 
 
 func _ready() -> void:
 	_apply_brand()
-	$Panel/VBox/New.pressed.connect(func(): new_game.emit())
+	$CenterStack/Panel/VBox/New.pressed.connect(func(): new_game.emit())
 	continue_btn.pressed.connect(func(): continue_game.emit())
-	$Panel/VBox/Quit.pressed.connect(func(): quit_game.emit())
+	$CenterStack/Panel/VBox/Quit.pressed.connect(func(): quit_game.emit())
 	_build_phase_picker()
 	refresh()
 	modulate.a = 0.0
@@ -76,7 +76,7 @@ func _build_phase_picker() -> void:
 	_phase_pick.item_selected.connect(_on_phase_picked)
 	wrap.add_child(lbl)
 	wrap.add_child(_phase_pick)
-	var vbox: VBoxContainer = $Panel/VBox
+	var vbox: VBoxContainer = $CenterStack/Panel/VBox
 	vbox.add_child(wrap)
 	vbox.move_child(wrap, status.get_index() + 1)
 

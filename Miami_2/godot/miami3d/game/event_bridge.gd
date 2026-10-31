@@ -297,11 +297,12 @@ func _on_cutscene(payload: Dictionary) -> void:
 
 func _on_minigame(payload: Dictionary) -> void:
 	var mid := str(payload.get("id", payload.get("minigame", "dance")))
-	var scene_path := {
+	var scene_map := {
 		"dance": "res://game/minigames/dance.tscn",
 		"posters": "res://game/minigames/posters.tscn",
 		"photo": "res://game/minigames/photo.tscn",
-	}.get(mid, "res://game/minigames/dance.tscn")
+	}
+	var scene_path: String = str(scene_map.get(mid, "res://game/minigames/dance.tscn"))
 	if not ResourceLoader.exists(scene_path):
 		if facade:
 			facade.start_minigame_result(mid, false, 0)
