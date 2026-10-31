@@ -1,0 +1,16 @@
+{
+  "location": "key_biscayne",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/key_biscayne/albedo.png",
+    "normal": "res://assets/textures/kits/key_biscayne/normal.png",
+    "roughness": "res://assets/textures/kits/key_biscayne/roughness.png"
+  },
+  "status": "placeholder"
+}

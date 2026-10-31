@@ -1,0 +1,16 @@
+{
+  "location": "apartment_garden",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/apartment_garden/albedo.png",
+    "normal": "res://assets/textures/kits/apartment_garden/normal.png",
+    "roughness": "res://assets/textures/kits/apartment_garden/roughness.png"
+  },
+  "status": "placeholder"
+}

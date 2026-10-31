@@ -1,0 +1,298 @@
+[
+ {
+  "room": 0,
+  "grid": {
+   "originX": 1053,
+   "originY": 801,
+   "width": 80,
+   "height": 70
+  },
+  "scripts_bytes": 9155,
+  "trigger_groups": 119,
+  "records": {
+   "decor_template": 109,
+   "object": 198,
+   "point": 5,
+   "object_anim": 10,
+   "grid": 1,
+   "collision_rect": 87,
+   "zone_rect_16_8": 12,
+   "zone_rect_64_128": 23,
+   "door_cell": 12,
+   "area_b": 15,
+   "trigger_zone": 25,
+   "layer": 21,
+   "player_spawn": 1,
+   "npc": 22
+  }
+ },
+ {
+  "room": 1,
+  "grid": {
+   "originX": 842,
+   "originY": 231,
+   "width": 87,
+   "height": 45
+  },
+  "scripts_bytes": 7144,
+  "trigger_groups": 79,
+  "records": {
+   "decor_template": 13,
+   "object": 161,
+   "point": 8,
+   "object_anim": 11,
+   "trigger_zone": 22,
+   "grid": 1,
+   "collision_rect": 59,
+   "zone_rect_16_8": 6,
+   "zone_rect_64_128": 17,
+   "door_cell": 5,
+   "area_b": 8,
+   "layer": 21,
+   "player_spawn": 1,
+   "npc": 19
+  }
+ },
+ {
+  "room": 4,
+  "grid": {
+   "originX": 842,
+   "originY": 278,
+   "width": 80,
+   "height": 75
+  },
+  "scripts_bytes": 9965,
+  "trigger_groups": 60,
+  "records": {
+   "decor_template": 34,
+   "object": 185,
+   "point": 10,
+   "object_anim": 4,
+   "grid": 1,
+   "collision_rect": 210,
+   "zone_rect_16_8": 16,
+   "zone_rect_64_128": 29,
+   "door_cell": 6,
+   "area_b": 12,
+   "trigger_zone": 16,
+   "layer": 33,
+   "player_spawn": 1,
+   "npc": 67
+  }
+ },
+ {
+  "room": 6,
+  "grid": {
+   "originX": 429,
+   "originY": 236,
+   "width": 31,
+   "height": 32
+  },
+  "scripts_bytes": 5022,
+  "trigger_groups": 55,
+  "records": {
+   "decor_template": 23,
+   "object": 64,
+   "table_2000": 6,
+   "object_anim": 3,
+   "point": 5,
+   "grid": 1,
+   "collision_rect": 35,
+   "zone_rect_16_8": 9,
+   "zone_rect_64_128": 24,
+   "door_cell": 3,
+   "area_b": 5,
+   "trigger_zone": 19,
+   "player_spawn": 1,
+   "npc": 6,
+   "closet_item": 1,
+   "layer": 10
+  }
+ },
+ {
+  "room": 8,
+  "grid": {
+   "originX": 917,
+   "originY": 339,
+   "width": 14,
+   "height": 19
+  },
+  "scripts_bytes": 2596,
+  "trigger_groups": 49,
+  "records": {
+   "decor_template": 5,
+   "object": 46,
+   "object_anim": 3,
+   "point": 5,
+   "grid": 1,
+   "collision_rect": 9,
+   "area_b": 2,
+   "trigger_zone": 9,
+   "layer": 2,
+   "player_spawn": 1,
+   "npc": 5
+  }
+ },
+ {
+  "room": 9,
+  "grid": {
+   "originX": 1125,
+   "originY": 1311,
+   "width": 107,
+   "height": 106
+  },
+  "scripts_bytes": 28508,
+  "trigger_groups": 241,
+  "records": {
+   "decor_template": 63,
+   "object": 241,
+   "object_anim": 59,
+   "point": 25,
+   "grid": 1,
+   "collision_rect": 146,
+   "zone_rect_16_8": 28,
+   "zone_rect_64_128": 61,
+   "door_cell": 15,
+   "area_b": 15,
+   "trigger_zone": 33,
+   "layer": 80,
+   "player_spawn": 2,
+   "npc": 44,
+   "closet_item": 2
+  }
+ },
+ {
+  "room": 13,
+  "grid": {
+   "originX": 872,
+   "originY": 979,
+   "width": 52,
+   "height": 75
+  },
+  "scripts_bytes": 16007,
+  "trigger_groups": 191,
+  "records": {
+   "decor_template": 112,
+   "object": 245,
+   "point": 21,
+   "object_anim": 20,
+   "trigger_zone": 33,
+   "grid": 1,
+   "collision_rect": 66,
+   "zone_rect_16_8": 7,
+   "door_cell": 15,
+   "zone_rect_64_128": 13,
+   "area_b": 17,
+   "layer": 42,
+   "player_spawn": 1,
+   "npc": 31,
+   "table_2110": 1
+  }
+ },
+ {
+  "room": 14,
+  "grid": {
+   "originX": 382,
+   "originY": 277,
+   "width": 40,
+   "height": 29
+  },
+  "scripts_bytes": 13170,
+  "trigger_groups": 169,
+  "records": {
+   "decor_template": 32,
+   "object": 158,
+   "point": 9,
+   "object_anim": 4,
+   "trigger_zone": 26,
+   "grid": 1,
+   "zone_rect_64_128": 27,
+   "zone_rect_16_8": 9,
+   "door_cell": 6,
+   "collision_rect": 64,
+   "area_b": 5,
+   "layer": 10,
+   "player_spawn": 1,
+   "npc": 5,
+   "table_2101": 4
+  }
+ },
+ {
+  "room": 15,
+  "grid": {
+   "originX": 441,
+   "originY": 234,
+   "width": 20,
+   "height": 35
+  },
+  "scripts_bytes": 3935,
+  "trigger_groups": 63,
+  "records": {
+   "decor_template": 11,
+   "object": 50,
+   "table_2000": 11,
+   "point": 7,
+   "object_anim": 2,
+   "grid": 1,
+   "collision_rect": 26,
+   "npc": 1,
+   "player_spawn": 1,
+   "area_b": 5,
+   "trigger_zone": 16,
+   "layer": 2
+  }
+ },
+ {
+  "room": 17,
+  "grid": {
+   "originX": 2185,
+   "originY": 689,
+   "width": 74,
+   "height": 122
+  },
+  "scripts_bytes": 11333,
+  "trigger_groups": 142,
+  "records": {
+   "decor_template": 118,
+   "object": 395,
+   "trigger_zone": 34,
+   "object_anim": 6,
+   "point": 18,
+   "grid": 1,
+   "zone_rect_16_8": 16,
+   "zone_rect_64_128": 44,
+   "door_cell": 12,
+   "collision_rect": 105,
+   "area_b": 27,
+   "layer": 35,
+   "player_spawn": 1,
+   "npc": 32,
+   "closet_item": 1
+  }
+ },
+ {
+  "room": 21,
+  "grid": {
+   "originX": 417,
+   "originY": 222,
+   "width": 39,
+   "height": 38
+  },
+  "scripts_bytes": 4206,
+  "trigger_groups": 70,
+  "records": {
+   "decor_template": 25,
+   "object": 97,
+   "table_2000": 14,
+   "point": 4,
+   "object_anim": 1,
+   "grid": 1,
+   "npc": 1,
+   "player_spawn": 1,
+   "collision_rect": 52,
+   "area_b": 6,
+   "trigger_zone": 18,
+   "layer": 2
+  }
+ }
+]

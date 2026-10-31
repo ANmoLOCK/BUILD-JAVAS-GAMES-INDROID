@@ -1,0 +1,49 @@
+[0] Me chamo José, mas pode me chamar de Ingrid. Estou brincando, sou Joey.]Novos inquilinos me deixam nervoso e desconfiado. Vamos conversar um pouco pra ver se confio em você. (\p22 Estrelas\p1)
+[1] Ok, você parece normal o bastante. De todo jeito, eu gosto de qualquer pessoa que me chame de Ingrid.]Dê uma olhada no apartamento, depois vou te mostrar minha pequena coleção no \p2jardim\p1!]Lembre-se de pagar o \p2aluguel\p1 ($300) toda semana ou vai acabar na rua. Entiendes?
+[2] O quê...!? Todos os meus \p2anões de jardim\p1 SUMIRAM!!! 
+[3] Hmm, talvez tenham ido procurar emprego... é difícil ficar cuidando do jardim nesses tempos de crise, sabe como é...]Se você encontrá-los na cidade, traga-os de volta, por favor!]Vou te dar um dinheirinho por cada um que você encontrar. São \p27 anões\p1 no total. 
+[4] Você trabalha para Hal Pachinko?]Eu sei que o restaurante dele é uma fachada para outros negócios. Os sinais são óbvios.]Eu mandei 3 dos meus melhores caras na semana passada, mas não tive mais notícias deles.]Só vi um caminhão grande descarregando 2 ou 3 freezers no outro dia... são muitos freezers, mesmo para um restaurante.
+[5] Que tal me mostrar o que tem dentro dessa caixa aí?
+[6] Claro, oficial. É o meu dever como \fcidadã\f\mcidadão\m.
+[7] Não posso fazer nada sem um mandado.
+[8] Me dê os seus óculos, $50,00 e é toda sua.
+[9] Boa escolha. Estarei perto do restaurante te esperando. Vou tentar descobrir onde meus caras foram parar... 
+[10] Não tem problema.
+[11] Querendo tirar vantagem de um policial? Isso é loucura!]Faça o seu trabalho e eu garanto que você vai receber sua grana.
+[12] Eu realmente gostei desse banho de sol maravilhoso na praia... com essa barba e aquela pele cor de leite eu parecia um programador!
+[13] \v1Isso é muito louco. Meu irmão é o dentista do Gran Kahuna, mas não temos notícias dele há várias semanas. Agora eu tenho que fazer esse trabalho, mas não tenho coragem suficiente pra isso! Onde você está, meu irmão?\v1\v600Corre, \x, corre!\v600
+[14] Há muito tempo eu me apaixonei por uma anãzinha que vivia no velho farol... hmm... tenho muitas saudades dela...
+[15] Você gosta dos pelos nas minhas costas? Tem que ver os pelos aqui da frente, Pirata.
+[16] Ga...aham... ga... ga... \n gar... gar... garçom... mais um drink... por favor...
+[17] Um segurança deixar pessoas entrarem na festa de tênis?]Você tá brincando... Nem pensar, nossa boate é muito chique.
+[18] Corre, \x, corre!
+[19] Opa! Olhe para os dois lados antes de atravessar uma rua.
+[20] Boa escolha. Aqui está o dinheiro pelo seu serviço. Talvez entre em contato com você de novo.
+[21] Leve a pizza até a oficina mecânica na \p2Pelican Island\p1.
+[22] Então, o que conseguiu?
+[23] Encontre-me \p2na porta da frente do restaurante\p1 se decidir me entregar a caixa.
+[24] Procurando por alguma coisa?
+[25] Ei. Olha só.]Eu poderia te colocar no esquadrão da polícia antigangue se fizer algo pra mim.]Topa?
+[26] ...
+[27] Boa escolha. Quando entregar essas pizzas, tente ficar \p2\mamigo\m\famiga\f\p1 do chefão.]Aqui está a parte importante: quando achar que ele confia em você, \p2ligue pra mim\p1.]Nós vamos cuidar do resto. E isso é chamado...
+[28] Trabalho de detetive.
+[29] Eu te conheço?
+[30] Ah... você trouxe uma pizza pra mim.
+[31] Vamos bater um papo enquanto eu como essa pizza linda.
+[32] Você é excelente, tem muita coragem.
+[33] O que acha de ligar para o meu velho amigo Hal Pachinko pra encontrar com a gente?
+[34] Ligar para o Inspetor.
+[35] Ligar para o Hal Pachinko.
+[36] Polícia de Miami! Parados!
+[37] Bom trabalho, \x.]Conseguiu seu primeiro pagamento como detetive.]Nada mal, hein?
+[38] Você devia ter ligado, \mmeu jovem\m\fminha jovem\f...
+[39] Até mais, Detetive \x.
+[40] Olá de novo!
+[41] Parabéns! Você conseguiu 5 vitaminas de graça e mais $500!
+[42] Ei! Você é \mnovo\m\fnova\f aqui no bairro?
+[43] Estamos indo para a praia.]Encontre a gente lá quando tiver tempo!
+[44] Ei, peraí! Por que não toma um \p2banho\p1 antes de entrar aqui? (\p2HIGIENE 30\p1)
+[45] Sinto muito, \mSr.\m\fSrta.\f, não posso deixá-\mlo\m\fla\f entrar. Você sabe o quanto o ser \p2sexy\p1 é importante para o Senhor Hal Pachinko?]Pegue um \p2bronzeado\p1 (nas praias) ou talvez um \p2implante\p1 (salão de beleza)! (\p2SEX APPEAL 20\p1)
+[46] Está com uma excelente aparência. Tenha uma ótima refeição!
+[47] Sinto muito, \mSr.\m\fSrta.\f, este resturante \p2abre às 10 am e fecha às 2 pm0\p1.
+[48] Eu te conheço?]Adoro olhar as pessoas, sentado neste banco. Você deveria tentar um dia, \mmeu jovem\m\fminha jovem\f.

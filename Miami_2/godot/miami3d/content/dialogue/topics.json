@@ -1,0 +1,1704 @@
+{
+  "id": "topics",
+  "categories": [
+    {
+      "id": "sports",
+      "name": "@topic.sports",
+      "label": "ESPORTES",
+      "interests": [
+        "interest_0",
+        "interest_38",
+        "interest_76",
+        "interest_114",
+        "interest_152"
+      ],
+      "lines": [
+        "Não há nada como assistir a uma boa partida de futebol-pancadaria em uma tarde de domingo.",
+        "Passamos a nos interessar por política quando a política se interessa por nós.",
+        "Eu coloco meu celular em modo silencioso pra poder jogar algum jogo durante as cenas chatas.",
+        "Eu faço o que posso, mas a poluição é causada principalmente por grandes indústrias.",
+        "Agora eu tenho o Real Football em todas as plataformas.",
+        "O ciclo de vida curto das baterias é o maior obstáculo ao desenvolvimento dos aparelhos portáteis.",
+        "Meu irmãozinho escreveu \"v0v0 f32 0173n74 3 d015 4n05\"... Para mim isso é só português com muitos erros ortográficos.",
+        "Conhecer os sogros é a parte mais apavorante de uma relação."
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "@topic.politics",
+      "label": "POLÍTICA",
+      "interests": [
+        "interest_1",
+        "interest_39",
+        "interest_77",
+        "interest_115",
+        "interest_153"
+      ],
+      "lines": [
+        "Dá-lhe Degubas!",
+        "Eu gosto de eleições, são como jogos de futebol que duram meses!",
+        "Pisos grudentos são como caminhar na água rasa na praia... Sem a água e sem a praia.",
+        "Shows ao vivo são muito caros. Eu prefiro comprar o CD ou baixar as músicas da internet.",
+        "Asphalt Urban GT tem os melhores carros de um jogo de corrida.",
+        "O sistema touchscreen oferece tantas possibilidades e é mais ergonômico.",
+        "Eu vi essa criança no jornal jogando xadrez contra 20 pessoas. Eu converso on-line com 20 pessoas, isso é notícia?",
+        "Por que os sogros agem como se fossem machos-alfa psicopatas?"
+      ]
+    },
+    {
+      "id": "fashion",
+      "name": "@topic.fashion",
+      "label": "MODA",
+      "interests": [
+        "interest_2",
+        "interest_40",
+        "interest_78",
+        "interest_116",
+        "interest_154"
+      ],
+      "lines": [
+        "As pessoas deviam deixar isso pra lá! Ele era muito mais do que um mero cabeceador de cabeças!",
+        "A moda domina os provincianos e as pessoas de Miami dominam a moda.",
+        "Eu não gosto de salas de cinema; as pessoas sempre te dizem \"pssssiu!\" quando você faz perguntas. Não estamos numa biblioteca!",
+        "Você vai ao Cuban Café? E tem shows nas ruas pela cidade toda!",
+        "Ouvi falar desse novo jogo chamado Miami Nights. Dizem que é o melhor de todos os tempos e se passa aqui em Miami!",
+        "Eu queria que o meu celular tivesse uma função de vídeo pra que eu pudesse ver a pessoa com quem estou falando.",
+        "As escolas particulares são excelentes se você quer que seu filho aprenda que dinheiro não é problema.",
+        "Eu adorava os meus sogros! É uma pena que eles me odiavam..."
+      ]
+    },
+    {
+      "id": "cinema",
+      "name": "@topic.cinema",
+      "label": "CINEMA",
+      "interests": [
+        "interest_3",
+        "interest_41",
+        "interest_79",
+        "interest_117",
+        "interest_155"
+      ],
+      "lines": [
+        "Nós acabamos com eles no domingo passado. Pensei que estávamos de volta em 1998!",
+        "Nunca houve tantas lojas de roupa em Miami, entretanto, nunca as garotas usaram tão pouca roupa.",
+        "Eu gostaria que eles removessem a primeira fila... Meu pescoço sempre dói quando me sento nela. Mas então a segunda fila seria a primeira...",
+        "Você já foi à Greater Miami Opera? É o melhor lugar de espetáculos da Flórida!",
+        "Adoro Sudoku. Não precisa saber matemática.",
+        "O telefone do meu pai tem um GPS, então ele pode encontrar tudo o que procura... menos o próprio telefone.",
+        "Eu acho que as escolas particulares deveriam ser para os inteligentes, não para os ricos.",
+        "Faça de tudo pra se dar bem com os sogros, senão vai ter que bancar a conta do casamento sozinho."
+      ]
+    },
+    {
+      "id": "environment",
+      "name": "@topic.environment",
+      "label": "MEIO AMBIENTE",
+      "interests": [
+        "interest_4",
+        "interest_42",
+        "interest_80",
+        "interest_118",
+        "interest_156"
+      ],
+      "lines": [
+        "Os jogadores, ao contrário dos queijos, nem sempre melhoram ao envelhecer.",
+        "A moda vai e volta.",
+        "Os americanos fizeram filmes melhores antes do surgimento dos efeitos especiais.",
+        "O que eu mais gosto são shows de DJ ao vivo. Você devia ir ao Glight Club, lá eles até te deixam comandar a pick-up se você pedir.",
+        "Eu jogo games de futebol no inverno. Eles preenchem meu vazio interior entre as temporadas.",
+        "Eu gosto da função fotográfica do meu celular. Me sinto como um espião recolhendo informações.",
+        "Particular ou pública, na maior parte do tempo é tudo uma questão de quem são as companhias de seus filhos.",
+        "Esteja em bons termos com seu parentes. Senão eles vão te apunhalar pelas costas por um dólar."
+      ]
+    },
+    {
+      "id": "music",
+      "name": "@topic.music",
+      "label": "MÚSICA",
+      "interests": [
+        "interest_5",
+        "interest_43",
+        "interest_81",
+        "interest_119",
+        "interest_157"
+      ],
+      "lines": [
+        "Eu amo andar de bicicleta. Mas o inverno é um pouco frio pra isso.",
+        "Esta roupa é única, pelo menos foi isso que o vendedor me disse.",
+        "Eles dizem que Thomas Edison inventou o cinema, mas sabemos que foram os irmãos Lumière.",
+        "Qualquer um pode gravar um disco, mas os shows ao vivo é que mostram quem é fera de verdade.",
+        "Às vezes você só precisa de um bom jogo para espairecer.",
+        "Inventaram um robô que corta grama. Compraria um, se ao menos eu tivesse um quintal.",
+        "As escolas particulares oferecem uma educação mais adaptada já que os estudantes são selecionados pelo talento.",
+        "Meu vovô sempre me chama de Frank. Acho que ele tem demência."
+      ]
+    },
+    {
+      "id": "weather",
+      "name": "@topic.weather",
+      "label": "CLIMA",
+      "interests": [
+        "interest_6",
+        "interest_44",
+        "interest_82",
+        "interest_120",
+        "interest_158"
+      ],
+      "lines": [
+        "Não há nada como andar de bicicleta pela Ocean Drive! Desde que não roubem sua bike.",
+        "Meias brancas nunca são demais.",
+        "Hollywood devia parar de fazer refilmagens e tentar algo novo.",
+        "Eu acho que é impossível impedir as pessoas de baixar músicas. Pequenas taxas podem ser a única maneira de lucrar alguma coisa com isso.",
+        "Eu amo jogos de fantasia. Posso fingir ser outra pessoa.",
+        "Fico imaginando se teremos que dar gorjeta aos robôs quando eles substituírem os garçons nos cafés.",
+        "As escolas particulares são melhores para disciplinar as crianças.",
+        "Eu me dou bem com meus parentes. Até o momento em que a gente se encontra pessoalmente."
+      ]
+    },
+    {
+      "id": "videogames",
+      "name": "@topic.videogames",
+      "label": "VIDEOGAMES",
+      "interests": [
+        "interest_7",
+        "interest_45",
+        "interest_83",
+        "interest_121",
+        "interest_159"
+      ],
+      "lines": [
+        "Eu não acho que doping seja terapêutico.",
+        "Um beijo na mão pode ser bem europeu, mas os diamantes duram para sempre.",
+        "Apesar de tudo, Hollywood cria os filmes com os visuais mais impressionantes já produzidos.",
+        "Os músicos trabalham duro criando suas músicas, é uma vergonha que as pessoas não se importem e roubem as suas canções.",
+        "Jogos de corrida são os melhores. É como se eu tivesse tirado a carteira de motorista.",
+        "Os robôs deixarão a vida mais simples, mas aí todo mundo vai ser gordo e preguiçoso.",
+        "Terminar com alguém é como roubar uma barra de chocolate: é ruim, mas estimulante e compensador.",
+        "Meus pais me passaram seus valores, seus objetivos e seus defeitos."
+      ]
+    },
+    {
+      "id": "pets",
+      "name": "@topic.pets",
+      "label": "ANIMAIS DE ESTIMAÇÃO",
+      "interests": [
+        "interest_8",
+        "interest_46",
+        "interest_84",
+        "interest_122",
+        "interest_160"
+      ],
+      "lines": [
+        "As mountain bikes de hoje são feitas de carbono. Você consegue levantá-las com um dedo!",
+        "Você acha que uma safira cairia bem com meu tom de pele?",
+        "Se algum dia os hologramas forem inventados, acredito que eles aparecerão primeiro em Hollywood.",
+        "Eu acho que quem faz a pirataria devia ser punido e forçado a trabalhar de graça para aprender uma lição.",
+        "É muito mais divertido jogar contra alguém do que contra um computador.",
+        "Por um lado, qualquer coisa programável é um robô, inclusive a minha cafeteira.",
+        "Quando meu último relacionamento acabou foi um choque... Mas com certo alívio.",
+        "Às vezes é difícil acreditar que meus pais não me adotaram."
+      ]
+    },
+    {
+      "id": "technology",
+      "name": "@topic.technology",
+      "label": "TECNOLOGIA",
+      "interests": [
+        "interest_9",
+        "interest_47",
+        "interest_85",
+        "interest_123",
+        "interest_161"
+      ],
+      "lines": [
+        "Eu andava de bicicleta no segundo grau. Podia ter virado profissional se não tivesse quebrado a unha.",
+        "Dá uma olhada nesse relógio que acabo de comprar on-line. Dá pra perceber que é falso?",
+        "Eu não vou te explicar isso se você for uma pessoa tão estúpida que não é capaz de entender sozinha.",
+        "Os CDs são tão ultrapassados... Os músicos deviam vender suas músicas diretamente on-line.",
+        "Gosto de lutar com meus amigos on-line.",
+        "Criaram uma androide no Japão que fica brava se lhe tocam o peito.",
+        "Na maioria das vezes um rompimento é como uma festa surpresa. Com menos diversão e mais choro.",
+        "Tem como podar uma árvore genealógica?"
+      ]
+    },
+    {
+      "id": "children",
+      "name": "@topic.children",
+      "label": "TER FILHOS",
+      "interests": [
+        "interest_10",
+        "interest_48",
+        "interest_86",
+        "interest_124",
+        "interest_162"
+      ],
+      "lines": [
+        "Você acha que temos chance na liga de basquete desse ano?",
+        "Homens que usam jóias não me convencem muito.",
+        "Ouvi dizer que os filmes desse tipo são ótimos mas, pessoalmente, acho que eles precisam de mais ação.",
+        "Se eu tiver que baixar alguma coisa por pouco dinheiro, prefiro baixar um jogo para o meu celular!",
+        "Essa é a nova maneira de se fazer amigos on-line.",
+        "Todo mundo depende de e-mail hoje em dia.",
+        "Não sou muito bom com fins de namoro porque nunca consigo entender o que as pessoas estão dizendo quando choram.",
+        "Se todos os seres vivos evoluíram das mesmas células, então há uma árvore dentro da minha árvore genealógica."
+      ]
+    },
+    {
+      "id": "marriage",
+      "name": "@topic.marriage",
+      "label": "CASAMENTO",
+      "interests": [
+        "interest_11",
+        "interest_49",
+        "interest_87",
+        "interest_125",
+        "interest_163"
+      ],
+      "lines": [
+        "Geralmente nós passamos mais tempo fora do estádio na fila pra entrar do que vendo os jogos!",
+        "Você acha que o preço do ouro negro vai subir com o preço do petróleo?",
+        "Os filmes independentes são a prova de que você não precisa de muito dinheiro para fazer bons filmes.",
+        "Eu tocava bateria em uma banda de hard rock. Até que tive que cortar o cabelo para conseguir um emprego.",
+        "Games multijogador são o que há.",
+        "Quando eu era jovem a gente trocava figurinhas de futebol. Hoje se trocam cartões de memória com vídeos.",
+        "Por que terminar? Isso é Miami, você simplesmente para de ligar e a pessoa nunca mais vai te encontrar!",
+        "É divertido ver quantos dos meus ancestrais se casaram com a própria irmã ou irmão."
+      ]
+    },
+    {
+      "id": "family",
+      "name": "@topic.family",
+      "label": "FAMÍLIA",
+      "interests": [
+        "interest_12",
+        "interest_50",
+        "interest_88",
+        "interest_126",
+        "interest_164"
+      ],
+      "lines": [
+        "Eu fiquei com torcicolo na última vez em que fui assistir a uma partida de tênis.",
+        "Para mim nada jamais terá melhor aroma do que o ratatouille da minha mãe.",
+        "Eu acho que a maioria dos filmes independentes seriam melhores se fossem livros.",
+        "É ótimo que pessoas daqui possam realizar seus sonhos.",
+        "Jogo on-line para poder falar no chat. Diminui minha conta de telefone.",
+        "Webcams, microfones, conexões sem fio, quem precisa de uma linha fixa?",
+        "Eu fui a um casamento um mês atrás. Eles vão se divorciar na próxima quinta.",
+        "De acordo com esse livro, os descendentes de Papai Noel moram em Miami."
+      ]
+    },
+    {
+      "id": "art",
+      "name": "@topic.art",
+      "label": "ARTE",
+      "interests": [
+        "interest_13",
+        "interest_51",
+        "interest_89",
+        "interest_127",
+        "interest_165"
+      ],
+      "lines": [
+        "Você sabia que a velocidade de uma bola de tênis em jogo pode chegar a mais de 200km/h?",
+        "Nosso idioma é inadequado para descrever o mundo dos aromas.",
+        "Eu amo os filmes independentes, eles são humanos e reais. Ah, e bons de verdade também.",
+        "Eles vão tocar em um café nesse sábado. Eu ganhei ingressos pela rádio.",
+        "Eu gosto de jogos inspirados em livros. Me fazem me sentir mais... Inteligente?!",
+        "Eu uso um programa de planilhas pra fazer minha lista de compras.",
+        "Eu sempre tento dar uns beijinhos na festa de casamento.",
+        "Já que estamos fazendo um mapa dos nossos ancestrais, não deveríamos chamar isso de geneografia?"
+      ]
+    },
+    {
+      "id": "bars",
+      "name": "@topic.bars",
+      "label": "BARES",
+      "interests": [
+        "interest_14",
+        "interest_52",
+        "interest_90",
+        "interest_128",
+        "interest_166"
+      ],
+      "lines": [
+        "Sabia que em 1930 a raquete foi remodelada com inspiração em instrumentos musicais?",
+        "Em Miami, é difícil dizer se a moda é se vestir ou não se vestir.",
+        "Eu realmente adorei a filmagem dos bastidores daquele filme.",
+        "Esses caras soam melhor ao vivo do que na rádio, sem comerciais entre as canções.",
+        "Venho jogando jogos de franquias desde que eu me lembro.",
+        "As inovações de hoje são o ferro-velho de amanhã.",
+        "Casamentos são lindos, e as festas são ótimas.",
+        "Minha prima pensa que é atriz, mas isso é apenas uma desculpa para não ganhar dinheiro."
+      ]
+    },
+    {
+      "id": "philosophy",
+      "name": "@topic.philosophy",
+      "label": "FILOSOFIA",
+      "interests": [
+        "interest_15",
+        "interest_53",
+        "interest_91",
+        "interest_129",
+        "interest_167"
+      ],
+      "lines": [
+        "É muito melhor do que futebol americano. Aquelas proteções fazem os jogadores de futebol americano ficarem lentos.",
+        "O cheiro revela muito a respeito de uma pessoa.",
+        "É ótimo como eles ainda melhoram a qualidade de som e imagem nos DVDs.",
+        "Eu não acho que eles sejam tudo isso. A maioria deles copia bandas maiores e mais populares.",
+        "Jogos de ação são divertidos, mas jogos esportivos, como o Real Football 2008, são o que há.",
+        "Por que tudo tem que ter 5 ou 6 funções, sendo que nenhuma funciona direito?",
+        "Eu quase me casei uma vez, mas acabou que esse ex era um assassino da machadinha. Deviam fazer um filme a respeito.",
+        "Minha vovó costumava roubar bancos. Hoje ela rouba doces das outras velhinhas."
+      ]
+    },
+    {
+      "id": "business",
+      "name": "@topic.business",
+      "label": "NEGÓCIOS",
+      "interests": [
+        "interest_16",
+        "interest_54",
+        "interest_92",
+        "interest_130",
+        "interest_168"
+      ],
+      "lines": [
+        "Rugby? Eu prefiro Futebol Americano. E é claro, eu torço para o Miami Degubas.",
+        "Ouvi dizer que a ''água de colônia'' foi popularizada pelo próprio Napoleão.",
+        "Ah, os erros de gravação... é a melhor parte!",
+        "Já percebeu como as rádios e as boates mais populares de Miami tocam músicas em espanhol? Por quê?",
+        "Assassin's Creed é uma máquina de suspense do começo ao fim!",
+        "Eu comprei uma caneta-lanterna. Agora me sinto como um espião britânico.",
+        "Casamentos parecem ótimos, mas acabam com a sua vida e destroem a sua alma.",
+        "Meu pai pensava que as lhamas eram animais cantantes."
+      ]
+    },
+    {
+      "id": "subway",
+      "name": "@topic.subway",
+      "label": "METRÔ",
+      "interests": [
+        "interest_17",
+        "interest_55",
+        "interest_93",
+        "interest_131",
+        "interest_169"
+      ],
+      "lines": [
+        "O Miami Rugby Club foi fundado em 1696.",
+        "Lembra-se de quando usar mullets era legal? Nem eu.",
+        "Se eles eliminam cenas, geralmente há um motivo pelo qual foram eliminadas.",
+        "Espanhol é uma língua tão melódica e musical... É perfeita para a música!",
+        "Cada jogo que eu joguei quando tinha 5 anos me parecia um clássico atemporal.",
+        "Lembra quando o controle remoto era a novidade mais bacana?",
+        "Eu não gosto de bares, são muito barulhentos para uma boa conversa.",
+        "Minha irmã cobriu as paredes do seu porão com papel alumínio para impedir o calor de escapar."
+      ]
+    },
+    {
+      "id": "television",
+      "name": "@topic.television",
+      "label": "TELEVISÃO",
+      "interests": [
+        "interest_18",
+        "interest_56",
+        "interest_94",
+        "interest_132",
+        "interest_170"
+      ],
+      "lines": [
+        "Se você não aguenta levar uma pancada, devia jogar tênis de mesa.",
+        "Tem um ótimo cabeleireiro perto de Coconut GrooveDowntown. Você já foi lá?",
+        "Eu acho que as fitas VHS eram mais resistentes. DVDs são muito frágeis.",
+        "Há muitos músicos de Miami fazendo as pessoas dançarem pelo mundo afora.",
+        "Quantos gatos você precisa ter antes de ser considerado maluco?",
+        "Esse troço tem tantas funções que eu nem me lembro mais do seu nome.",
+        "Meu recorde foi beijar 6 pessoas em uma mesma noite.",
+        "A receita secreta de molho da minha família? Suco de laranja e maionese."
+      ]
+    },
+    {
+      "id": "theater",
+      "name": "@topic.theater",
+      "label": "TEATRO",
+      "interests": [
+        "interest_19",
+        "interest_57",
+        "interest_95",
+        "interest_133",
+        "interest_171"
+      ],
+      "lines": [
+        "Correr por aí com uma bola e posar nu para calendários paga bem.",
+        "Se você olhar bem de perto eu agora tenho seis cores de cabelo diferentes.",
+        "A energia nuclear não é perigosa... Até escapar da usina.",
+        "A música de Miami tem uma grande influência cubana, é uma pena que os jovens só queiram saber de batidões e letras medíocres.",
+        "Os gatos são muito mais fáceis de cuidar. Você não precisa levá-los para passear.",
+        "Os telefones celulares são os canivetes suíços do século 21.",
+        "Planeje seu aniversário de namoro com antecedência. Comece a namorar em um dia memorável.",
+        "MiMo BiBo é famosa no mundo inteiro. Você já foi lá?"
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "@topic.transport",
+      "label": "TRANSPORTES",
+      "interests": [
+        "interest_20",
+        "interest_58",
+        "interest_96",
+        "interest_134",
+        "interest_172"
+      ],
+      "lines": [
+        "Eu amo uma boa corrida e o cheiro de pneus queimados.",
+        "Um bom corte de cabelo é melhor do que terapia.",
+        "Os carros híbridos são os melhores, até que os carros elétricos comecem a ser comercializados.",
+        "Alguns grandes músicos começaram suas carreiras no metrô.",
+        "Eu durmo com meus gatos. Você tem algum problema com isso?",
+        "Por que você ia querer ter filhos? Eles dão muito trabalho.",
+        "Conhecer alguém é fácil. Conhecer alguém decente é muito mais difícil.",
+        "Algumas pessoas dizem que a arquitetura de Miami é a música da cidade colocada em forma de casas e prédios."
+      ]
+    },
+    {
+      "id": "tourism",
+      "name": "@topic.tourism",
+      "label": "TURISMO",
+      "interests": [
+        "interest_21",
+        "interest_59",
+        "interest_97",
+        "interest_135",
+        "interest_173"
+      ],
+      "lines": [
+        "Eu assistiria a corridas entre bichos-preguiça se eles passassem isso no canal esportivo.",
+        "Eu preciso de um novo corte de cabelo que combine com meus novos sapatos.",
+        "A energia solar é a melhor... a não ser em dias nublados.",
+        "Eu amo os músicos, sempre dão vida às festas.",
+        "Meu gato tem uma vida fácil. Come e dorme todo o dia. Queria poder fazer o mesmo.",
+        "Ter filhos é como construir um legado. Algo de nós que viverá depois da nossa morte.",
+        "Eu levo minhas paqueras ao Glight Club. Você já tentou fazer isso?",
+        "Miami é um ótimo lugar para artistas. Tem exposições durante todo o ano!"
+      ]
+    },
+    {
+      "id": "nature",
+      "name": "@topic.nature",
+      "label": "NATUREZA",
+      "interests": [
+        "interest_22",
+        "interest_60",
+        "interest_98",
+        "interest_136",
+        "interest_174"
+      ],
+      "lines": [
+        "Eu passo muitos sábados à tarde vendo corridas na TV.",
+        "Esses filmes são estranhos, mas penetrantes.",
+        "Eu amo a energia eólica. Acho que vou comprar um moinho e colocar no meu edifício.",
+        "Um amigo meu toca guitarra perto da Ocean Drive. Você devia ir lá curtir o som dele.",
+        "Namorei uma pessoa que odiava meu gato só porque ele vinha e caminhava sobre a gente enquanto estávamos dormindo.",
+        "Eu amo crianças! É uma pena que elas cresçam.",
+        "Uma vez eu tentei fazer um pedido de casamento, mas engoli o anel junto com o sundae que comíamos juntos. Nunca o encontrei.",
+        "Meus pais queriam que eu fosse artista, mas acabei indo para a crítica."
+      ]
+    },
+    {
+      "id": "traffic",
+      "name": "@topic.traffic",
+      "label": "TRÂNSITO",
+      "interests": [
+        "interest_23",
+        "interest_61",
+        "interest_99",
+        "interest_137"
+      ],
+      "lines": [
+        "Eu adoraria pilotar um carro de corridas. Sempre que eu dirijo acabo num engarrafamento.",
+        "Bem, já não é mais tão novo.",
+        "A hidroeletricidade seria ótima, mas precisaríamos de mais rios.",
+        "Eu tocava guitarra, mas parei porque vivia arrebentando as cordas.",
+        "O parque de cachorros é o melhor lugar para conhecer gente. O único problema é que você precisa de um cachorro.",
+        "Eu quero ter filhos para cuidar de mim na minha velhice.",
+        "Não pratique o pedido de casamento com outra pessoa. Você será pego em flagrante.",
+        "A arte pode ser muitas coisas desde que seja feita de emoções."
+      ]
+    },
+    {
+      "id": "shopping",
+      "name": "@topic.shopping",
+      "label": "COMPRAS",
+      "interests": [
+        "interest_24",
+        "interest_62",
+        "interest_100",
+        "interest_138"
+      ],
+      "lines": [
+        "Aqueles pilotos são bons, mas queria vê-los fazer uma baliza em qualquer vaga em downtown.",
+        "Os cineastas da Nouvelle Vague transformaram os filmes em arte, e os diretores em autores.",
+        "Onde é que está o aquecimento global durante o inverno?",
+        "Eu consigo tocar a Quinta Sinfonia de Beethoven na minha gaita.",
+        "Meu cachorro me ama tanto, eu só queria que ele parasse de lamber a minha cara.",
+        "Quando eu tiver filhos, serei tanto amigaamigo quanto mãepai.",
+        "Ouviu falar no cara que escondeu o anel dentro de um balão de gás hélio, e o balão saiu voando?",
+        "Alguns gostam de realismo, outros de surrealismo. Para mim, a realidade continua sendo a melhor."
+      ]
+    },
+    {
+      "id": "money",
+      "name": "@topic.money",
+      "label": "DINHEIRO",
+      "interests": [
+        "interest_25",
+        "interest_63",
+        "interest_101",
+        "interest_139"
+      ],
+      "lines": [
+        "A esquerda acredita em bem-estar social, educação pública e mudanças.",
+        "Tiveram um efeito que ainda é perceptível em muito diretores da nossa época, especialmente em Deltotino.",
+        "Eu vi uma foto do buraco da camada de ozônio sobre a Antártida. É do tamanho do próprio continente!",
+        "Eu gosto das versões instrumentais das canções porque posso inventar minhas próprias letras.",
+        "Eu gosto de cachorros. Me sinto mais atraente só de olhar pra eles.",
+        "Bebês são bonitinhos. Os especialistas dizem que é porque eles tem cabeças grandes.",
+        "Você acha legal que um cara peça a mão da noiva ao pai dela?",
+        "O pós-modernismo dita que qualquer coisa que o artista faça é arte."
+      ]
+    },
+    {
+      "id": "health",
+      "name": "@topic.health",
+      "label": "SAÚDE",
+      "interests": [
+        "interest_26",
+        "interest_64",
+        "interest_102",
+        "interest_140"
+      ],
+      "lines": [
+        "A energia alternativa é essencial para a nossa prosperidade a longo prazo.",
+        "Eu prefiro músculos e armas, mas aqueles filmes tinham sangue o bastante.",
+        "Cada país deve trabalhar para frear o aquecimento global antes que seja tarde demais.",
+        "O céu parece limpo, mas você nunca sabe quando vai cair uma chuva repentina aqui na cidade.",
+        "Quanto mais eu convivo com os homens, mais eu gosto dos cachorros.",
+        "Os primeiros passos de meu sobrinho foram incríveis. Eles o levaram ao seu primeiro encontro com a parede.",
+        "Os diamantes são os melhores amigos de uma garota.",
+        "Se você se esforçar muito, até o cubismo pode ser lindo."
+      ]
+    },
+    {
+      "id": "food",
+      "name": "@topic.food",
+      "label": "COMIDA",
+      "interests": [
+        "interest_27",
+        "interest_65",
+        "interest_103",
+        "interest_141"
+      ],
+      "lines": [
+        "Nossa sociedade se baseia em que os que têm mais ajudem aos que têm menos.",
+        "Só é dramático porque a música é triste.",
+        "Alguns estudos mostram que o próprio sol está ficando mais quente! Isso é mais motivo para nos preocuparmos.",
+        "Os invernos são bastante frios, eu acho. Pelo menos não temos muita neve.",
+        "Eu gosto de poodles, eles parecem uma versão de Luís XIV de peruca branca.",
+        "A primeira palavra da minha prima foi 'dá'. Fico imaginando... onde foi que ela aprendeu isso?",
+        "O Dia dos Namorados é uma armadilha comercial: você nem tira o dia de folga.",
+        "O estilo está para a arte assim como as línguas estão para a comunicação."
+      ]
+    },
+    {
+      "id": "cars",
+      "name": "@topic.cars",
+      "label": "CARROS",
+      "interests": [
+        "interest_28",
+        "interest_66",
+        "interest_104",
+        "interest_142"
+      ],
+      "lines": [
+        "A base da esquerda são um bando de ramificações de grupos minoritários encrenqueiros.",
+        "Por que eles sempre morrem no final?",
+        "Eu ouvi dizer que o aquecimento global vai tanto aumentar o nível dos mares quanto causar secas.",
+        "Ha ha ha! Conversar sobre o tempo! Essa é clássica.",
+        "Eu quero um texugo de estimação, mas cada vez que eu vejo um ele já está morto na beira da estrada.",
+        "Não suporto mais o meu irmão. Tudo o que ele faz é falar sobre o seu bebê.",
+        "É tão romântico se juntar com a cara metade e passar a noite comendo chocolate.",
+        "A diferença entre os estilos artísticos é o que mantém a arte interessante."
+      ]
+    },
+    {
+      "id": "security",
+      "name": "@topic.security",
+      "label": "SEGURANÇA",
+      "interests": [
+        "interest_29",
+        "interest_67",
+        "interest_105",
+        "interest_143"
+      ],
+      "lines": [
+        "A esquerda é capaz de ganhar se não for vista como um partido durão?",
+        "Eles deviam fornecer lenços de papel ao público.",
+        "Comecei a usar minhas roupas íntimas mais de uma vez para lavar menos e economizar água.",
+        "Dizem: ''A lua encheu, choveu.''",
+        "É difícil manter camaleões como bichos de estimação. Estão sempre desaparecendo.",
+        "Os cérebros dos bebês são como esponjas. Você tem que ter cuidado com o que lhes mostra.",
+        "Por que \"Dia dos Namorados\"? Vamos chamá-lo de \"Dia das rosas vendidas a preços absurdamente altos\".",
+        "A pintura a dedo é suja, mas depois você só tem que lavar as mãos."
+      ]
+    },
+    {
+      "id": "crime",
+      "name": "@topic.crime",
+      "label": "CRIME",
+      "interests": [
+        "interest_30",
+        "interest_68",
+        "interest_106",
+        "interest_144"
+      ],
+      "lines": [
+        "A direita ama o desenvolvimento econômico, as relações internacionais e leis mais rígidas.",
+        "Os dramas são o mais próximo da vida real que os filmes podem chegar.",
+        "80% das garrafas de vidro hoje são feitas de vidro reciclado. Isso é ótimo!",
+        "É impressão minha ou o homem do tempo nunca acerta uma?",
+        "Tem um esquilo vermelho que mora na árvore perto da janela da minha cozinha. Ele roubou metade do meu croissant na semana passada.",
+        "As crianças comem de tudo, com exceção de brócolis.",
+        "É um dia tão feminino!",
+        "Claro que eu já pintei com os dedos antes... quando estava no jardim de infância."
+      ]
+    },
+    {
+      "id": "culture",
+      "name": "@topic.culture",
+      "label": "CULTURA",
+      "interests": [
+        "interest_31",
+        "interest_69",
+        "interest_107",
+        "interest_145"
+      ],
+      "lines": [
+        "Podemos conseguir muita coisa se cooperarmos com outros países.",
+        "Se um filme não é nem engraçado nem empolgante, então é um drama.",
+        "Eu reciclo um monte de papéis. No trabalho, eu imprimo meus relatórios no verso das folhas de planejamento de férias.",
+        "Estou feliz que estejam trazendo de volta a opção de vibração.",
+        "Estou contente que os cavalos Camargue sejam uma espécie protegida. Eu viajo para o sul para vê-los durante as férias.",
+        "Por que os pais têm que envergonhar seus filhos com fotos da época em que eram bebês?",
+        "Acho que vou me vestir de cupido e atirar nas pessoas com uma pistola d'água cheia de rosas no próximo Dia dos Namorados.",
+        "Você tem muito mais controle sobre o que faz se souber o que está fazendo."
+      ]
+    },
+    {
+      "id": "office",
+      "name": "@topic.office",
+      "label": "ESCRITÓRIO",
+      "interests": [
+        "interest_32",
+        "interest_70",
+        "interest_108",
+        "interest_146"
+      ],
+      "lines": [
+        "As pessoas são importantes, mas a lei também é.",
+        "Eu rio de qualquer coisa que tenha piadas baratas.",
+        "Eu reciclaria se fosse mais fácil. Eu não tenho tempo de separar vidro de papel.",
+        "Os gráficos dos novos jogos são incríveis.",
+        "Os Everglades são uma reserva sem igual para crocodilos e jacarés.",
+        "Eu fui falar com esse garotinho que achei engraçadinho. Ele chutou o meu joelho e saiu correndo e dando risada.",
+        "Onde quer que a gente vá, ninguém fica satisfeito.",
+        "É como pintar com cinco pincéis de tamanho diferentes em cada mão."
+      ]
+    },
+    {
+      "id": "romance",
+      "name": "@topic.romance",
+      "label": "ROMANCE",
+      "interests": [
+        "interest_33",
+        "interest_71",
+        "interest_109",
+        "interest_147"
+      ],
+      "lines": [
+        "A direita é um bando elitista e arrogante.",
+        "As comédias são os insultos mais divertidos à nossa inteligência e cultura.",
+        "Branco para vidro e amarelo para papel e plástico.",
+        "O preço alto é o único problema.",
+        "Eles vão lançar uma coisa chamada \"nanotubos de carbono\" para telas de baixo consumo.",
+        "Os pais de filhos assustadores devem ter mau carma acumulado.",
+        "Eu gosto de férias em família, menos a parte da \"família\".",
+        "Não há nada melhor do que experimentar por si mesmo."
+      ]
+    },
+    {
+      "id": "clubs",
+      "name": "@topic.clubs",
+      "label": "BOATES",
+      "interests": [
+        "interest_34",
+        "interest_72",
+        "interest_110",
+        "interest_148"
+      ],
+      "lines": [
+        "A direita está aumentando as distâncias entre as classes sociais.",
+        "Foi tão engraçado quando ele... Hahaha! E aí ele... Haha! Não consigo parar de rir! Ha!",
+        "A locação de bicicletas é uma alternativa excelente para reduzir a poluição. E o tráfego de veículos!",
+        "Vou vender meu sistema antigo já que o novo é compatível com os anteriores.",
+        "A nanotecnologia também se ocupa de desenvolver materiais mais leves e resistentes, o que é muito bom para os fabricantes de aeronaves.",
+        "As crianças são tão bonitinhas quando tentam ajudar, ainda que quase nunca ajudem.",
+        "Antes que as férias cheguem ao fim, alguém vai chorar e outra pessoa vai se machucar.",
+        "Esculpir me parece divertido. Onde é que se compra a pedra gigante pra começar?"
+      ]
+    },
+    {
+      "id": "loitering",
+      "name": "@topic.loitering",
+      "label": "VADIAGEM",
+      "interests": [
+        "interest_35",
+        "interest_73",
+        "interest_111",
+        "interest_149"
+      ],
+      "lines": [
+        "Por que as pessoas que elegemos para fazer o que NÓS queremos fazem o que ELAS querem depois das eleições?",
+        "Ele não é um bom ator, mas é muito engraçado de se assistir.",
+        "Você sabia que respiramos 14.000 litros de ar todos os dias? Precisamos reduzir a poluição do ar!",
+        "Decisões, decisões... Será que eu quero bons gráficos ou jogos divertidos?",
+        "Você pode imaginar robozinhos minúsculos sendo usados para curar as suas lesões?",
+        "Quando foi que os nerds ficaram sexy?",
+        "Férias em família são melhores que fins de semana em família.",
+        "Se eu soubesse como soprar vidro, me faria um aquário gigante."
+      ]
+    },
+    {
+      "id": "people",
+      "name": "@topic.people",
+      "label": "PESSOAS",
+      "interests": [
+        "interest_36",
+        "interest_74",
+        "interest_112",
+        "interest_150"
+      ],
+      "lines": [
+        "Eu queria que a América do Norte fosse um grande país. Quer dizer, se Miami fosse a capital.",
+        "Você viu \"As Incríveis Aventuras de Audrey\"? Se parece muito com nossas vidas... Especialmente com a sua.",
+        "Espero que Miami seja reconhecida como a cidade mais limpa dos EUA... para a nossa própria saúde!",
+        "Eu amo jogos que me permitem jogar em vários modos diferentes.",
+        "De onde vem a energia daqueles robozinhos? É possível fazer pilhas tão pequenas assim?",
+        "Meu sobrinho é o único da casa que usa o computador.",
+        "As viagens em família me fazem gostar do trabalho ainda mais.",
+        "A pintura é ótima para texturas. As fotografias são muito lisas."
+      ]
+    },
+    {
+      "id": "celebrities",
+      "name": "@topic.celebrities",
+      "label": "CELEBRIDADES",
+      "interests": [
+        "interest_37",
+        "interest_75",
+        "interest_113",
+        "interest_151"
+      ],
+      "lines": [
+        "''Virtude política'' é um paradoxo.",
+        "Pipoca, som estéreo e uma tela enorme: o Paraíso na Terra.",
+        "Ruídos altos danificam sua audição e também causam estresse. Temos que reduzir a poluição sonora.",
+        "Abracadaball é simplesmente um clássico; diversão garantida.",
+        "Você sabia que a nanotecnologia é utilizada em embalagens de alimentos?",
+        "Minha irmãzinha fala mais línguas do que eu, se você contar a língua do 'P'.",
+        "Meus pais odiavam a última pessoa com quem namorei. Pensando bem... Eu também.",
+        "Escultura em madeira soa muito romântico mas a maioria das pessoas que montam móveis trabalham em fábricas."
+      ]
+    }
+  ],
+  "interestCount": 175,
+  "interests": [
+    {
+      "id": "interest_0",
+      "name": "Futebol",
+      "key": "@interest.0"
+    },
+    {
+      "id": "interest_1",
+      "name": "Ciclismo",
+      "key": "@interest.1"
+    },
+    {
+      "id": "interest_2",
+      "name": "Tênis",
+      "key": "@interest.2"
+    },
+    {
+      "id": "interest_3",
+      "name": "Rugby",
+      "key": "@interest.3"
+    },
+    {
+      "id": "interest_4",
+      "name": "Corrida",
+      "key": "@interest.4"
+    },
+    {
+      "id": "interest_5",
+      "name": "Partido de esquerda",
+      "key": "@interest.5"
+    },
+    {
+      "id": "interest_6",
+      "name": "Partido de direita",
+      "key": "@interest.6"
+    },
+    {
+      "id": "interest_7",
+      "name": "Política",
+      "key": "@interest.7"
+    },
+    {
+      "id": "interest_8",
+      "name": "Moda",
+      "key": "@interest.8"
+    },
+    {
+      "id": "interest_9",
+      "name": "Jóias",
+      "key": "@interest.9"
+    },
+    {
+      "id": "interest_10",
+      "name": "Perfume",
+      "key": "@interest.10"
+    },
+    {
+      "id": "interest_11",
+      "name": "Cortes de cabelo",
+      "key": "@interest.11"
+    },
+    {
+      "id": "interest_12",
+      "name": "Nouvelle Vague",
+      "key": "@interest.12"
+    },
+    {
+      "id": "interest_13",
+      "name": "Filmes dramáticos",
+      "key": "@interest.13"
+    },
+    {
+      "id": "interest_14",
+      "name": "Comédias",
+      "key": "@interest.14"
+    },
+    {
+      "id": "interest_15",
+      "name": "Salas de Cinema",
+      "key": "@interest.15"
+    },
+    {
+      "id": "interest_16",
+      "name": "Filmes americanos",
+      "key": "@interest.16"
+    },
+    {
+      "id": "interest_17",
+      "name": "Filmes independentes",
+      "key": "@interest.17"
+    },
+    {
+      "id": "interest_18",
+      "name": "DVDs",
+      "key": "@interest.18"
+    },
+    {
+      "id": "interest_19",
+      "name": "Energia ecológica",
+      "key": "@interest.19"
+    },
+    {
+      "id": "interest_20",
+      "name": "Aquecimento global",
+      "key": "@interest.20"
+    },
+    {
+      "id": "interest_21",
+      "name": "Reciclagem",
+      "key": "@interest.21"
+    },
+    {
+      "id": "interest_22",
+      "name": "Poluição",
+      "key": "@interest.22"
+    },
+    {
+      "id": "interest_23",
+      "name": "Shows ao vivo",
+      "key": "@interest.23"
+    },
+    {
+      "id": "interest_24",
+      "name": "Baixar música",
+      "key": "@interest.24"
+    },
+    {
+      "id": "interest_25",
+      "name": "Bandas locais",
+      "key": "@interest.25"
+    },
+    {
+      "id": "interest_26",
+      "name": "Músicos",
+      "key": "@interest.26"
+    },
+    {
+      "id": "interest_27",
+      "name": "Instrumentos musicais",
+      "key": "@interest.27"
+    },
+    {
+      "id": "interest_28",
+      "name": "O clima",
+      "key": "@interest.28"
+    },
+    {
+      "id": "interest_29",
+      "name": "Novos consoles",
+      "key": "@interest.29"
+    },
+    {
+      "id": "interest_30",
+      "name": "Os melhores jogos",
+      "key": "@interest.30"
+    },
+    {
+      "id": "interest_31",
+      "name": "Videogames",
+      "key": "@interest.31"
+    },
+    {
+      "id": "interest_32",
+      "name": "Jogos de multijogadores",
+      "key": "@interest.32"
+    },
+    {
+      "id": "interest_33",
+      "name": "Jogos de Ação",
+      "key": "@interest.33"
+    },
+    {
+      "id": "interest_34",
+      "name": "Amantes de gatos",
+      "key": "@interest.34"
+    },
+    {
+      "id": "interest_35",
+      "name": "Amantes de cachorros",
+      "key": "@interest.35"
+    },
+    {
+      "id": "interest_36",
+      "name": "Amantes de animais",
+      "key": "@interest.36"
+    },
+    {
+      "id": "interest_37",
+      "name": "Nanotecnologia",
+      "key": "@interest.37"
+    },
+    {
+      "id": "interest_38",
+      "name": "Celulares",
+      "key": "@interest.38"
+    },
+    {
+      "id": "interest_39",
+      "name": "Robôs",
+      "key": "@interest.39"
+    },
+    {
+      "id": "interest_40",
+      "name": "Computadores",
+      "key": "@interest.40"
+    },
+    {
+      "id": "interest_41",
+      "name": "Eletrônicos",
+      "key": "@interest.41"
+    },
+    {
+      "id": "interest_42",
+      "name": "Ter filhos",
+      "key": "@interest.42"
+    },
+    {
+      "id": "interest_43",
+      "name": "Bebês",
+      "key": "@interest.43"
+    },
+    {
+      "id": "interest_44",
+      "name": "Crianças lindas",
+      "key": "@interest.44"
+    },
+    {
+      "id": "interest_45",
+      "name": "Crianças brilhantes",
+      "key": "@interest.45"
+    },
+    {
+      "id": "interest_46",
+      "name": "Escola particular",
+      "key": "@interest.46"
+    },
+    {
+      "id": "interest_47",
+      "name": "Término de namoro",
+      "key": "@interest.47"
+    },
+    {
+      "id": "interest_48",
+      "name": "Casamentos",
+      "key": "@interest.48"
+    },
+    {
+      "id": "interest_49",
+      "name": "Encontrar alguém",
+      "key": "@interest.49"
+    },
+    {
+      "id": "interest_50",
+      "name": "Pedidos de casamento",
+      "key": "@interest.50"
+    },
+    {
+      "id": "interest_51",
+      "name": "Dia dos Namorados",
+      "key": "@interest.51"
+    },
+    {
+      "id": "interest_52",
+      "name": "Viagens de família",
+      "key": "@interest.52"
+    },
+    {
+      "id": "interest_53",
+      "name": "Sogros",
+      "key": "@interest.53"
+    },
+    {
+      "id": "interest_54",
+      "name": "Parentes",
+      "key": "@interest.54"
+    },
+    {
+      "id": "interest_55",
+      "name": "Genealogia",
+      "key": "@interest.55"
+    },
+    {
+      "id": "interest_56",
+      "name": "Segredos de família",
+      "key": "@interest.56"
+    },
+    {
+      "id": "interest_57",
+      "name": "Artistas",
+      "key": "@interest.57"
+    },
+    {
+      "id": "interest_58",
+      "name": "Estilos de arte",
+      "key": "@interest.58"
+    },
+    {
+      "id": "interest_59",
+      "name": "Pintura a dedo",
+      "key": "@interest.59"
+    },
+    {
+      "id": "interest_60",
+      "name": "Mídia artística",
+      "key": "@interest.60"
+    },
+    {
+      "id": "interest_61",
+      "name": "Design gráfico",
+      "key": "@interest.61"
+    },
+    {
+      "id": "interest_62",
+      "name": "Copos",
+      "key": "@interest.62"
+    },
+    {
+      "id": "interest_63",
+      "name": "Lugares da moda",
+      "key": "@interest.63"
+    },
+    {
+      "id": "interest_64",
+      "name": "Suco",
+      "key": "@interest.64"
+    },
+    {
+      "id": "interest_65",
+      "name": "Grandes pensadores",
+      "key": "@interest.65"
+    },
+    {
+      "id": "interest_66",
+      "name": "Grandes teorias",
+      "key": "@interest.66"
+    },
+    {
+      "id": "interest_67",
+      "name": "Pensamentos profundos",
+      "key": "@interest.67"
+    },
+    {
+      "id": "interest_68",
+      "name": "Segredos de sucesso",
+      "key": "@interest.68"
+    },
+    {
+      "id": "interest_69",
+      "name": "Gerenciar dinheiro",
+      "key": "@interest.69"
+    },
+    {
+      "id": "interest_70",
+      "name": "Empregos sem perspectiva",
+      "key": "@interest.70"
+    },
+    {
+      "id": "interest_71",
+      "name": "Tri-Rail",
+      "key": "@interest.71"
+    },
+    {
+      "id": "interest_72",
+      "name": "Metromover",
+      "key": "@interest.72"
+    },
+    {
+      "id": "interest_73",
+      "name": "Controlador do Tri-Rail",
+      "key": "@interest.73"
+    },
+    {
+      "id": "interest_74",
+      "name": "Séries cômicas",
+      "key": "@interest.74"
+    },
+    {
+      "id": "interest_75",
+      "name": "Desenhos animados",
+      "key": "@interest.75"
+    },
+    {
+      "id": "interest_76",
+      "name": "Comerciais",
+      "key": "@interest.76"
+    },
+    {
+      "id": "interest_77",
+      "name": "TV pública",
+      "key": "@interest.77"
+    },
+    {
+      "id": "interest_78",
+      "name": "Programas cancelados",
+      "key": "@interest.78"
+    },
+    {
+      "id": "interest_79",
+      "name": "Teatro",
+      "key": "@interest.79"
+    },
+    {
+      "id": "interest_80",
+      "name": "Atores",
+      "key": "@interest.80"
+    },
+    {
+      "id": "interest_81",
+      "name": "Óperas",
+      "key": "@interest.81"
+    },
+    {
+      "id": "interest_82",
+      "name": "Trens",
+      "key": "@interest.82"
+    },
+    {
+      "id": "interest_83",
+      "name": "Ônibus",
+      "key": "@interest.83"
+    },
+    {
+      "id": "interest_84",
+      "name": "Táxis",
+      "key": "@interest.84"
+    },
+    {
+      "id": "interest_85",
+      "name": "Moradores de Miami",
+      "key": "@interest.85"
+    },
+    {
+      "id": "interest_86",
+      "name": "Praias",
+      "key": "@interest.86"
+    },
+    {
+      "id": "interest_87",
+      "name": "Bairros",
+      "key": "@interest.87"
+    },
+    {
+      "id": "interest_88",
+      "name": "Excursões",
+      "key": "@interest.88"
+    },
+    {
+      "id": "interest_89",
+      "name": "Turistas",
+      "key": "@interest.89"
+    },
+    {
+      "id": "interest_90",
+      "name": "Camping",
+      "key": "@interest.90"
+    },
+    {
+      "id": "interest_91",
+      "name": "Dia da Terra",
+      "key": "@interest.91"
+    },
+    {
+      "id": "interest_92",
+      "name": "Parques",
+      "key": "@interest.92"
+    },
+    {
+      "id": "interest_93",
+      "name": "Árvores",
+      "key": "@interest.93"
+    },
+    {
+      "id": "interest_94",
+      "name": "Zoológicos",
+      "key": "@interest.94"
+    },
+    {
+      "id": "interest_95",
+      "name": "Multas de trânsito",
+      "key": "@interest.95"
+    },
+    {
+      "id": "interest_96",
+      "name": "Estacionamento",
+      "key": "@interest.96"
+    },
+    {
+      "id": "interest_97",
+      "name": "Banho de loja",
+      "key": "@interest.97"
+    },
+    {
+      "id": "interest_98",
+      "name": "Brechós",
+      "key": "@interest.98"
+    },
+    {
+      "id": "interest_99",
+      "name": "Marcas de luxo",
+      "key": "@interest.99"
+    },
+    {
+      "id": "interest_100",
+      "name": "Amostras grátis",
+      "key": "@interest.100"
+    },
+    {
+      "id": "interest_101",
+      "name": "Vendedores de rua",
+      "key": "@interest.101"
+    },
+    {
+      "id": "interest_102",
+      "name": "Trabalhos",
+      "key": "@interest.102"
+    },
+    {
+      "id": "interest_103",
+      "name": "Orçamentos",
+      "key": "@interest.103"
+    },
+    {
+      "id": "interest_104",
+      "name": "O dólar",
+      "key": "@interest.104"
+    },
+    {
+      "id": "interest_105",
+      "name": "Empréstimos",
+      "key": "@interest.105"
+    },
+    {
+      "id": "interest_106",
+      "name": "Loteria",
+      "key": "@interest.106"
+    },
+    {
+      "id": "interest_107",
+      "name": "Dietas",
+      "key": "@interest.107"
+    },
+    {
+      "id": "interest_108",
+      "name": "Exercícios",
+      "key": "@interest.108"
+    },
+    {
+      "id": "interest_109",
+      "name": "Academias",
+      "key": "@interest.109"
+    },
+    {
+      "id": "interest_110",
+      "name": "Idade e boa forma",
+      "key": "@interest.110"
+    },
+    {
+      "id": "interest_111",
+      "name": "Saúde",
+      "key": "@interest.111"
+    },
+    {
+      "id": "interest_112",
+      "name": "Comer fora",
+      "key": "@interest.112"
+    },
+    {
+      "id": "interest_113",
+      "name": "Fast food",
+      "key": "@interest.113"
+    },
+    {
+      "id": "interest_114",
+      "name": "Comida saudável",
+      "key": "@interest.114"
+    },
+    {
+      "id": "interest_115",
+      "name": "Lanchinhos",
+      "key": "@interest.115"
+    },
+    {
+      "id": "interest_116",
+      "name": "Cozinha internacional",
+      "key": "@interest.116"
+    },
+    {
+      "id": "interest_117",
+      "name": "Carros clássicos",
+      "key": "@interest.117"
+    },
+    {
+      "id": "interest_118",
+      "name": "Carros compactos",
+      "key": "@interest.118"
+    },
+    {
+      "id": "interest_119",
+      "name": "Carros velozes",
+      "key": "@interest.119"
+    },
+    {
+      "id": "interest_120",
+      "name": "Carros",
+      "key": "@interest.120"
+    },
+    {
+      "id": "interest_121",
+      "name": "Carros híbridos",
+      "key": "@interest.121"
+    },
+    {
+      "id": "interest_122",
+      "name": "Manifestações",
+      "key": "@interest.122"
+    },
+    {
+      "id": "interest_123",
+      "name": "Sistemas de segurança",
+      "key": "@interest.123"
+    },
+    {
+      "id": "interest_124",
+      "name": "Autodefesa",
+      "key": "@interest.124"
+    },
+    {
+      "id": "interest_125",
+      "name": "Polícia",
+      "key": "@interest.125"
+    },
+    {
+      "id": "interest_126",
+      "name": "Dica de segurança",
+      "key": "@interest.126"
+    },
+    {
+      "id": "interest_127",
+      "name": "Criminosos",
+      "key": "@interest.127"
+    },
+    {
+      "id": "interest_128",
+      "name": "Golpes",
+      "key": "@interest.128"
+    },
+    {
+      "id": "interest_129",
+      "name": "Arrombamentos",
+      "key": "@interest.129"
+    },
+    {
+      "id": "interest_130",
+      "name": "Crimes violentos",
+      "key": "@interest.130"
+    },
+    {
+      "id": "interest_131",
+      "name": "Trombadinhas",
+      "key": "@interest.131"
+    },
+    {
+      "id": "interest_132",
+      "name": "Museus",
+      "key": "@interest.132"
+    },
+    {
+      "id": "interest_133",
+      "name": "Galerias",
+      "key": "@interest.133"
+    },
+    {
+      "id": "interest_134",
+      "name": "Jantares finos",
+      "key": "@interest.134"
+    },
+    {
+      "id": "interest_135",
+      "name": "Tradição",
+      "key": "@interest.135"
+    },
+    {
+      "id": "interest_136",
+      "name": "Cultura",
+      "key": "@interest.136"
+    },
+    {
+      "id": "interest_137",
+      "name": "Segundas-feiras",
+      "key": "@interest.137"
+    },
+    {
+      "id": "interest_138",
+      "name": "Chefes maldosos",
+      "key": "@interest.138"
+    },
+    {
+      "id": "interest_139",
+      "name": "Fofoca de escritório",
+      "key": "@interest.139"
+    },
+    {
+      "id": "interest_140",
+      "name": "Benefícios da empresa",
+      "key": "@interest.140"
+    },
+    {
+      "id": "interest_141",
+      "name": "Fotocopiadoras",
+      "key": "@interest.141"
+    },
+    {
+      "id": "interest_142",
+      "name": "Encontrar o amor",
+      "key": "@interest.142"
+    },
+    {
+      "id": "interest_143",
+      "name": "Relacionamentos",
+      "key": "@interest.143"
+    },
+    {
+      "id": "interest_144",
+      "name": "Almas gêmeas",
+      "key": "@interest.144"
+    },
+    {
+      "id": "interest_145",
+      "name": "Ex-amantes",
+      "key": "@interest.145"
+    },
+    {
+      "id": "interest_146",
+      "name": "Vida de solteiro",
+      "key": "@interest.146"
+    },
+    {
+      "id": "interest_147",
+      "name": "Salas VIP",
+      "key": "@interest.147"
+    },
+    {
+      "id": "interest_148",
+      "name": "Garotas baladeiras",
+      "key": "@interest.148"
+    },
+    {
+      "id": "interest_149",
+      "name": "DJs",
+      "key": "@interest.149"
+    },
+    {
+      "id": "interest_150",
+      "name": "Boates",
+      "key": "@interest.150"
+    },
+    {
+      "id": "interest_151",
+      "name": "Roupa de balada",
+      "key": "@interest.151"
+    },
+    {
+      "id": "interest_152",
+      "name": "Preguiçosos",
+      "key": "@interest.152"
+    },
+    {
+      "id": "interest_153",
+      "name": "Férias permanentes",
+      "key": "@interest.153"
+    },
+    {
+      "id": "interest_154",
+      "name": "Casa da mãe",
+      "key": "@interest.154"
+    },
+    {
+      "id": "interest_155",
+      "name": "Sem trabalho",
+      "key": "@interest.155"
+    },
+    {
+      "id": "interest_156",
+      "name": "Comunidade",
+      "key": "@interest.156"
+    },
+    {
+      "id": "interest_157",
+      "name": "Pessoas",
+      "key": "@interest.157"
+    },
+    {
+      "id": "interest_158",
+      "name": "Ativistas",
+      "key": "@interest.158"
+    },
+    {
+      "id": "interest_159",
+      "name": "Estrelas do momento",
+      "key": "@interest.159"
+    },
+    {
+      "id": "interest_160",
+      "name": "Fofoca de celebridades",
+      "key": "@interest.160"
+    },
+    {
+      "id": "interest_161",
+      "name": "Onde ver celebridades",
+      "key": "@interest.161"
+    },
+    {
+      "id": "interest_162",
+      "name": "Encontros entre estrelas",
+      "key": "@interest.162"
+    },
+    {
+      "id": "interest_163",
+      "name": "Você fede",
+      "key": "@interest.163"
+    },
+    {
+      "id": "interest_164",
+      "name": "É a mãe",
+      "key": "@interest.164"
+    },
+    {
+      "id": "interest_165",
+      "name": "Sua coisa horrorosa",
+      "key": "@interest.165"
+    },
+    {
+      "id": "interest_166",
+      "name": "Que imbecil",
+      "key": "@interest.166"
+    },
+    {
+      "id": "interest_167",
+      "name": "Piada política",
+      "key": "@interest.167"
+    },
+    {
+      "id": "interest_168",
+      "name": "Meu chefe...",
+      "key": "@interest.168"
+    },
+    {
+      "id": "interest_169",
+      "name": "Estou tão...",
+      "key": "@interest.169"
+    },
+    {
+      "id": "interest_170",
+      "name": "Piada de bar",
+      "key": "@interest.170"
+    },
+    {
+      "id": "interest_171",
+      "name": "Piada suja",
+      "key": "@interest.171"
+    },
+    {
+      "id": "interest_172",
+      "name": "Toc, toc...",
+      "key": "@interest.172"
+    },
+    {
+      "id": "interest_173",
+      "name": "Frase de efeito",
+      "key": "@interest.173"
+    },
+    {
+      "id": "interest_174",
+      "name": "Piada ruim",
+      "key": "@interest.174"
+    }
+  ]
+}

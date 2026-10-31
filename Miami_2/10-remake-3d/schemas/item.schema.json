@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miami3d/schemas/item.schema.json",
+  "title": "Item / template de objeto",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/id" },
+    "name": { "$ref": "common.schema.json#/$defs/stringKey" },
+    "kind": { "type": "string", "enum": ["object", "furniture", "gift", "food", "clothing", "quest", "pet", "consumable"] },
+    "mesh": { "type": "string" },
+    "icon": { "type": "string" },
+    "footprint": { "type": "array", "items": { "type": "integer", "minimum": 1 }, "minItems": 2, "maxItems": 2 },
+    "useCell": { "type": "array", "items": { "type": "integer" }, "minItems": 2, "maxItems": 2, "description": "célula relativa onde o ator fica para usar" },
+    "facing": { "$ref": "common.schema.json#/$defs/facing" },
+    "blocksNpcOnly": { "type": "boolean", "default": false },
+    "category": { "type": "string", "description": "sofa, bed, dresser, tv, cushion, computer, chair… (slots de móvel)" },
+    "slot": { "type": "string", "enum": ["head", "hair", "top", "bottom", "shoes"] },
+    "gender": { "type": "string", "enum": ["m", "f", "any"], "default": "any" },
+    "price": { "type": "integer", "minimum": 0 },
+    "sellPrice": { "type": "integer", "minimum": 0 },
+    "shop": { "$ref": "common.schema.json#/$defs/id" },
+    "colors": { "type": "array", "items": { "type": "string" } },
+    "actions": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+    "effects": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/statEffect" }, "description": "ao consumir / ao presentear (gift usa relationship abaixo)" },
+    "gift": {
+      "type": "object",
+      "properties": {
+        "friendship": { "type": "integer" }, "romance": { "type": "integer" }, "mood": { "type": "integer" },
+        "requiresRomanceLevel": { "type": "integer", "minimum": 0, "maximum": 4 }
+      }
+    },
+    "statBonus": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/statEffect" }, "description": "roupa/móvel: bônus enquanto equipado/instalado" },
+    "stackable": { "type": "boolean", "default": true },
+    "unlockedBy": { "$ref": "common.schema.json#/$defs/id", "description": "flag/missão que libera no closet ou loja" }
+  },
+  "required": ["id", "name", "kind"],
+  "additionalProperties": false
+}

@@ -1,0 +1,6 @@
+{
+  "id": "bench", "name": "@item.bench", "kind": "object",
+  "mesh": "res://assets/models/street/bench.glb",
+  "footprint": [2, 1], "useCell": [0, 1], "facing": "N",
+  "actions": ["nap", "watch_people"]
+}

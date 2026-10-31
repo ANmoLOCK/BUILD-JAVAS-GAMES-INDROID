@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miami3d/schemas/npc.schema.json",
+  "title": "NPC",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/id" },
+    "name": { "$ref": "common.schema.json#/$defs/stringKey" },
+    "gender": { "type": "string", "enum": ["m", "f"] },
+    "genderOppositeOfPlayer": { "type": "boolean", "description": "ex.: Heather/Dean — troca nome, gênero e aparência conforme o jogador" },
+    "altId": { "$ref": "common.schema.json#/$defs/id", "description": "NPC usado quando genderOppositeOfPlayer resolve para o outro gênero" },
+    "appearance": {
+      "type": "array", "items": { "type": "integer", "minimum": 0 }, "minItems": 10, "maxItems": 10,
+      "description": "[gênero, pele, cabelo, corCabelo, top, corTop, bottom, corBottom, calçado, corCalçado]"
+    },
+    "uniqueHead": { "type": "string", "description": "caminho GLB de cabeça exclusiva (elenco principal)" },
+    "likes": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" }, "maxItems": 3 },
+    "dislikes": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" }, "maxItems": 1 },
+    "initial": {
+      "type": "object",
+      "properties": { "friendship": { "type": "integer", "minimum": -100, "maximum": 100 }, "romance": { "type": "integer", "minimum": 0, "maximum": 100 }, "mood": { "type": "integer", "minimum": 0, "maximum": 100 } },
+      "additionalProperties": false
+    },
+    "schedule": { "$ref": "common.schema.json#/$defs/id" },
+    "greetings": { "$ref": "common.schema.json#/$defs/stringKey", "description": "prefixo de chaves de saudação por nível (@greet.x.0 .. @greet.x.4)" },
+    "dateable": { "type": "boolean", "default": true },
+    "roommateable": { "type": "boolean", "default": false },
+    "phoneUnlock": { "$ref": "common.schema.json#/$defs/condition" },
+    "essential": { "type": "boolean", "default": false, "description": "NPC de história: nunca sorteado como genérico, não some do save" },
+    "home": { "$ref": "common.schema.json#/$defs/id" },
+    "onTalk": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/trigger" } },
+    "socialOverrides": {
+      "type": "object",
+      "description": "ações sociais desabilitadas ou com efeito diferente para este NPC",
+      "additionalProperties": { "type": "object", "properties": { "disabled": { "type": "boolean" }, "effects": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/action" } } } }
+    }
+  },
+  "required": ["id", "name", "gender", "appearance", "likes"],
+  "additionalProperties": false
+}

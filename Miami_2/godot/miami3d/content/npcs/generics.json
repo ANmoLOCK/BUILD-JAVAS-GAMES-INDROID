@@ -1,0 +1,2320 @@
+[
+  {
+    "id": "generic_23_paco",
+    "slot": 23,
+    "name": "@npc.generic_23_paco",
+    "displayName": "Paco",
+    "gender": "m",
+    "appearance": [
+      0,
+      3,
+      5,
+      3,
+      6,
+      5,
+      5,
+      5,
+      3,
+      3
+    ],
+    "likes": [
+      "traffic",
+      "crime",
+      "people"
+    ],
+    "dislikes": [
+      "environment"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_24_sergi",
+    "slot": 24,
+    "name": "@npc.generic_24_sergi",
+    "displayName": "Sergi",
+    "gender": "m",
+    "appearance": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    "likes": [
+      "shopping",
+      "culture",
+      "celebrities"
+    ],
+    "dislikes": [
+      "music"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_25_chema",
+    "slot": 25,
+    "name": "@npc.generic_25_chema",
+    "displayName": "Chema",
+    "gender": "m",
+    "appearance": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      1,
+      3,
+      1,
+      0,
+      1
+    ],
+    "likes": [
+      "money",
+      "office",
+      "sports"
+    ],
+    "dislikes": [
+      "weather"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_26_toni",
+    "slot": 26,
+    "name": "@npc.generic_26_toni",
+    "displayName": "Toni",
+    "gender": "m",
+    "appearance": [
+      0,
+      1,
+      2,
+      2,
+      4,
+      2,
+      6,
+      2,
+      1,
+      2
+    ],
+    "likes": [
+      "health",
+      "romance",
+      "politics"
+    ],
+    "dislikes": [
+      "videogames"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_27_diego",
+    "slot": 27,
+    "name": "@npc.generic_27_diego",
+    "displayName": "Diego",
+    "gender": "m",
+    "appearance": [
+      0,
+      2,
+      3,
+      3,
+      6,
+      3,
+      1,
+      3,
+      2,
+      3
+    ],
+    "likes": [
+      "food",
+      "clubs",
+      "fashion"
+    ],
+    "dislikes": [
+      "pets"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_28_luis",
+    "slot": 28,
+    "name": "@npc.generic_28_luis",
+    "displayName": "Luis",
+    "gender": "m",
+    "appearance": [
+      0,
+      3,
+      4,
+      0,
+      0,
+      4,
+      4,
+      4,
+      3,
+      0
+    ],
+    "likes": [
+      "cars",
+      "loitering",
+      "cinema"
+    ],
+    "dislikes": [
+      "technology"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_29_miguel",
+    "slot": 29,
+    "name": "@npc.generic_29_miguel",
+    "displayName": "Miguel",
+    "gender": "m",
+    "appearance": [
+      0,
+      4,
+      5,
+      1,
+      2,
+      5,
+      7,
+      5,
+      4,
+      1
+    ],
+    "likes": [
+      "security",
+      "people",
+      "environment"
+    ],
+    "dislikes": [
+      "children"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_30_tom",
+    "slot": 30,
+    "name": "@npc.generic_30_tom",
+    "displayName": "Tom",
+    "gender": "m",
+    "appearance": [
+      0,
+      0,
+      0,
+      2,
+      4,
+      0,
+      2,
+      0,
+      0,
+      2
+    ],
+    "likes": [
+      "crime",
+      "celebrities",
+      "music"
+    ],
+    "dislikes": [
+      "marriage"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_31_will",
+    "slot": 31,
+    "name": "@npc.generic_31_will",
+    "displayName": "Will",
+    "gender": "m",
+    "appearance": [
+      0,
+      1,
+      1,
+      3,
+      6,
+      1,
+      5,
+      1,
+      1,
+      3
+    ],
+    "likes": [
+      "culture",
+      "sports",
+      "weather"
+    ],
+    "dislikes": [
+      "family"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_32_moe",
+    "slot": 32,
+    "name": "@npc.generic_32_moe",
+    "displayName": "Moe",
+    "gender": "m",
+    "appearance": [
+      0,
+      2,
+      2,
+      0,
+      0,
+      2,
+      0,
+      2,
+      2,
+      0
+    ],
+    "likes": [
+      "office",
+      "politics",
+      "videogames"
+    ],
+    "dislikes": [
+      "art"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_33_joshua",
+    "slot": 33,
+    "name": "@npc.generic_33_joshua",
+    "displayName": "Joshua",
+    "gender": "m",
+    "appearance": [
+      0,
+      3,
+      3,
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      1
+    ],
+    "likes": [
+      "romance",
+      "fashion",
+      "pets"
+    ],
+    "dislikes": [
+      "bars"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_34_michael",
+    "slot": 34,
+    "name": "@npc.generic_34_michael",
+    "displayName": "Michael",
+    "gender": "m",
+    "appearance": [
+      0,
+      4,
+      4,
+      2,
+      4,
+      4,
+      6,
+      4,
+      4,
+      2
+    ],
+    "likes": [
+      "clubs",
+      "cinema",
+      "technology"
+    ],
+    "dislikes": [
+      "philosophy"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_35_anthony",
+    "slot": 35,
+    "name": "@npc.generic_35_anthony",
+    "displayName": "Anthony",
+    "gender": "m",
+    "appearance": [
+      0,
+      0,
+      5,
+      3,
+      6,
+      5,
+      1,
+      5,
+      0,
+      3
+    ],
+    "likes": [
+      "loitering",
+      "environment",
+      "children"
+    ],
+    "dislikes": [
+      "business"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_36_christopher",
+    "slot": 36,
+    "name": "@npc.generic_36_christopher",
+    "displayName": "Christopher",
+    "gender": "m",
+    "appearance": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      1,
+      0
+    ],
+    "likes": [
+      "people",
+      "music",
+      "marriage"
+    ],
+    "dislikes": [
+      "subway"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_37_jacob",
+    "slot": 37,
+    "name": "@npc.generic_37_jacob",
+    "displayName": "Jacob",
+    "gender": "m",
+    "appearance": [
+      0,
+      2,
+      1,
+      1,
+      2,
+      1,
+      7,
+      1,
+      2,
+      1
+    ],
+    "likes": [
+      "celebrities",
+      "weather",
+      "family"
+    ],
+    "dislikes": [
+      "television"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_38_henry",
+    "slot": 38,
+    "name": "@npc.generic_38_henry",
+    "displayName": "Henry",
+    "gender": "m",
+    "appearance": [
+      0,
+      3,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "likes": [
+      "sports",
+      "videogames",
+      "art"
+    ],
+    "dislikes": [
+      "theater"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_39_miller",
+    "slot": 39,
+    "name": "@npc.generic_39_miller",
+    "displayName": "Miller",
+    "gender": "m",
+    "appearance": [
+      0,
+      4,
+      3,
+      3,
+      6,
+      3,
+      5,
+      3,
+      4,
+      3
+    ],
+    "likes": [
+      "politics",
+      "pets",
+      "bars"
+    ],
+    "dislikes": [
+      "transport"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_40_paul",
+    "slot": 40,
+    "name": "@npc.generic_40_paul",
+    "displayName": "Paul",
+    "gender": "m",
+    "appearance": [
+      0,
+      0,
+      4,
+      0,
+      0,
+      4,
+      0,
+      4,
+      0,
+      0
+    ],
+    "likes": [
+      "fashion",
+      "technology",
+      "philosophy"
+    ],
+    "dislikes": [
+      "tourism"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_41_moore",
+    "slot": 41,
+    "name": "@npc.generic_41_moore",
+    "displayName": "Moore",
+    "gender": "m",
+    "appearance": [
+      0,
+      1,
+      5,
+      1,
+      2,
+      5,
+      3,
+      5,
+      1,
+      1
+    ],
+    "likes": [
+      "cinema",
+      "children",
+      "business"
+    ],
+    "dislikes": [
+      "nature"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_42_alexandre",
+    "slot": 42,
+    "name": "@npc.generic_42_alexandre",
+    "displayName": "Alexandre",
+    "gender": "m",
+    "appearance": [
+      0,
+      2,
+      0,
+      2,
+      4,
+      0,
+      6,
+      0,
+      2,
+      2
+    ],
+    "likes": [
+      "environment",
+      "marriage",
+      "subway"
+    ],
+    "dislikes": [
+      "traffic"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_43_daniel",
+    "slot": 43,
+    "name": "@npc.generic_43_daniel",
+    "displayName": "Daniel",
+    "gender": "m",
+    "appearance": [
+      0,
+      3,
+      1,
+      3,
+      6,
+      1,
+      1,
+      1,
+      3,
+      3
+    ],
+    "likes": [
+      "music",
+      "family",
+      "television"
+    ],
+    "dislikes": [
+      "shopping"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_44_lawrence",
+    "slot": 44,
+    "name": "@npc.generic_44_lawrence",
+    "displayName": "Lawrence",
+    "gender": "m",
+    "appearance": [
+      0,
+      4,
+      2,
+      0,
+      0,
+      2,
+      4,
+      2,
+      4,
+      0
+    ],
+    "likes": [
+      "weather",
+      "art",
+      "theater"
+    ],
+    "dislikes": [
+      "money"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_45_ed",
+    "slot": 45,
+    "name": "@npc.generic_45_ed",
+    "displayName": "Ed",
+    "gender": "m",
+    "appearance": [
+      0,
+      0,
+      3,
+      1,
+      2,
+      3,
+      7,
+      3,
+      0,
+      1
+    ],
+    "likes": [
+      "videogames",
+      "bars",
+      "transport"
+    ],
+    "dislikes": [
+      "health"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_46_morgan",
+    "slot": 46,
+    "name": "@npc.generic_46_morgan",
+    "displayName": "Morgan",
+    "gender": "m",
+    "appearance": [
+      0,
+      1,
+      4,
+      2,
+      4,
+      4,
+      2,
+      4,
+      1,
+      2
+    ],
+    "likes": [
+      "pets",
+      "philosophy",
+      "tourism"
+    ],
+    "dislikes": [
+      "food"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_47_douglas",
+    "slot": 47,
+    "name": "@npc.generic_47_douglas",
+    "displayName": "Douglas",
+    "gender": "m",
+    "appearance": [
+      0,
+      2,
+      5,
+      3,
+      6,
+      5,
+      5,
+      5,
+      2,
+      3
+    ],
+    "likes": [
+      "technology",
+      "business",
+      "nature"
+    ],
+    "dislikes": [
+      "cars"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_48_thomas",
+    "slot": 48,
+    "name": "@npc.generic_48_thomas",
+    "displayName": "Thomas",
+    "gender": "m",
+    "appearance": [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    "likes": [
+      "children",
+      "subway",
+      "traffic"
+    ],
+    "dislikes": [
+      "security"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_49_james",
+    "slot": 49,
+    "name": "@npc.generic_49_james",
+    "displayName": "James",
+    "gender": "m",
+    "appearance": [
+      0,
+      4,
+      1,
+      1,
+      2,
+      1,
+      3,
+      1,
+      4,
+      1
+    ],
+    "likes": [
+      "marriage",
+      "television",
+      "shopping"
+    ],
+    "dislikes": [
+      "crime"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_50_allen",
+    "slot": 50,
+    "name": "@npc.generic_50_allen",
+    "displayName": "Allen",
+    "gender": "m",
+    "appearance": [
+      0,
+      0,
+      2,
+      2,
+      4,
+      2,
+      6,
+      2,
+      0,
+      2
+    ],
+    "likes": [
+      "family",
+      "theater",
+      "money"
+    ],
+    "dislikes": [
+      "culture"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_51_john",
+    "slot": 51,
+    "name": "@npc.generic_51_john",
+    "displayName": "John",
+    "gender": "m",
+    "appearance": [
+      0,
+      1,
+      3,
+      3,
+      6,
+      3,
+      1,
+      3,
+      1,
+      3
+    ],
+    "likes": [
+      "art",
+      "transport",
+      "health"
+    ],
+    "dislikes": [
+      "office"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_52_jordi",
+    "slot": 52,
+    "name": "@npc.generic_52_jordi",
+    "displayName": "Jordi",
+    "gender": "f",
+    "appearance": [
+      1,
+      2,
+      4,
+      0,
+      0,
+      4,
+      4,
+      4,
+      2,
+      0
+    ],
+    "likes": [
+      "bars",
+      "tourism",
+      "food"
+    ],
+    "dislikes": [
+      "romance"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_53_martina",
+    "slot": 53,
+    "name": "@npc.generic_53_martina",
+    "displayName": "Martina",
+    "gender": "f",
+    "appearance": [
+      1,
+      3,
+      5,
+      1,
+      2,
+      5,
+      7,
+      5,
+      3,
+      1
+    ],
+    "likes": [
+      "philosophy",
+      "nature",
+      "cars"
+    ],
+    "dislikes": [
+      "clubs"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_54_tammy",
+    "slot": 54,
+    "name": "@npc.generic_54_tammy",
+    "displayName": "Tammy",
+    "gender": "f",
+    "appearance": [
+      1,
+      4,
+      0,
+      2,
+      4,
+      0,
+      2,
+      0,
+      4,
+      2
+    ],
+    "likes": [
+      "business",
+      "traffic",
+      "security"
+    ],
+    "dislikes": [
+      "loitering"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_55_kattie",
+    "slot": 55,
+    "name": "@npc.generic_55_kattie",
+    "displayName": "Kattie",
+    "gender": "f",
+    "appearance": [
+      1,
+      0,
+      1,
+      3,
+      6,
+      1,
+      5,
+      1,
+      0,
+      3
+    ],
+    "likes": [
+      "subway",
+      "shopping",
+      "crime"
+    ],
+    "dislikes": [
+      "people"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_56_francine",
+    "slot": 56,
+    "name": "@npc.generic_56_francine",
+    "displayName": "Francine",
+    "gender": "f",
+    "appearance": [
+      1,
+      1,
+      2,
+      0,
+      0,
+      2,
+      0,
+      2,
+      1,
+      0
+    ],
+    "likes": [
+      "television",
+      "money",
+      "culture"
+    ],
+    "dislikes": [
+      "celebrities"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_57_jenny",
+    "slot": 57,
+    "name": "@npc.generic_57_jenny",
+    "displayName": "Jenny",
+    "gender": "f",
+    "appearance": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      3,
+      3,
+      3,
+      2,
+      1
+    ],
+    "likes": [
+      "theater",
+      "health",
+      "office"
+    ],
+    "dislikes": [
+      "sports"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_58_samanta",
+    "slot": 58,
+    "name": "@npc.generic_58_samanta",
+    "displayName": "Samanta",
+    "gender": "f",
+    "appearance": [
+      1,
+      3,
+      4,
+      2,
+      4,
+      4,
+      6,
+      4,
+      3,
+      2
+    ],
+    "likes": [
+      "transport",
+      "food",
+      "romance"
+    ],
+    "dislikes": [
+      "politics"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_59_virginia",
+    "slot": 59,
+    "name": "@npc.generic_59_virginia",
+    "displayName": "Virginia",
+    "gender": "f",
+    "appearance": [
+      1,
+      4,
+      5,
+      3,
+      6,
+      5,
+      1,
+      5,
+      4,
+      3
+    ],
+    "likes": [
+      "tourism",
+      "cars",
+      "clubs"
+    ],
+    "dislikes": [
+      "fashion"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_60_kelly",
+    "slot": 60,
+    "name": "@npc.generic_60_kelly",
+    "displayName": "Kelly",
+    "gender": "f",
+    "appearance": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "likes": [
+      "nature",
+      "security",
+      "loitering"
+    ],
+    "dislikes": [
+      "cinema"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_61_jade",
+    "slot": 61,
+    "name": "@npc.generic_61_jade",
+    "displayName": "Jade",
+    "gender": "f",
+    "appearance": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      7,
+      1,
+      1,
+      1
+    ],
+    "likes": [
+      "traffic",
+      "crime",
+      "people"
+    ],
+    "dislikes": [
+      "environment"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_62_maria",
+    "slot": 62,
+    "name": "@npc.generic_62_maria",
+    "displayName": "Maria",
+    "gender": "f",
+    "appearance": [
+      1,
+      2,
+      2,
+      2,
+      4,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "likes": [
+      "shopping",
+      "culture",
+      "celebrities"
+    ],
+    "dislikes": [
+      "music"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_63_emily",
+    "slot": 63,
+    "name": "@npc.generic_63_emily",
+    "displayName": "Emily",
+    "gender": "f",
+    "appearance": [
+      1,
+      3,
+      3,
+      3,
+      6,
+      3,
+      5,
+      3,
+      3,
+      3
+    ],
+    "likes": [
+      "money",
+      "office",
+      "sports"
+    ],
+    "dislikes": [
+      "weather"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_64_isabella",
+    "slot": 64,
+    "name": "@npc.generic_64_isabella",
+    "displayName": "Isabella",
+    "gender": "f",
+    "appearance": [
+      1,
+      4,
+      4,
+      0,
+      0,
+      4,
+      0,
+      4,
+      4,
+      0
+    ],
+    "likes": [
+      "health",
+      "romance",
+      "politics"
+    ],
+    "dislikes": [
+      "videogames"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_65_madisson",
+    "slot": 65,
+    "name": "@npc.generic_65_madisson",
+    "displayName": "Madisson",
+    "gender": "f",
+    "appearance": [
+      1,
+      0,
+      5,
+      1,
+      2,
+      5,
+      3,
+      5,
+      0,
+      1
+    ],
+    "likes": [
+      "food",
+      "clubs",
+      "fashion"
+    ],
+    "dislikes": [
+      "pets"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_66_emma",
+    "slot": 66,
+    "name": "@npc.generic_66_emma",
+    "displayName": "Emma",
+    "gender": "f",
+    "appearance": [
+      1,
+      1,
+      0,
+      2,
+      4,
+      0,
+      6,
+      0,
+      1,
+      2
+    ],
+    "likes": [
+      "cars",
+      "loitering",
+      "cinema"
+    ],
+    "dislikes": [
+      "technology"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_67_sophia",
+    "slot": 67,
+    "name": "@npc.generic_67_sophia",
+    "displayName": "Sophia",
+    "gender": "f",
+    "appearance": [
+      1,
+      2,
+      1,
+      3,
+      6,
+      1,
+      1,
+      1,
+      2,
+      3
+    ],
+    "likes": [
+      "security",
+      "people",
+      "environment"
+    ],
+    "dislikes": [
+      "children"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_68_mary",
+    "slot": 68,
+    "name": "@npc.generic_68_mary",
+    "displayName": "Mary",
+    "gender": "f",
+    "appearance": [
+      1,
+      3,
+      2,
+      0,
+      0,
+      2,
+      4,
+      2,
+      3,
+      0
+    ],
+    "likes": [
+      "crime",
+      "celebrities",
+      "music"
+    ],
+    "dislikes": [
+      "marriage"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_69_janice",
+    "slot": 69,
+    "name": "@npc.generic_69_janice",
+    "displayName": "Janice",
+    "gender": "f",
+    "appearance": [
+      1,
+      4,
+      3,
+      1,
+      2,
+      3,
+      7,
+      3,
+      4,
+      1
+    ],
+    "likes": [
+      "culture",
+      "sports",
+      "weather"
+    ],
+    "dislikes": [
+      "family"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_70_may",
+    "slot": 70,
+    "name": "@npc.generic_70_may",
+    "displayName": "May",
+    "gender": "f",
+    "appearance": [
+      1,
+      0,
+      4,
+      2,
+      4,
+      4,
+      2,
+      4,
+      0,
+      2
+    ],
+    "likes": [
+      "office",
+      "politics",
+      "videogames"
+    ],
+    "dislikes": [
+      "art"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_71_rose",
+    "slot": 71,
+    "name": "@npc.generic_71_rose",
+    "displayName": "Rose",
+    "gender": "f",
+    "appearance": [
+      1,
+      1,
+      5,
+      3,
+      6,
+      5,
+      5,
+      5,
+      1,
+      3
+    ],
+    "likes": [
+      "romance",
+      "fashion",
+      "pets"
+    ],
+    "dislikes": [
+      "bars"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_72_chloe",
+    "slot": 72,
+    "name": "@npc.generic_72_chloe",
+    "displayName": "Chloe",
+    "gender": "f",
+    "appearance": [
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    "likes": [
+      "clubs",
+      "cinema",
+      "technology"
+    ],
+    "dislikes": [
+      "philosophy"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_73_anne",
+    "slot": 73,
+    "name": "@npc.generic_73_anne",
+    "displayName": "Anne",
+    "gender": "f",
+    "appearance": [
+      1,
+      3,
+      1,
+      1,
+      2,
+      1,
+      3,
+      1,
+      3,
+      1
+    ],
+    "likes": [
+      "loitering",
+      "environment",
+      "children"
+    ],
+    "dislikes": [
+      "business"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_74_jenny",
+    "slot": 74,
+    "name": "@npc.generic_74_jenny",
+    "displayName": "Jenny",
+    "gender": "f",
+    "appearance": [
+      1,
+      4,
+      2,
+      2,
+      4,
+      2,
+      6,
+      2,
+      4,
+      2
+    ],
+    "likes": [
+      "people",
+      "music",
+      "marriage"
+    ],
+    "dislikes": [
+      "subway"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_75_barbara",
+    "slot": 75,
+    "name": "@npc.generic_75_barbara",
+    "displayName": "Barbara",
+    "gender": "f",
+    "appearance": [
+      1,
+      0,
+      3,
+      3,
+      6,
+      3,
+      1,
+      3,
+      0,
+      3
+    ],
+    "likes": [
+      "celebrities",
+      "weather",
+      "family"
+    ],
+    "dislikes": [
+      "television"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_76_linda",
+    "slot": 76,
+    "name": "@npc.generic_76_linda",
+    "displayName": "Linda",
+    "gender": "f",
+    "appearance": [
+      1,
+      1,
+      4,
+      0,
+      0,
+      4,
+      4,
+      4,
+      1,
+      0
+    ],
+    "likes": [
+      "sports",
+      "videogames",
+      "art"
+    ],
+    "dislikes": [
+      "theater"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_77_helen",
+    "slot": 77,
+    "name": "@npc.generic_77_helen",
+    "displayName": "Helen",
+    "gender": "f",
+    "appearance": [
+      1,
+      2,
+      5,
+      1,
+      2,
+      5,
+      7,
+      5,
+      2,
+      1
+    ],
+    "likes": [
+      "politics",
+      "pets",
+      "bars"
+    ],
+    "dislikes": [
+      "transport"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_78_sarah",
+    "slot": 78,
+    "name": "@npc.generic_78_sarah",
+    "displayName": "Sarah",
+    "gender": "f",
+    "appearance": [
+      1,
+      3,
+      0,
+      2,
+      4,
+      0,
+      2,
+      0,
+      3,
+      2
+    ],
+    "likes": [
+      "fashion",
+      "technology",
+      "philosophy"
+    ],
+    "dislikes": [
+      "tourism"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_79_cristina",
+    "slot": 79,
+    "name": "@npc.generic_79_cristina",
+    "displayName": "Cristina",
+    "gender": "f",
+    "appearance": [
+      1,
+      4,
+      1,
+      3,
+      6,
+      1,
+      5,
+      1,
+      4,
+      3
+    ],
+    "likes": [
+      "cinema",
+      "children",
+      "business"
+    ],
+    "dislikes": [
+      "nature"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_80_gloria",
+    "slot": 80,
+    "name": "@npc.generic_80_gloria",
+    "displayName": "Gloria",
+    "gender": "f",
+    "appearance": [
+      1,
+      0,
+      2,
+      0,
+      0,
+      2,
+      0,
+      2,
+      0,
+      0
+    ],
+    "likes": [
+      "environment",
+      "marriage",
+      "subway"
+    ],
+    "dislikes": [
+      "traffic"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_81_karen",
+    "slot": 81,
+    "name": "@npc.generic_81_karen",
+    "displayName": "Karen",
+    "gender": "f",
+    "appearance": [
+      1,
+      1,
+      3,
+      1,
+      2,
+      3,
+      3,
+      3,
+      1,
+      1
+    ],
+    "likes": [
+      "music",
+      "family",
+      "television"
+    ],
+    "dislikes": [
+      "shopping"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_82_liz",
+    "slot": 82,
+    "name": "@npc.generic_82_liz",
+    "displayName": "Liz",
+    "gender": "f",
+    "appearance": [
+      1,
+      2,
+      4,
+      2,
+      4,
+      4,
+      6,
+      4,
+      2,
+      2
+    ],
+    "likes": [
+      "weather",
+      "art",
+      "theater"
+    ],
+    "dislikes": [
+      "money"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  },
+  {
+    "id": "generic_83_ava",
+    "slot": 83,
+    "name": "@npc.generic_83_ava",
+    "displayName": "Ava",
+    "gender": "f",
+    "appearance": [
+      1,
+      3,
+      5,
+      3,
+      6,
+      5,
+      1,
+      5,
+      3,
+      3
+    ],
+    "likes": [
+      "videogames",
+      "bars",
+      "transport"
+    ],
+    "dislikes": [
+      "health"
+    ],
+    "initial": {
+      "friendship": 0,
+      "romance": 0,
+      "mood": 50
+    },
+    "schedule": "generic_wander",
+    "greetings": "@greet.default",
+    "dateable": true,
+    "roommateable": false,
+    "essential": false,
+    "generic": true
+  }
+]

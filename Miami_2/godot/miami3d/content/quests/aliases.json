@@ -1,0 +1,9 @@
+{
+  "id": "quest_aliases",
+  "map": {
+    "q013_landlord_friend": "q_landlord",
+    "q017_know_apartment": "q_landlord",
+    "q028_gnomes": "q_gnomes",
+    "q097_gnome_reward": "q_gnomes"
+  }
+}

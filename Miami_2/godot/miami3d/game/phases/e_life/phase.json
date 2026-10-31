@@ -1,0 +1,15 @@
+{
+  "id": "e",
+  "title": "Vida social",
+  "locations": [
+    "little_havana",
+    "ocean_drive",
+    "coconut_grove",
+    "lounge",
+    "beauty_clinic",
+    "cuban_cafe"
+  ],
+  "systems": ["dating", "home_tiers", "furniture_shop", "gnomes", "pets", "surgery"],
+  "aliases": { "beauty_salon": "beauty_clinic" },
+  "ready_when": "namoro, colega de quarto, decorar casa, achar anões, ter um pet"
+}

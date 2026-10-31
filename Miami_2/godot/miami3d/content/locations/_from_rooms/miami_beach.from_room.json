@@ -1,0 +1,1620 @@
+{
+  "id": "miami_beach",
+  "name": "@loc.miami_beach",
+  "region": "downtown",
+  "scene": "res://game/world/locations/_generated/room_21.tscn",
+  "indoor": false,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "downtown_day",
+  "grid": {
+    "width": 39,
+    "height": 38
+  },
+  "spawn": {
+    "cell": [
+      5,
+      19
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        5,
+        19
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      1,
+      1,
+      30,
+      1
+    ],
+    [
+      1,
+      2,
+      20,
+      1
+    ],
+    [
+      27,
+      2,
+      4,
+      1
+    ],
+    [
+      1,
+      3,
+      20,
+      1
+    ],
+    [
+      28,
+      3,
+      3,
+      1
+    ],
+    [
+      1,
+      4,
+      2,
+      1
+    ],
+    [
+      10,
+      4,
+      11,
+      1
+    ],
+    [
+      28,
+      4,
+      3,
+      1
+    ],
+    [
+      1,
+      5,
+      2,
+      1
+    ],
+    [
+      5,
+      5,
+      4,
+      1
+    ],
+    [
+      11,
+      5,
+      8,
+      1
+    ],
+    [
+      28,
+      5,
+      3,
+      1
+    ],
+    [
+      1,
+      6,
+      2,
+      1
+    ],
+    [
+      5,
+      6,
+      5,
+      1
+    ],
+    [
+      11,
+      6,
+      8,
+      1
+    ],
+    [
+      28,
+      6,
+      3,
+      1
+    ],
+    [
+      1,
+      7,
+      2,
+      1
+    ],
+    [
+      5,
+      7,
+      5,
+      1
+    ],
+    [
+      11,
+      7,
+      8,
+      1
+    ],
+    [
+      28,
+      7,
+      3,
+      1
+    ],
+    [
+      1,
+      8,
+      2,
+      1
+    ],
+    [
+      5,
+      8,
+      5,
+      1
+    ],
+    [
+      12,
+      8,
+      6,
+      1
+    ],
+    [
+      28,
+      8,
+      3,
+      1
+    ],
+    [
+      1,
+      9,
+      2,
+      1
+    ],
+    [
+      5,
+      9,
+      5,
+      1
+    ],
+    [
+      13,
+      9,
+      5,
+      1
+    ],
+    [
+      28,
+      9,
+      3,
+      1
+    ],
+    [
+      1,
+      10,
+      2,
+      1
+    ],
+    [
+      6,
+      10,
+      4,
+      1
+    ],
+    [
+      14,
+      10,
+      4,
+      1
+    ],
+    [
+      28,
+      10,
+      3,
+      1
+    ],
+    [
+      1,
+      11,
+      1,
+      1
+    ],
+    [
+      15,
+      11,
+      9,
+      1
+    ],
+    [
+      26,
+      11,
+      5,
+      1
+    ],
+    [
+      1,
+      12,
+      1,
+      1
+    ],
+    [
+      16,
+      12,
+      8,
+      1
+    ],
+    [
+      26,
+      12,
+      5,
+      1
+    ],
+    [
+      1,
+      13,
+      1,
+      1
+    ],
+    [
+      28,
+      13,
+      3,
+      1
+    ],
+    [
+      1,
+      14,
+      1,
+      1
+    ],
+    [
+      28,
+      14,
+      3,
+      1
+    ],
+    [
+      1,
+      15,
+      1,
+      1
+    ],
+    [
+      5,
+      15,
+      27,
+      1
+    ],
+    [
+      1,
+      16,
+      1,
+      1
+    ],
+    [
+      5,
+      16,
+      27,
+      1
+    ],
+    [
+      1,
+      17,
+      1,
+      1
+    ],
+    [
+      6,
+      17,
+      13,
+      1
+    ],
+    [
+      1,
+      18,
+      2,
+      1
+    ],
+    [
+      6,
+      18,
+      14,
+      1
+    ],
+    [
+      1,
+      19,
+      2,
+      1
+    ],
+    [
+      7,
+      19,
+      13,
+      1
+    ],
+    [
+      2,
+      20,
+      2,
+      1
+    ],
+    [
+      7,
+      20,
+      13,
+      1
+    ],
+    [
+      29,
+      20,
+      9,
+      1
+    ],
+    [
+      2,
+      21,
+      2,
+      1
+    ],
+    [
+      8,
+      21,
+      12,
+      1
+    ],
+    [
+      21,
+      21,
+      17,
+      1
+    ],
+    [
+      3,
+      22,
+      2,
+      1
+    ],
+    [
+      8,
+      22,
+      2,
+      1
+    ],
+    [
+      18,
+      22,
+      2,
+      1
+    ],
+    [
+      21,
+      22,
+      9,
+      1
+    ],
+    [
+      34,
+      22,
+      3,
+      1
+    ],
+    [
+      3,
+      23,
+      2,
+      1
+    ],
+    [
+      11,
+      23,
+      4,
+      1
+    ],
+    [
+      18,
+      23,
+      2,
+      1
+    ],
+    [
+      21,
+      23,
+      8,
+      1
+    ],
+    [
+      35,
+      23,
+      2,
+      1
+    ],
+    [
+      3,
+      24,
+      2,
+      1
+    ],
+    [
+      11,
+      24,
+      4,
+      1
+    ],
+    [
+      18,
+      24,
+      2,
+      1
+    ],
+    [
+      21,
+      24,
+      8,
+      1
+    ],
+    [
+      35,
+      24,
+      2,
+      1
+    ],
+    [
+      3,
+      25,
+      2,
+      1
+    ],
+    [
+      11,
+      25,
+      4,
+      1
+    ],
+    [
+      18,
+      25,
+      2,
+      1
+    ],
+    [
+      21,
+      25,
+      8,
+      1
+    ],
+    [
+      35,
+      25,
+      2,
+      1
+    ],
+    [
+      3,
+      26,
+      2,
+      1
+    ],
+    [
+      18,
+      26,
+      2,
+      1
+    ],
+    [
+      21,
+      26,
+      8,
+      1
+    ],
+    [
+      35,
+      26,
+      2,
+      1
+    ],
+    [
+      3,
+      27,
+      2,
+      1
+    ],
+    [
+      10,
+      27,
+      6,
+      1
+    ],
+    [
+      18,
+      27,
+      11,
+      1
+    ],
+    [
+      35,
+      27,
+      2,
+      1
+    ],
+    [
+      3,
+      28,
+      2,
+      1
+    ],
+    [
+      10,
+      28,
+      6,
+      1
+    ],
+    [
+      19,
+      28,
+      7,
+      1
+    ],
+    [
+      35,
+      28,
+      2,
+      1
+    ],
+    [
+      3,
+      29,
+      2,
+      1
+    ],
+    [
+      10,
+      29,
+      6,
+      1
+    ],
+    [
+      21,
+      29,
+      5,
+      1
+    ],
+    [
+      30,
+      29,
+      3,
+      1
+    ],
+    [
+      35,
+      29,
+      2,
+      1
+    ],
+    [
+      3,
+      30,
+      2,
+      1
+    ],
+    [
+      23,
+      30,
+      3,
+      1
+    ],
+    [
+      30,
+      30,
+      3,
+      1
+    ],
+    [
+      35,
+      30,
+      2,
+      1
+    ],
+    [
+      3,
+      31,
+      2,
+      1
+    ],
+    [
+      30,
+      31,
+      3,
+      1
+    ],
+    [
+      35,
+      31,
+      2,
+      1
+    ],
+    [
+      3,
+      32,
+      17,
+      1
+    ],
+    [
+      30,
+      32,
+      3,
+      1
+    ],
+    [
+      35,
+      32,
+      2,
+      1
+    ],
+    [
+      3,
+      33,
+      19,
+      1
+    ],
+    [
+      30,
+      33,
+      3,
+      1
+    ],
+    [
+      35,
+      33,
+      2,
+      1
+    ],
+    [
+      19,
+      34,
+      5,
+      1
+    ],
+    [
+      35,
+      34,
+      2,
+      1
+    ],
+    [
+      22,
+      35,
+      15,
+      1
+    ],
+    [
+      24,
+      36,
+      13,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "zone_202",
+      "rect": [
+        20,
+        22,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_203",
+      "rect": [
+        22,
+        22,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_204",
+      "rect": [
+        3,
+        19,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_207",
+      "rect": [
+        15,
+        11,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_208",
+      "rect": [
+        21,
+        28,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_209",
+      "rect": [
+        20,
+        27,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_210",
+      "rect": [
+        13,
+        14,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_211",
+      "rect": [
+        13,
+        27,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_212",
+      "rect": [
+        13,
+        11,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_213",
+      "rect": [
+        27,
+        17,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_214",
+      "rect": [
+        11,
+        13,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_215",
+      "rect": [
+        16,
+        34,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_216",
+      "rect": [
+        15,
+        31,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_217",
+      "rect": [
+        10,
+        20,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_218",
+      "rect": [
+        6,
+        22,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_219",
+      "rect": [
+        22,
+        18,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_220",
+      "rect": [
+        10,
+        23,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_221",
+      "rect": [
+        24,
+        17,
+        2,
+        2
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj_281",
+      "template": "prop_generic",
+      "cell": [
+        23,
+        28
+      ],
+      "legacyId": 281
+    },
+    {
+      "id": "obj_261",
+      "template": "prop_generic",
+      "cell": [
+        12,
+        9
+      ],
+      "legacyId": 261
+    },
+    {
+      "id": "obj_136",
+      "template": "prop_generic",
+      "cell": [
+        16,
+        6
+      ],
+      "legacyId": 136
+    },
+    {
+      "id": "obj_133",
+      "template": "prop_generic",
+      "cell": [
+        20,
+        7
+      ],
+      "legacyId": 133
+    },
+    {
+      "id": "obj_134",
+      "template": "prop_generic",
+      "cell": [
+        21,
+        8
+      ],
+      "legacyId": 134
+    },
+    {
+      "id": "obj_135",
+      "template": "prop_generic",
+      "cell": [
+        23,
+        9
+      ],
+      "legacyId": 135
+    },
+    {
+      "id": "obj_131",
+      "template": "prop_generic",
+      "cell": [
+        14,
+        10
+      ],
+      "legacyId": 131
+    },
+    {
+      "id": "obj_178",
+      "template": "prop_generic",
+      "cell": [
+        19,
+        11
+      ],
+      "legacyId": 178
+    },
+    {
+      "id": "obj_306",
+      "template": "prop_generic",
+      "cell": [
+        10,
+        20
+      ],
+      "legacyId": 306
+    },
+    {
+      "id": "obj_64",
+      "template": "prop_generic",
+      "cell": [
+        13,
+        27
+      ],
+      "legacyId": 64
+    },
+    {
+      "id": "obj_313",
+      "template": "prop_generic",
+      "cell": [
+        11,
+        31
+      ],
+      "legacyId": 313
+    },
+    {
+      "id": "obj_122",
+      "template": "prop_generic",
+      "cell": [
+        16,
+        15
+      ],
+      "legacyId": 122
+    },
+    {
+      "id": "obj_130",
+      "template": "prop_generic",
+      "cell": [
+        11,
+        12
+      ],
+      "legacyId": 130
+    },
+    {
+      "id": "obj_132",
+      "template": "prop_generic",
+      "cell": [
+        12,
+        13
+      ],
+      "legacyId": 132
+    },
+    {
+      "id": "obj_176",
+      "template": "prop_generic",
+      "cell": [
+        15,
+        15
+      ],
+      "legacyId": 176
+    },
+    {
+      "id": "obj_129",
+      "template": "prop_generic",
+      "cell": [
+        16,
+        8
+      ],
+      "legacyId": 129
+    },
+    {
+      "id": "obj_160",
+      "template": "prop_generic",
+      "cell": [
+        26,
+        25
+      ],
+      "legacyId": 160
+    },
+    {
+      "id": "obj_159",
+      "template": "prop_generic",
+      "cell": [
+        24,
+        24
+      ],
+      "legacyId": 159
+    },
+    {
+      "id": "obj_161",
+      "template": "prop_generic",
+      "cell": [
+        22,
+        22
+      ],
+      "legacyId": 161
+    },
+    {
+      "id": "obj_162",
+      "template": "prop_generic",
+      "cell": [
+        20,
+        21
+      ],
+      "legacyId": 162
+    },
+    {
+      "id": "obj_163",
+      "template": "prop_generic",
+      "cell": [
+        18,
+        20
+      ],
+      "legacyId": 163
+    },
+    {
+      "id": "obj_164",
+      "template": "prop_generic",
+      "cell": [
+        16,
+        19
+      ],
+      "legacyId": 164
+    },
+    {
+      "id": "obj_165",
+      "template": "prop_generic",
+      "cell": [
+        14,
+        17
+      ],
+      "legacyId": 165
+    },
+    {
+      "id": "obj_167",
+      "template": "prop_generic",
+      "cell": [
+        13,
+        17
+      ],
+      "legacyId": 167
+    },
+    {
+      "id": "obj_166",
+      "template": "prop_generic",
+      "cell": [
+        10,
+        18
+      ],
+      "legacyId": 166
+    },
+    {
+      "id": "obj_168",
+      "template": "prop_generic",
+      "cell": [
+        9,
+        20
+      ],
+      "legacyId": 168
+    },
+    {
+      "id": "obj_302",
+      "template": "prop_generic",
+      "cell": [
+        20,
+        19
+      ],
+      "legacyId": 302
+    },
+    {
+      "id": "obj_296",
+      "template": "prop_generic",
+      "cell": [
+        23,
+        17
+      ],
+      "legacyId": 296
+    },
+    {
+      "id": "obj_294",
+      "template": "prop_generic",
+      "cell": [
+        29,
+        17
+      ],
+      "legacyId": 294
+    },
+    {
+      "id": "obj_295",
+      "template": "prop_generic",
+      "cell": [
+        32,
+        19
+      ],
+      "legacyId": 295
+    },
+    {
+      "id": "obj_298",
+      "template": "prop_generic",
+      "cell": [
+        36,
+        21
+      ],
+      "legacyId": 298
+    },
+    {
+      "id": "obj_297",
+      "template": "prop_generic",
+      "cell": [
+        32,
+        12
+      ],
+      "legacyId": 297
+    },
+    {
+      "id": "obj_308",
+      "template": "prop_generic",
+      "cell": [
+        38,
+        16
+      ],
+      "legacyId": 308
+    },
+    {
+      "id": "obj_309",
+      "template": "prop_generic",
+      "cell": [
+        20,
+        13
+      ],
+      "legacyId": 309
+    },
+    {
+      "id": "obj_124",
+      "template": "prop_generic",
+      "cell": [
+        20,
+        13
+      ],
+      "legacyId": 124
+    },
+    {
+      "id": "obj_8",
+      "template": "prop_generic",
+      "cell": [
+        30,
+        14
+      ],
+      "legacyId": 8
+    },
+    {
+      "id": "obj_207",
+      "template": "prop_generic",
+      "cell": [
+        31,
+        16
+      ],
+      "legacyId": 207
+    },
+    {
+      "id": "obj_143",
+      "template": "prop_generic",
+      "cell": [
+        23,
+        14
+      ],
+      "legacyId": 143
+    },
+    {
+      "id": "obj_204",
+      "template": "prop_generic",
+      "cell": [
+        24,
+        21
+      ],
+      "legacyId": 204
+    },
+    {
+      "id": "obj_203",
+      "template": "prop_generic",
+      "cell": [
+        27,
+        23
+      ],
+      "legacyId": 203
+    },
+    {
+      "id": "obj_17",
+      "template": "prop_generic",
+      "cell": [
+        34,
+        28
+      ],
+      "legacyId": 17
+    },
+    {
+      "id": "obj_214",
+      "template": "prop_generic",
+      "cell": [
+        27,
+        23
+      ],
+      "legacyId": 214
+    },
+    {
+      "id": "obj_18",
+      "template": "prop_generic",
+      "cell": [
+        34,
+        28
+      ],
+      "legacyId": 18
+    },
+    {
+      "id": "obj_213",
+      "template": "prop_generic",
+      "cell": [
+        25,
+        23
+      ],
+      "legacyId": 213
+    },
+    {
+      "id": "obj_251",
+      "template": "prop_generic",
+      "cell": [
+        27,
+        24
+      ],
+      "legacyId": 251
+    },
+    {
+      "id": "obj_19",
+      "template": "prop_generic",
+      "cell": [
+        27,
+        25
+      ],
+      "legacyId": 19
+    },
+    {
+      "id": "obj_142",
+      "template": "prop_generic",
+      "cell": [
+        29,
+        21
+      ],
+      "legacyId": 142
+    },
+    {
+      "id": "obj_21",
+      "template": "prop_generic",
+      "cell": [
+        29,
+        23
+      ],
+      "legacyId": 21
+    },
+    {
+      "id": "obj_22",
+      "template": "prop_generic",
+      "cell": [
+        30,
+        21
+      ],
+      "legacyId": 22
+    },
+    {
+      "id": "obj_23",
+      "template": "prop_generic",
+      "cell": [
+        31,
+        21
+      ],
+      "legacyId": 23
+    },
+    {
+      "id": "obj_24",
+      "template": "prop_generic",
+      "cell": [
+        31,
+        22
+      ],
+      "legacyId": 24
+    },
+    {
+      "id": "obj_153",
+      "template": "prop_generic",
+      "cell": [
+        16,
+        22
+      ],
+      "legacyId": 153
+    },
+    {
+      "id": "obj_12",
+      "template": "prop_generic",
+      "cell": [
+        18,
+        35
+      ],
+      "legacyId": 12
+    },
+    {
+      "id": "obj_184",
+      "template": "prop_generic",
+      "cell": [
+        4,
+        19
+      ],
+      "legacyId": 184
+    },
+    {
+      "id": "obj_120",
+      "template": "prop_generic",
+      "cell": [
+        2,
+        19
+      ],
+      "legacyId": 120
+    },
+    {
+      "id": "obj_121",
+      "template": "prop_generic",
+      "cell": [
+        7,
+        12
+      ],
+      "legacyId": 121
+    },
+    {
+      "id": "obj_197",
+      "template": "prop_generic",
+      "cell": [
+        9,
+        11
+      ],
+      "legacyId": 197
+    },
+    {
+      "id": "obj_3",
+      "template": "prop_generic",
+      "cell": [
+        11,
+        22
+      ],
+      "legacyId": 3
+    },
+    {
+      "id": "obj_171",
+      "template": "prop_generic",
+      "cell": [
+        13,
+        25
+      ],
+      "legacyId": 171
+    },
+    {
+      "id": "obj_169",
+      "template": "prop_generic",
+      "cell": [
+        14,
+        24
+      ],
+      "legacyId": 169
+    },
+    {
+      "id": "obj_172",
+      "template": "prop_generic",
+      "cell": [
+        15,
+        23
+      ],
+      "legacyId": 172
+    },
+    {
+      "id": "obj_173",
+      "template": "prop_generic",
+      "cell": [
+        13,
+        27
+      ],
+      "legacyId": 173
+    },
+    {
+      "id": "obj_174",
+      "template": "prop_generic",
+      "cell": [
+        14,
+        28
+      ],
+      "legacyId": 174
+    },
+    {
+      "id": "obj_69",
+      "template": "prop_generic",
+      "cell": [
+        18,
+        23
+      ],
+      "legacyId": 69
+    },
+    {
+      "id": "obj_70",
+      "template": "prop_generic",
+      "cell": [
+        19,
+        24
+      ],
+      "legacyId": 70
+    },
+    {
+      "id": "obj_71",
+      "template": "prop_generic",
+      "cell": [
+        20,
+        24
+      ],
+      "legacyId": 71
+    },
+    {
+      "id": "obj_73",
+      "template": "prop_generic",
+      "cell": [
+        16,
+        32
+      ],
+      "legacyId": 73
+    },
+    {
+      "id": "obj_15",
+      "template": "prop_generic",
+      "cell": [
+        16,
+        31
+      ],
+      "legacyId": 15
+    },
+    {
+      "id": "obj_16",
+      "template": "prop_generic",
+      "cell": [
+        16,
+        32
+      ],
+      "legacyId": 16
+    },
+    {
+      "id": "obj_9",
+      "template": "prop_generic",
+      "cell": [
+        18,
+        23
+      ],
+      "legacyId": 9
+    },
+    {
+      "id": "obj_10",
+      "template": "prop_generic",
+      "cell": [
+        19,
+        23
+      ],
+      "legacyId": 10
+    },
+    {
+      "id": "obj_11",
+      "template": "prop_generic",
+      "cell": [
+        20,
+        24
+      ],
+      "legacyId": 11
+    },
+    {
+      "id": "obj_119",
+      "template": "prop_generic",
+      "cell": [
+        21,
+        31
+      ],
+      "legacyId": 119
+    },
+    {
+      "id": "obj_25",
+      "template": "prop_generic",
+      "cell": [
+        19,
+        36
+      ],
+      "legacyId": 25
+    },
+    {
+      "id": "obj_29",
+      "template": "prop_generic",
+      "cell": [
+        17,
+        36
+      ],
+      "legacyId": 29
+    },
+    {
+      "id": "obj_30",
+      "template": "prop_generic",
+      "cell": [
+        15,
+        35
+      ],
+      "legacyId": 30
+    },
+    {
+      "id": "obj_31",
+      "template": "prop_generic",
+      "cell": [
+        13,
+        33
+      ],
+      "legacyId": 31
+    },
+    {
+      "id": "obj_32",
+      "template": "prop_generic",
+      "cell": [
+        11,
+        32
+      ],
+      "legacyId": 32
+    },
+    {
+      "id": "obj_179",
+      "template": "prop_generic",
+      "cell": [
+        11,
+        31
+      ],
+      "legacyId": 179
+    },
+    {
+      "id": "obj_180",
+      "template": "prop_generic",
+      "cell": [
+        10,
+        30
+      ],
+      "legacyId": 180
+    }
+  ],
+  "npcs": [
+    {
+      "generic": true,
+      "count": 1
+    }
+  ],
+  "triggers": [],
+  "sourceRoom": 21,
+  "generatedBy": "room_to_godot.py"
+}

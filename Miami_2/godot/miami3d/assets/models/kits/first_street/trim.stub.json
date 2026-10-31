@@ -1,0 +1,6 @@
+{
+  "id": "first_street_trim",
+  "mesh": "res://assets/models/kits/first_street/trim.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

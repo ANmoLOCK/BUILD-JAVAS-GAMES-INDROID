@@ -1,0 +1,86 @@
+[0] *cof-cof* Você tá parecendo um mendigo. Aham...
+[1] Você devia comprar umas roupas que eu, Ceviche, desenho (suspirando). Você vai parecer gente que anda no tapete vermelho. *cof-cof*
+[2] \mCara\m\fGarota\f, eu não sei porque \mtantas garotas\m\ftantos caras\f de Miami estão olhando pra mim!]Eu devo ter ficado \mfamoso\m\ffamosa\f depois daquela aventura canina.
+[3] ...
+[4] Você sabe que eu tenho razão! Sou uma pessoa maravilhosa, charmosa e não tenho p... p... problema em ficar com qualquer pessoa que eu quiser.
+[5] Ah! Você conseguiu descobrir algo sobre \ma Heather\m\fo Dean\f?
+[6] \v1Eu vi seu rosto de anjo de novo na clínica.\v1\v600Acabei de ver seu rosto de anjo de novo, bem aqui!\v600
+[7] \mEla\m\fEle\f está \mgorda\m\fgordo\f e numa cadeira de rodas.
+[8] Ah, \mcara\m\fgarota\f... ao menos eu terei uma ótima noite.
+[9] Sério? Não, não. Tudo bem. Eu não ligo pra nada disso. Eu só queria mesmo \mvê-la\m\fvê-lo\f.]Sabe de uma coisa...?
+[10] Nós três deveríamos nos encontrar. Você tá dentro?
+[11] Claro, se você prometer que vai ficar longe de confusão.
+[12] Eu não sei...
+[13] Sério? Ok, legal!]Bem, tenho que voltar para um outro encontro. Te vejo mais tarde.
+[14] Ah, sério? Por mim?
+[15] Ok.
+[16] Hmmm... por você... Acho que não!
+[17] Bacana! Bem, tenho que voltar para o meu encontro. Até mais.
+[18] Ugh, você é um porre. Com certeza eu faria isso por você.
+[19] \x, estou tão feliz por te encontrar!
+[20] Escuta, \mquerido\m\fquerida\f, eu tenho uma oportunidade muito interessante para te tirar da sua vida ordinária.
+[21] Você já ouviu falar no \p2Galeão Espanhol perdido\p1?
+[22] Tem um velho marinheiro em Miami chamado \p2Sanchez\p1 que parece ser a última pessoa viva que sabe algo sobre esse navio.]Preciso que você descubra o que ele sabe.]Estou te contando isso porque sei que agora você é bem popular entre as pessoas locais.
+[23] \mBye\m\fTchau, baby\f.
+[24] Você está bloqueando \v1o meu sol\v1\v600a minha vista\v600.
+[25] Você veio se encontrar com \ma Heather\m\fo Dean\f? \mEla\m\fEle\f está lá dentro.
+[26] Grrrrr... AU! AU!!!
+[27] Oh! Você se lembra dele, meu pequeno Westwood na South Beach. Ele é tão adorável, não é mesmo?
+[28] Diga olá para o Westwood.
+[29] Dê uma vitamina para Westwood.
+[30] Grrrrr!
+[31] Ohhhh!!! Westwood, senta!
+[32] O que você fez com o meu cachorro, \mseu\m\fsua\f come-e-dorme miserável?!
+[33] *COF COF* *BAHHH*
+[34] Westwood? Westwood?!
+[35] O que você fez com o meu filhotinho, \mseu\m\fsua\f debiloide?!
+[36] Sinto muito. \mMinha nossa\m\fHmm\f, talvez devêssemos deixar o jantar pra outro dia.
+[37] Você se assustou?]Nossa, deve ter se assustado!
+[38] \mHeather\m\fDean\f, pegue esses ingressos para o nosso próximo jogo de futebol americano.]Traga \mseu novo amigo, coitado\m\fsua nova amiga, coitada\f!
+[39] \mDanny\m\fAmy\f é tão amável.]\mEle\m\fEla\f é mesmo um bom partido, \mHeather\m\fDean\f... e a Tia Beatrice sabe o que está dizendo. 
+[40] \x, você está bem?
+[41] Sim, estou. Quando estou com você, tudo fica bem.
+[42] O que você deu de café da manhã para esse vira-lata? Comida de advogado?
+[43] \v1Você é \mtão lindo\m\ftão linda\f! \v1Sinto muito.]\v1Escuta, eu te ligo antes do jogo de futebol, ok?\v1\v600Escuta, eu te ligo uma outra hora para marcar um jantar, ok? Beatrice está muito chateada agora...\v600
+[44] \v1Ele é tão fofinho! Sinto muito.]Westwood te pegou mesmo, não foi?]\v1Escuta, eu te ligo antes do jogo de futebol, ok?\v1\v600Escuta, eu te ligo uma outra hora para marcar um jantar, ok? Beatrice está muito chateada agora...\v600
+[45] E aí, \x!!!!
+[46] O que está fazendo, \mcara\m\fgarota\f? \v1Brincando com o cachorro?\v1\v600O que é isso?! Uma mordida de cachorro?\v600 
+[47] Ei, ei, ei! Dá uma olhada nas minhas rodas novas! Bacana, né?
+[48] Muito.
+[49] Se você gosta desse tipo de coisa...
+[50] Pode até aquecer os assentos para noites mais frias.
+[51] Eu sei que é um pouco demais, mas quando você tem um assim, tem que contar pra todo mundo! Haha.
+[52] Ei, você tem notícias \mda Heather\m\fdo Dean\f?
+[53] Esqueci de avisá-\mla\m\flo\f sobre a nossa festinha.
+[54] \mEla\m\fEla\f está namorando \maquele jogador de futebol estúpido\m\faquela cheerleader estúpida\f. 
+[55] Sério?
+[56] Bem... é mesmo uma pena.
+[57] Bom, que seja.]Olha, eu conheço pessoas importantes aqui.]Deixe \mseu amigo\m\fsua amiga\f aqui te arrumar um emprego.
+[58] Conheço gente que está procurando \magenciador\m\fagenciadora\f de modelos\v1, DJ\v1 e detetive particular. Por qual desses você se interessa?
+[59] \mAgenciador\m\fAgenciadora\f de Modelos
+[60] Jornalista
+[61] DJ
+[62] Detetive Particular
+[63] Encontre Mortadella Ceviche \p2\v1em Coconut Grove\v1\v600na Ocean Drive\v600\p1. Ela é difícil, mas acho que você vai curtir o trabalho. Boa sorte!
+[64] Beleza. Encontre a Opal Wintery no escritório da Miami Newsbeat em \p2Downtown\p1.]Ela é a Editora Chefe. Boa sorte!
+[65] Beleza!]Encontre a Charm no \p2Glight Club\p1. Ela é a dona de uma boate famosa em \p2Downtown\p1.]Boa sorte!
+[66] É isso aí!]Vá até \v1\p2o Restaurante Yuca\p1 em Little Havana\v1\v600\p2a Ocean Drive\p1\v600 e fale com o Hal Pachinko.]Ele é o chefão lá. Boa sorte!
+[67] Parar é ruim! Você parou de tomar vitaminas! Quer voltar a tomar umas vitaminas?
+[68] Quero.
+[69] Não.
+[70] Como você pode ser tão idiota?]Eles andam como um saci!
+[71] Você não pode colocar essas múmias no tapete vermelho!
+[72] Mas elas têm um jeito de andar único.
+[73] Eu deveria te demitir!]A gente perde dinheiro com gente assim!
+[74] Você! Você sabe desfilar?
+[75] Esquece!]Está procurando um emprego? Você me faria um favor?
+[76] Ache pra mim uma garota e um cara bonitos, ambos em \p2traje de banho\p1.
+[77] E não me enerve senão vou mandar um crocodilo te atacar!
+[78] Preciso de \p2DOIS\p1, \x! \p2D-O-I-S\p1 modelos!]Ache pra mim uma garota e um cara bonitos com \p2trajes de banho\p1.
+[79] Hmmm... Sim.... Sim...... Eu gostei. Bom trabalho, \x.
+[80] Agora faça eles andarem como top models.
+[81] E-x-c-e-l-e-n-t-e!!!]Passe de novo aqui para treiná-los, ok?
+[82] Ei, \x! Como vai?
+[83] Ei, o que você está vestindo?
+[84] Ei! Uma gorjeta para esse cara
+[85] Beatrice prepara caranguejos muito bem. Você deveria experimentar, \x.

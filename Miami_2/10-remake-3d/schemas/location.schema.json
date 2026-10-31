@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://miami3d/schemas/location.schema.json",
+  "title": "Location",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "common.schema.json#/$defs/id" },
+    "name": { "$ref": "common.schema.json#/$defs/stringKey" },
+    "region": { "$ref": "common.schema.json#/$defs/id" },
+    "scene": { "type": "string" },
+    "indoor": { "type": "boolean", "default": false },
+    "openHours": { "type": "array", "items": { "type": "number", "minimum": 0, "maximum": 24 }, "minItems": 2, "maxItems": 2, "default": [0, 24] },
+    "music": { "$ref": "common.schema.json#/$defs/id" },
+    "lockedUntil": { "$ref": "common.schema.json#/$defs/id", "description": "flag que desbloqueia o local no mapa" },
+    "grid": {
+      "type": "object",
+      "properties": { "width": { "type": "integer", "minimum": 1 }, "height": { "type": "integer", "minimum": 1 } },
+      "required": ["width", "height"], "additionalProperties": false
+    },
+    "spawn": {
+      "type": "object",
+      "properties": { "cell": { "$ref": "common.schema.json#/$defs/cell" }, "facing": { "$ref": "common.schema.json#/$defs/facing" } },
+      "required": ["cell"]
+    },
+    "spawns": {
+      "type": "object",
+      "additionalProperties": { "type": "object", "properties": { "cell": { "$ref": "common.schema.json#/$defs/cell" }, "facing": { "$ref": "common.schema.json#/$defs/facing" } }, "required": ["cell"] }
+    },
+    "blocked": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/rect" }, "description": "colisão extra além dos footprints" },
+    "npcOnlyBlocked": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/rect" } },
+    "portals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/id" },
+          "cell": { "$ref": "common.schema.json#/$defs/cell" },
+          "rect": { "$ref": "common.schema.json#/$defs/rect" },
+          "to": { "$ref": "common.schema.json#/$defs/id" },
+          "spawn": { "$ref": "common.schema.json#/$defs/id" },
+          "requires": { "$ref": "common.schema.json#/$defs/condition" },
+          "closedMessage": { "$ref": "common.schema.json#/$defs/stringKey" }
+        },
+        "required": ["to"]
+      }
+    },
+    "zones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/id" },
+          "rect": { "$ref": "common.schema.json#/$defs/rect" },
+          "tag": { "type": "string", "enum": ["indoor", "shade", "beach", "water", "dancefloor", "custom"] }
+        },
+        "required": ["rect", "tag"]
+      }
+    },
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/id" },
+          "template": { "$ref": "common.schema.json#/$defs/id" },
+          "cell": { "$ref": "common.schema.json#/$defs/cell" },
+          "facing": { "$ref": "common.schema.json#/$defs/facing" },
+          "color": { "type": "string" },
+          "actions+": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+          "actions-": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/id" } },
+          "hiddenUntil": { "$ref": "common.schema.json#/$defs/id" }
+        },
+        "required": ["id", "template", "cell"]
+      }
+    },
+    "furnitureSlots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "$ref": "common.schema.json#/$defs/id" },
+          "category": { "type": "string" },
+          "cell": { "$ref": "common.schema.json#/$defs/cell" },
+          "facing": { "$ref": "common.schema.json#/$defs/facing" },
+          "default": { "$ref": "common.schema.json#/$defs/id" }
+        },
+        "required": ["id", "category", "cell"]
+      }
+    },
+    "npcs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "npc": { "$ref": "common.schema.json#/$defs/id" },
+          "schedule": { "$ref": "common.schema.json#/$defs/id" },
+          "generic": { "type": "boolean" },
+          "count": { "type": "integer", "minimum": 1 },
+          "area": { "$ref": "common.schema.json#/$defs/rect" }
+        }
+      }
+    },
+    "triggers": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/trigger" } }
+  },
+  "required": ["id", "name", "scene", "grid", "spawn"],
+  "additionalProperties": false
+}

@@ -1,0 +1,188 @@
+{
+  "slot": "shoes",
+  "count": 13,
+  "entries": [
+    {
+      "id": "shoe_m_00",
+      "gender": "m",
+      "variant": 0,
+      "path": "res://assets/models/characters/shoes/shoe_m_00.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_00",
+      "gender": "f",
+      "variant": 0,
+      "path": "res://assets/models/characters/shoes/shoe_f_00.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_01",
+      "gender": "m",
+      "variant": 1,
+      "path": "res://assets/models/characters/shoes/shoe_m_01.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_01",
+      "gender": "f",
+      "variant": 1,
+      "path": "res://assets/models/characters/shoes/shoe_f_01.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_02",
+      "gender": "m",
+      "variant": 2,
+      "path": "res://assets/models/characters/shoes/shoe_m_02.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_02",
+      "gender": "f",
+      "variant": 2,
+      "path": "res://assets/models/characters/shoes/shoe_f_02.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_03",
+      "gender": "m",
+      "variant": 3,
+      "path": "res://assets/models/characters/shoes/shoe_m_03.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_03",
+      "gender": "f",
+      "variant": 3,
+      "path": "res://assets/models/characters/shoes/shoe_f_03.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_04",
+      "gender": "m",
+      "variant": 4,
+      "path": "res://assets/models/characters/shoes/shoe_m_04.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_04",
+      "gender": "f",
+      "variant": 4,
+      "path": "res://assets/models/characters/shoes/shoe_f_04.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_05",
+      "gender": "m",
+      "variant": 5,
+      "path": "res://assets/models/characters/shoes/shoe_m_05.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_05",
+      "gender": "f",
+      "variant": 5,
+      "path": "res://assets/models/characters/shoes/shoe_f_05.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_06",
+      "gender": "m",
+      "variant": 6,
+      "path": "res://assets/models/characters/shoes/shoe_m_06.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_06",
+      "gender": "f",
+      "variant": 6,
+      "path": "res://assets/models/characters/shoes/shoe_f_06.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_07",
+      "gender": "m",
+      "variant": 7,
+      "path": "res://assets/models/characters/shoes/shoe_m_07.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_07",
+      "gender": "f",
+      "variant": 7,
+      "path": "res://assets/models/characters/shoes/shoe_f_07.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_08",
+      "gender": "m",
+      "variant": 8,
+      "path": "res://assets/models/characters/shoes/shoe_m_08.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_08",
+      "gender": "f",
+      "variant": 8,
+      "path": "res://assets/models/characters/shoes/shoe_f_08.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_09",
+      "gender": "m",
+      "variant": 9,
+      "path": "res://assets/models/characters/shoes/shoe_m_09.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_09",
+      "gender": "f",
+      "variant": 9,
+      "path": "res://assets/models/characters/shoes/shoe_f_09.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_10",
+      "gender": "m",
+      "variant": 10,
+      "path": "res://assets/models/characters/shoes/shoe_m_10.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_10",
+      "gender": "f",
+      "variant": 10,
+      "path": "res://assets/models/characters/shoes/shoe_f_10.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_11",
+      "gender": "m",
+      "variant": 11,
+      "path": "res://assets/models/characters/shoes/shoe_m_11.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_11",
+      "gender": "f",
+      "variant": 11,
+      "path": "res://assets/models/characters/shoes/shoe_f_11.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_m_12",
+      "gender": "m",
+      "variant": 12,
+      "path": "res://assets/models/characters/shoes/shoe_m_12.glb",
+      "status": "placeholder"
+    },
+    {
+      "id": "shoe_f_12",
+      "gender": "f",
+      "variant": 12,
+      "path": "res://assets/models/characters/shoes/shoe_f_12.glb",
+      "status": "placeholder"
+    }
+  ]
+}

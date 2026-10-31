@@ -1,0 +1,13 @@
+[0] \mCasual\m\fSalto alto\f
+[1] \mSapato\m\fCasual\f
+[2] \mChinelo\m\fGenérico\f
+[3] \mEsportivo\m\fChinelo\f
+[4] \mChique\m\fTênis Street\f
+[5] Tênis de corrida
+[6] \mTênis Street\m\fChique\f
+[7] \mDescalço\m\fDescalça\f
+[8] Patins
+[9] \mTênis de futebol\m\fBotas de cheerleader\f
+[10] Calçados 11
+[11] Calçados 12
+[12] Calçados 13

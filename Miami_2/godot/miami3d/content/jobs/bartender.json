@@ -1,0 +1,18 @@
+{
+  "id": "bartender",
+  "name": "@job.bartender",
+  "location": "glight_club",
+  "pay": 50,
+  "durationMinutes": 120,
+  "requires": {
+    "charisma": 2
+  },
+  "effects": [
+    {
+      "stat": "social",
+      "delta": 3
+    }
+  ],
+  "minigame": null,
+  "unlockQuest": "q026_bartender"
+}

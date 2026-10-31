@@ -1,0 +1,30 @@
+{
+  "hud": [
+    "hunger",
+    "sleep",
+    "hygiene",
+    "bladder",
+    "fitness",
+    "culture",
+    "charisma",
+    "crime",
+    "kindness",
+    "dance",
+    "craziness",
+    "sex_appeal",
+    "mood",
+    "social",
+    "health",
+    "self_esteem",
+    "cash",
+    "phone",
+    "map",
+    "pause"
+  ],
+  "logo": "res://assets/ui/logo.png",
+  "brand": {
+    "studio_logo": "res://assets/ui/brand/huehuegames_logo.png",
+    "game_logo": "res://assets/ui/brand/miami_life_logo.png",
+    "hero_bg": "res://assets/ui/brand/miami_life_hero.png"
+  }
+}

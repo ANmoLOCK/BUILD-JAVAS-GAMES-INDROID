@@ -1,0 +1,18 @@
+[0] Droga, Tom, por que você é tão irresponsável?!]Dê a cada bicho a comida apropriada!]E por favor... esta é a última vez que você perde a minha \p2identidade\p1, ok?
+[1] Ei, não posso falar com você até encontrar minha \p2identidade\p1.]Quer me ajudar?
+[2] Ah, valeu!
+[3] Quer ver o crocodilo \p2Gran Kahuna\p1?]Ele está logo ali.
+[4] Você não deve ir de mãos abanando, senão ele vai te devorar.]A única maneira de manter sua boca ocupada é oferecendo-lhe uma grande \p2pizza\p1.]Ele adooora \p2pizza\p1! Como adora!
+[5] Compre uma no \p2Restaurante Yuca\p1 e dê pro crocodilo.]Você só vai encontrá-lo entre \p220h\p1 e \p26h\p1, quando ele sai pra caçar.
+[6] Lembra do meu conselho? Ele sai pra caçar entre \p220h\p1 e \p26h\p1.
+[7] *BAAAHHHH!*
+[8] Ei, que parque maravilhoso, não acha?
+[9] Você achou a identidade do guarda!
+[10] Parabéns! Você achou um \p2mapa\p1 cheio de pizza de vitamina mastigada!
+[11] Eu posso invocar os antigos espíritos dos Everglades com os poderes que Gran Kahuna me deu... E uma pequena gorjeta, é claro. Então...?
+[12] Ohhh, Gran Kahuna! Querido, você pode aumentar o dinheiro de \x?
+[13] Uhm... Até os deuses estão em crise!?
+[14] Ahhh, Gran Kahuna, você é um deus tão poderoso, você pode fazer alguém se apaixonar!?
+[15] O amor está mais perto do que você imagina.
+[16] Ehhh, Gran Kahuna, mostre os seus poderes! Você pode pular algumas horas no tempo?
+[17] Legaaal!, ehm... quero dizer... legal para \mum cara\m\fuma garota\f normal como você... Não para um grande invocador. Ehem.

@@ -1,0 +1,43 @@
+{
+  "id": "charm",
+  "slot": 15,
+  "name": "@npc.charm",
+  "displayName": "Charm",
+  "gender": "f",
+  "appearance": [
+    1,
+    0,
+    3,
+    3,
+    6,
+    3,
+    5,
+    3,
+    0,
+    3
+  ],
+  "likes": [
+    "nightlife",
+    "dance",
+    "drinks"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "charm_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "glight_club",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

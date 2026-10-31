@@ -1,0 +1,1 @@
+{"info": {"file": "0548_p25_asprite", "flags": "0x1010501", "modules": 3, "fmodules": 3, "frames": 3, "anims": 1, "palettes": 1, "pixfmt": "0x1600", "consumed": "250/250"}, "modules": [[14, 14], [6, 10], [2, 8]], "frames": [[1, 0], [1, 1], [1, 2]], "fmodules": [[0, 0, -13, 0], [1, 0, -9, 0], [2, 0, -7, 0]], "anims": [[{"frame": 255, "dur": 1, "ox": 0, "oy": 0, "flip": 0}]]}

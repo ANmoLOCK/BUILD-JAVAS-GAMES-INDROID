@@ -1,0 +1,70 @@
+{
+  "id": "surgery",
+  "clinic": "beauty_clinic",
+  "procedures": [
+    {
+      "id": "lipo",
+      "name": "@surgery.lipo",
+      "price": 400,
+      "durationMinutes": 180,
+      "effects": [
+        {
+          "stat": "sex_appeal",
+          "delta": 8
+        },
+        {
+          "stat": "health",
+          "delta": -5
+        }
+      ]
+    },
+    {
+      "id": "rhinoplasty",
+      "name": "@surgery.rhino",
+      "price": 600,
+      "durationMinutes": 240,
+      "effects": [
+        {
+          "stat": "sex_appeal",
+          "delta": 10
+        },
+        {
+          "stat": "self_esteem",
+          "delta": 5
+        }
+      ]
+    },
+    {
+      "id": "lifting",
+      "name": "@surgery.lifting",
+      "price": 800,
+      "durationMinutes": 300,
+      "effects": [
+        {
+          "stat": "sex_appeal",
+          "delta": 12
+        },
+        {
+          "stat": "self_esteem",
+          "delta": 8
+        }
+      ]
+    },
+    {
+      "id": "implants",
+      "name": "@surgery.implants",
+      "price": 700,
+      "durationMinutes": 240,
+      "effects": [
+        {
+          "stat": "sex_appeal",
+          "delta": 15
+        },
+        {
+          "stat": "health",
+          "delta": -8
+        }
+      ]
+    }
+  ]
+}

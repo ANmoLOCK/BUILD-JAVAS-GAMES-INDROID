@@ -1,0 +1,7 @@
+{
+  "id": "g",
+  "title": "Mods / packs",
+  "locations": [],
+  "systems": ["mods"],
+  "ready_when": "pack externo carrega sem recompilar o cérebro"
+}

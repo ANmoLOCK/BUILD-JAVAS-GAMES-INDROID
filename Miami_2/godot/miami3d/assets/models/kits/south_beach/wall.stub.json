@@ -1,0 +1,6 @@
+{
+  "id": "south_beach_wall",
+  "mesh": "res://assets/models/kits/south_beach/wall.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

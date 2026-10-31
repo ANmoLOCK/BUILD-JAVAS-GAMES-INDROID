@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Miami Life — cutscene boot</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;600&display=swap');
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; background: #000; color: #ffeeda; font-family: Outfit, system-ui, sans-serif; overflow: hidden; }
+  .phone {
+    width: min(390px, 92vw); height: min(780px, 92vh);
+    margin: 2vh auto 0;
+    position: relative; border-radius: 16px; overflow: hidden;
+    background: #000; box-shadow: 0 24px 70px rgba(0,0,0,.6);
+  }
+  .screen {
+    position: absolute; inset: 0; display: grid; place-items: center;
+    opacity: 0; transition: opacity .65s ease; pointer-events: none;
+    background: #000;
+  }
+  .screen.on { opacity: 1; pointer-events: auto; }
+  .stack { text-align: center; width: min(440px, 88%); }
+  img.logo { width: 140px; height: 140px; object-fit: contain; display: block; margin: 0 auto .5rem; }
+  img.logo.sm { width: 110px; height: 110px; }
+  h1 {
+    font-family: Bebas Neue, sans-serif; font-weight: 400;
+    letter-spacing: .1em; font-size: 2.2rem;
+  }
+  .title { font-family: Bebas Neue, sans-serif; font-weight: 400; letter-spacing: .08em; font-size: 2.2rem; }
+  .sub { color: #7ec8d4; letter-spacing: .28em; text-transform: uppercase; font-size: .8rem; margin-top: .35rem; }
+  .tip { color: #c7e6ec; margin: .8rem 0 1rem; min-height: 2.5em; font-size: .95rem; }
+  .bar { height: 12px; border-radius: 99px; background: rgba(255,255,255,.12); overflow: hidden; }
+  .bar > i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #f0a070, #7ec8d4); transition: width .12s linear; }
+  .status { margin-top: .55rem; color: #8aa8b2; font-size: .8rem; }
+  .menu .panel { display: grid; gap: .55rem; margin-top: 1rem; }
+  .menu button {
+    border: 0; border-radius: 10px; padding: .85rem 1rem;
+    font: 600 1rem Outfit, sans-serif; cursor: pointer;
+    background: rgba(255,238,218,.92); color: #132029;
+  }
+  .menu button.ghost {
+    background: rgba(10,24,32,.55); color: #ffeeda;
+    outline: 1px solid rgba(255,255,255,.18);
+  }
+  .menu button:disabled { opacity: .45; }
+  .hud {
+    position: fixed; left: 12px; right: 12px; bottom: 12px;
+    display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+    font-size: .78rem; color: #9bb4bc;
+  }
+  .chip { background: rgba(255,255,255,.07); padding: .35rem .7rem; border-radius: 999px; }
+  .chip b { color: #ffeeda; }
+</style>
+</head>
+<body>
+  <div class="phone">
+    <section class="screen on" id="black"></section>
+
+    <section class="screen" id="studio">
+      <div class="stack">
+        <img class="logo" src="../huehuegames_logo.png" alt="HueHueGames" />
+        <h1>HUEHUEGAMES</h1>
+        <div class="sub">apresenta</div>
+      </div>
+    </section>
+
+    <section class="screen" id="title">
+      <div class="stack">
+        <img class="logo sm" src="../miami_life_logo.png" alt="Miami Life" />
+        <div class="title">MIAMI LIFE</div>
+        <div class="tip" id="tip">A cidade é sua — viva a noite.</div>
+        <div class="bar"><i id="bar"></i></div>
+        <div class="status" id="status">Preparando Miami…</div>
+      </div>
+    </section>
+
+    <section class="screen menu" id="menu">
+      <div class="stack">
+        <img class="logo sm" src="../miami_life_logo.png" alt="Miami Life" />
+        <div class="title">MIAMI LIFE</div>
+        <div class="tip">A cidade é sua — viva a noite.</div>
+        <div class="panel">
+          <button type="button">Novo jogo</button>
+          <button type="button" class="ghost" disabled>Continuar</button>
+          <button type="button" class="ghost">Sair</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="hud">
+    <span class="chip">Cutscene · <b id="step">0 · Tela preta</b></span>
+    <span class="chip">Estúdio · <b>HueHueGames</b></span>
+    <span class="chip">Game · <b>Miami Life</b></span>
+  </div>
+<script>
+const tips = [
+  "Durma o suficiente — Miami não espera por ninguém.",
+  "O mapa libera locais conforme sua fase.",
+  "Toque nos objetos para interagir.",
+  "Salve pelo telefone quando a vida esquentar."
+];
+const ids = ["black","studio","title","menu"];
+const labels = ["0 · Tela preta","1 · HueHueGames","2 · Miami Life + loading","3 · Menu"];
+function show(i){
+  ids.forEach((id,n)=>document.getElementById(id).classList.toggle("on", n===i));
+  document.getElementById("step").textContent = labels[i];
+  if(i===2) runLoad();
+}
+function runLoad(){
+  const bar=document.getElementById("bar");
+  const tip=document.getElementById("tip");
+  const status=document.getElementById("status");
+  let p=0,t=0;
+  tip.textContent=tips[0];
+  status.textContent="Preparando Miami…";
+  const timer=setInterval(()=>{
+    p=Math.min(100,p+3.5+Math.random()*5);
+    bar.style.width=p+"%";
+    if(p>25) status.textContent="Cérebro pronto";
+    if(p>55) status.textContent="Carregando cidade…";
+    if(p>82) status.textContent="Quase lá";
+    t++;
+    if(t%14===0) tip.textContent=tips[(t/14)%tips.length|0];
+    if(p>=100){ clearInterval(timer); setTimeout(()=>show(3),450); }
+  },85);
+}
+// sequência pedida
+setTimeout(()=>show(1), 700);          // preto → HueHueGames
+setTimeout(()=>show(2), 700+2200);      // → Miami Life + barra
+</script>
+</body>
+</html>

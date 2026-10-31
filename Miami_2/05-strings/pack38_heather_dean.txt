@@ -1,0 +1,33 @@
+[0] \v1Eu sabia! Eu conheço você!\v1\v600Você tem muita sorte de sair \mileso\m\filesa\f daquele acidente com o projetor... espera... Eu te conheço!\v600]E não é daquele filme picante...
+[1] Você é \mo\m\fa\f \x, certo? Estudamos juntos no colégio.]Sou \mHeather\m\fDean\f.]Você tem que se lembrar de mim, eu roubava seu lanche todos os dias!
+[2] Bem, você tem alguma coisa aí para eu comer agora?]Tô brincando. Uau, você está bem, muuuito bem.]Quer dizer, está só com um pequeno galo na cabeça. Mas está bem, muito bem.
+[3] Ei, o que acha de sair para jantar? Desta vez, eu prometo que eu pago.
+[4] Por que não? Vai me pagar um jantar para cada lanche que me roubou?
+[5] Você não vai me enganar outra vez, de novo não.
+[6] Ah. Eu entendo... Ainda está com raiva de mim?]Hehe, eu sei que sua mãe faz uns sanduíches muito bons...]De qualquer forma, vou tentar te ligar mais tarde, tá bom?
+[7] Excelente! Eu e minha tia estamos preparando um jantar especial com caranguejos frescos, anchovas e alcaparras. Está \minteressado\m\finteressada\f?
+[8] Recusar uma iguaria como essa? Claro que não!
+[9] Pensando bem...
+[10] Eu sabia que você aceitaria minha oferta... é só sentir o seu cheiro que eu me lembro de deliciosas anchovas e alcaparras!
+[11] Ha! Não me diga que está com medo desses pequenos siris!]Sabe como é, depois de cozidos, eles não são muito perigosos. A não ser que você os engula inteiros.
+[12] Vou te ligar mais tarde quando estivermos prontos.]Você pode ir embora quando quiser.
+[13] Ah, já que você está em \p2Coconut Grove\p1, encontre minha amiga \p2Ceviche\p1!]Ela tem uma coleção de roupas excelente!
+[14] Oi, vá até o balcão para marcar uma cirurgia plástica, ok? Por favor.
+[15] Oh, Nik. Talvez seja \mele\m\fela\f a pessoa que vai trabalhar meio período no nosso "experimento científico"?
+[16] Ah-ha! Temos este novo produto que substitui o "silicone" atual.
+[17] Quer modificar essa parte do seu corpo "naturalmente"?
+[18] Quero!
+[19] Não, lamento...
+[20] Oi, \x! Não sabia que você estava aqui!
+[21] Uhhhhh... Você está... \mmodificado\m\fmodificada\f.
+[22] Oh, você conhece \ma Heather\m\fo Dean\f...!?]Estávamos só... batendo papo... sobre a festa de inauguração da casa \mdele\m\fdela\f.
+[23] Festa de inauguração da casa? Que bom saber que você aceitou a oferta \mda Elisabeth\m\fdo Xavier\f!
+[24] Ei, \x, tá reconhecendo ele?
+[25] Cabeça dourada do Browse Willis, olhos brilhantes do Steve Yonder e bochechas do Tim Carrey!]Ele é a nossa obra prima. Fizemos um belo trabalho, não acha, Nik?
+[26] É, Took!]Ei, \x, vamos levar todos os nossos clientes bonitos para a sua festa!]Mas antes da festa, \p2corte o cabelo\p1 no salão.
+[27] Hehe, você está\mlinda\m\flindo\f.]\Então nos encontramos na festa, certo?
+[28] Ei, \x! Estou um pouco \mocupada\m\focupado\f agora. Falo com você mais tarde, ok?
+[29] Por favor, volte quando você tiver um animal de estimação.
+[30] Ah, eu conheço uma designer excelente, Mortadella Ceviche.]Mas se não melhorar a sua aparência, acho que ela nem vai olhar pra você.]Você poder ir pra praia e se bronzear ou usar a tecnologia de ponta que nós temos aqui... se você puder pagar.]Volte aqui quando você estiver \mbonito\m\fbonita\f o suficiente!
+[31] Hum, acho que ainda precisa melhorar mais um pouquinho... (\p2SEX APPEAL 50\p1)
+[32] Este é um visual sexy!

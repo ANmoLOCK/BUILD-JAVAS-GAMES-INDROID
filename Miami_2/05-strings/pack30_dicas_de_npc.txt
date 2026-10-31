@@ -1,0 +1,157 @@
+[0] Você sabe que eu te odeio. Talvez um PRESENTE ou um pedido de DESCULPAS me ajude a te perdoar.
+[1] Acho que você tem que tirar essa SUJEIRA antes de mais nada. Tome um BANHO.
+[2] Estou afim de algo mais sério. Que tal um BEIJO NA BOCA?
+[3] Eu não faço isso antes de SAIR JUNTO. Você quer o número do meu TELEFONE?
+[4] Você está brincando? Você acabou de me deixar! Quero que SE DESCULPE primeiro.
+[5] O que você quer? Não confio em você. Um PRESENTE ou um pedido de DESCULPAS pode ajudar.
+[6] Valeu, me sinto um pouco melhor. Você sabe como lidar com as pessoas.
+[7] Ok. DESCULPAS aceitas. Mas não tenho certeza de que está tudo certo entre nós.
+[8] Admiro sua coragem, mas suas BRINCADEIRAS não funcionam comigo. (\p2CRIMINALIDADE: \p7%i\p8 -> %i\p1)
+[9] Nem tente me roubar, você não é forte o suficiente. (\p2CRIMINALIDADE: \p7%i\p8 -> %i\p1)
+[10] GRRRR. Você precisa de mais CARISMA. (\p2CARISMA: \p7%i\p8 -> %i\p1)
+[11] Você acha que tem graça, mas suas piadas são horríveis. (\p2HUMOR: \p7%i\p8 -> %i\p1)
+[12] Não te conheço o bastante para conversar sobre isso.
+[13] Você já tem o meu número de telefone. Me ligue quando quiser!
+[14] Aqui está. Pode me ligar qualquer dia desses.
+[15] O que você quer? Eu nem te conheço...
+[16] Devíamos conversar mais antes.
+[17] Você sabe que eu gosto é de \mmulher\m\fhomem\f.
+[18] Sai daqui. Não quero saber de gente LOUCA.
+[19] Você devia pedir meu número de TELEFONE primeiro.
+[20] Ainda nem nos BEIJAMOS.
+[21] Precisamos ver se somos realmente compatíveis. Vamos DAR UNS AMASSOS.
+[22] Você vai se arrepender.
+[23] Ah, não! Eu sabia!
+[24] O que foi que eu fiz?
+[25] Aqui não... Vamos para a sua CASA.
+[26] Não perca seu tempo, eu não gosto de você.
+[27] Você não sabe DANÇAR. (\p2DANÇA: \p7%i\p8 -> %i\p1)
+[28] Eu não quero essa droga de presente. Odeio você.
+[29] Peraí, \x, vamos com calma. Não vamos apressar as coisas.
+[30] Minha timidez não permite. Deveríamos conversar mais, antes.
+[31] Isso é tão careta.
+[32] Sinto muito. Já estou saindo com outra pessoa.
+[33] Quer apanhar mais? (\p2BOA FORMA: \p7%i\p8 -> %i\p1)
+[34] Eu não estou no CLIMA para isso.
+[35] Não vou aceitar isso de você.
+[36] Não, valeu. A LOUCURA já tomou conta de mim.
+[37] Não podemos ficar aqui. Vamos tomar uma bebida em algum outro lugar!
+[38] Você está muito FORA DE FORMA pra mim. (\p2BOA FORMA: \p7%i\p8 -> %i\p1)
+[39] Não quero que me vejam em público com você... ainda. Vá aumentar seu ESTILO antes!
+[40] Você não está à minha altura... ainda. Precisa melhorar antes! (\p2SEX-APPEAL: \p7%i\p8 -> 80\p1)
+[41] Isso é ótimo, você deveria me convidar para SAIR mais vezes.
+[42] Não vou te beijar, mas você fica tão \mengraçado\m\fengraçada\f quando tenta me beijar.
+[43] Você não tem dinheiro o suficiente.
+[44] Você precisa do meu TELEFONE. Aí, poderemos ir para a sua CASA...
+[45] Adorável! Me ligue quando quiser, \x!
+[46] Ei! Eu não converso com pessoas muito LOUCAS. Você precisa de uma boa noite de sono para melhorar.
+[47] Ei, \mcara\m\fgarota\f! Isso realmente não me interessa. Tente falar de ASSUNTOS interessantes, \mseu fracassado\m\fsua fracassada\f.
+[48] Não é meu ASSUNTO favorito, mas você fica tão \mengraçado\m\fengraçada\f quando fala sobre isso.
+[49] Você é muito \mculto\m\fculta\f pro meu gosto, intelectualóide.
+[50] Hmpf, não sei. Eu não odeio esse ASSUNTO, mas também não gosto dele.
+[51] Hmm. Isso não me interessa. Tente escolher um ASSUNTO que me interesse.
+[52] Se você levar essa DISCUSSÃO adiante, vai acabar se machucando.
+[53] Ei! Você tá de sacanagem? Eu odeio esse ASSUNTO.
+[54] Eu realmente odeio falar sobre esse ASSUNTO. Encontre algo mais interessante.
+[55] Quem você acha que eu sou? Eu não compartilho meus sentimentos com pessoas tão LOUCAS.
+[56] O que você quer? Eu não acredito em você. Você parece \mum CRIMINOSO\m\fuma CRIMINOSA\f. Quem sabe se eu te conhecesse melhor.
+[57] O que você quer? Tenho medo de você. Você parece \mum CRIMINOSO\m\fuma CRIMINOSA\f.
+[58] Agradeço muitíssimo. Isso me faz sentir bem.
+[59] Humm... Valeu. Tem certeza de que você está bem? Você parece estar meio \mLOUCO\m\fLOUCA\f.
+[60] Inacreditável. Depois de tudo o que fez, você tem a coragem de vir me procurar completamente \mLOUCO\m\fLOUCA\f?!
+[61] Isso é legal, mas SAIR JUNTO seria melhor. Você vai precisar do meu TELEFONE.
+[62] Você pensa que tem graça mas te falta CULTURA, \mseu bestalhão\m\fsua bestalhona\f.
+[63] Quero DAR UNS AMASSOS em você.
+[64] Você pensa que é \mengraçado\m\fengraçada\f, mas te falta CARISMA.
+[65] Sim, eu aceito. Mas você nunca vai saber se é porque eu estou feliz ou porque você é \mum CRIMINOSO\m\fuma CRIMINOSA\f
+[66] Não posso aceitar um presente de \mum CRIMINOSO\m\fuma CRIMINOSA\f.
+[67] Valeu, eu gosto desse tipo de presente.
+[68] É, boa idéia. Vamos ficar LOUCOS.
+[69] Uma pessoa do CRIME como eu poderia te matar por tentar fazer isso. Talvez quando você me conhecer melhor...
+[70] Eu realmente adoro sair contigo.
+[71] Eu ADORO quando você faz isso.
+[72] É adorável, mas eu nem te conheço.
+[73] Não, não estou no clima para ouvir suas DESCULPAS. Preciso me ANIMAR um pouco, antes.
+[74] Por que você quer se DESCULPAR? O que você fez? Você está com outra pessoa?
+[75] Eu realmente não entendo o que você quer dizer.
+[76] Você é \mhilário, cara\m\fhilária, gata\f. De onde você tirou esse senso de HUMOR?
+[77] Não posso aceitar isso. Acho que o seu nível SOCIAL não é alto o suficiente.
+[78] Não somos íntimos o suficiente para isso. Quero um RELACIONAMENTO de verdade, antes.
+[79] Seu insulto é patético. Você não tem CARISMA o suficiente.
+[80] Você não pode fazer isso! O que a sua mamãe diria?
+[81] Por que não seguimos com o nosso ENCONTRO antes de tentar isso?
+[82] Me cansei daqui, deveríamos ir para outro lugar.
+[83] DANCE comigo ou me deixe em paz!
+[84] Estou com dor de garganta. Me OFEREÇA uma BEBIDA ESPECIAL se quiser conversar.
+[85] \mOs caras\m\fAs garotas\f não sabem mais como chegar em alguém. Por que não me OFERECE uma BEBIDA ESPECIAL... e aí conversaremos.
+[86] Sabe o que eu adoraria? Que me OFERECESSEM uma BEBIDA ESPECIAL.
+[87] Ouvi dizer que as BEBIDAS ESPECIAIS daqui são muito boas. Por que não me OFERECE uma?
+[88] Toda vez que venho aqui, desconhecidos tentam me abordar. Meu novo padrão é: se quiser conversar comigo, me OFEREÇA uma BEBIDA ESPECIAL.
+[89] Uau! Gosto da forma como você se vira! Esqueça essa criatura fracassada e vamos conversar um pouco mais.
+[90] \mEncrenqueiro\m\fEncrenqueira\f! Vá embora e nos deixe em paz!](Aumente seu SEX APPEAL se quiser seduzir pessoas que já estão namorando.)
+[91] Ei! Você não vê que estamos conversando?! Some daqui! \x, você está bem? (Você apanhou, mas tem SEX APPEAL suficiente para seduzir pessoas mesmo quando está inconsciente!)
+[92] Ha ha ha! Que covarde! Você deveria treinar um pouco mais antes de flertar com pessoas comprometidas!](Aumente seu SEX APPEAL se quiser seduzir pessoas que estão namorando e melhore sua FORMA FÍSICA se quiser ganhar uma briga.)
+[93] Claro, adoraria conhecer sua casa!
+[94] Gostaria de te conhecer um pouco melhor antes de irmos a qualquer lugar.
+[95] Talvez outro dia, tenho que acordar cedo amanhã...
+[96] Você pirou? Não tente me roubar! Não sou idiota! (\p2CRIME: \p7%i\p8 -> %i\p1)
+[97] Meu Deus, você fede mais que um gambá! Tome um BANHO rápido!
+[98] Você tem feito tantas coisas tolas! Pare de causar confusões!
+[99] Droga, você é meio \mfrouxo\m\ffrouxa\f para mim.
+[100] Eu não falo com idiotas como você. Aumente sua CULTURA e quem sabe eu mudo de idéia. (\p2CULTURA: \p7%i\p8 -> %i\p1)
+[101] Oh... Olha só para você... Quer que eu te indique um salão de beleza?
+[102] Sua mãe nunca te disse que a BONDADE atrai as pessoas? (\p2BONDADE: \p7%i\p8 -> %i\p1)
+[103] Nunca conheci alguém tão \mchato\m\fchata\f. Melhore seu CARISMA se quiser minha atenção. (\p2CARISMA: \p7%i\p8 -> %i\p1)
+[104] Você não tem absolutamente nenhum senso de HUMOR! (\p2HUMOR: \p7%i\p8 -> %i\p1)
+[105] Tome jeito antes que não tenha mais jeito.
+[106] Não é a minha praia.
+[107] Acho que não. Vamos conversar mais, antes.
+[108] Se você não estivesse tão \mLOUCO\m\fLOUCA\f, talvez me interessasse.
+[109] TÉÉÉDIOOOO!
+[110] Eu não estou no meu estado normal. Quem sou eu para dizer não?
+[111] Se eu fosse você, ficaria longe. Se continuar assim, você vai se machucar.
+[112] Estou começando a gostar de você.
+[113] Você sabe que eu te odeio. Talvez um PRESENTE ou um pedido de DESCULPAS me ajude a te perdoar.
+[114] Ah, que seja, eu te perdoo.
+[115] Eu não confio em pessoas que cheiram como você.
+[116] Some daqui, criatura.
+[117] Você é tão sem graça que até dói.
+[118] Ao contrário de você, sou uma pessoa legal. Não faço piada sobre as pessoas assim.
+[119] Por que você está me batendo? Me deixe em paz!
+[120] Está quente aqui ou é só você?
+[121] Não me interessa se a pessoa está arrasando por aí, tem que pensar antes de falar.
+[122] Estamos na quinta série? BEIJE-ME nos LÁBIOS.
+[123] O que você sabe sobre esportes? Vá cuidar do seu CORPO, e aí quem sabe a gente bate um papo. (\p2BOA FORMA: \p7%i\p8 -> %i\p1)
+[124] O que você sabe sobre política? Vá ler alguns jornais para aumentar sua CULTURA! (\p2CULTURA: \p7%i\p8 -> %i\p1)
+[125] Ugh... Você quer falar sobre moda com esse visual horrível?! (\p2SEX-APPEAL: \p7%i\p8 -> %i\p1)
+[126] Eu não quero falar sobre cinema com \mum\m\fuma\f ignorante! Vá aumentar sua CULTURA! (\p2CULTURA: \p7%i\p8 -> %i\p1)
+[127] O que você sabe sobre o meio ambiente? Aumente sua BONDADE, antes! (\p2BONDADE: \p7%i\p8 -> %i\p1)
+[128] Falar de música com \mum\m\fuma\f ignorante? (\p2CULTURA: \p7%i\p8 -> %i\p1)
+[129] Quer falar sobre animais? Você deveria ao menos ser \mbom\m\fboa\f com eles. (\p2BONDADE: \p7%i\p8 -> %i\p1)
+[130] O que você sabe sobre tecnologia? Vá assistir ao noticiário. (\p2CULTURA: \p7%i\p8 -> %i\p1)
+[131] Boa tentativa. Mas eu não gosto de falar sobre crianças com pessoas RUINS como você. (\p2BONDADE: \p7%i\p8 -> %i\p1)
+[132] O que você sabe sobre casamento se não tem confiança em si \mmesmo\m\fmesma\f. (\p2AUTO-ESTIMA: \p7%i\p8 -> %i\p1)
+[133] O que você sabe sobre arte? Vá aumentar a sua CULTURA! (\p2CULTURA: \p7%i\p8 -> %i\p1)
+[134] Então, você quer conhecer um bom bar, hein?! Só levo pessoas que sabem dançar ao meu bar favorito. (\p2DANÇA: \p7%i\p8 -> %i\p1)
+[135] Conhecimento é essencial se você quer falar sobre filosofia comigo. Leia mais livros. (\p2CULTURA: \p7%i\p8 -> %i\p1)
+[136] Eu não confio em uma pessoa RUIM como você para falar sobre negócios. (\p2BONDADE: \p7%i\p8 -> %i\p1)
+[137] Quer conversar sobre teatro? Você não parece ser inteligente o bastante pra mim. (\p2CULTURA: \p7%i\p8 -> %i\p1)
+[138] Você tem um belo nível SOCIAL. Você é \mrico\m\frica\f demais para usar transporte público. Certo? (\p2SOCIAL: \p7%i\p8 -> 80\p1)
+[139] Quer falar sobre compras em Miami? Você não tem glamour suficiente para mim. (\p2SEX-APPEAL: \p7%i\p8 -> %i\p1)
+[140] O que você sabe sobre dinheiro se nunca gasta dinheiro? Seu nível SOCIAL é muito baixo. Faça umas comprinhas na eShop! (\p2SOCIAL: \p7%i\p8 -> %i\p1)
+[141] Você está \mpéssimo\m\fpéssima\f. Coma bem para melhorar sua SAÚDE! (\p2SAÚDE: \p7%i\p8 -> %i\p1)
+[142] Acho que você é muito inteligente para falar sobre carros comigo... (\p2CULTURA: \p7%i\p8 -> 80\p1)
+[143] Conversar sobre segurança com \mum criminoso\m\fuma criminosa\f...!? (\p2CRIMINALIDADE: \p7%i\p8 -> 80\p1)
+[144] Quer falar sobre CRIME? Fale sobre você \mmesmo\m\fmesma\f! (\p2CRIMINALIDADE: \p7%i\p8 -> 80\p1)
+[145] Você já leu algum livro? (\p2CULTURA: \p7%i\p8 -> %i\p1)
+[146] Não acredito no que estou ouvindo! Uma pessoa RUIM como você falando sobre romance... (\p2BONDADE: \p7%i\p8 -> %i\p1)
+[147] Você já DANÇOU alguma vez na vida? (\p2DANÇA: \p7%i\p8 -> %i\p1)
+[148] Falar assim das pessoas não é legal. Tente conversar sobre algo interessante para os outros! (\p2CARISMA: \p7%i\p8 -> %i\p1)
+[149] Não sou um caso de caridade. Guarde seu dinheiro!
+[150] Seu presente é para mulheres. Você deveria saber disso.
+[151] Você está ME oferecendo isso? Você não é SEXY o bastante para mim!
+[152] Claro, espero que goste da minha casa!
+[153] Ah... Desculpe, mas não acho que nossos gostos coincidem. (\p2SEX-APPEAL: \p7%i\p8 -> %i\p1)
+[154] Mas... Eu não acho que a gente possa ter uma conversa interessante... Mesmo se eu gostasse do show. (\p2CULTURA: \p7%i\p8 -> %i\p1)
+[155] Oh, eu adoro este lugar. \mObrigado\m\fObrigada\f por me convidar!
+[156] Sua piada não tem mais graça...

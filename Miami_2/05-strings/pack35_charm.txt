@@ -1,0 +1,51 @@
+[0] Ah, então você é \x? Muito prazer.
+[1] Goldsax me disse que você seria uma grande ajuda na Boate.]Mas antes de começar qualquer coisa na minha boate, por que nós não \p2DANÇAMOS\p1, \x?
+[2] Muito bem, \x. Você me impressionou com sua dança.]Agora, vá para o \p2bar\p1 e sirva nossos clientes!]Vou ficar de olho em você... Você é jovem e atraente... Seja profissional e não festeje muito.
+[3] Oi, o que tá rolando, \mcara\m\fgarota\f?
+[4] Vá para trás do bar e vamos agitar!
+[5] Você quer conversar?
+[6] EEEEiiii... Como vai? Você me lembra de... Quem mesmo? Ah! Sim... Sr. Ed...]Bom, preciso de... alguma coisa... com gelo. Algo diferente. E aí te pago um também, haha.
+[7] Ah, qual é, não tem graça ficar \mdoidão sozinho\m\fdoidona sozinha\f. Precisamos ficar no mesmo ponto de loucura. *BURP* Ops, me desculpa.
+[8] Te pago uma bebida, que tal?
+[9] Sinto muito, tenho que levar meu cachorro no salão de beleza amanhã de manhã.
+[10] "Por que não? Você vai parecer mais atraente depois que eu tomar uma!"
+[11] Ugh, estraga-prazeres. Você não vai receber boas gorjetas sendo \mrecatado\m\frecatada\f assim.
+[12] Ok, tá bem, tudo bem! 
+[13] Que gêmeas mais lindas! Posso oferecer um drink pra vocês? Estou convidando as duas!
+[14] Oi, você é \mnovo\m\fnova\f por aqui? Aceita se casar comigo? Aceita um drink?
+[15] Você arruinou a minha noite. Acho que vou voltar pra casa e assistir ao vídeo da minha formatura.
+[16] Incrível!
+[17] Ei, como vai? Eu preciso de uma boa dose de café!
+[18] Preciso de uma boa dose de café! Que tal você me acompanhar?
+[19] Que pena. Fica pra próxima então.
+[20] Bueno!
+[21] Ei, \x. Você está muito \mmaluco\m\fmaluca\f para ser meu par romântico. Vá pra casa.
+[22] Que tal, \mchico\m\fchica\f? Vitaminas te fazem sentir bem quando você dança!
+[23] Oi, gracinha. Posso te ajudar?
+[24] Está vendo? Tenho muitas coisas para fazer. Divirta-se na minha boate maravilhosa!
+[25] \x! Você trabalhou o suficiente por hoje. Volte quando quiser.
+[26] Hmm, ele faz isso às vezes...
+[27] Parece que essa é a sua chance. Assuma o controle da pick-up, vai lá!
+[28] O que você está esperando..?
+[29] Eu!? DJ? QUE LEGAL!!!
+[30] Isso vai te custar caro, chefe.
+[31] Escolha a melhor música para o público.
+[32] O quê? Quem você pensa... argh.
+[33] Por favor, estou desesperada!]Todos vão embora para outras boates.]Minha reputação está em jogo. 
+[34] Eu pago pra você o que quiser.
+[35] Você deve vir de uma família de DJs, né?
+[36] Só estou te provocando, gracinha.
+[37] Volte a qualquer hora para colocá-los pra dançar, \x!
+[38] Oh, já que você insiste... Aqui está um bônus.
+[39] Você quer que eu apareça na sua festa?]Me convide pra \p2DANÇAR\p1! Se você dançar melhor do que eu, vou pensar no seu caso!
+[40] Você dança bem, \x. Mas...
+[41] Ah, falando nisso, é sempre melhor ter um \p2segurança\p1 em uma festa para a alta sociedade!]Tente contratar um dos caras lá da entrada.
+[42] Preciso cobrar \p2$1.000\p1 se quiser que eu vá na sua festa.
+[43] Combinado! Te vejo na sua casa!
+[44] Sua festa? E daí?]Mas quer saber de uma coisa? Estou procurando \p2ingressos para show\p1... Você tem?
+[45] Ahhh, obrigado \mSr.\m\fSrta.\f! Nós vamos nos divertir, não vamos, colega?
+[46] Que tal \p2$500\p1 para nós dois irmos na sua festa?
+[47] Excelente! Nos encontramos na sua festa!
+[48] O quê foi?! Tem algo interessante rolando?]Uma festa? Se o meu DJ for, eu vou também, \x!
+[49] Se você quiser que sua festa bombe pra valer, convide com meus cirurgiões plásticos. Eles conhecem MUITA gente da alta sociedade do \p2Salão de Beleza\p1.
+[50] Ei, você gosta da minha música?

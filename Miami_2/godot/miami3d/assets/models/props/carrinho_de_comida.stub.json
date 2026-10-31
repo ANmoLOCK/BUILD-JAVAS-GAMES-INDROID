@@ -1,0 +1,12 @@
+{
+  "id": "carrinho_de_comida",
+  "mesh": "res://assets/models/props/carrinho_de_comida.glb",
+  "kind": "food",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

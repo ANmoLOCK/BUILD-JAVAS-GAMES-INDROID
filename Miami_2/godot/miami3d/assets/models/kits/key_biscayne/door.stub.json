@@ -1,0 +1,6 @@
+{
+  "id": "key_biscayne_door",
+  "mesh": "res://assets/models/kits/key_biscayne/door.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "police_station_floor",
+  "mesh": "res://assets/models/kits/police_station/floor.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

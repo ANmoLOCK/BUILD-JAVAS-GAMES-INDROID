@@ -1,0 +1,18 @@
+{
+  "id": "ad_assistant",
+  "name": "@job.ad_assistant",
+  "location": "newspaper_office",
+  "pay": 55,
+  "durationMinutes": 90,
+  "requires": {
+    "culture": 1
+  },
+  "effects": [
+    {
+      "stat": "culture",
+      "delta": 2
+    }
+  ],
+  "minigame": "posters",
+  "unlockQuest": "q025_publicidade"
+}

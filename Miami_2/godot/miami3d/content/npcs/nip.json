@@ -1,0 +1,43 @@
+{
+  "id": "nip",
+  "slot": 18,
+  "name": "@npc.nip",
+  "displayName": "Nip",
+  "gender": "m",
+  "appearance": [
+    0,
+    3,
+    0,
+    2,
+    4,
+    0,
+    6,
+    0,
+    3,
+    2
+  ],
+  "likes": [
+    "fashion",
+    "hair",
+    "gossip"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "nip_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "beauty_clinic",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

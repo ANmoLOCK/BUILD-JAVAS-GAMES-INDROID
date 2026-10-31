@@ -1,0 +1,43 @@
+{
+  "id": "opal",
+  "slot": 14,
+  "name": "@npc.opal",
+  "displayName": "Opal",
+  "gender": "f",
+  "appearance": [
+    1,
+    4,
+    2,
+    2,
+    4,
+    2,
+    2,
+    2,
+    4,
+    2
+  ],
+  "likes": [
+    "media",
+    "dogs",
+    "fashion"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "opal_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "south_beach",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

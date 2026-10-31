@@ -1,0 +1,43 @@
+{
+  "id": "heather",
+  "slot": 4,
+  "name": "@npc.heather",
+  "displayName": "Heather",
+  "gender": "f",
+  "appearance": [
+    1,
+    4,
+    4,
+    0,
+    0,
+    4,
+    4,
+    4,
+    4,
+    0
+  ],
+  "likes": [
+    "fashion",
+    "romance",
+    "music"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "heather_default",
+  "greetings": "@greet.default",
+  "dateable": true,
+  "roommateable": true,
+  "essential": true,
+  "home": "heather_dean_apartment",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

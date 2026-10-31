@@ -1,0 +1,23 @@
+[0] \x! Aqui!
+[1] E, tã-nã! Surpresa!]Encontrei \mo Scott\m\fa Callie\f na frente da minha casa! Com aquele carrão \mdele\m\fdela\f.]Viemos todos ver o jogo.
+[2] \mE aí?\m\fEi!\f
+[3] Você lembra do que me falou sobre \ma Heather\m\fo Dean\f outro dia?]... Bom, descobri que \mela\m\fele\f ainda cheira bem como nos velhos tempos.
+[4] Você acha que \ma Heather\m\fo Dean\f gosta de mim? Veja como \mela\m\fele\f olha pra mim...]Eu acho que \mela\m\fele\f está \mapaixonada\m\fapaixonado\f por mim.
+[5] \mOk\m\fLegal\f, vocês todos vieram.
+[6] Ei, \x! Como está a sua mordida de cachorro?
+[7] Westwood é mesmo especial, não é?
+[8] Bem, bom jogo pra vocês!]Até mais!
+[9] Eu sei que vocês estão \mapaixonados\m\fapaixonadas\f \mpela Heather\m\fpelo Dean\f.]Agora é a sua chance de agir, \mgaroto\m\fgarota\f. (\p2BEIJO NA BOCA\p1)
+[10] Quer bater um papo, \x? Legal! Como nos velhos tempos de colégio!
+[11] Gostei de conversar com você, \x. Você continua legal como na época do colégio...
+[12] Westwood, não!!!
+[13] Pegue o Westwood, \x!
+[14] \mSeu maldoso\m\fSua maldosa\f! Você machucou o Westwood de propósito!]Como pode fazer mal a uma criatura tão inocente e adorável?
+[15] Oooh, Woodzinho!!!]O meu Westwood é tudo pra mim.
+[16] Oops, tá na hora de ir pra casa!]A última temporada de "SCU: Miami" vai começar daqui a 20 minutos!
+[17] Hmm... Peço desculpas pela Beatrice.
+[18] Ah, quer saber de uma coisa? Tenho um lance legal pra você, \x.]\mA minha amiga \p2Elizabeth\p1\m\fO meu amigo \p2Xavier\p1\f, trabalha na Imobiliária Palm e \mela\m\fele\f acabou de anunciar uma mansão maravilhosa em \p2Key Biscayne\p1! Acho que seria interessante pra você!
+[19] Por favor, ajude Westwood! Precisamos fazer alguma coisa para \p2acalmar os jogadores\p1...
+[20] Quer ver um bom jogo?]Experimenta isso! Vai fazer o jogo ficar 100 vezes melhor!
+[21] OHHH! Os dois times começaram a brigar no campo!]A MN2TV está cobrindo tudo ao vivo! Fique ligado!
+[22] Ei!]Você não pode entrar no campo, \msenhor\m\fsenhorita\f!!! Volte para o seu lugar!

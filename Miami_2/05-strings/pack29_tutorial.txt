@@ -1,0 +1,13 @@
+[0] Interaja com objetos e pessoas APERTANDO 5.
+[1] Aproxime-se de um personagem e APERTE 5 para começar a conversar. Selecione CONVERSAR e depois ASSUNTO para falar sobre algo que lhe interesse.
+[2] Tente OFERECER um PRESENTE ao personagem. Quem não gosta de ganhar presentes?
+[3] Você pode selecionar CONVERSAR e então escolher CONFORTAR para que a pessoa se sinta melhor.
+[4] Seu aluguel será menor se você tiver um colega de quarto. Selecione OFERECER e depois OFERECER QUARTO. Nem todo mundo está procurando onde morar, mas não desista!
+[5] Alguns personagens têm uma ação especial. Assim que o aluguel vencer, você tem que selecionar OFERECER e depois PAGAR ALUGUEL para ter certeza de que vai ficar no seu apartamento.
+[6] Depois de fazer amizade com alguém, você pode FLERTAR e então pedir o TELEFONE para pode ligar depois.
+[7] Agora que você tem um número de telefone, você pode convidar pessoas pra sair. Selecione OFERECER ATIVIDADE e depois SAIR JUNTO.
+[8] Todo mundo só pensa em uma coisa. Veja como as pessoas reagem quando você seleciona FLERTAR e depois BEIJO NA BOCA.
+[9] Parece que vocês dois estão se dando muito bem. Se quiser namorar essa pessoa, selecione OFERECER ATIVIDADE e depois NAMORAR.
+[10] Às vezes não vale a pena ser legal. Você pode OFENDER alguém e ainda fazer uma BRINCADEIRA, mas prepare-se para correr!
+[11] Você pode ligar/desligar a seta que indica o caminho, apertando 0.
+[12] De agora em diante é você quem decide ativar as \p2Setas de Direção\p1 em cada lugar! Aperte \p20 \p1para ativar e desativar as \p2Setas de Direção\p1.

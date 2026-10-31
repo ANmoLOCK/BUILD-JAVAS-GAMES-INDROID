@@ -1,0 +1,6 @@
+{
+  "id": "closet", "name": "@item.closet", "kind": "object",
+  "mesh": "res://assets/models/bedroom/closet.glb",
+  "footprint": [1, 2], "useCell": [-1, 0], "facing": "E",
+  "actions": ["change_clothes"]
+}

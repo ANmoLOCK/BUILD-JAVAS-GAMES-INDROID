@@ -1,0 +1,43 @@
+{
+  "id": "elizabeth",
+  "slot": 91,
+  "name": "@npc.elizabeth",
+  "displayName": "Elizabeth",
+  "gender": "f",
+  "appearance": [
+    1,
+    1,
+    1,
+    3,
+    6,
+    1,
+    1,
+    1,
+    1,
+    3
+  ],
+  "likes": [
+    "luxury",
+    "romance",
+    "art"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "elizabeth_default",
+  "greetings": "@greet.default",
+  "dateable": true,
+  "roommateable": true,
+  "essential": true,
+  "home": "mansion",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

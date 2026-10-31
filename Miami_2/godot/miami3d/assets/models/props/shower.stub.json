@@ -1,0 +1,12 @@
+{
+  "id": "shower",
+  "mesh": "res://assets/models/props/shower.glb",
+  "kind": "object",
+  "footprint": [
+    1,
+    1
+  ],
+  "contentMesh": "res://assets/models/bathroom/shower.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "glight_club_window",
+  "mesh": "res://assets/models/kits/glight_club/window.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

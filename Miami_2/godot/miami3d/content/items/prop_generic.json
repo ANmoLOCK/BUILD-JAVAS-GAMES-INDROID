@@ -1,0 +1,13 @@
+{
+  "id": "prop_generic",
+  "name": "@item.prop_generic",
+  "kind": "prop",
+  "footprint": [
+    1,
+    1
+  ],
+  "actions": [
+    "use"
+  ],
+  "price": 0
+}

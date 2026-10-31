@@ -1,0 +1,9 @@
+{
+  "id": "head_f_21",
+  "slot": "head",
+  "gender": "f",
+  "variant": 21,
+  "mesh": "res://assets/models/characters/heads/head_f_21.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

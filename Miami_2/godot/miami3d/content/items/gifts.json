@@ -1,0 +1,50 @@
+[
+  {
+    "id": "gift_special_drink",
+    "name": "@gift.special_drink",
+    "kind": "gift",
+    "price": 5
+  },
+  {
+    "id": "gift_flowers",
+    "name": "@gift.flowers",
+    "kind": "gift",
+    "price": 10
+  },
+  {
+    "id": "gift_cash",
+    "name": "@gift.cash",
+    "kind": "gift",
+    "price": 20
+  },
+  {
+    "id": "gift_sexy",
+    "name": "@gift.sexy",
+    "kind": "gift",
+    "price": 50
+  },
+  {
+    "id": "gift_polo",
+    "name": "@gift.polo",
+    "kind": "gift",
+    "price": 15
+  },
+  {
+    "id": "gift_ticket",
+    "name": "@gift.ticket",
+    "kind": "gift",
+    "price": 20
+  },
+  {
+    "id": "gift_lingerie",
+    "name": "@gift.lingerie",
+    "kind": "gift",
+    "price": 25
+  },
+  {
+    "id": "gift_vitamin",
+    "name": "@gift.vitamin",
+    "kind": "gift",
+    "price": 8
+  }
+]

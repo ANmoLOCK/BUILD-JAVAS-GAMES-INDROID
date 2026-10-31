@@ -1,0 +1,43 @@
+{
+  "id": "shaman",
+  "slot": 92,
+  "name": "@npc.shaman",
+  "displayName": "Shaman",
+  "gender": "m",
+  "appearance": [
+    0,
+    2,
+    2,
+    0,
+    0,
+    2,
+    4,
+    2,
+    2,
+    0
+  ],
+  "likes": [
+    "nature",
+    "spirits",
+    "herbs"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "shaman_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "everglades",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

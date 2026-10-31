@@ -1,0 +1,53 @@
+[0] Dê um recado \màquele\m\fàquela\f imprestável!!!]... Se \mele\m\fela\f aparecer de novo sem as calças no meu condomínio, vou deixar meu cachorro morder aquele traseiro branquelo!
+[1] Preste atenção, idiota! Westwood, ignore \meste\m\festa\f delinquente. Vamos tomar sol.
+[2] Você deve ser \mo amigo\m\fa amiga\f de \mScott\m\fCallie\f Lebowski. Tem uma identidade?
+[3] \mSeu amigo\m\fSua amiga\f está na \p2Sala de Visitas\p1, na penúltima janela.
+[4] Oh, valeu por ter vindo, \x! Como é bom te ver aqui!
+[5] Você precisa me tirar daqui. Sou totalmente inocente.
+[6] O cachorro de Goldsax me mordeu e arrancou minha calça jeans estilo anos 80. Você acredita em mim, não é?
+[7] Sim, claro!
+[8] Acho que não.
+[9] Valeu, \x! Você é \mo\m\fa\f melhor!
+[10] O quê?! Que espécie de \mamigo\m\famiga\f é você? Olha, paga minha fiança, tá legal? Vou te pagar de volta, prometo.
+[11] Então, você gostou do apartamento? Agora você pode pagar a minha fiança, certo?
+[12] São $500. Posso te dizer onde \p2encontrar trabalho\p1, ou você pode \p2provar minha inocência\p1 encontrando aquele vira-lata.]Melhor ainda... psst... você pode \p2me ajudar a fugir daqui\p1?
+[13] Como você vai me tirar daqui?
+[14] Amigos não deixam amigos na cadeia. Vou pagar sua fiança.
+[15] Vou encontrar o cachorro e provar sua inocência.
+[16] Te ajudar a fugir?
+[17] Você é demais. Conheço um cara que pode te arrumar algum dinheiro se você fizer uns trabalhinhos para ele.]Encontre-o na \p2South Beach\p1.
+[18] Isso! Vá para \p2South Beach\p1, algumas pessoas viram todo o incidente da mordida!]Eles devem saber o que aconteceu com o cachorro.]Mas rápido, ok? Não dá pra comer pão e água tanto tempo.]Além disso, o pessoal anda me olhando meio estranho por aqui...
+[19] Tenho um plano!]... psst... Veja o guarda à sua esquerda. Ele ficará sozinho no seu próximo turno da noite, de \p211^pm\p1 às \p27^am\p1.
+[20] Quando ele \p2dormir\p1, pegue as \p2chaves\p1 dele e \p2abra\p1 minha cela.
+[21] \mCara\m\fGarota\m, te devo uma. Agora, vamos encontrar esse vira-lata idiota e limpar meu nome.]Precisamos voltar à \p2South Beach\p1.
+[22] ... Me faça um favor, \x! Você pode dar comida pro meu \p2gato\p1 \v1em um dos meus \p2apartamentos\p1\v1\v600\p2no meu apartamento\p1\v600? O coitadinho deve estar morrendo de fome...
+[23] A escolha é sua!
+[24] \p2Little Havana\p1: Popular e com muitas atividades!
+[25] \p2Pelican Island\p1: Bairro adorável e tranquilo perto do mar!
+[26] Você vai adorar este apartamento!]Peça para o policial na entrada as \p2chaves\p1 do apartamento. E fique com esses $50 para o meu gato! Vou pedir para o proprietário levá-lo para o apartamento.
+[27] As chaves? Ok. Aqui estão.]\mSeu amigo\m\fSua amiga\f diz realmente não saber onde está o cachorro de Goldsax.]Então, se encontrar o pulguento por aí, espero que traga-o até aqui, certo?
+[28] Sinto muito, \msenhor\m\fsenhora\f. Não podemos te deixar entrar. Não quero problemas com os prisioneiros. (\p2CRIME < 40\p1)
+[29] Ei, \x. Como vai?
+[30] Criminalidade checada... Ok. Entre.
+[31] Nem vou perguntar como você conseguiu esse dinheiro... Hmpf. Espere aqui.
+[32] Bom trabalho, \x! Abra minha cela!
+[33] Ha, você não tem dinheiro para pagar a fiança.]Posso abaixar a taxa, se você provar que é confiável.
+[34] Que tal? (\p23 Estrelas\p1)
+[35] Fale com \mScott\m\fCallie\f de novo.
+[36] Claro, vamos conversar!
+[37] OK, claro. Vá falar com \mseu amigo\m\fsua amiga\f.
+[38] Boa conversa, \x. Você é mais inteligente do que eu imaginava. Vamos soltar seu amigo, desta vez, mas fique de olho \mnele\m\fnela\f.
+[39] \mSeu amigo\m\fSua amiga\f ainda está na cadeia? Vá falar com \mele\m\fela\f, ok?
+[40] Psssst... Quer uma vitamina?
+[41] EI! QUE DIABOS VOCÊ ESTÁ FAZENDO AQUI?]SOME!
+[42] Oh, você acabou de chegar em Miami?]Bem, você pode colocar a sua \p2foto\p1 no seu \p2Perfil\p1.
+[43] Quer uma nova \p2foto\p1 para o seu \p2Perfil\p1?
+[44] Claro!
+[45] Mais tarde...
+[46] Excelente!]Então, diga "xiiiiiiiiiis"!
+[47] Tudo bem...
+[48] Você pode voltar a qualquer hora para mudar a foto do seu \p2Perfil\p1, ok?
+[49] Uau! Que pedaço de mau caminho! O que temos aqui, que \mbonitão\m\fbonitona\f!
+[50] Você acabou de chegar em Miami?]Quer saber de uma coisa? Nos procure na praia, na boate, ou em nossa casa...]... Em qualquer lugar a qualquer hora quando você quiser conversar, ok?
+[51] Ei, ei! É você de novo, \mbelo rapaz\m\fbela garota\f!
+[52] Não se esqueça do que te falamos! Volte para nos visitar sempre que quiser bater um papinho, ok?

@@ -1,0 +1,297 @@
+[0] Polícia
+[1] Vá até a Delegacia
+[2] \mSeu amigo Scott\m\fSua amiga Callie\f foi \mdetido\m\fdetida\f por raptar um cachorro. Você recebeu uma ligação para visitá-\mlo\m\fla\f na delegacia de polícia em \p2Downtown\p1.
+[3] Polícia
+[4] Encontre \mScott\m\fCallie\f
+[5] \mSeu amigo Scott\m\fSua amiga Callie\f está na \p2Sala de Visitas\p1, na penúltima janela.
+[6] \mScott\m\fCallie\f
+[7] Um Bico
+[8] Conheço um cara que vai te arrumar algum dinheiro se você fizer uns trabalhinhos para ele. Encontre-o na \p2South Beach\p1.
+[9] \mScott\m\fCallie\f
+[10] Encontre o cachorro
+[11] Vá encontrar esse vira-lata idiota para limpar o meu nome. Volte para \p2South Beach\p1.
+[12] \mScott\m\fCallie\f
+[13] Plano
+[14] Este policial fica sozinho no turno da noite (das \p211^pm\p1 às \p27^am\p1). Ele sempre \p2dorme\p1. Quando ele dormir, pegue suas \p2chaves\p1 e \p2abra\p1 a minha cela.
+[15] \mScott\m\fCallie\f
+[16] Pague a fiança
+[17] Volte aqui e pague a fiança!
+[18] Goldsax
+[19] Classificados
+[20] Encontre uma cópia de cortesia do meu jornal semanal no seu \p2Apartamento\p1. Confira a seção de classificados para encontrar trabalho!
+[21] Huggy
+[22] Faça amizade com Huggy
+[23] Como posso saber se você é confiável? Converse comigo até que eu me sinta à vontade. (\p22 Estrelas\p1)
+[24] Huggy
+[25] Entrega
+[26] Entregue estes charutos cubanos para \v1o dono do \p2Restaurante Yuca\p1\v1\v600Hal Pachinko na \p2Ocean Drive\p1\v600 e ele vai te dar algum dinheiro.
+[27] Hal Pachinko
+[28] Consiga dinheiro com Huggy.
+[29] Diga ao velho Huggy que eu disse "obrigado". Abram caminho para \mo cara mau\m\fgarota má\f, pessoal!
+[30] Gêmeas
+[31] Fale com a Opal
+[32] Tem um cachorro com aquela apresentadora de TV, a Opal. Talvez seja o seu. Ela está na praia meditando.
+[33] Opal
+[34] Leve o cachorro até \ma Srta.\m\fo Sr.\f Goldsax.
+[35] É melhor levá-lo de volta para \ma Madame\m\fo Senhor\f Goldsax. Imagino a falta que o bichinho deve estar fazendo! \mEla\m\fEle\f deve estar na \p2Pelican Island\p1.
+[36] \mScott\m\fCallie\f
+[37] Chaves do apartamento
+[38] ... Me faça um favor, \x! Você pode dar comida pro meu \p2gato\p1 \v1em um dos meus \p2apartamentos\p1\v1\v600\p2no meu apartamento\p1\v600? O coitadinho deve estar morrendo de fome...
+[39] Proprietário
+[40] Faça amizade com o proprietário.
+[41] Meu nome é José, mas pode me chamar de Joey. Novos inquilinos me deixam nervoso. Vamos conversar um pouco pra ver se confio em você. (\p22 Estrelas\p1)
+[42] Encanador
+[43] Tome um banho
+[44] Acabei de consertar o chuveiro. Parece que você precisa mesmo de um. Faça um teste.
+[45] Encanador
+[46] Geladeira
+[47] Você deveria experimentar alguma coisa da geladeira.
+[48] Encanador
+[49] Troque de roupa
+[50] Você deveria trocar de roupa. Há algumas no closet do quarto.
+[51] Proprietário
+[52] Conheça o apartamento
+[53] Primeiro conheça o apartamento, depois eu vou mostrar minha pequena coleção no \p2jardim\p1! Lembre-se de pagar seu \p2aluguel \p1 ($300) toda semana ou vai acabar na rua.
+[54] \mScott\m\fCallie\f
+[55] Plano
+[56] Volte para a \p2Delegacia de Polícia\p1. Eu tenho um plano... Oh, e por favor, não esqueça de alimentar o meu gato, \x!
+[57] \mScott\m\fCallie\f
+[58] Alimentar o gato
+[59] ... Me faça um favor, \x! Você pode dar comida pro meu \p2gato\p1 \v1em um dos meus \p2apartamentos\p1\v1\v600\p2no meu apartamento\p1\v600? O coitadinho deve estar morrendo de fome...
+[60] Inspetor
+[61] Vá ao apartamento
+[62] Aqui estão as chaves do apartamento \mdo seu amigo\m\fda sua amiga\f em \p2Little Havana\p1. Se você encontrar o cachorro roubado por aí, traga-o aqui imediatamente, ok?
+[63] Inspetor
+[64] Vá ao apartamento
+[65] Aqui estão as chaves do apartamento \mdo seu amigo\m\fda sua amiga\f em \p2Pelican Island\p1. Se você encontrar o cachorro roubado por aí, traga-o aqui imediatamente, ok?
+[66] \mScott\m\fCallie\f
+[67] Personalize sua casa
+[68] Coloquei o computador na mesa. Você pode personalizar este quarto de acordo com o seu estilo. Vá em frente, experimente. Não se preocupe com o preço.
+[69] \mScott\m\fCallie\f
+[70] Detetive particular
+[71] Aê! Tenho \mum\m\fuma\f detetive oficial para casos amorosos! \mEla\m\fEle\f mora perto da praia. Dê uma olhada na área e dê um sinal se você vê-\mla\m\flo\f por perto, ok?
+[72] Spillbeard
+[73] Trabalho: Figurante
+[74] No momento estamos procurando figurantes para um filme. Tenho certeza que você vai se interessar. Me encontre na \p2South Beach\p1.
+[75] Opal
+[76] Trabalho: Assistente de Publicidade
+[77] \mA Srta.\m\fO Sr.\f Goldsax me disse que talvez estaria \minteressado\m\finteressada\f numa carreira na Mídia. Vamos nos encontrar na frente do meu escritório em \p2Downtown\p1.
+[78] Charm
+[79] Trabalho: Bartender
+[80] Tenho um excelente trabalho pra você na minha boate. Me encontre no \p2Glight Club\p1, em Downtown.
+[81] \v1Restaurante Yuca\v1\v600Hal Pachinko\v600
+[82] Trabalho: \mEntregador\m\fEntregadora\f
+[83] \mA Srta.\m\fO Sr.\f Goldsax me pediu para entrar em contato com você. Temos uma ótima oportunidade de trabalho. Nos encontre \v1no \p2 Restaurante Yuca\p1 em Little Havana\v1\v600na \p2Ocean Drive\p1\v600.
+[84] Proprietário
+[85] Anões
+[86] Se você os encontrar na cidade, por favor traga-os de volta! Eu te darei um pouco de dinheiro por cada um. Eles são um total de \p27 anões\p1.
+[87] Spillbeard
+[88] Faça Amizade com o Coordenador
+[89] Não gosto de contratar qualquer um que passa na rua, então converse comigo um pouco para que eu possa te conhecer. (\p22 Estrelas\p1)
+[90] Spillbeard
+[91] Trabalho de Figurante
+[92] Seu trabalho é sentar na praia e fingir que está pegando um bronze, entendeu? Mas espere até eu dizer "Ação" para ficar em posição.
+[93] Câmera
+[94] Oferta?
+[95] Siga-me, vou dar um close em você.
+[96] \mScott\m\fCallie\f
+[97] Experimente tudo!
+[98] Vá conferir o jornal de novo, há outro trabalho.
+[99] Opal
+[100] Cartazes
+[101] Você será \mmeu\m\fminha\f assistente de publicidade! Pendure os cartazes nas paredes e eu te darei $200! Eles estão empilhados na frente do \p2Estádio Degubas\p1.
+[102] Chefe de Publicidade
+[103] Pagamento
+[104] Volte ao escritório se tiver acabado e quiser ser \mpago\m\fpaga\f!
+[105] \mScott\m\fCallie\f
+[106] FESTA!!!
+[107] Ei, \x! Tem uma festa legal rolando aqui na \p2South Beach\p1 das \p24^pm\p1 até as \p27^am\p1! Vem pra cá e vamos fazer a f-e-s-t-a!
+[108] Hal Pachinko
+[109] Entrega de Pizzas
+[110] \v1Pegue a pizza na \p2cozinha\p1\v1\v600Pegue a pizza sobre a mesa\v600 e leve-a para a oficina mecânica na \p2Pelican Island\p1, mas traga de volta a caixa que ele vai te dar.
+[111] Charm
+[112] Servir bebidas
+[113] Vá ao bar e faça como os seus colegas. Vou ficar de olho. Seja profissional e não festeje demais.
+[114] \mScott\m\fCallie\f
+[115] MN2TV
+[116] A MN2TV irá transmitir a festa de Miami Beach à noite (de \p24 pm\p1 às \p27 am\p1), em \p2South Beach\p1! Você deveria entrar nessa!
+[117] MC
+[118] Luzes!
+[119] Preciso que você crie uma atmosfera real de festa. Talvez... Uma \p2iluminação\p1 especial, para começar...?
+[120] MC
+[121] Música!
+[122] Vamos dar uma mão ao nosso fabuloso rato de festas, \x. Hora da \p2música\p1!
+[123] MC
+[124] Festa!
+[125] Você deveria começar a \p2OFERECER BEBIDAS\p1 para as pessoas, agora. Para pelo menos dois dos seus convidados favoritos.
+[126] MC
+[127] Visite \msua amiga\m\fseu amigo\f.
+[128] Uau, agora você tem um fã clube. Tente \p2VISITAR\p1 a casa \mdela\m\fdele\f!
+[129] \mHeather\m\fDean\f
+[130] Novas roupas
+[131] Te ligo mais tarde quando estivermos prontos. Você deveria usar umas roupas de verdade. Dê uma olhada na loja da \p2Ceviche\p1 em \p2Coconut Grove\p1.
+[132] Goldsax
+[133] Galeão Espanhol Perdido
+[134] Há um velho marujo em Miami chamado \p2Sanchez\p1 que é considerado o último homem vivo a ter informações sobre este navio. Preciso que você descubra o que ele sabe.
+[135] Sanchez
+[136] Oferta? Ofensa?
+[137] Tenho um \p2mapa\p1 que mostra exatamente onde está, mas tem um preço. \p2VITAMINA\p1? Ou você quer \p2BRIGAR\p1?
+[138] Sanchez
+[139] Gran Kahuna
+[140] O mapa está no estômago de Gran Kahuna, o famoso crocodilo que vive em \p2Everglades\p1.
+[141] Guarda
+[142] Crocodilos adoram pizza!
+[143] Compre uma \p2pizza\p1 no \v1\p2Restaurante Yuca\p1\v1\v600 na \p2Ocean Drive\p1\v600 e dê ao crocodilo. Você só irá encontrá-lo entre \p28 pm\p1 e \p26 am\p1, que é quando ele sai para caçar.
+[144] Goldsax
+[145] Mapa
+[146] Então, conseguiu o mapa? Me encontre no meu \p2iate\p1! Rápido!
+[147] Goldsax
+[148] Amizade ou briga?
+[149] Quer participar da expedição? Vai \p2fazer amizade\p1 com Goldsax (\p23 Estrelas\p1) ou \p2brigue\p1 com \mela\m\fele\f?
+[150] \mHeather\m\fDean\f
+[151] Jantar
+[152] O jantar está pronto, venha quando puder. Minha casa fica \p2\v1em Coconut Grove\v1\v600na Pelican Island\v600\p1.
+[153] Ceviche
+[154] Treinar modelos
+[155] Agora faça com que andem como top models.
+[156] \mScott\m\fCallie\f
+[157] \mAgenciador\m\fAgenciadora\f de Modelos
+[158] Encontre Mortadella Ceviche \p2\v1em Coconut Grove\v1\v600na Ocean Drive\v600\p1. Ela é difícil, mas acho que você vai curtir o trabalho. Boa sorte!
+[159] Charm
+[160] Substituir o DJ!
+[161] Meu DJ acaba de desmaiar! Parece que é a sua chance. Assuma as pick-ups, vai nessa!
+[162] \mScott\m\fCallie\f
+[163] DJ
+[164] Encontre Charm no \p2Glight Club\p1, em Downtown. Ela está procurando alguém para substituir o DJ e ela é generosa. Boa sorte!
+[165] \mScott\m\fCallie\f
+[166] Detetive particular
+[167] É disso que eu estou falando! Vá \v1ao\p2Restaurante Yuca\p1 em Little Havana,\v1\v600\p2até a Ocean Drive\p1\v600 e fale com Hal Pachinko. Boa Sorte!
+[168] Mortadella
+[169] Modelos - Garotos e Garotas
+[170] Convença um garoto sarado e uma gatinha em \p2traje de banho\p1 a se tornarem meus modelos.
+[171] Capitão do navio
+[172] Velho marinheiro
+[173] Temos que encontrar aquele \p2velho capitão\p1 para que possamos encontrar o tesouro antes de Goldsax.
+[174] Hal Pachinko
+[175] Recompensa
+[176] Te devo uma, \x. Apareça \v1no \p2Restaurante\p1\v1\v600na \p2Ocean Drive\p1\v600.
+[177] Hal Pachinko
+[178] Pizza vitaminada
+[179] Entregue esta pizza vitaminada a um dos maiores chefões de Miami. Ele estará em frente ao \v1\p2Melon Bank\p1, em \p2Little Havana\p1\v1\v600\p2iate de Goldsax\p1, na \p2Pelican Island\p1\v600. Pegue a pizza especial na \v1\p2porta dos fundos\p1\v1\v600mesa\v600, ok?
+[180] Inspetor
+[181] Faça amizade com o chefão
+[182] Lembre-se, tente \p2fazer amizade com o chefão\p1 (\p23 Estrelas\p1). Eis a parte importante: quando achar que ele confia em você, \p2me liga\p1. Cuidaremos do resto.
+[183] \mHeather\m\fDean\f
+[184] Jogo de futebol
+[185] Venha me encontrar no \p2Estádio\p1 em Downtown.
+[186] Proprietário
+[187] Chance
+[188] Eu sei que \mScott, Danny\m\fCallie, Amy\f e você estão \mapaixonados\m\fapaixonadas\f \mpela Heather\m\fpelo Dean\f. Agora é a sua chance de agir. (\p2BEIJO NA BOCA\p1)
+[189] Beatrice
+[190] Salve Westwood
+[191] Vá buscar o Westwood, \x! Faça alguma coisa para \p2acalmar os jogadores\p1!
+[192] \mHeather\m\fDean\f
+[193] Imobiliária Palm
+[194] \mA minha amiga \p2Elizabeth\p1\m\fO meu amigo \p2Xavier\p1\f, trabalha na Imobiliária Palm e \mela\m\fele\f acabou de anunciar uma mansão maravilhosa em \p2Key Biscayne\p1! Acho que seria interessante pra você!
+[195] \mElizabeth\m\fXavier\f
+[196] Faça amizade com \mElizabeth\m\fXavier\f
+[197] Vamos conversar um pouco para que eu possa ver se você é de confiança. (\p22 Estrelas\p1)
+[198] \mElizabeth\m\fXavier\f
+[199] Entre na mansão
+[200] Por que não discutimos o preço lá dentro, \x?
+[201] \mElizabeth\m\fXavier\f
+[202] Beije \mElizabeth\m\fXavier\f
+[203] Que tal um \p2BEIJO nos LÁBIOS\p1 por metade do pagamento (\p2$1.000 por semana\p1)?
+[204] \mElizabeth\m\fXavier\f
+[205] Amasso?
+[206] Especialmente esta cama! Você quer tentar? Tente dar um \p2AMASSO\p1 \mnela\m\fnele\f. (\p2$500 por semana\p1)
+[207] \mScott\m\fCallie\f
+[208] Decore a casa
+[209] Pesquisou bem, \mmeu caro\m\fmoça\f! Agora você tem que dar uma festa de inauguração. Compre uns móveis e decore o lugar. Gaste ao menos uns $2.000!
+[210] \mScott\m\fCallie\f
+[211] Encontre o DJ
+[212] Vamos achar as pessoas mais atraentes da alta sociedade de Miami e convencê-las a vir na sua festa! Primeiro, e o mais importante... Encontre o melhor \p2DJ\p1 de Miami!
+[213] DJ
+[214] Dance com o DJ
+[215] Quer que eu vá à sua festa? Me mostre sua \p2DANÇA\p1! Se for melhor que eu, vou pensar a respeito!
+[216] DJ
+[217] Encontre o segurança
+[218] Ah, falando nisso, é sempre melhor ter um \p2segurança\p1 em uma festa para a alta sociedade! Tente contratar um dos caras lá da entrada.
+[219] Segurança
+[220] Ingresso para Show
+[221] Sua festa? Quem se importa? Mas quer saber de uma coisa? Estou procurando \p2ingressos para show\p1... Você tem?
+[222] Charm
+[223] Encontre cirurgiões plásticos
+[224] Se você quiser que sua festa bombe pra valer, convide com meus cirurgiões plásticos. Eles conhecem MUITA gente da alta sociedade do \p2Salão de Beleza\p1.
+[225] \mScott\m\fCallie\f
+[226] Comece a festa!
+[227] Ei, \x! Parabéns! Todos os grandes nomes estão esperando por você aqui! Volte aqui e vamos começar a festa!
+[228] Sanchez
+[229] Procurando vitamina?
+[230] Ah, você não tem nenhuma VITAMINA... Tenho certeza de que alguém por aqui está vendendo algumas.
+[231] Guarda
+[232] Encontre minha identidade.
+[233] Ei, \mgaroto\m\fgarota\f. Não consigo encontrar minha identidade. Pode me ajudar?
+[234] MN2
+[235] Chefão ou Inspetor
+[236] Leve a pizza para \p2Pelican Island\p1! E traga de volta a caixa da pizza! Mas para quem eu devo entregar a caixa? Para o \p2Chefão\p1 ou para o \p2Inspetor\p1?
+[237] Sanchez
+[238] Ajuda do Sanchez
+[239] Você quer que eu te ajude a encontrar o Galeão Perdido?\nFazer amizade? Ameaçar? Ou dar vitamina?
+[240] Tira
+[241] Nós voltaremos...
+[242] De volta depois do jogo dos Degubas. (Em caso de emergência, nos encontre na frente do \p2Estádio\p1.)
+[243] \mScott\m\fCallie\f
+[244] Pequeno desvio?
+[245] Está vendo \mas garotas\m\fos rapazes\f ali? Vamos tomar alguma coisa com \melas\m\feles\f antes de encontrar este cachorro! Não se esqueça de pedir os \p2números de telefone\p1 \mdelas\m\fdeles\f! Você vai precisar se quiser \p2convidar para sair\p1.
+[246] Charm
+[247] Me covide para dançar
+[248] Por que nós não \p2DANÇAMOS\p1 antes de eu te dar um trabalho?
+[249] \mScott\m\fCallie\f
+[250] Presente
+[251] Dê uma passada no \p2apartamento\p1! Eu quero te mostrar uma coisa!
+[252] \mScott\m\fCallie\f
+[253] Dar um Mergulho
+[254] Ei, por que não vamos todos dar um mergulho?
+[255] Opal
+[256] Flores
+[257] Quero ver se você é gentil e \mgeneroso\m\fgenerosa\f o suficiente para me oferecer \p2FLORES\p1.
+[258] \mElizabeth\m\fXavier\f
+[259] Mansão
+[260] Bem, vou deixar você olhar esta maravilhosa mansão. Estarei no \p2andar de cima\p1 se tiver alguma pergunta.
+[261] \mElizabeth\m\fXavier\f
+[262] Visitas
+[263] Eu falei para o proprietário e para \mseu amigo\m\fsua amiga\f sobre a sua nova mansão. Eles devem estar te esperando \p2do lado de fora\p1.
+[264] Nik e Took
+[265] Corte de Cabelo
+[266] Vamos trazer todos os nossos clientes maravilhosos para a sua festa! Mas antes da festa, \p2corte o cabelo\p1 no salão.
+[267] Capitão
+[268] Caça ao Tesouro!
+[269] Queria ver esse Galeão com os meus próprios olhos! Eu e o Sr. Sanchez estaremos esperando por você \v1\p2na frente da mansão\p1\v1\v600\p2na marina da Pelican Island\p1\v600.
+[270] Capitão
+[271] Caça ao Tesouro!
+[272] Você pode localizar o Galeão usando o \p2radar\p1 ali. Sanchez tem as instruções.
+[273] MN2
+[274] Sua Própria História
+[275] Parabéns! Você explorou com sucesso a cidade de \p2Miami\p1! Agora é sua vez de fazer sua própria história!
+[276] DJ
+[277] $1.000
+[278] Preciso cobrar \p2$1.000\p1 se quiser que eu vá na sua festa.
+[279] Segurança
+[280] $500
+[281] Que tal \p2$500\p1 para nós dois irmos na sua festa?
+[282] \mHeather\m\fDean\f
+[283] Fique mais sexy!
+[284] Aumente seu \p2SEX APPEAL\p1 para \p250\p1 e volte aqui. Vou te apresentar a Mortadella Ceviche.
+[285] Transeunte
+[286] Pequeno desvio?
+[287] Está vendo \mas garotas\m\fos rapazes\f ali? Vamos tomar alguma coisa com \melas\m\feles\f antes de encontrar este cachorro! Não se esqueça de pedir os \p2números de telefone\p1 \mdelas\m\fdeles\f! Você vai precisar se quiser \p2convidar para sair\p1.
+[288] Transeunte
+[289] Dar um Mergulho
+[290] Ei, por que não vamos todos dar um mergulho?
+[291] Proprietário
+[292] Recompensa pelos Anões
+[293] Excelente habilidade para encontrar anões! Passe no apartamento e eu te darei a recompensa.
+[294] \mScott\m\fCallie\f
+[295] Sinta-se em casa
+[296] Olha o que nós temos neste maravilhoso apartamento!

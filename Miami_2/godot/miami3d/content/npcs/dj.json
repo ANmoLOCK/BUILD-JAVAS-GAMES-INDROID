@@ -1,0 +1,43 @@
+{
+  "id": "dj",
+  "slot": 12,
+  "name": "@npc.dj",
+  "displayName": "DJ",
+  "gender": "m",
+  "appearance": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    4,
+    0,
+    2,
+    0
+  ],
+  "likes": [
+    "music",
+    "dance",
+    "parties"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "dj_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "glight_club",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

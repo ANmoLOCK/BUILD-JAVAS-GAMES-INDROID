@@ -1,0 +1,8 @@
+{
+  "id": "gnome", "name": "@item.gnome", "kind": "quest",
+  "mesh": "res://assets/models/misc/gnome.glb",
+  "icon": "res://assets/ui/items/gnome.png",
+  "footprint": [1, 1], "useCell": [0, 1], "facing": "N",
+  "actions": ["pick_up_gnome"],
+  "stackable": false
+}

@@ -1,0 +1,6 @@
+{
+  "id": "stadium_trim",
+  "mesh": "res://assets/models/kits/stadium/trim.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

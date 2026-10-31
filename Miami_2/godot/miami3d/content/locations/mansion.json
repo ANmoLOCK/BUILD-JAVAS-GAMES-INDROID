@@ -1,0 +1,84 @@
+{
+  "id": "mansion",
+  "name": "@loc.mansion",
+  "region": "key_biscayne",
+  "scene": "res://game/world/locations/mansion.tscn",
+  "indoor": true,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "apartment_calm",
+  "grid": {
+    "width": 28,
+    "height": 22
+  },
+  "spawn": {
+    "cell": [
+      14,
+      11
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        14,
+        11
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      28,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      22
+    ],
+    [
+      27,
+      0,
+      1,
+      22
+    ],
+    [
+      0,
+      21,
+      28,
+      1
+    ]
+  ],
+  "portals": [
+    {
+      "id": "exit",
+      "cell": [
+        14,
+        20
+      ],
+      "to": "key_biscayne",
+      "spawn": "default"
+    }
+  ],
+  "zones": [
+    {
+      "id": "main",
+      "rect": [
+        2,
+        2,
+        24,
+        18
+      ],
+      "tag": "indoor"
+    }
+  ],
+  "objects": [],
+  "npcs": [],
+  "triggers": []
+}

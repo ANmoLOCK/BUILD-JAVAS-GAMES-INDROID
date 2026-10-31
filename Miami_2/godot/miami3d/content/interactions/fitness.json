@@ -1,0 +1,62 @@
+[
+  {
+    "id": "levantar_pesos",
+    "legacyId": 100,
+    "name": "@act.levantar_pesos",
+    "target": "object",
+    "animation": "levantar",
+    "durationMinutes": 20,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "fitness",
+        "delta": 6
+      },
+      {
+        "stat": "hygiene",
+        "delta": -5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "polichinelo",
+    "legacyId": 162,
+    "name": "@act.polichinelo",
+    "target": "object",
+    "animation": "polichinelo",
+    "durationMinutes": 20,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "fitness",
+        "delta": 6
+      },
+      {
+        "stat": "hygiene",
+        "delta": -5
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "alongamento",
+    "legacyId": 163,
+    "name": "@act.alongamento",
+    "target": "object",
+    "animation": "alongamento",
+    "durationMinutes": 20,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "fitness",
+        "delta": 6
+      },
+      {
+        "stat": "hygiene",
+        "delta": -5
+      }
+    ],
+    "event": "used_object"
+  }
+]

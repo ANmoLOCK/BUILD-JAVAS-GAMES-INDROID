@@ -1,0 +1,16 @@
+{
+  "location": "mansion",
+  "pieces": [
+    "floor",
+    "wall",
+    "trim",
+    "door",
+    "window"
+  ],
+  "textures": {
+    "albedo": "res://assets/textures/kits/mansion/albedo.png",
+    "normal": "res://assets/textures/kits/mansion/normal.png",
+    "roughness": "res://assets/textures/kits/mansion/roughness.png"
+  },
+  "status": "placeholder"
+}

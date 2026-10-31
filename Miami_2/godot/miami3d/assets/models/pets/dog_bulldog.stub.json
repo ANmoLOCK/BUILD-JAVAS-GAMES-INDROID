@@ -1,0 +1,7 @@
+{
+  "id": "dog_bulldog",
+  "species": "dog",
+  "mesh": "res://assets/models/pets/dog_bulldog.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

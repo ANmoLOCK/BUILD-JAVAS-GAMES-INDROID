@@ -1,0 +1,9 @@
+{
+  "id": "mod_fisher",
+  "name": "@npc.mod_fisher",
+  "gender": "m",
+  "home": "mod_pier",
+  "essential": false,
+  "appearance": [0, 0, 1, 2, 1, 3, 1, 2, 0, 1],
+  "interests": ["sports", "food"]
+}

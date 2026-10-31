@@ -1,0 +1,43 @@
+{
+  "id": "boss",
+  "slot": 88,
+  "name": "@npc.boss",
+  "displayName": "Chefão",
+  "gender": "m",
+  "appearance": [
+    0,
+    3,
+    4,
+    0,
+    0,
+    4,
+    0,
+    4,
+    3,
+    0
+  ],
+  "likes": [
+    "crime",
+    "power",
+    "money"
+  ],
+  "dislikes": [
+    "politics"
+  ],
+  "initial": {
+    "friendship": 0,
+    "romance": 0,
+    "mood": 55
+  },
+  "schedule": "boss_default",
+  "greetings": "@greet.default",
+  "dateable": false,
+  "roommateable": false,
+  "essential": true,
+  "home": "little_havana",
+  "phoneUnlock": {
+    "friendshipLevel": {
+      ">=": 2
+    }
+  }
+}

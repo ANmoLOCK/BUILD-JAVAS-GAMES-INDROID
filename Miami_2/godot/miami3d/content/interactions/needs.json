@@ -1,0 +1,98 @@
+[
+  {
+    "id": "urinar",
+    "legacyId": 28,
+    "name": "@act.urinar",
+    "target": "object",
+    "animation": "urinar",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "bladder",
+        "delta": -80
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "ler_noticias",
+    "legacyId": 32,
+    "name": "@act.ler_noticias",
+    "target": "object",
+    "animation": "ler",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "nap",
+    "legacyId": 37,
+    "name": "@act.nap",
+    "target": "object",
+    "animation": "nap",
+    "durationMinutes": 60,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "sleep",
+        "delta": -30
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "lanchar",
+    "legacyId": 38,
+    "name": "@act.lanchar",
+    "target": "object",
+    "animation": "lanchar",
+    "durationMinutes": 15,
+    "advancesTime": true,
+    "effects": [
+      {
+        "stat": "hunger",
+        "delta": -25
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "ver_pessoas",
+    "legacyId": 39,
+    "name": "@act.ver_pessoas",
+    "target": "object",
+    "animation": "ver",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  },
+  {
+    "id": "bronzear_se",
+    "legacyId": 41,
+    "name": "@act.bronzear_se",
+    "target": "object",
+    "animation": "bronzear",
+    "durationMinutes": 5,
+    "advancesTime": false,
+    "effects": [
+      {
+        "stat": "mood",
+        "delta": 2
+      }
+    ],
+    "event": "used_object"
+  }
+]

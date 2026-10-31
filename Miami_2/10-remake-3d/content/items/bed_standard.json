@@ -1,0 +1,17 @@
+{
+  "id": "bed_standard",
+  "name": "@item.bed_standard",
+  "kind": "furniture",
+  "mesh": "res://assets/models/furniture/bed_standard.glb",
+  "icon": "res://assets/ui/items/bed_standard.png",
+  "footprint": [2, 3],
+  "useCell": [0, 3],
+  "facing": "N",
+  "category": "bed",
+  "price": 150,
+  "sellPrice": 50,
+  "shop": "furniture_store",
+  "colors": ["green", "blue", "red", "yellow", "orange", "white"],
+  "actions": ["sleep", "nap", "jump_on_bed", "make_bed"],
+  "statBonus": [ { "stat": "self_esteem", "delta": 2 } ]
+}

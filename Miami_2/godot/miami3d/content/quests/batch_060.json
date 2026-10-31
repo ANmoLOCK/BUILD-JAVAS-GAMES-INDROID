@@ -1,0 +1,522 @@
+[
+  {
+    "id": "q060_faca_amizade_com_o_chefao",
+    "legacyId": 60,
+    "sender": "Inspetor",
+    "title": "@q060.title",
+    "text": "@q060.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q060.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q060_faca_amizade_com_o_chefao"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q061_jogo_de_futebol",
+    "legacyId": 61,
+    "sender": "Heather",
+    "title": "@q061.title",
+    "text": "@q061.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q061.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q061_jogo_de_futebol"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q062_chance",
+    "legacyId": 62,
+    "sender": "Proprietário",
+    "title": "@q062.title",
+    "text": "@q062.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q062.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q062_chance"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q063_salve_westwood",
+    "legacyId": 63,
+    "sender": "Beatrice",
+    "title": "@q063.title",
+    "text": "@q063.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q063.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q063_salve_westwood"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q064_imobiliaria_palm",
+    "legacyId": 64,
+    "sender": "Heather",
+    "title": "@q064.title",
+    "text": "@q064.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q064.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q064_imobiliaria_palm"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q065_faca_amizade_com_elizabeth",
+    "legacyId": 65,
+    "sender": "Elizabeth",
+    "title": "@q065.title",
+    "text": "@q065.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q065.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q065_faca_amizade_com_elizabeth"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q066_entre_na_mansao",
+    "legacyId": 66,
+    "sender": "Elizabeth",
+    "title": "@q066.title",
+    "text": "@q066.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q066.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q066_entre_na_mansao"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q067_beije_elizabeth",
+    "legacyId": 67,
+    "sender": "Elizabeth",
+    "title": "@q067.title",
+    "text": "@q067.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q067.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q067_beije_elizabeth"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q068_amasso",
+    "legacyId": 68,
+    "sender": "Elizabeth",
+    "title": "@q068.title",
+    "text": "@q068.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q068.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q068_amasso"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q069_decore_a_casa",
+    "legacyId": 69,
+    "sender": "Scott",
+    "title": "@q069.title",
+    "text": "@q069.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q069.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q069_decore_a_casa"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q070_encontre_o_dj",
+    "legacyId": 70,
+    "sender": "Scott",
+    "title": "@q070.title",
+    "text": "@q070.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q070.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q070_encontre_o_dj"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q071_dance_com_o_dj",
+    "legacyId": 71,
+    "sender": "DJ",
+    "title": "@q071.title",
+    "text": "@q071.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q071.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q071_dance_com_o_dj"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q072_encontre_o_seguranca",
+    "legacyId": 72,
+    "sender": "DJ",
+    "title": "@q072.title",
+    "text": "@q072.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q072.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q072_encontre_o_seguranca"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q073_ingresso_para_show",
+    "legacyId": 73,
+    "sender": "Segurança",
+    "title": "@q073.title",
+    "text": "@q073.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q073.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q073_ingresso_para_show"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q074_encontre_cirurgioes_plasticos",
+    "legacyId": 74,
+    "sender": "Charm",
+    "title": "@q074.title",
+    "text": "@q074.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q074.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q074_encontre_cirurgioes_plasticos"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q075_comece_a_festa",
+    "legacyId": 75,
+    "sender": "Scott",
+    "title": "@q075.title",
+    "text": "@q075.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q075.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q075_comece_a_festa"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q076_procurando_vitamina",
+    "legacyId": 76,
+    "sender": "Sanchez",
+    "title": "@q076.title",
+    "text": "@q076.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q076.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q076_procurando_vitamina"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q077_encontre_minha_identidade",
+    "legacyId": 77,
+    "sender": "Guarda",
+    "title": "@q077.title",
+    "text": "@q077.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q077.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q077_encontre_minha_identidade"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q078_chefao_ou_inspetor",
+    "legacyId": 78,
+    "sender": "MN2",
+    "title": "@q078.title",
+    "text": "@q078.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q078.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q078_chefao_ou_inspetor"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q079_ajuda_do_sanchez",
+    "legacyId": 79,
+    "sender": "Sanchez",
+    "title": "@q079.title",
+    "text": "@q079.text",
+    "chapter": "late",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q079.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q079_ajuda_do_sanchez"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "id": "pelican_port_wall",
+  "mesh": "res://assets/models/kits/pelican_port/wall.glb",
+  "fallback": "res://assets/models/_shared/placeholder.glb",
+  "status": "placeholder"
+}

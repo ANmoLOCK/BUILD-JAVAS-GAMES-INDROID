@@ -1,0 +1,485 @@
+[
+  {
+    "id": "sofa_1",
+    "name": "@item.sofa_1",
+    "kind": "furniture",
+    "category": "sofa",
+    "footprint": [
+      2,
+      2
+    ],
+    "price": 200,
+    "sellPrice": 66,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "relax"
+    ]
+  },
+  {
+    "id": "sofa_2",
+    "name": "@item.sofa_2",
+    "kind": "furniture",
+    "category": "sofa",
+    "footprint": [
+      2,
+      2
+    ],
+    "price": 250,
+    "sellPrice": 83,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "relax"
+    ]
+  },
+  {
+    "id": "sofa_3",
+    "name": "@item.sofa_3",
+    "kind": "furniture",
+    "category": "sofa",
+    "footprint": [
+      2,
+      2
+    ],
+    "price": 300,
+    "sellPrice": 100,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "relax"
+    ]
+  },
+  {
+    "id": "bed_1",
+    "name": "@item.bed_1",
+    "kind": "furniture",
+    "category": "bed",
+    "footprint": [
+      2,
+      2
+    ],
+    "price": 150,
+    "sellPrice": 50,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "sleep",
+      "nap"
+    ]
+  },
+  {
+    "id": "bed_2",
+    "name": "@item.bed_2",
+    "kind": "furniture",
+    "category": "bed",
+    "footprint": [
+      2,
+      2
+    ],
+    "price": 200,
+    "sellPrice": 66,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "sleep",
+      "nap"
+    ]
+  },
+  {
+    "id": "bed_3",
+    "name": "@item.bed_3",
+    "kind": "furniture",
+    "category": "bed",
+    "footprint": [
+      2,
+      2
+    ],
+    "price": 250,
+    "sellPrice": 83,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "sleep",
+      "nap"
+    ]
+  },
+  {
+    "id": "dresser_1",
+    "name": "@item.dresser_1",
+    "kind": "furniture",
+    "category": "dresser",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 120,
+    "sellPrice": 40,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "use"
+    ]
+  },
+  {
+    "id": "dresser_2",
+    "name": "@item.dresser_2",
+    "kind": "furniture",
+    "category": "dresser",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 170,
+    "sellPrice": 56,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "use"
+    ]
+  },
+  {
+    "id": "dresser_3",
+    "name": "@item.dresser_3",
+    "kind": "furniture",
+    "category": "dresser",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 220,
+    "sellPrice": 73,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "use"
+    ]
+  },
+  {
+    "id": "dresser_4",
+    "name": "@item.dresser_4",
+    "kind": "furniture",
+    "category": "dresser",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 270,
+    "sellPrice": 90,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "use"
+    ]
+  },
+  {
+    "id": "tv_1",
+    "name": "@item.tv_1",
+    "kind": "furniture",
+    "category": "tv",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 180,
+    "sellPrice": 60,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "watch_tv"
+    ]
+  },
+  {
+    "id": "tv_2",
+    "name": "@item.tv_2",
+    "kind": "furniture",
+    "category": "tv",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 230,
+    "sellPrice": 76,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "watch_tv"
+    ]
+  },
+  {
+    "id": "cushion_1",
+    "name": "@item.cushion_1",
+    "kind": "furniture",
+    "category": "cushion",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 40,
+    "sellPrice": 13,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "relax"
+    ]
+  },
+  {
+    "id": "cushion_2",
+    "name": "@item.cushion_2",
+    "kind": "furniture",
+    "category": "cushion",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 90,
+    "sellPrice": 30,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "relax"
+    ]
+  },
+  {
+    "id": "cushion_3",
+    "name": "@item.cushion_3",
+    "kind": "furniture",
+    "category": "cushion",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 140,
+    "sellPrice": 46,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "relax"
+    ]
+  },
+  {
+    "id": "cushion_4",
+    "name": "@item.cushion_4",
+    "kind": "furniture",
+    "category": "cushion",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 190,
+    "sellPrice": 63,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "relax"
+    ]
+  },
+  {
+    "id": "computer_1",
+    "name": "@item.computer_1",
+    "kind": "furniture",
+    "category": "computer",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 250,
+    "sellPrice": 83,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "check_email"
+    ]
+  },
+  {
+    "id": "computer_2",
+    "name": "@item.computer_2",
+    "kind": "furniture",
+    "category": "computer",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 300,
+    "sellPrice": 100,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "check_email"
+    ]
+  },
+  {
+    "id": "chair_1",
+    "name": "@item.chair_1",
+    "kind": "furniture",
+    "category": "chair",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 80,
+    "sellPrice": 26,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "relax"
+    ]
+  },
+  {
+    "id": "chair_2",
+    "name": "@item.chair_2",
+    "kind": "furniture",
+    "category": "chair",
+    "footprint": [
+      1,
+      1
+    ],
+    "price": 130,
+    "sellPrice": 43,
+    "shop": "furniture_store",
+    "colors": [
+      "green",
+      "blue",
+      "red",
+      "yellow",
+      "orange",
+      "white"
+    ],
+    "actions": [
+      "relax"
+    ]
+  }
+]

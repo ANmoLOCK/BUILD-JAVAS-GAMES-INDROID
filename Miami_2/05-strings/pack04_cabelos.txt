@@ -1,0 +1,30 @@
+[0] \mMédio com franja\m\fRabo de cavalo\f
+[1] \mCurto com topete\m\fMédio com franja\f
+[2] \mCurto partido\m\fLongo ondulado\f
+[3] \mMédio bagunçado\m\fRabo ondulado\f
+[4] \mFesta\m\fCurto clássico\f
+[5] \mEncaracolado\m\fCurto moderno\f
+[6] \mLongo bagunçado\m\fMédio clássico\f
+[7] \mCurto\m\fRabo com franja\f
+[8] \mMédio pra cima\m\fRisca do lado\f
+[9] \mCurto clássico\m\fMédio pra cima\f
+[10] \mEscola\m\fCoque\f
+[11] \mMoicano\m\fLongo bagunçado\f
+[12] \mRaspado\m\fLongo com franja\f
+[13] Longo liso
+[14] \mÓculos\m\fChapéu\f
+[15] \mChapéu\m\fTrança\f
+[16] \mBigode\m\fRabo pra cima\f
+[17] \mÓculos escuros\m\fÓculos escuros 1\f
+[18] \mBarba\m\fLongo normal\f
+[19] \mCareca\m\fÓculos escuros 2\f 
+[20] \mCapacete de futebol\m\fHCapacete\f
+[21] \mSailor\m\fCelia Cruz\f
+[22] \mIdoso\m\fIdosa\f
+[23] \mInspetor\m\fCurto antigo\f
+[24] \mCapitão\m\fCharm\f
+[25] \mDiretor\m\fOpal\f
+[26] \mSem-teto\m\fSem-teto\f
+[27] \mGuarda\m\fMortadella\f
+[28] \mPachinko\m\fFlor\f
+[29] Boné

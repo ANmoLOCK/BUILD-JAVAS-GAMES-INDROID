@@ -1,0 +1,35 @@
+{
+  "id": "generic_wander",
+  "entries": [
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startHour": 9,
+      "endHour": 21,
+      "location": "*",
+      "activity": "wander"
+    },
+    {
+      "days": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "startHour": 21,
+      "endHour": 9,
+      "location": "home",
+      "activity": "sleep"
+    }
+  ]
+}

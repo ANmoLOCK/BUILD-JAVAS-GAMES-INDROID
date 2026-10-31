@@ -1,0 +1,10 @@
+[0] Sim, vou pagar e cair fora daqui!
+[1] Não, vou esperar.
+[2] Você pode pagar a fiança de 200 dólares. Quer pagar e sair da prisão agora?
+[3] Você pode pagar a fiança de 150 dólares. Quer pagar e sair da prisão agora?
+[4] Você pode pagar a fiança de 100 dólares. Quer pagar e sair da prisão agora?
+[5] Você pode pagar a fiança de 70 dólares. Quer pagar e sair da prisão agora?
+[6] Você pode pagar a fiança de 40 dólares. Quer pagar e sair da prisão agora?
+[7] Tudo bem então, fique aí nessa imundície!
+[8] O quê? Você não tem dinheiro o suficiente nem pra pagar a sua fiança?]Bem, volte para o seu buraco e fique por lá!
+[9] Muito bem, você cumpriu a sua pena.]Seja \mum bom cidadão\m\fuma boa cidadã\f e você nunca mais terá que perder o seu tempo por aqui!

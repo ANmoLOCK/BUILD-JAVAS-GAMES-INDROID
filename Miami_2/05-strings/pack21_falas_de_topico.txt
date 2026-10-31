@@ -1,0 +1,845 @@
+[0] Não há nada como assistir a uma boa partida de futebol-pancadaria em uma tarde de domingo.
+[1] Dá-lhe Degubas!
+[2] As pessoas deviam deixar isso pra lá! Ele era muito mais do que um mero cabeceador de cabeças!
+[3] Nós acabamos com eles no domingo passado. Pensei que estávamos de volta em 1998!
+[4] Os jogadores, ao contrário dos queijos, nem sempre melhoram ao envelhecer.
+[5] Eu amo andar de bicicleta. Mas o inverno é um pouco frio pra isso.
+[6] Não há nada como andar de bicicleta pela Ocean Drive! Desde que não roubem sua bike.
+[7] Eu não acho que doping seja terapêutico.
+[8] As mountain bikes de hoje são feitas de carbono. Você consegue levantá-las com um dedo!
+[9] Eu andava de bicicleta no segundo grau. Podia ter virado profissional se não tivesse quebrado a unha.
+[10] Você acha que temos chance na liga de basquete desse ano?
+[11] Geralmente nós passamos mais tempo fora do estádio na fila pra entrar do que vendo os jogos!
+[12] Eu fiquei com torcicolo na última vez em que fui assistir a uma partida de tênis.
+[13] Você sabia que a velocidade de uma bola de tênis em jogo pode chegar a mais de 200km/h?
+[14] Sabia que em 1930 a raquete foi remodelada com inspiração em instrumentos musicais?
+[15] É muito melhor do que futebol americano. Aquelas proteções fazem os jogadores de futebol americano ficarem lentos.
+[16] Rugby? Eu prefiro Futebol Americano. E é claro, eu torço para o Miami Degubas.
+[17] O Miami Rugby Club foi fundado em 1696.
+[18] Se você não aguenta levar uma pancada, devia jogar tênis de mesa.
+[19] Correr por aí com uma bola e posar nu para calendários paga bem.
+[20] Eu amo uma boa corrida e o cheiro de pneus queimados.
+[21] Eu assistiria a corridas entre bichos-preguiça se eles passassem isso no canal esportivo.
+[22] Eu passo muitos sábados à tarde vendo corridas na TV.
+[23] Eu adoraria pilotar um carro de corridas. Sempre que eu dirijo acabo num engarrafamento.
+[24] Aqueles pilotos são bons, mas queria vê-los fazer uma baliza em qualquer vaga em downtown.
+[25] A esquerda acredita em bem-estar social, educação pública e mudanças.
+[26] A energia alternativa é essencial para a nossa prosperidade a longo prazo.
+[27] Nossa sociedade se baseia em que os que têm mais ajudem aos que têm menos.
+[28] A base da esquerda são um bando de ramificações de grupos minoritários encrenqueiros.
+[29] A esquerda é capaz de ganhar se não for vista como um partido durão?
+[30] A direita ama o desenvolvimento econômico, as relações internacionais e leis mais rígidas.
+[31] Podemos conseguir muita coisa se cooperarmos com outros países.
+[32] As pessoas são importantes, mas a lei também é.
+[33] A direita é um bando elitista e arrogante.
+[34] A direita está aumentando as distâncias entre as classes sociais.
+[35] Por que as pessoas que elegemos para fazer o que NÓS queremos fazem o que ELAS querem depois das eleições?
+[36] Eu queria que a América do Norte fosse um grande país. Quer dizer, se Miami fosse a capital.
+[37] ''Virtude política'' é um paradoxo.
+[38] Passamos a nos interessar por política quando a política se interessa por nós.
+[39] Eu gosto de eleições, são como jogos de futebol que duram meses!
+[40] A moda domina os provincianos e as pessoas de Miami dominam a moda.
+[41] Nunca houve tantas lojas de roupa em Miami, entretanto, nunca as garotas usaram tão pouca roupa.
+[42] A moda vai e volta.
+[43] Esta roupa é única, pelo menos foi isso que o vendedor me disse.
+[44] Meias brancas nunca são demais.
+[45] Um beijo na mão pode ser bem europeu, mas os diamantes duram para sempre.
+[46] Você acha que uma safira cairia bem com meu tom de pele?
+[47] Dá uma olhada nesse relógio que acabo de comprar on-line. Dá pra perceber que é falso?
+[48] Homens que usam jóias não me convencem muito.
+[49] Você acha que o preço do ouro negro vai subir com o preço do petróleo?
+[50] Para mim nada jamais terá melhor aroma do que o ratatouille da minha mãe.
+[51] Nosso idioma é inadequado para descrever o mundo dos aromas.
+[52] Em Miami, é difícil dizer se a moda é se vestir ou não se vestir.
+[53] O cheiro revela muito a respeito de uma pessoa.
+[54] Ouvi dizer que a ''água de colônia'' foi popularizada pelo próprio Napoleão.
+[55] Lembra-se de quando usar mullets era legal? Nem eu.
+[56] Tem um ótimo cabeleireiro perto de \v1Coconut Groove\v1\v600Downtown\v600. Você já foi lá?
+[57] Se você olhar bem de perto eu agora tenho seis cores de cabelo diferentes.
+[58] Um bom corte de cabelo é melhor do que terapia.
+[59] Eu preciso de um novo corte de cabelo que combine com meus novos sapatos.
+[60] Esses filmes são estranhos, mas penetrantes.
+[61] Bem, já não é mais tão novo.
+[62] Os cineastas da Nouvelle Vague transformaram os filmes em arte, e os diretores em autores.
+[63] Tiveram um efeito que ainda é perceptível em muito diretores da nossa época, especialmente em Deltotino.
+[64] Eu prefiro músculos e armas, mas aqueles filmes tinham sangue o bastante.
+[65] Só é dramático porque a música é triste.
+[66] Por que eles sempre morrem no final?
+[67] Eles deviam fornecer lenços de papel ao público.
+[68] Os dramas são o mais próximo da vida real que os filmes podem chegar.
+[69] Se um filme não é nem engraçado nem empolgante, então é um drama.
+[70] Eu rio de qualquer coisa que tenha piadas baratas.
+[71] As comédias são os insultos mais divertidos à nossa inteligência e cultura.
+[72] Foi tão engraçado quando ele... Hahaha! E aí ele... Haha! Não consigo parar de rir! Ha!
+[73] Ele não é um bom ator, mas é muito engraçado de se assistir.
+[74] Você viu "As Incríveis Aventuras de Audrey"? Se parece muito com nossas vidas... Especialmente com a sua.
+[75] Pipoca, som estéreo e uma tela enorme: o Paraíso na Terra.
+[76] Eu coloco meu celular em modo silencioso pra poder jogar algum jogo durante as cenas chatas.
+[77] Pisos grudentos são como caminhar na água rasa na praia... Sem a água e sem a praia.
+[78] Eu não gosto de salas de cinema; as pessoas sempre te dizem "pssssiu!" quando você faz perguntas. Não estamos numa biblioteca!
+[79] Eu gostaria que eles removessem a primeira fila... Meu pescoço sempre dói quando me sento nela. Mas então a segunda fila seria a primeira...
+[80] Os americanos fizeram filmes melhores antes do surgimento dos efeitos especiais.
+[81] Eles dizem que Thomas Edison inventou o cinema, mas sabemos que foram os irmãos Lumière.
+[82] Hollywood devia parar de fazer refilmagens e tentar algo novo.
+[83] Apesar de tudo, Hollywood cria os filmes com os visuais mais impressionantes já produzidos.
+[84] Se algum dia os hologramas forem inventados, acredito que eles aparecerão primeiro em Hollywood.
+[85] Eu não vou te explicar isso se você for uma pessoa tão estúpida que não é capaz de entender sozinha.
+[86] Ouvi dizer que os filmes desse tipo são ótimos mas, pessoalmente, acho que eles precisam de mais ação.
+[87] Os filmes independentes são a prova de que você não precisa de muito dinheiro para fazer bons filmes.
+[88] Eu acho que a maioria dos filmes independentes seriam melhores se fossem livros.
+[89] Eu amo os filmes independentes, eles são humanos e reais. Ah, e bons de verdade também.
+[90] Eu realmente adorei a filmagem dos bastidores daquele filme.
+[91] É ótimo como eles ainda melhoram a qualidade de som e imagem nos DVDs.
+[92] Ah, os erros de gravação... é a melhor parte!
+[93] Se eles eliminam cenas, geralmente há um motivo pelo qual foram eliminadas.
+[94] Eu acho que as fitas VHS eram mais resistentes. DVDs são muito frágeis.
+[95] A energia nuclear não é perigosa... Até escapar da usina.
+[96] Os carros híbridos são os melhores, até que os carros elétricos comecem a ser comercializados.
+[97] A energia solar é a melhor... a não ser em dias nublados.
+[98] Eu amo a energia eólica. Acho que vou comprar um moinho e colocar no meu edifício.
+[99] A hidroeletricidade seria ótima, mas precisaríamos de mais rios.
+[100] Onde é que está o aquecimento global durante o inverno?
+[101] Eu vi uma foto do buraco da camada de ozônio sobre a Antártida. É do tamanho do próprio continente!
+[102] Cada país deve trabalhar para frear o aquecimento global antes que seja tarde demais.
+[103] Alguns estudos mostram que o próprio sol está ficando mais quente! Isso é mais motivo para nos preocuparmos.
+[104] Eu ouvi dizer que o aquecimento global vai tanto aumentar o nível dos mares quanto causar secas.
+[105] Comecei a usar minhas roupas íntimas mais de uma vez para lavar menos e economizar água.
+[106] 80% das garrafas de vidro hoje são feitas de vidro reciclado. Isso é ótimo!
+[107] Eu reciclo um monte de papéis. No trabalho, eu imprimo meus relatórios no verso das folhas de planejamento de férias.
+[108] Eu reciclaria se fosse mais fácil. Eu não tenho tempo de separar vidro de papel.
+[109] Branco para vidro e amarelo para papel e plástico.
+[110] A locação de bicicletas é uma alternativa excelente para reduzir a poluição. E o tráfego de veículos!
+[111] Você sabia que respiramos 14.000 litros de ar todos os dias? Precisamos reduzir a poluição do ar!
+[112] Espero que Miami seja reconhecida como a cidade mais limpa dos EUA... para a nossa própria saúde!
+[113] Ruídos altos danificam sua audição e também causam estresse. Temos que reduzir a poluição sonora.
+[114] Eu faço o que posso, mas a poluição é causada principalmente por grandes indústrias.
+[115] Shows ao vivo são muito caros. Eu prefiro comprar o CD ou baixar as músicas da internet.
+[116] Você vai ao Cuban Café? E tem shows nas ruas pela cidade toda!
+[117] Você já foi à Greater Miami Opera? É o melhor lugar de espetáculos da Flórida!
+[118] O que eu mais gosto são shows de DJ ao vivo. Você devia ir ao Glight Club, lá eles até te deixam comandar a pick-up se você pedir.
+[119] Qualquer um pode gravar um disco, mas os shows ao vivo é que mostram quem é fera de verdade.
+[120] Eu acho que é impossível impedir as pessoas de baixar músicas. Pequenas taxas podem ser a única maneira de lucrar alguma coisa com isso.
+[121] Os músicos trabalham duro criando suas músicas, é uma vergonha que as pessoas não se importem e roubem as suas canções.
+[122] Eu acho que quem faz a pirataria devia ser punido e forçado a trabalhar de graça para aprender uma lição.
+[123] Os CDs são tão ultrapassados... Os músicos deviam vender suas músicas diretamente on-line.
+[124] Se eu tiver que baixar alguma coisa por pouco dinheiro, prefiro baixar um jogo para o meu celular!
+[125] Eu tocava bateria em uma banda de hard rock. Até que tive que cortar o cabelo para conseguir um emprego.
+[126] É ótimo que pessoas daqui possam realizar seus sonhos.
+[127] Eles vão tocar em um café nesse sábado. Eu ganhei ingressos pela rádio.
+[128] Esses caras soam melhor ao vivo do que na rádio, sem comerciais entre as canções.
+[129] Eu não acho que eles sejam tudo isso. A maioria deles copia bandas maiores e mais populares.
+[130] Já percebeu como as rádios e as boates mais populares de Miami tocam músicas em espanhol? Por quê?
+[131] Espanhol é uma língua tão melódica e musical... É perfeita para a música!
+[132] Há muitos músicos de Miami fazendo as pessoas dançarem pelo mundo afora.
+[133] A música de Miami tem uma grande influência cubana, é uma pena que os jovens só queiram saber de batidões e letras medíocres.
+[134] Alguns grandes músicos começaram suas carreiras no metrô.
+[135] Eu amo os músicos, sempre dão vida às festas.
+[136] Um amigo meu toca guitarra perto da Ocean Drive. Você devia ir lá curtir o som dele.
+[137] Eu tocava guitarra, mas parei porque vivia arrebentando as cordas.
+[138] Eu consigo tocar a Quinta Sinfonia de Beethoven na minha gaita.
+[139] Eu gosto das versões instrumentais das canções porque posso inventar minhas próprias letras.
+[140] O céu parece limpo, mas você nunca sabe quando vai cair uma chuva repentina aqui na cidade.
+[141] Os invernos são bastante frios, eu acho. Pelo menos não temos muita neve.
+[142] Ha ha ha! Conversar sobre o tempo! Essa é clássica.
+[143] Dizem: ''A lua encheu, choveu.''
+[144] É impressão minha ou o homem do tempo nunca acerta uma?
+[145] Estou feliz que estejam trazendo de volta a opção de vibração.
+[146] Os gráficos dos novos jogos são incríveis.
+[147] O preço alto é o único problema.
+[148] Vou vender meu sistema antigo já que o novo é compatível com os anteriores.
+[149] Decisões, decisões... Será que eu quero bons gráficos ou jogos divertidos?
+[150] Eu amo jogos que me permitem jogar em vários modos diferentes.
+[151] Abracadaball é simplesmente um clássico; diversão garantida.
+[152] Agora eu tenho o Real Football em todas as plataformas.
+[153] Asphalt Urban GT tem os melhores carros de um jogo de corrida.
+[154] Ouvi falar desse novo jogo chamado Miami Nights. Dizem que é o melhor de todos os tempos e se passa aqui em Miami!
+[155] Adoro Sudoku. Não precisa saber matemática.
+[156] Eu jogo games de futebol no inverno. Eles preenchem meu vazio interior entre as temporadas.
+[157] Às vezes você só precisa de um bom jogo para espairecer.
+[158] Eu amo jogos de fantasia. Posso fingir ser outra pessoa.
+[159] Jogos de corrida são os melhores. É como se eu tivesse tirado a carteira de motorista.
+[160] É muito mais divertido jogar contra alguém do que contra um computador.
+[161] Gosto de lutar com meus amigos on-line.
+[162] Essa é a nova maneira de se fazer amigos on-line.
+[163] Games multijogador são o que há.
+[164] Jogo on-line para poder falar no chat. Diminui minha conta de telefone.
+[165] Eu gosto de jogos inspirados em livros. Me fazem me sentir mais... Inteligente?!
+[166] Venho jogando jogos de franquias desde que eu me lembro.
+[167] Jogos de ação são divertidos, mas jogos esportivos, como o Real Football 2008, são o que há.
+[168] Assassin's Creed é uma máquina de suspense do começo ao fim!
+[169] Cada jogo que eu joguei quando tinha 5 anos me parecia um clássico atemporal.
+[170] Quantos gatos você precisa ter antes de ser considerado maluco?
+[171] Os gatos são muito mais fáceis de cuidar. Você não precisa levá-los para passear.
+[172] Eu durmo com meus gatos. Você tem algum problema com isso?
+[173] Meu gato tem uma vida fácil. Come e dorme todo o dia. Queria poder fazer o mesmo.
+[174] Namorei uma pessoa que odiava meu gato só porque ele vinha e caminhava sobre a gente enquanto estávamos dormindo.
+[175] O parque de cachorros é o melhor lugar para conhecer gente. O único problema é que você precisa de um cachorro.
+[176] Meu cachorro me ama tanto, eu só queria que ele parasse de lamber a minha cara.
+[177] Eu gosto de cachorros. Me sinto mais atraente só de olhar pra eles.
+[178] Quanto mais eu convivo com os homens, mais eu gosto dos cachorros.
+[179] Eu gosto de poodles, eles parecem uma versão de Luís XIV de peruca branca.
+[180] Eu quero um texugo de estimação, mas cada vez que eu vejo um ele já está morto na beira da estrada.
+[181] É difícil manter camaleões como bichos de estimação. Estão sempre desaparecendo.
+[182] Tem um esquilo vermelho que mora na árvore perto da janela da minha cozinha. Ele roubou metade do meu croissant na semana passada.
+[183] Estou contente que os cavalos Camargue sejam uma espécie protegida. Eu viajo para o sul para vê-los durante as férias.
+[184] Os Everglades são uma reserva sem igual para crocodilos e jacarés.
+[185] Eles vão lançar uma coisa chamada "nanotubos de carbono" para telas de baixo consumo.
+[186] A nanotecnologia também se ocupa de desenvolver materiais mais leves e resistentes, o que é muito bom para os fabricantes de aeronaves.
+[187] Você pode imaginar robozinhos minúsculos sendo usados para curar as suas lesões? 
+[188] De onde vem a energia daqueles robozinhos? É possível fazer pilhas tão pequenas assim?
+[189] Você sabia que a nanotecnologia é utilizada em embalagens de alimentos?
+[190] O ciclo de vida curto das baterias é o maior obstáculo ao desenvolvimento dos aparelhos portáteis.
+[191] O sistema touchscreen oferece tantas possibilidades e é mais ergonômico.
+[192] Eu queria que o meu celular tivesse uma função de vídeo pra que eu pudesse ver a pessoa com quem estou falando.
+[193] O telefone do meu pai tem um GPS, então ele pode encontrar tudo o que procura... menos o próprio telefone.
+[194] Eu gosto da função fotográfica do meu celular. Me sinto como um espião recolhendo informações.
+[195] Inventaram um robô que corta grama. Compraria um, se ao menos eu tivesse um quintal.
+[196] Fico imaginando se teremos que dar gorjeta aos robôs quando eles substituírem os garçons nos cafés.
+[197] Os robôs deixarão a vida mais simples, mas aí todo mundo vai ser gordo e preguiçoso.
+[198] Por um lado, qualquer coisa programável é um robô, inclusive a minha cafeteira.
+[199] Criaram uma androide no Japão que fica brava se lhe tocam o peito.
+[200] Todo mundo depende de e-mail hoje em dia.
+[201] Quando eu era jovem a gente trocava figurinhas de futebol. Hoje se trocam cartões de memória com vídeos.
+[202] Webcams, microfones, conexões sem fio, quem precisa de uma linha fixa?
+[203] Eu uso um programa de planilhas pra fazer minha lista de compras.
+[204] As inovações de hoje são o ferro-velho de amanhã.
+[205] Por que tudo tem que ter 5 ou 6 funções, sendo que nenhuma funciona direito?
+[206] Eu comprei uma caneta-lanterna. Agora me sinto como um espião britânico.
+[207] Lembra quando o controle remoto era a novidade mais bacana?
+[208] Esse troço tem tantas funções que eu nem me lembro mais do seu nome.
+[209] Os telefones celulares são os canivetes suíços do século 21.
+[210] Por que você ia querer ter filhos? Eles dão muito trabalho.
+[211] Ter filhos é como construir um legado. Algo de nós que viverá depois da nossa morte.
+[212] Eu amo crianças! É uma pena que elas cresçam.
+[213] Eu quero ter filhos para cuidar de mim na minha velhice.
+[214] Quando eu tiver filhos, serei tanto \famiga\f\mamigo\m quanto \fmãe\f\mpai\m.
+[215] Bebês são bonitinhos. Os especialistas dizem que é porque eles tem cabeças grandes.
+[216] Os primeiros passos de meu sobrinho foram incríveis. Eles o levaram ao seu primeiro encontro com a parede.
+[217] A primeira palavra da minha prima foi 'dá'. Fico imaginando... onde foi que ela aprendeu isso?
+[218] Não suporto mais o meu irmão. Tudo o que ele faz é falar sobre o seu bebê.
+[219] Os cérebros dos bebês são como esponjas. Você tem que ter cuidado com o que lhes mostra.
+[220] As crianças comem de tudo, com exceção de brócolis.
+[221] Por que os pais têm que envergonhar seus filhos com fotos da época em que eram bebês?
+[222] Eu fui falar com esse garotinho que achei engraçadinho. Ele chutou o meu joelho e saiu correndo e dando risada.
+[223] Os pais de filhos assustadores devem ter mau carma acumulado.
+[224] As crianças são tão bonitinhas quando tentam ajudar, ainda que quase nunca ajudem.
+[225] Quando foi que os nerds ficaram sexy?
+[226] Meu sobrinho é o único da casa que usa o computador.
+[227] Minha irmãzinha fala mais línguas do que eu, se você contar a língua do 'P'. 
+[228] Meu irmãozinho escreveu "v0v0 f32 0173n74 3 d015 4n05"... Para mim isso é só português com muitos erros ortográficos.
+[229] Eu vi essa criança no jornal jogando xadrez contra 20 pessoas. Eu converso on-line com 20 pessoas, isso é notícia?
+[230] As escolas particulares são excelentes se você quer que seu filho aprenda que dinheiro não é problema.
+[231] Eu acho que as escolas particulares deveriam ser para os inteligentes, não para os ricos.
+[232] Particular ou pública, na maior parte do tempo é tudo uma questão de quem são as companhias de seus filhos.
+[233] As escolas particulares oferecem uma educação mais adaptada já que os estudantes são selecionados pelo talento.
+[234] As escolas particulares são melhores para disciplinar as crianças.
+[235] Terminar com alguém é como roubar uma barra de chocolate: é ruim, mas estimulante e compensador.
+[236] Quando meu último relacionamento acabou foi um choque... Mas com certo alívio.
+[237] Na maioria das vezes um rompimento é como uma festa surpresa. Com menos diversão e mais choro.
+[238] Não sou muito bom com fins de namoro porque nunca consigo entender o que as pessoas estão dizendo quando choram. 
+[239] Por que terminar? Isso é Miami, você simplesmente para de ligar e a pessoa nunca mais vai te encontrar!
+[240] Eu fui a um casamento um mês atrás. Eles vão se divorciar na próxima quinta.
+[241] Eu sempre tento dar uns beijinhos na festa de casamento.
+[242] Casamentos são lindos, e as festas são ótimas.
+[243] Eu quase me casei uma vez, mas acabou que esse ex era um assassino da machadinha. Deviam fazer um filme a respeito.
+[244] Casamentos parecem ótimos, mas acabam com a sua vida e destroem a sua alma.
+[245] Eu não gosto de bares, são muito barulhentos para uma boa conversa.
+[246] Meu recorde foi beijar 6 pessoas em uma mesma noite.
+[247] Planeje seu aniversário de namoro com antecedência. Comece a namorar em um dia memorável.
+[248] Conhecer alguém é fácil. Conhecer alguém decente é muito mais difícil.
+[249] Eu levo minhas paqueras ao Glight Club. Você já tentou fazer isso?
+[250] Uma vez eu tentei fazer um pedido de casamento, mas engoli o anel junto com o sundae que comíamos juntos. Nunca o encontrei.
+[251] Não pratique o pedido de casamento com outra pessoa. Você será pego em flagrante.
+[252] Ouviu falar no cara que escondeu o anel dentro de um balão de gás hélio, e o balão saiu voando?
+[253] Você acha legal que um cara peça a mão da noiva ao pai dela?
+[254] Os diamantes são os melhores amigos de uma garota.
+[255] O Dia dos Namorados é uma armadilha comercial: você nem tira o dia de folga.
+[256] É tão romântico se juntar com a cara metade e passar a noite comendo chocolate.
+[257] Por que "Dia dos Namorados"? Vamos chamá-lo de "Dia das rosas vendidas a preços absurdamente altos".
+[258] É um dia tão feminino!
+[259] Acho que vou me vestir de cupido e atirar nas pessoas com uma pistola d'água cheia de rosas no próximo Dia dos Namorados.
+[260] Onde quer que a gente vá, ninguém fica satisfeito.
+[261] Eu gosto de férias em família, menos a parte da "família".
+[262] Antes que as férias cheguem ao fim, alguém vai chorar e outra pessoa vai se machucar.
+[263] Férias em família são melhores que fins de semana em família.
+[264] As viagens em família me fazem gostar do trabalho ainda mais.
+[265] Meus pais odiavam a última pessoa com quem namorei. Pensando bem... Eu também.
+[266] Conhecer os sogros é a parte mais apavorante de uma relação.
+[267] Por que os sogros agem como se fossem machos-alfa psicopatas?
+[268] Eu adorava os meus sogros! É uma pena que eles me odiavam...
+[269] Faça de tudo pra se dar bem com os sogros, senão vai ter que bancar a conta do casamento \msozinho\m\fsozinha\f.
+[270] Esteja em bons termos com seu parentes. Senão eles vão te apunhalar pelas costas por um dólar.
+[271] Meu vovô sempre me chama de Frank. Acho que ele tem demência.
+[272] Eu me dou bem com meus parentes. Até o momento em que a gente se encontra pessoalmente.
+[273] Meus pais me passaram seus valores, seus objetivos e seus defeitos.
+[274] Às vezes é difícil acreditar que meus pais não me adotaram.
+[275] Tem como podar uma árvore genealógica?
+[276] Se todos os seres vivos evoluíram das mesmas células, então há uma árvore dentro da minha árvore genealógica.
+[277] É divertido ver quantos dos meus ancestrais se casaram com a própria irmã ou irmão.
+[278] De acordo com esse livro, os descendentes de Papai Noel moram em Miami.
+[279] Já que estamos fazendo um mapa dos nossos ancestrais, não deveríamos chamar isso de geneografia?
+[280] Minha prima pensa que é atriz, mas isso é apenas uma desculpa para não ganhar dinheiro.
+[281] Minha vovó costumava roubar bancos. Hoje ela rouba doces das outras velhinhas.
+[282] Meu pai pensava que as lhamas eram animais cantantes.
+[283] Minha irmã cobriu as paredes do seu porão com papel alumínio para impedir o calor de escapar.
+[284] A receita secreta de molho da minha família? Suco de laranja e maionese.
+[285] MiMo BiBo é famosa no mundo inteiro. Você já foi lá?
+[286] Algumas pessoas dizem que a arquitetura de Miami é a música da cidade colocada em forma de casas e prédios.
+[287] Miami é um ótimo lugar para artistas. Tem exposições durante todo o ano!
+[288] Meus pais queriam que eu fosse artista, mas acabei indo para a crítica.
+[289] A arte pode ser muitas coisas desde que seja feita de emoções.
+[290] Alguns gostam de realismo, outros de surrealismo. Para mim, a realidade continua sendo a melhor.
+[291] O pós-modernismo dita que qualquer coisa que o artista faça é arte.
+[292] Se você se esforçar muito, até o cubismo pode ser lindo.
+[293] O estilo está para a arte assim como as línguas estão para a comunicação.
+[294] A diferença entre os estilos artísticos é o que mantém a arte interessante.
+[295] A pintura a dedo é suja, mas depois você só tem que lavar as mãos.
+[296] Claro que eu já pintei com os dedos antes... quando estava no jardim de infância.
+[297] Você tem muito mais controle sobre o que faz se souber o que está fazendo.
+[298] É como pintar com cinco pincéis de tamanho diferentes em cada mão.
+[299] Não há nada melhor do que experimentar por si mesmo.
+[300] Esculpir me parece divertido. Onde é que se compra a pedra gigante pra começar?
+[301] Se eu soubesse como soprar vidro, me faria um aquário gigante.
+[302] A pintura é ótima para texturas. As fotografias são muito lisas.
+[303] Escultura em madeira soa muito romântico mas a maioria das pessoas que montam móveis trabalham em fábricas.
+[304] Eu gosto de soldar latas. E você, utiliza que mídia?
+[305] O design gráfico hoje em dia é só arte por computador.
+[306] Uma imagem vale 1.000 palavras, mas é preciso um designer para decidir que palavras são essas.
+[307] Eu desenho desde que tinha 5 anos, não entendo esse auê sobre o design gráfico.
+[308] É triste que os designers gráficos tenham virado quase todos designers comerciais.
+[309] Quando o assunto é arte comercial, o cliente tem sempre razão.
+[310] Eu gosto de copos altos. Eles mantêm o sabor dentro do copo.
+[311] É o tamanho exato para acomodar uma fatia inteira de limão sem arruinar o gosto.
+[312] Não consigo levantar um copo confortavelmente quando cheio. Independentemente de quem esteja cheio, o copo ou eu.
+[313] Não me importo de ter um pouquinho de soda na minha bebida especial... mas não conte pra ninguém.
+[314] O copo está metade cheio, o copo está metade vazio... eu digo use um copo menor!
+[315] A festa vai aonde você a levar.
+[316] Quando um lugar está tão cheio quanto uma lata de sardinhas, esse é o lugar!
+[317] O Glight Club é demais. Mas você tem que dançar bem se quiser frequentá-lo.
+[318] Eu gosto de salas VIP, as melhores fofocas estão lá.
+[319] O lugar mais descolado é sempre aquele onde me levam quando tenho um encontro.
+[320] Nós somos de Miami, a gente não deveria saber como sair e fazer a festa?
+[321] Eu gosto de sucos caros, até porque eles te fazem parecer sofisticado.
+[322] Minha família toma coquetéis de fruta em todas as refeições. Na verdade, meu pai toma coquetéis de fruta o dia inteiro.
+[323] Deus criou a água mas o homem criou o néctar de damasco.
+[324] Um bom coquetel é um bom amigo. Especialmente quando se está sozinho. É muito estranho que eu pense assim?
+[325] Descartes disse: "Penso logo existo". Porém, ele nunca deixou claro o que era.
+[326] Sócrates é como o poderoso chefão da filosofia ocidental. Ele até se parecia com o Marlo Bando.
+[327] Rousseau disse que a sociedade corrompia o homem. Acho que o dinheiro faz um trabalho muito melhor.
+[328] Voltaire era um racista embutido. Infelizmente, funcionou bem pra ele.
+[329] Bergson acreditava que o livre arbítrio existia dentro da duração. Não tenho a menor idéia do que ele quis dizer...
+[330] Trate os outros como gostaria de ser tratado e faça o que eu faço, não faça o que eu digo.
+[331] O que aconteceu com aquela questão da árvore que caiu na floresta?
+[332] Se uma fatia de pão tem sua essência, nós também temos a nossa?
+[333] Diferença ou Identidades, o que veio primeiro?
+[334] Você só pode chegar até certo ponto antes de começar a voltar sem sequer dar-se conta.
+[335] Às vezes penso que o futebol tomou conta da minha vida.
+[336] Uma vez me senti triste porque todo o mundo estava em guerra. Então tomei um café e passou.
+[337] No fundo, no fundo, homens e mulheres são iguais. Na superfície, nem tanto.
+[338] Eu vi um cavalo correndo de costas. Ele parecia confuso e eu também.
+[339] Há muitos peixes no oceano. Mas o oceano anda bastante poluído hoje em dia.
+[340] No geral, não dá pra vender um produto ruim sem uma grande celebridade.
+[341] Não fale mal da concorrência: você tem mais clientes por causa da incompetência deles.
+[342] Nunca use palavras ou sinais negativos. A palavra "Não" faz as pessoas se lembrarem das suas mães.
+[343] O único segredo é encontrar um bom trabalho e agüentar firme pelo resto da sua querida vida.
+[344] Seja feliz e terá sucesso. Claro, talvez você precise de sucesso para ser feliz.
+[345] Eu faço o seguinte: uma parte para moradia, uma parte para alimentação, e o resto vai para as dívidas de jogo.
+[346] Você tem que escolher seu banco como escolhe o seu carro: pela cor e pela logomarca.
+[347] Cobram uma multa por cheques sem fundo. Mas se o cheque voltou é porque você não tem dinheiro!
+[348] Eu investi em bônus O.A.T. No fim das contas eles não são nem uma organização internacional, nem espiões. 
+[349] Toda vez que eu faço minha declaração de renda me dou conta do quão pouco eu realmente ganho.
+[350] Eles contratam todo tipo de pessoa.
+[351] Não há nada como um emprego de estudante pra te inspirar a voltar à faculdade.
+[352] Você se dá conta de que um emprego é ruim quando tem que trabalhar numa noite de jogo de futebol.
+[353] Qualquer que seja o seu trabalho, seja gentil com os demais e talvez eles te ofereçam um emprego melhor.
+[354] Atendimento ao cliente é ótimo... quando você é atendido, não quando você atende.
+[355] Você pode circular por Miami usando o Tri-Rail, o Metrorail, ou o Metromover.
+[356] O Metromover tem uma parada a cada dois quarteirões.
+[357] O Metrorail oferece algumas das melhores vistas da cidade.
+[358] OTri-Rail conecta os três aeroportos internacionais.
+[359] Os novos vagões do Tri-Rail são menos confortáveis, mas são espaçosos o suficiente para acomodar biciclates e bagagens.
+[360] Se você comprar o passe de Miami, não é tão caro.
+[361] Havia duas tarifas: Primeira-classe e segunda-classe. Mas não era justo.
+[362] Guarde seu passe ou terá que pagar uma multa. E eles não aceitam cartões bancários.
+[363] Eles substituíram os cartões laranja. Uma pena, era uma cor tão bonita.
+[364] Metrô é uma abreviação de metropolitano. Em francês quer dizer "Ei, você pode pegar o ônibus!"
+[365] Eu gosto dos cobradores. São os únicos que falam comigo durante o trajeto.
+[366] Adoraria ser controlador do Tri-Rail.
+[367] Eu fico imaginando se às vezes os cobradores são assaltados pelo dinheiro que coletam das multas.
+[368] Eu gosto dos uniformes dos cobradores. Tem um estilo "sou quase um policial".
+[369] É bom ter empregados perambulando pelo metrô. Me sinto mais seguro.
+[370] É ridículo demais pra me fazer rir.
+[371] É engraçado porque é uma caricatura da verdade.
+[372] É quase tão engraçado quanto a minha vida.
+[373] Se você não sabe atuar, ainda assim pode participar de uma série cômica.
+[374] Eu gosto quando eles usam a risada de auditório pra te avisar quais as parte engraçadas.
+[375] Os desenhos animados fazem o que os outros programas fariam se os efeitos especiais não fossem tão caros.
+[376] Os desenhos animados são brutais. Adoro ver os personagens morrendo e depois voltando na cena seguinte.
+[377] Os desenhos não são mais só para crianças. Mais do que um gênero, são uma mídia.
+[378] Eu só assisto desenhos quando estou com meu sobrinho, eu juro!
+[379] Quando foi que os desenhos animados passaram a ser a única coisa inteligente na TV?
+[380] Não sei qual o problema dos comerciais. Geralmente eles são melhores do que os próprios programas.
+[381] A publicidade paga por grande parte dos programas. Assim gastamos menos.
+[382] Eu odeio comerciais. Eles sempre entram na melhor parte da história.
+[383] Ainda bem que existem comerciais. Senão quando é que eu ia poder ir ao banheiro?
+[384] Eu gosto dos comerciais, eles me dizem do que é que eu preciso.
+[385] Você é da época em que o primeiro canal ainda era público? Não era muito bom.
+[386] A televisão pública devia ser educacional e séria.
+[387] Eu gosto de programas de entretenimento, mas os melhores programas ainda estão nas ruas de Miami.
+[388] A TV pública é necessária para uma boa campanha de propaganda.
+[389] TV pública ou privada, eu assisto aos bons programas.
+[390] É melhor cancelar um programa antes que ele deixe de ser bom.
+[391] Só os bons programas são cancelados. Os outros são simplesmente esquecidos.
+[392] Os programas de TV não são cancelados, apenas repetidos.
+[393] Todo mundo conversa sobre os programas cancelados.
+[394] As pessoas gostam do que é novo, mesmo que seja igual ao antigo.
+[395] Eu prefiro teatro a filmes: não é pré-gravado, logo tudo pode acontecer!
+[396] Eu gosto da resposta imediata do público de teatro.
+[397] O teatro clássico é ótimo se você consegue entender a linguagem antiga.
+[398] Eu queria que peças de teatro fossem vendidas em DVD.
+[399] As peças mais novas lembram a indústria de cinema independente.
+[400] Muitos atores e atrizes são muito ruins. Especialmente os bonitos.
+[401] Adoraria ganhar a vida atuando. Você pode viver outras vidas tanto quanto vive a sua.
+[402] Do meu ponto de vista, ser cantora ou modelo não te qualifica para ser atriz.
+[403] Eu não suportaria a pressão de uma performance ao vivo.
+[404] Os atores ganham pouco. Nem todo mundo é capaz de subir em um palco e gritar diálogos pré-escritos.
+[405] As óperas são muito barulhentas e muito caras.
+[406] É impressão minha ou tem sempre um viking ou uma gueixa em cada ópera?
+[407] A ópera é metade teatro, metade cantoria, e no fim das contas não é coisa nenhuma.
+[408] É incrível a quantidade de canções que eles cantam em uma simples conversação.
+[409] As canções são uma mídia excelente para expressar emoções.
+[410] Eu pego o trem pelo menos uma vez ao mês para visitar minha tia no Alabama.
+[411] Por que alguém ia querer tomar um trem comum hoje em dia?
+[412] Os trens ainda usam eletricidade? Eles viraram brinquedos há décadas!
+[413] Eu prefiro trens a aviões. Me sinto mais seguro em terra.
+[414] Trens são mais confortáveis que carros. Além disso, você não precisa estacioná-los.
+[415] Para longas distâncias, eu uso o metrô. Para curtas, uso uma bicicleta. Não preciso de ônibus.
+[416] Os ônibus são tão lotados quanto os metrôs mas param mais frequentemente.
+[417] Eu gosto de ônibus, são como carros que você não precisa dirigir.
+[418] Os ônibus poluem e são barulhentos. Eles são a contradição do transporte público.
+[419] Pelo menos se pegar um ônibus você desce onde quiser.
+[420] Os taxistas conhecem o caminho mais curto para chegar ao seu destino. Eles inclusive seguirão esse caminho se você for uma pessoa amigável.
+[421] Eu gosto de pegar táxis, é como se tivesse minha própria limusine... sem o minibar.
+[422] Se você chamar um táxi por telefone, será cobrado pela corrida até o lugar onde está!
+[423] Os táxis são caros, mas são rápidos e eficientes, especialmente à noite.
+[424] A luz laranja indica que o táxi está ocupado.
+[425] Se você for aos cafés cubanos, verá os melhores shows ao vivo.
+[426] Eles têm uma das gastronomias mais variadas do mundo!
+[427] Esse lance de mafiosos já era, mas meus pais ainda se lembram de que fazia parte da realidade, antigamente.
+[428] Você sabia que 'As Supergatas', na verdade era filmado em Los Angeles?
+[429] Desde que goste de dançar, irá se divertir com eles.
+[430] Você já assistiu a 'sob o Luar de Miami'? É um lindo espetáculo!
+[431] Há mais de dez para visitar!
+[432] Você devia ir, se ainda não conhece. As vistas são mesmo lindas.
+[433] Não me admira que surfistas venham do outro lado do mundo para curtir as ondas.
+[434] A praia de Bal Harbour é ótima para aproveitar a sombra de uma palmeira.
+[435] O Design District é a meca americana do desenho de móveis.
+[436] Little Haiti e Little Havana são lugares tão contrastantes.
+[437] Caminhar por Ocean Drive à noite é como assistir a um filme.
+[438] A atmosfera de Little Havana é única... Fora de Cuba.
+[439] BiBo é o melhor exemplo de MiMo. Engraçado, né?
+[440] Você pode fazer excursões ou cruzeiros pela costa, se quiser.
+[441] Há micro-ônibus dia e noite em Miami.
+[442] Apesar de usarem roupas leves, muitos desses turistas fazem grandes negócios aqui.
+[443] Excursões são coisa de otário, você passa de um ponto turístico a outro muito depressa.
+[444] São como excursões, uma ótima maneira de ver tudo sem ter que caminhar.
+[445] Dá pra dizer quanto tempo faz que um turista chegou pelo seu bronzeado.
+[446] Turistas... Se eles querem vir e nos dar dinheiro pelas nossas praias gratuitas, tudo bem!
+[447] Trazer um cachorro pitbull a Miami é ilegal.
+[448] Por que os turistas fotografam tudo, sendo que há milhares de fotos online?
+[449] Dá pra reconhecer um turista pela quantidade de roupas que ele veste.
+[450] Por que eu iria a um lugar que não tem banheiros?
+[451] Quanto mais civilizada uma sociedade se torna, mais as pessoas correm para o campo.
+[452] Os campings são mais perto E têm eletricidade!
+[453] Tomar banho nu em um lago é o plano original.
+[454] Os campings te permitem experimentar o ar fresco e também ver coisas no céu chamadas estrelas.
+[455] Se o Dia da Terra for capaz de sensibilizar as pessoas por pelo menos um dia, ainda assim já vale a pena!
+[456] O Dia da Terra significa que podemos ficar um dia sem tomar banho e não tem problema!
+[457] VAMOS ECOLOGIA!
+[458] No Dia da Terra, plantamos árvores. Nos outros dias, as cortamos.
+[459] Devíamos ter o 'Dia dos Pés no Chão', isso ia ser divertido.
+[460] Parques... Prefiria que se tornassem estacionamentos!
+[461] Os parques são o mais perto que alguém pode chegar da natureza e ainda voltar pra casa de metrô.
+[462] Um parque é um lugar onde esquilos roubam a sua comida e formigas invadem os seu sapatos.
+[463] Eu não quero árvores, quero andar de montanha russa... Como em um parque DE DIVERSÕES.
+[464] Eu não quero árvores, quero andar de montanha russa... Como em um parque de DIVERSÕES.
+[465] Eu gosto de lilases. São plantas com flores de acessório.
+[466] A árvore mais antiga de Miami data de 1636.
+[467] No Natal a cidade instala cerca de 1.000 árvores de Natal ao longo das estradas.
+[468] Eu gosto de árvores, elas me fazem sombra quando eu quero ler um livro no parque.
+[469] Van Gogh pintou muitas paisagens de árvores.
+[470] Os macacos do zoológico têm mais amigos do que eu.
+[471] O Miami Metro Zoo abriga mais de 900 animais selvagens numa área sem jaulas!
+[472] Eu passei pela jaula das panteras, mas tudo o que vi foi um par de árvores.
+[473] Eu gosto dos ursos. Eles parecem bichinhos de estimação gigantes.
+[474] Os golfinhos são animais tão espertos!
+[475] Tráfego, o calcanhar de Aquiles das sociedades.
+[476] O inferno deve ser assim. Derretendo-se em seu carro, sem andar um milímetro sequer.
+[477] Às pessoas deviam fazer rodízio de caronas, assim diminuiriam o tráfego ou pelo menos teriam alguém com quem reclamar.
+[478] Não deviam te multar por dirigir muito rápido, e sim por ir muito devagar.
+[479] Ao contrário do que acontece nos filmes, você não pode dirigir pelas vias do porto.
+[480] Te darei cincão se você conseguir encontrar um carro estacionado sem nenhum amassado.
+[481] Quanto menor o carro, mais fácil de estacionar.
+[482] Eu uso o transporte público para não ter que estacionar.
+[483] Eu odeio esperar dentro de um carro. Todo mundo te pergunta se você vai sair logo pra pegar a sua vaga.
+[484] Se o carro é pequeno o suficiente, empurre os outros para expandir a sua vaga de estacionamento.
+[485] Quando minha irmã está triste, ela sai e compra um sorriso... e um monte de roupas novas.
+[486] Se estiver em liquidação, é meu!
+[487] Às vezes, à noite, eu saio a torrar dinheiro em supermercados.
+[488] Uma febre de consumismo é perigosa para toda a família.
+[489] Eu começo a evitar as lojas cinco semanas antes do Natal.
+[490] Bom e barato é melhor do que caro e quebrado.
+[491] A maioria das coisas não é útil, mas eu compro mesmo assim.
+[492] A questão não é que seja barato, é saber usar seu dinheiro com sabedoria.
+[493] Eu gosto de sair e comprar um monte de coisas baratas. Me sinto como se tivesse mais dinheiro.
+[494] Eu nunca saio por aí torrando dinheiro em compras. Ok, às vezes sim, mas no máximo 4 vezes ao mês.
+[495] Tentaram colocar no mercado chinês um refrigerante chamado "Ke-kou-ke-la".
+[496] As linhas dos estilistas são as marcas de renome das roupas.
+[497] Não importa a marca, eu só quero maionese!
+[498] Pelo menos metade das marcas de renome rouba as idéias de outras marcas de renome.
+[499] Eu acho que o gosto é mais importante do que o nome.
+[500] Eu compro revistas só pelas amostras de xampu.
+[501] Não sei como alguém pode julgar um produto só pela amostra. Eu quero a embalagem inteira!
+[502] Eu não tenho um mp3 sequer em meu computador. Mas tenho 8.175 amostras de canções.
+[503] Eu faço todo mundo da minha família aceitar as amostras para poder provar mais de uma vez.
+[504] Faz anos que não compro um perfume. Simplesmente vou ao shopping e uso uma amostra!
+[505] Eu gosto de comprar coisas na rua. Você pode ficar ao sol.
+[506] Vendedores ambulantes vendem comida com moscas incluídas.
+[507] Adoraria ganhar a vida vendendo castanhas tostadas nas ruas.
+[508] Sorvete, castanhas, postais... existe alguma coisa que eles não tenham?!
+[509] Ser vendedor ambulante é apenas uma desculpa para não trabalhar em dias de chuva.
+[510] Para ganhar uma graninha extra, eu trabalho como garçonete no café perto de Ocean Drive.
+[511] Meu amigo Pablo contrata músicos se estiver precisando de um graninha extra.
+[512] Estão rodando um filme perto de South Beach. Talvez eu consiga um emprego como assistente de produção por lá...
+[513] Ouvi dizer que estão buscando vendedores especializados nas clínicas de beleza. É uma boa maneira de entrar na indústria da moda.
+[514] A maioria dos empregos que você encontra na cidade estão próximos a Downtown.
+[515] Não preciso de um orçamento pra saber que estou pobre.
+[516] Sou uma pessoa bastante organizada. Faço um orçamento e planejo estourar qualquer limite de gastos.
+[517] Orçamentos são como aquelas calças bastante justas: ficam bem, mas você não pode se mover dentro delas.
+[518] Eu faço um orçamento, assim fico com a consciência tranquila quando gasto meu dinheiro em entretenimento.
+[519] Orçamentos são como dietas. Depois de uma semana você já não aguenta mais.
+[520] O dólar é a moeda internacional. Exceto na Europa.
+[521] Ultimamente o dólar vem perdendo força frente ao euro.
+[522] Minhas economias pareciam mais seguras antes da crise.
+[523] Investimentos a longo prazo são a chave para multiplicar seus dólares... Se você tiver condições de mantê-los.
+[524] É fácil dizer quanto custa um barril de gasolina e quanto pagamos por ele.
+[525] Eu peguei um empréstimo para comprar um carro. Depois outro para a gasolina.
+[526] Por que as pessoas não esperam até ter dinheiro pra comprar as coisas?
+[527] Consegui um empréstimo sem juros... dos meus pais.
+[528] Eu emprestei dinheiro para o meu irmão. Acho que nunca voltarei a ver aqueles dólares.
+[529] Eu preciso de um empréstimo estudantil, mas eles não me darão um a não ser que eu esteja na escola.
+[530] Queria ver como é que as pessoas lidam com o fato de ganhar na loteria. De repente, todo mundo gosta de você um pouco mais.
+[531] Ter muito dinheiro significa ter muita gente sugando-o de você.
+[532] O truque pra ganhar na raspadinha é comprar cada vez MAIS!
+[533] O que eu não gosto a respeito da loteria é que não envolve nenhum tipo de habilidade.
+[534] Se eu ganhar na loteria, finalmente terei dinheiro para trabalhar com o que eu gosto.
+[535] Hambúrgueres com cheddar são meu maior vício.
+[536] Depois de beber o bastante, até a comida mais saudável tem sabor.
+[537] Meu colega de quarto está de dieta, logo também estou de dieta.
+[538] O que é que a linguiça tem que não seja saudável?
+[539] Quando faço dieta, preciso de sorvete para me consolar.
+[540] Eu corro todos os dias do trabalho até em casa. É saudável e mais rápido do que o trânsito.
+[541] Se estiver afim, pode patinar perto da estação Opera.
+[542] Eu só saio com pessoas que malham... Ou com as que são bonitas de verdade.
+[543] Quando os extra-terrestres invadirem a Terra, eles vão comer primeiro os mais gordos. É por isso que estou malhando.
+[544] Gosto de pessoas olhando para mim. Meu ego se alimenta da inveja.
+[545] Pra que academia? Eu malho com meus halteres no meu quarto. E você?
+[546] Eu não vejo por que as pessoas reclamam do suor nos aparelhos. É apenas água.
+[547] Vou à academia só para as pessoas ficarem me olhando enquanto uso shorts apertados.
+[548] Tem gente demais para os poucos aparelhos que eles têm na academia.
+[549] Não aguento o cheiro de suor lá.
+[550] As crianças podem passar horas correndo por aí. Eu não consigo.
+[551] As pessoas perdem a saúde quando deixam de ser ativas.
+[552] Eu deveria estar no meu apogeu. Será que esse é o melhor que eu posso ser?
+[553] Minha irmã assistia TV todos os dias quando era adolescente. É por isso que ela tem essa aparência hoje.
+[554] O exercício retarda os efeitos do envelhecimento.
+[555] Boa alimentação, exercícios e ar puro são os ingredientes para uma saúde melhor.
+[556] Saúde não é algo que você tem, é algo que você mantém.
+[557] Um corpo em forma deixa a mente em forma. É isso mesmo que se diz?
+[558] A sabedoria está para a mente como a saúde está para o corpo.
+[559] Às vezes me pergunto o que é melhor para a saúde: a medicina ou a natureza?
+[560] O que eu mais gosto em comer fora é não precisar lavar a louça.
+[561] Às vezes você precisa comer um bife de 30 dólares.
+[562] Gosto de pessoas me servindo comida. Me sinto como um rei, ou algo do tipo.
+[563] Não sei cozinhar. Os restaurantes me mantêm com vida.
+[564] Alguns pratos são mais caros quando você os prepara do que quando você vai comê-los em um restaurante.
+[565] É mais barato que comida saudável.
+[566] Eu prefiro um belo sanduíche.
+[567] E daí se a comida demorar um pouco mais? Quem está com tanta pressa assim nessa cidade?
+[568] O problema do fast-food é que você fica viciado e sempre quer mais!
+[569] Eu como qualquer coisa que tenha gosto de maionese.
+[570] Não precisa ser gorduroso para ser satisfatório.
+[571] Você não acha que a digestão fica mais fácil?
+[572] É mais caro, mas é bem melhor para você.
+[573] Qual é o problema? Você quer viver para sempre?
+[574] Eles servem mexilhões na cervejaria, você deveria experimentar.
+[575] Prefiro comer uns petiscos do que um grande jantar.
+[576] Não resisto a um lanchinho da meia-noite. Isso me ajuda a dormir.
+[577] Sempre carrego comigo uma barra de chocolate. Mas ela sempre acaba derretendo.
+[578] Eu não almoço nem janto. Mas eu faço uns 5 lanches por dia.
+[579] Eu não como petiscos. Só como entre as refeições, mas isso não conta, né?
+[580] A cozinha tailandesa tem sabores tão interessantes e complexos.
+[581] A comida italiana é uma ótima opção de comida caseira.
+[582] Eu fui a um restaurante americano e agora quero ir surfar.
+[583] A comida latina tem aquele tempero que me dá água na boca.
+[584] Sushi é o melhor tipo de comida japonesa.
+[585] Carros são como doces. Os bons são uma maravilha.
+[586] Carros clássicos têm classe, assim como uma senhora de idade.
+[587] As companhias antigas faziam de tudo. Motores, pneus e bicicletas podiam ser levados à mesma fábrica quando estragavam.
+[588] Esses velhos furgões com certeza podem apanhar um bocado e continuar andando bem.
+[589] Dirigir um carro clássico é como viajar através do tempo.
+[590] Eu tenho 9 Hot Rods... Escala de 1/18, feitos de plástico.
+[591] Meu carro é tão pequeno que eu quase posso entrar em uma loja com ele.
+[592] Queria ter um carro compacto. Com o meu, gasto mais em gasolina do que gasto em comida.
+[593] Tenho um carro grande de 5 lugares, mas só eu entro nele. Inútil.
+[594] Tenho um carro compacto. É ótimo, a não ser que você queira levar alguma coisa consigo.
+[595] O que é que um carro esportivo tem de mais, além do seguro mais caro?
+[596] Adoraria ter um carro esportivo caro, mas ele acabaria amassado em uma semana.
+[597] Os esportivos mais finos têm as curvas de uma mulher.
+[598] É impressão minha ou carros vermelhos são mais rápidos?
+[599] Ter um carro esportivo é atestar que você tem dinheiro.
+[600] Minha máquina de 360 cavalos vai acabar com o escapamento do seu carro.
+[601] Claro, são 4 cores diferentes, mas ele me leva ao trabalho e me traz de volta.
+[602] É uma pintura personalizada, se chama "pintura desbotada com design rústico".
+[603] Sei que você adora quando minha buzina toca La Cucaracha.
+[604] Meu carro tem um sistema personalizado de defesa. Ele solta fumaça preta pra trás.
+[605] Quando você diz híbrido você fala de carros que andam na água também?
+[606] Por que será que é tão difícil abastecer um carro com eletricidade?
+[607] Não é perfeito, mas é melhor do que só gasolina.
+[608] Aquele filme estava certo, deveríamos criar motores que consumissem lixo.
+[609] Vou ficar feliz quando fizerem um carro movido a ar... E que voe.
+[610] Precisamos combater certas coisas, mas um tumulto nem sempre é a melhor solução.
+[611] Tumultos são apenas desculpas para se quebrar coisas. É algo terapêutico.
+[612] Fui parar em um tumulto, uma vez. É impossível não ficar com raiva.
+[613] Os tumultos deveriam ser interrompidos rápida e organizadamente para mostrar às pessoas que Miami não os tolera.
+[614] Tumultos sempre têm mais resultados negativos do que positivos.
+[615] Comprei um sistema de segurança, mas meu gato vive acionando-o.
+[616] Tenho um taco de baseball sob minha cama. É segurança suficiente para mim.
+[617] Você sabia que pode ser multado se seu alarme acionar a polícia sem motivo?
+[618] Tenho uma câmera de segurança apontada para a janela da minha vizinha.
+[619] O alarme do meu carro é acionado ao menos uma vez ao dia.
+[620] Eu fiz caratê, então é melhor tomar cuidado!
+[621] Eu carrego comigo uma buzina-alarme. É para minha auto-defesa... E para brincar com as pessoas.
+[622] Eu não preciso de auto-defesa. Meu primo é do crime organizado.
+[623] Posso me defender! Faço tai chi toda manhã!
+[624] Spray de pimenta: a melhor arma para quem anda sozinho.
+[625] Sabia que policiais têm que ser bilíngues?
+[626] Escapei da polícia me escondendo nos esgotos, mas não escapei do pé-de-atleta.
+[627] Alguns policiais são artistas da trapaça. Você não viu os filmes de Hermit e Blacket?
+[628] Não entendo como as pessoas que deveriam ajudar e proteger os cidadãos acabam sendo odiadas por todo mundo.
+[629] Gosto de ver policiais em serviço. Isso me dá segurança.
+[630] A taxa de criminalidade em Miami está diminuindo, mas ainda é alta.
+[631] Cuidado com mãos-leves no metrô.
+[632] Nunca deixe uma bolsa sozinha! Especialmente em um aeroporto ou perto no metrô.
+[633] Andar sozinho à noite em certos bairros é atrair atenções indesejadas.
+[634] Cuidado com caixas automáticos. Estes são os verdadeiros ladrões da cidade!
+[635] Às vezes penso que gostaria de cometer um crime, mas eu não suportaria o estresse.
+[636] A maioria dos criminosos são apenas pessoas normais com um passado triste.
+[637] Existem criminosos altamente treinados para roubar sua carteira na rua.
+[638] Gostaria que os criminosos se parecessem com os vilões dos quadrinhos para que pudéssemos identificá-los mais facilmente.
+[639] Quando foi que esses marginais pararam de usar aquela camisa listrada de branco e preto?
+[640] Golpistas ligam para a sua casa para conseguir as informações do seu cartão de crédito.
+[641] Uma oportunidade que parece ser boa demais para ser verdade provavelmente É boa demais para ser verdade.
+[642] Nunca compre uma TV de um cara na rua que diz ter uma que caiu de um caminhão.
+[643] Jóias baratas nunca são jóias de verdade.
+[644] O nome oficial de um golpe é "truque de confiança".
+[645] Queria ser um gatuno, mas sou do tipo que gosta de cães.
+[646] Peguei um ladrão no meu loft no ano passado. Essa é uma vantagem de não ter paredes.
+[647] Um ladrão tentou entrar pela minha chaminé. Acontece que o truque do Papai Noel não é tão fácil assim.
+[648] Um ladrão pode entrar pela porta da frente ou isso é proibido pelo sindicato?
+[649] Você não pode realizar um roubo sozinho: depois de pegar a TV, é difícil pegar qualquer outra coisa.
+[650] Afinal, quem fabrica essas facas retráteis?
+[651] Assaltos passam longe da fineza e do cérebro.
+[652] Assaltos armados não são divertidos nem mesmo na TV.
+[653] Se alguém te atacar, grite o mais alto que puder.
+[654] Assassinatos só são interessantes na TV.
+[655] Há anos que não bato uma carteira... Quer dizer, nunca bati uma carteira...
+[656] Mãos-leves são como pedintes, só que pulando a parte de "pedir".
+[657] Me roubaram uma vez, mas o mão-leve disse "obrigado"...
+[658] Vi um cara tentando bater a carteira de um policial, uma vez. Foi patético.
+[659] Uma vez uma mulher me roubou. Isso é o que eu chamo de "igualdade sexual".
+[660] Visite o Planetário no Museu de Ciências!]Você pode ver as estrelas e os planetas como em nenhum outro lugar!
+[661] Há mais de 70 museus na cidade.
+[662] Você já foi ao BiBo? Lembre-se de visitar cada um dos edifícios!
+[663] Cada área tem museus diferentes.
+[664] Você pode comprar um passe para os museus, se pretender visitar mais do que um.
+[665] Meu amigo Claudio tem uma galeria em Downtown.
+[666] Galerias são como museus, exceto que às vezes você pode comprar o que gostar.
+[667] Uma galeria nem sempre é pura a arte. Você pode fazer compras lá, se for milionário.
+[668] Muitas galerias são dedicadas a um grupo étnico específico.
+[669] Gosto de ir a galerias apenas para observar as pessoas tentando parecer que sabem do que estão falando.
+[670] Você sabe que a conta vai ser alta se comer uma salada de abobrinha com hortelã de entrada.
+[671] Se você não tiver um garfo resfriado para comer sua salada, o restaurante não é chique.
+[672] Um burrito é considerado comida?
+[673] Eu me lembro deste delicioso cordeiro na mandioca do Restaurante Yuca. Mas agora a especialidade deles é pizza...
+[674] Por que refeições chiques incluem insetos e ovas de peixe?
+[675] Você come panquecas no Cinco de Maio?
+[676] Temos um desfile, fogos de artifício e danças no Halloween. Você vem?
+[677] É bom não pensar e simplesmente fazer tudo o que sempre foi feito.
+[678] Quando vou a um casamento, sempre quero tentar abrir a bebida com o sabre.
+[679] Pobre Coelhinho da Páscoa! Nós de Miami sabemos que o chocolate vem dos sinos que voam!
+[680] O nome Miami vem do idioma Tequesta.
+[681] A paisagem urbana de Miami foi planejada por uma mulher visionária.
+[682] A casa de inverno do Nixon agora é propriedade particular.
+[683] Alguns dos restaurantes famosos de hoje eram usados como depósitos de armas nos anos 60. Estão melhor agora!
+[684] As universidades de Miami são muito famosas... Pelas festas.
+[685] Quando é segunda-feira você sabe que algo desagradável irá acontecer no escritório.
+[686] Gosto de segundas-feiras: é o único dia da semana em que todos estão tão cansados quanto eu.
+[687] O melhor das segundas-feiras é que elas são uma desculpa para ficar em casa nas noites de domingo.
+[688] Faço todo o meu trabalho na segunda-feira e passo o resto da semana corrigindo-o.
+[689] As segundas-feiras fazem você gostar mais dos fins de semana.
+[690] Na minha mente, eu boto fogo em meu chefe e depois aproveito o fogo para fazer um churrasquinho.
+[691] Na minha mente, meu chefe tem uma voz cavernosa e respira fogo.
+[692] Meu chefe me deu mais trabalho. Adeus, férias.
+[693] Toda vez que meu chefe passa por perto eu sinto que parte da minha alma é roubada.
+[694] Meu antigo chefe me demitiu por sorrir para sua nova secretária.
+[695] Eu ouvi barulhos vindo do almoxarifado. Acho que não eram ratos.
+[696] Ouvi dizer que o cara das correspondências fica o dia inteiro no elevador, só ouvindo as fofocas mais suculentas.
+[697] Aquela moça já saiu com todo mundo no escritório, até comigo. Eu achei que ela realmente tinha gostado de mim.
+[698] Ouvi dizer que o garoto das cópias está se escondendo no armário de papéis.
+[699] Alguém está roubando material de escritório no trabalho. Aliás, precisa de um grampeador?
+[700] Eu ganho massagens grátis porque passo o dia inteiro sentado... Não é estranho?
+[701] Às vezes a empresa nos leva para jantar. Sempre acho que vai ser minha última refeição.
+[702] Temos um sindicato que protege os preguiçosos e os maus trabalhadores.
+[703] Meu trabalho me oferece um carro para ir trabalhar. Acho que eles rastreiam o meu GPS.
+[704] Meu empregador me oferece cobertura integral contra acidentes. Me dá vontade de quebrar uma perna.
+[705] E esses papéis formato 8x11? É um teste de matemática? 88! Acertei?
+[706] Existem configurações demais para uma máquina que só precisa de um botão "copiar".
+[707] Por que será que todo mundo desaparece quando acaba o papel da copiadora?
+[708] Nunca olho para copiadoras antigas. Há muitas histórias de bundas copiadas.
+[709] Por que eles tiveram que usar uma raiz quadrada nas dimensões do papel A4? Não era místico o suficiente?
+[710] Encontrei meu amor no elevador, mas ele saiu no 7º andar enquanto eu desci até o inferno.
+[711] Quanto mais procurar o amor, mais rápido ele irá fugir.
+[712] Acho que você pode encontrar várias coisas em uma boate, mas raramente encontrará o amor.
+[713] O amor me encontrou uma vez, mas eu estava com uma outra pessoa, na época.
+[714] O amor não liga para os planos que você já fez.
+[715] Parece que eu estava em um relacionamento sem saber, na semana passada. Acabei de descobrir que nós terminamos.
+[716] Tive um relacionamento por alguns anos. Você sabe, só com UMA pessoa!
+[717] Nunca mantenha uma relacão que é estritamente física. Pelo menos não por mais de 6 meses.
+[718] Às vezes eu acho que o amor é um obstáculo ao relacionamento.
+[719] Fui eu quem mais amou. É uma pena não podermos os dois ser quem mais amou.
+[720] Todo mundo é louco. Um casal tem que ter o mesmo tipo de loucura para a relação funcionar.
+[721] Ah, almas gêmeas. Seres humanos não são peças de quebra-cabeça que se encaixam perfeitamente.
+[722] Você não se sente como se estivesse partido ao meio quando está sozinho? Nem eu.
+[723] Alguém perfeito para você é utopia. Alguém que te completa é ótimo.
+[724] Se a outra pessoa não gosta de você, provavelmente não era pra ser.
+[725] Encontrar um ex é como se lembrar do que NÃO se deve fazer.
+[726] Você nunca deve ter mais amantes do que dedos nas mãos e nos pés.
+[727] Às vezes é difícil acreditar que uma pessoa pensou que seu amor não era bom o bastante para ela.
+[728] Sempre me sinto comparado com o ex.
+[729] Deveria existir uma lei dizendo que ex-amantes devem ser deportados para outros países.
+[730] A vida de solteiro pode parecer melhor, mas todas essas festas cansam.
+[731] Conheci alguém com uma beleza extraordinária que me disse "pegue uma senha". Peguei o 9.
+[732] Caminhar \msozinho\m\fsozinha\f pela Ocean Drive é triste...
+[733] Gosto de acordar em uma casa qualquer e não saber o nome da pessoa ao lado.
+[734] Odeio a vida de solteiro. Não há ninguém para me trazer café na cama.
+[735] É nas Salas Vip que se escutam as melhores fofocas.
+[736] Frequentemente fazem concursos de dança na sala VIP do Glight Club. Do que será que se trata?
+[737] Nas salas Vip só entram baladeiros de verdade e garotas com pouca roupa.
+[738] Eu não gosto de boates com salas Vip. Ou se faz logo uma boate privada ou não!
+[739] Por que será que o sofá do outro lado da corda é tão mais confortável?
+[740] É incrível o que as pessoas fazem para chamar a atenção.
+[741] É asqueroso, mas não consigo desviar o olhar.
+[742] Quando elas são abandonadas, querem arrumar um cara; quando os caras vêm, elas querem ser deixadas em paz.
+[743] Garotas baladeiras são como os heróis dos quadrinhos. Com tanto acessório, não dá para saber quem está atrás da fantasia.
+[744] Acho que essas gatas que eu vi eram vampiras.
+[745] Da próxima vez que você for a um bar, peça para substituir o DJ por alguns minutos. A sensação é incrível!
+[746] Eu não sei o que leva uma pessoa a estar em um ambiente tão barulhento todos os dias da semana.
+[747] Me lembro da primeira vez em que pude perceber a diferença entre músicas techno.
+[748] Qualquer um pode botar uns discos, mas é preciso ser um profissional para conduzir uma festa.
+[749] Ser um DJ é sentir o clima. Aposto que os melhores DJs podem fazer previsões meteorológicas.
+[750] O hip-hop me faz mover os quadris.
+[751] Azaração na pista de dança é uma coisa tão ultrapassada.
+[752] A qualidade de uma boate se mede pelos seus banheiros.
+[753] Deveriam transformar boates em cafés durante o dia.
+[754] As boates incitam o mau comportamento. É por isso que voltamos toda semana.
+[755] É bom saber que calças jeans agora são roupas de festa aceitáveis.
+[756] Por que eles não toleram roupas largas? Não estamos contrabandeando pessoas dentro delas!
+[757] Por que alguém usaria sapatos desconfortáveis para dançar? Exigir traje para entrar é estúpido.
+[758] Cáquis e uma camisa brilhante não te levarão ao outro lado da corda de veludo.
+[759] Não consigo dançar sem chapéu, meu cabelo sempre fica caindo no rosto.
+[760] Posso passar horas deitado em um sofá. Algumas pessoas acham que eu morri.
+[761] Gordo e Fracassado são os novos Magro e Em Forma.
+[762] Digamos que gosto de descansar bem.
+[763] Perdi todo o interesse pela vida.
+[764] Não aguento quando meu irmão fica sentado no sofá a noite inteira. Quero me sentar no sofá também!
+[765] Pfff. Caminhar é tão entediante, às vezes.
+[766] Agora me diz: pra quê?
+[767] Ser carismático gasta energia.
+[768] Estou cansado. Você não? Os dias deveriam ser mais curtos.
+[769] Queria nunca mais precisar trabalhar.
+[770] É duro trazer uma pessoa para a casa da minha mãe, mas eu trago.
+[771] Eu fico porque morei lá a minha vida inteira e tenho tendência à melancolia. Sem contar que eu não sei cozinhar.
+[772] Minha mãe começou a me cobrar aluguel e trazer a conta no final de cada refeição.
+[773] É um sofá-cama. Eu chamo de "o sofá do amor".
+[774] Não sei se seria capaz de abandonar minha mãe. Ela precisa muito de mim.
+[775] O trabalho faz você sentir-se útil. Mas não trabalhar faz você sentir-se descansado!
+[776] É mais difícil conseguir alguém para sair quando não se tem dinheiro.
+[777] Eu e meu melhor amigo perdemos muito tempo esperando que um emprego apareça.
+[778] Eu comecei a colecionar os pelos que ficam no meu umbigo. Agora tenho uma bola de 5 centímetros de diâmetro.
+[779] Talvez eu devesse tentar arrumar um emprego, mas ficar em casa é bem mais legal.
+[780] As comunidades não deveriam se isolar em Miami. Todos somos de Miami e ponto final!
+[781] As comunidades são como cidades dentro de uma cidade.
+[782] Eu amo as comunidades! Me sinto parte de uma grande família.
+[783] Você perdeu o dia do orgulho gay. Havia castelos pula-pula.
+[784] Você é parte de uma comunidade? Estou conduzindo uma pesquisa sociológica... Para mim mesmo.
+[785] As pessoas são todas iguais, exceto eu!
+[786] Pessoas de fora do país devem nos amar, considerando a quantidade de turistas que temos.
+[787] Pessoas que usam o chapéu de lado se acham tão descoladas.
+[788] As pessoas aqui em Miami têm sorte, temos o melhor time de futebol do país.
+[789] Me mudei para Miami recentemente e, honestamente, as pessoas não são tão arrogantes quanto parecem.
+[790] Algumas causas devem ser defendidas com todo o coração!
+[791] Gostaria de ser apaixonado por alguma causa.
+[792] As pessoas precisam de algo por que lutar.
+[793] Algumas pessoas apenas gostam de reclamar.
+[794] Você precisa defender aquilo em que acredita.
+[795] No showbiz, você está dentro enquanto estiver dormindo com as pessoas.
+[796] Bom, ele faz parte de uma boy band, então acho que ele não será famoso por muito tempo...
+[797] Ela é sexy e ela sabe dançar. É tudo o que alguém precisa para entrar nesse negócio.
+[798] Acho ótimo que algumas estrelas mais velhas continuem na mídia e ainda tenham o respeito do público.
+[799] Artistas sexy fazem de tudo para aparecer.
+[800] Ouvi dizer que ele não dança tão rápido assim, ele só tem três pernas!
+[801] Ouvi dizer que ela adotou 6 novas crianças nesse fim de semana, já são 14 no total!
+[802] Ouvi dizer que ela toma banho em uma mistura de diamantes triturados e leite de cabra.
+[803] Ouvi dizer que existem fotos dela de mãos dadas com um homem quatro vezes mais velho.
+[804] Ouvi dizer que ele nunca usa cueca e, francamente, não acho isso nada higiênico.
+[805] Acho que o vi em um café, outro dia. Mas ele morreu no ano passado.
+[806] Eu a vi disputando uma queda-de-braço com uma outra garota e as pessoas estavam torcendo... E isso não foi em filme!
+[807] Falei com ele na rua, outro dia. Aí me dei conta... Ele não sabe quem eu sou.
+[808] Dividimos um táxi, uma vez, e ele apertou minha mão. Foi ótimo, mas eu tive que lavá-la, eventualmente.
+[809] Ela foi presa em Ocean Drive por excesso de velocidade, enquanto eu passava por lá. Não tem um amassado no carro dela.
+[810] Ela emana divindade! Acho que ela poderia curar leprosos ao tocá-los!
+[811] Ele deu 10 dólares ao meu amigo que toca guitarra no Tri-Rail, em Downtown. Ele é um homem bom.
+[812] Íamos a mesma escola. Ela está bem sexy agora que lhe tiraram a barba.
+[813] Ele! Ele derramou café em mim e saiu, como se a culpa fosse minha. Eu ainda guardo aquela camisa com carinho.
+[814] Ela tentou ficar comigo no banheiro Vip da boate. Não sou desse tipo de pessoa...
+[815] Os pensamento de uma pessoa sã tornam-se as palavras de uma pessoa louca!
+[816] Ah! Perdi um sapato! Ah, não! Está no meu outro pé!
+[817] Você viu meu apartamento andando por aí? Tenho certeza de que eu o deixei por aqui.
+[818] A cada passo que eu dou, parece que estou em um lugar completamente diferente.
+[819] Tudo é louco. Inclusive eu.
+[820] Peixes não bebem e isso me deixa muito triste.
+[821] Para uma dieta balanceada eu recomendo pão, carne, legumes e... Qual era o último, mesmo?
+[822] Como vou chegar em casa? Não encontro uma vaga de estacionamento nesse estado!
+[823] Sou irresistível para todos, exceto para aqueles que me resistem.
+[824] Não consigo manter minha mandíbula fechada. Você acha que está quebrada ou só foi utilizada além da conta?
+[825] Eu fiz farra para esquecer, agora eu não me lembro nem o quê.
+[826] Pode parecer que eu estou vagando por aí sem propósito mas... Perdi a linha de raciocínio.
+[827] Preciso de café para me sentir melhor e poder fazer farra de novo.
+[828] Vou ter uma dor de cabeça amanhã, não me dê outra agora.
+[829] Eu danço extremamente bem, mas isso é segredo.
+[830] Tenho sede de atenção. Derrame algo em mim, por favor?
+[831] Desculpe, você podia pedir pra essa calçada, sobre a qual estou tentando andar, parar de mudar de direção o tempo todo?
+[832] Na minha cabeça, posso andar sem cair.
+[833] Deixe-me te oferecer uma bebida especial e bebê-la para você. Sua vida nunca foi tão fácil.
+[834] Olhe! Meu nariz está vermelho! Achava que isso era um mito, assim como gnomos e loiras inteligentes.
+[835] Não, eu não bati de frente com um caminhão. Só estou sem dormir há 72 horas.
+[836] As pessoas dizem que eu não faço sentido, mas eu juro que era o palhaço que guardava o pote de ouro do arco-íris.
+[837] Relaxa, sei que eu sou um pouco louco, mas não é como se eles fossem me deixar dirigir até a delegacia sozinho.
+[838] Tá vendo essas pessoas loucas vagando por aí, cambaleando? Como vamos saber se não fomos invadidos por zumbis?
+[839] Esses óculos são legais... Mas não enxergo melhor...
+[840] O trabalho em excesso me trouxe riqueza e solidão.
+[841] O que VOCÊ está olhando? Brincadeira, eu também olharia para mim!
+[842] Você sabe o que faria eu me sentir melhor, agora? Nada.
+[843] Sabe o que é difícil dizer quando se está muito louco? "Não, obrigado".
+[844] Você enlouqueceu! Não, peraí, fui eu!

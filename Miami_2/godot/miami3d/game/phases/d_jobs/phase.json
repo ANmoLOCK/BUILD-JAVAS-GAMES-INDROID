@@ -1,0 +1,11 @@
+{
+  "id": "d",
+  "title": "Empregos",
+  "locations": ["yuca_restaurant", "glight_club", "newspaper_office", "stadium"],
+  "systems": ["jobs", "minigame_dance"],
+  "aliases": {
+    "restaurant_yuca": "yuca_restaurant",
+    "press_office": "newspaper_office"
+  },
+  "ready_when": "os 4 empregos contratam, pagam e avançam o relógio"
+}

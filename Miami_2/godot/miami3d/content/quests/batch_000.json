@@ -1,0 +1,522 @@
+[
+  {
+    "id": "q000_va_ate_a_delegacia",
+    "legacyId": 0,
+    "sender": "Polícia",
+    "title": "@q000.title",
+    "text": "@q000.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q000.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q000_va_ate_a_delegacia"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q001_encontre_scott",
+    "legacyId": 1,
+    "sender": "Polícia",
+    "title": "@q001.title",
+    "text": "@q001.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q001.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q001_encontre_scott"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q002_um_bico",
+    "legacyId": 2,
+    "sender": "Scott",
+    "title": "@q002.title",
+    "text": "@q002.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q002.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q002_um_bico"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q003_encontre_o_cachorro",
+    "legacyId": 3,
+    "sender": "Scott",
+    "title": "@q003.title",
+    "text": "@q003.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q003.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q003_encontre_o_cachorro"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q004_plano",
+    "legacyId": 4,
+    "sender": "Scott",
+    "title": "@q004.title",
+    "text": "@q004.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q004.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q004_plano"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q005_pague_a_fianca",
+    "legacyId": 5,
+    "sender": "Scott",
+    "title": "@q005.title",
+    "text": "@q005.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q005.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q005_pague_a_fianca"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q006_classificados",
+    "legacyId": 6,
+    "sender": "Goldsax",
+    "title": "@q006.title",
+    "text": "@q006.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q006.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q006_classificados"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q007_faca_amizade_com_huggy",
+    "legacyId": 7,
+    "sender": "Huggy",
+    "title": "@q007.title",
+    "text": "@q007.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q007.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q007_faca_amizade_com_huggy"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q008_entrega",
+    "legacyId": 8,
+    "sender": "Huggy",
+    "title": "@q008.title",
+    "text": "@q008.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q008.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q008_entrega"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q009_consiga_dinheiro_com_huggy",
+    "legacyId": 9,
+    "sender": "Hal Pachinko",
+    "title": "@q009.title",
+    "text": "@q009.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q009.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q009_consiga_dinheiro_com_huggy"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q010_fale_com_a_opal",
+    "legacyId": 10,
+    "sender": "Gêmeas",
+    "title": "@q010.title",
+    "text": "@q010.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q010.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q010_fale_com_a_opal"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q011_leve_o_cachorro_ate_a_srta_goldsax",
+    "legacyId": 11,
+    "sender": "Opal",
+    "title": "@q011.title",
+    "text": "@q011.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q011.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q011_leve_o_cachorro_ate_a_srta_goldsax"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q012_chaves_do_apartamento",
+    "legacyId": 12,
+    "sender": "Scott",
+    "title": "@q012.title",
+    "text": "@q012.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q012.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q012_chaves_do_apartamento"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q013_faca_amizade_com_o_proprietario",
+    "legacyId": 13,
+    "sender": "Proprietário",
+    "title": "@q013.title",
+    "text": "@q013.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q013.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q013_faca_amizade_com_o_proprietario"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q014_tome_um_banho",
+    "legacyId": 14,
+    "sender": "Encanador",
+    "title": "@q014.title",
+    "text": "@q014.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q014.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q014_tome_um_banho"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q015_geladeira",
+    "legacyId": 15,
+    "sender": "Encanador",
+    "title": "@q015.title",
+    "text": "@q015.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q015.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q015_geladeira"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q016_troque_de_roupa",
+    "legacyId": 16,
+    "sender": "Encanador",
+    "title": "@q016.title",
+    "text": "@q016.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q016.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q016_troque_de_roupa"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q017_conheca_o_apartamento",
+    "legacyId": 17,
+    "sender": "Proprietário",
+    "title": "@q017.title",
+    "text": "@q017.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q017.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q017_conheca_o_apartamento"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q018_plano",
+    "legacyId": 18,
+    "sender": "Scott",
+    "title": "@q018.title",
+    "text": "@q018.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q018.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q018_plano"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  },
+  {
+    "id": "q019_alimentar_o_gato",
+    "legacyId": 19,
+    "sender": "Scott",
+    "title": "@q019.title",
+    "text": "@q019.text",
+    "chapter": "main",
+    "start": "start",
+    "stages": {
+      "start": {
+        "objective": "@q019.obj",
+        "transitions": [
+          {
+            "when": {
+              "event": "quest_advance",
+              "quest": "q019_alimentar_o_gato"
+            },
+            "to": "done"
+          }
+        ]
+      },
+      "done": {
+        "final": true
+      }
+    }
+  }
+]

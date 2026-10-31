@@ -1,0 +1,726 @@
+{
+  "id": "lounge",
+  "name": "@loc.lounge",
+  "region": "downtown",
+  "scene": "res://game/world/locations/_generated/room_08.tscn",
+  "indoor": true,
+  "openHours": [
+    0,
+    24
+  ],
+  "music": "apartment_calm",
+  "grid": {
+    "width": 14,
+    "height": 19
+  },
+  "spawn": {
+    "cell": [
+      6,
+      5
+    ],
+    "facing": "S"
+  },
+  "spawns": {
+    "default": {
+      "cell": [
+        6,
+        5
+      ],
+      "facing": "S"
+    }
+  },
+  "blocked": [
+    [
+      0,
+      0,
+      14,
+      1
+    ],
+    [
+      0,
+      1,
+      4,
+      1
+    ],
+    [
+      9,
+      1,
+      5,
+      1
+    ],
+    [
+      0,
+      2,
+      4,
+      1
+    ],
+    [
+      9,
+      2,
+      5,
+      1
+    ],
+    [
+      0,
+      3,
+      4,
+      1
+    ],
+    [
+      9,
+      3,
+      5,
+      1
+    ],
+    [
+      0,
+      4,
+      4,
+      1
+    ],
+    [
+      9,
+      4,
+      5,
+      1
+    ],
+    [
+      0,
+      5,
+      4,
+      1
+    ],
+    [
+      9,
+      5,
+      5,
+      1
+    ],
+    [
+      0,
+      6,
+      4,
+      1
+    ],
+    [
+      12,
+      6,
+      2,
+      1
+    ],
+    [
+      0,
+      7,
+      4,
+      1
+    ],
+    [
+      11,
+      7,
+      3,
+      1
+    ],
+    [
+      0,
+      8,
+      4,
+      1
+    ],
+    [
+      11,
+      8,
+      3,
+      1
+    ],
+    [
+      0,
+      9,
+      4,
+      1
+    ],
+    [
+      11,
+      9,
+      3,
+      1
+    ],
+    [
+      0,
+      10,
+      4,
+      1
+    ],
+    [
+      11,
+      10,
+      3,
+      1
+    ],
+    [
+      0,
+      11,
+      4,
+      1
+    ],
+    [
+      11,
+      11,
+      3,
+      1
+    ],
+    [
+      0,
+      12,
+      4,
+      1
+    ],
+    [
+      11,
+      12,
+      3,
+      1
+    ],
+    [
+      0,
+      13,
+      4,
+      1
+    ],
+    [
+      12,
+      13,
+      2,
+      1
+    ],
+    [
+      0,
+      14,
+      14,
+      1
+    ],
+    [
+      2,
+      15,
+      12,
+      1
+    ]
+  ],
+  "portals": [],
+  "zones": [
+    {
+      "id": "zone_70",
+      "rect": [
+        5,
+        4,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_71",
+      "rect": [
+        4,
+        5,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_72",
+      "rect": [
+        4,
+        5,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_73",
+      "rect": [
+        5,
+        7,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_74",
+      "rect": [
+        5,
+        6,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_75",
+      "rect": [
+        3,
+        6,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_76",
+      "rect": [
+        4,
+        7,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_77",
+      "rect": [
+        0,
+        4,
+        2,
+        2
+      ],
+      "tag": "custom"
+    },
+    {
+      "id": "zone_78",
+      "rect": [
+        13,
+        18,
+        2,
+        2
+      ],
+      "tag": "custom"
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj_68",
+      "template": "prop_generic",
+      "cell": [
+        3,
+        3
+      ],
+      "legacyId": 68
+    },
+    {
+      "id": "obj_67",
+      "template": "prop_generic",
+      "cell": [
+        4,
+        3
+      ],
+      "legacyId": 67
+    },
+    {
+      "id": "obj_74",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        4
+      ],
+      "legacyId": 74
+    },
+    {
+      "id": "obj_66",
+      "template": "prop_generic",
+      "cell": [
+        3,
+        4
+      ],
+      "legacyId": 66
+    },
+    {
+      "id": "obj_110",
+      "template": "prop_generic",
+      "cell": [
+        4,
+        3
+      ],
+      "legacyId": 110
+    },
+    {
+      "id": "obj_111",
+      "template": "prop_generic",
+      "cell": [
+        4,
+        3
+      ],
+      "legacyId": 111
+    },
+    {
+      "id": "obj_64",
+      "template": "prop_generic",
+      "cell": [
+        2,
+        4
+      ],
+      "legacyId": 64
+    },
+    {
+      "id": "obj_63",
+      "template": "prop_generic",
+      "cell": [
+        1,
+        5
+      ],
+      "legacyId": 63
+    },
+    {
+      "id": "obj_73",
+      "template": "prop_generic",
+      "cell": [
+        6,
+        4
+      ],
+      "legacyId": 73
+    },
+    {
+      "id": "obj_76",
+      "template": "prop_generic",
+      "cell": [
+        7,
+        5
+      ],
+      "legacyId": 76
+    },
+    {
+      "id": "obj_77",
+      "template": "prop_generic",
+      "cell": [
+        7,
+        5
+      ],
+      "legacyId": 77
+    },
+    {
+      "id": "obj_91",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        4
+      ],
+      "legacyId": 91
+    },
+    {
+      "id": "obj_88",
+      "template": "prop_generic",
+      "cell": [
+        8,
+        6
+      ],
+      "legacyId": 88
+    },
+    {
+      "id": "obj_90",
+      "template": "prop_generic",
+      "cell": [
+        8,
+        6
+      ],
+      "legacyId": 90
+    },
+    {
+      "id": "obj_158",
+      "template": "prop_generic",
+      "cell": [
+        7,
+        2
+      ],
+      "legacyId": 158
+    },
+    {
+      "id": "obj_163",
+      "template": "prop_generic",
+      "cell": [
+        8,
+        3
+      ],
+      "legacyId": 163
+    },
+    {
+      "id": "obj_402",
+      "template": "prop_generic",
+      "cell": [
+        6,
+        5
+      ],
+      "legacyId": 402
+    },
+    {
+      "id": "obj_59",
+      "template": "prop_generic",
+      "cell": [
+        3,
+        4
+      ],
+      "legacyId": 59
+    },
+    {
+      "id": "obj_337",
+      "template": "prop_generic",
+      "cell": [
+        3,
+        2
+      ],
+      "legacyId": 337
+    },
+    {
+      "id": "obj_272",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        7
+      ],
+      "legacyId": 272
+    },
+    {
+      "id": "obj_83",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        7
+      ],
+      "legacyId": 83
+    },
+    {
+      "id": "obj_228",
+      "template": "prop_generic",
+      "cell": [
+        6,
+        6
+      ],
+      "legacyId": 228
+    },
+    {
+      "id": "obj_127",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        7
+      ],
+      "legacyId": 127
+    },
+    {
+      "id": "obj_273",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        7
+      ],
+      "legacyId": 273
+    },
+    {
+      "id": "obj_58",
+      "template": "prop_generic",
+      "cell": [
+        2,
+        5
+      ],
+      "legacyId": 58
+    },
+    {
+      "id": "obj_103",
+      "template": "prop_generic",
+      "cell": [
+        3,
+        6
+      ],
+      "legacyId": 103
+    },
+    {
+      "id": "obj_27",
+      "template": "prop_generic",
+      "cell": [
+        3,
+        6
+      ],
+      "legacyId": 27
+    },
+    {
+      "id": "obj_31",
+      "template": "prop_generic",
+      "cell": [
+        7,
+        6
+      ],
+      "legacyId": 31
+    },
+    {
+      "id": "obj_105",
+      "template": "prop_generic",
+      "cell": [
+        7,
+        6
+      ],
+      "legacyId": 105
+    },
+    {
+      "id": "obj_85",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        7
+      ],
+      "legacyId": 85
+    },
+    {
+      "id": "obj_28",
+      "template": "prop_generic",
+      "cell": [
+        3,
+        6
+      ],
+      "legacyId": 28
+    },
+    {
+      "id": "obj_116",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        5
+      ],
+      "legacyId": 116
+    },
+    {
+      "id": "obj_80",
+      "template": "prop_generic",
+      "cell": [
+        3,
+        5
+      ],
+      "legacyId": 80
+    },
+    {
+      "id": "obj_99",
+      "template": "prop_generic",
+      "cell": [
+        4,
+        5
+      ],
+      "legacyId": 99
+    },
+    {
+      "id": "obj_29",
+      "template": "prop_generic",
+      "cell": [
+        4,
+        7
+      ],
+      "legacyId": 29
+    },
+    {
+      "id": "obj_71",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        8
+      ],
+      "legacyId": 71
+    },
+    {
+      "id": "obj_104",
+      "template": "prop_generic",
+      "cell": [
+        4,
+        7
+      ],
+      "legacyId": 104
+    },
+    {
+      "id": "obj_79",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        8
+      ],
+      "legacyId": 79
+    },
+    {
+      "id": "obj_92",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        4
+      ],
+      "legacyId": 92
+    },
+    {
+      "id": "obj_271",
+      "template": "prop_generic",
+      "cell": [
+        3,
+        6
+      ],
+      "legacyId": 271
+    },
+    {
+      "id": "obj_208",
+      "template": "prop_generic",
+      "cell": [
+        4,
+        2
+      ],
+      "legacyId": 208
+    },
+    {
+      "id": "obj_222",
+      "template": "prop_generic",
+      "cell": [
+        3,
+        3
+      ],
+      "legacyId": 222
+    },
+    {
+      "id": "obj_60",
+      "template": "prop_generic",
+      "cell": [
+        6,
+        7
+      ],
+      "legacyId": 60
+    },
+    {
+      "id": "obj_251",
+      "template": "prop_generic",
+      "cell": [
+        5,
+        9
+      ],
+      "legacyId": 251
+    },
+    {
+      "id": "obj_398",
+      "template": "prop_generic",
+      "cell": [
+        8,
+        9
+      ],
+      "legacyId": 398
+    },
+    {
+      "id": "obj_30",
+      "template": "prop_generic",
+      "cell": [
+        0,
+        4
+      ],
+      "legacyId": 30
+    }
+  ],
+  "npcs": [
+    {
+      "generic": true,
+      "count": 5
+    }
+  ],
+  "triggers": [],
+  "sourceRoom": 8,
+  "generatedBy": "room_to_godot.py"
+}

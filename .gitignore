@@ -1,0 +1,13 @@
+# saídas temporárias das ferramentas (a extração oficial fica em <Jogo>/00..08)
+build/
+/tmp/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# editores
+.vscode/
+.idea/
+.DS_Store
