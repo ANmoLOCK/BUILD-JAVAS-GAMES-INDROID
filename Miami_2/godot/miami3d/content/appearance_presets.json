@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "art_direction": "everwind_hybrid_2d3d",
+  "pipeline": {
+    "rig": "res://assets/models/characters/rig_human.glb",
+    "slots": ["heads", "hair", "tops", "bottoms", "shoes"],
+    "vector": ["gender", "skin", "hair", "hair_color", "top", "top_color", "bottom", "bottom_color", "shoes", "shoes_color"],
+    "notes": "3D modular paper-doll + hand-painted albedo/AO; optional 2D face billboard overlay for expressions (Everwind-style). Same 10-int vector as MN2 Java."
+  },
+  "proposals": [
+    {
+      "id": "p01_south_beach_classic",
+      "title": "South Beach Classic",
+      "role": "Default starter — closest remaster of MN2 base",
+      "sheet": "char-prop-01-south-beach-classic.jpg",
+      "male": {
+        "label": "m_classic",
+        "vector": [0, 1, 2, 2, 0, 0, 4, 3, 1, 1],
+        "skin": "peach/fair",
+        "hair": "short spiked light-brown",
+        "top": "open white short-sleeve shirt",
+        "bottom": "teal shorts + brown belt",
+        "shoes": "brown loafers"
+      },
+      "female": {
+        "label": "f_classic",
+        "vector": [1, 1, 5, 2, 3, 2, 2, 2, 2, 1],
+        "skin": "peach/fair",
+        "hair": "long wavy brown with soft bangs",
+        "top": "coral sundress (dress = top+bottom visual)",
+        "bottom": "dress hem / matching",
+        "shoes": "strappy sandals"
+      }
+    },
+    {
+      "id": "p02_neon_nightlife",
+      "title": "Neon Nightlife",
+      "role": "Club / romance phase look",
+      "sheet": "char-prop-02-neon-nightlife.jpg",
+      "male": {
+        "label": "m_neon",
+        "vector": [0, 2, 8, 0, 12, 4, 10, 0, 6, 0],
+        "skin": "olive-tan",
+        "hair": "dark styled slick",
+        "top": "black blazer + magenta shirt",
+        "bottom": "black slim trousers",
+        "shoes": "black dress shoes",
+        "extras": ["sunglasses optional accessory slot"]
+      },
+      "female": {
+        "label": "f_neon",
+        "vector": [1, 2, 10, 0, 18, 0, 8, 0, 9, 0],
+        "skin": "warm tan",
+        "hair": "long dark side-wave",
+        "top": "white shimmer cocktail dress",
+        "bottom": "dress",
+        "shoes": "white heels"
+      }
+    },
+    {
+      "id": "p03_art_deco_ambition",
+      "title": "Art Deco Ambition",
+      "role": "Career / high-society phase",
+      "sheet": "char-prop-03-art-deco-ambition.jpg",
+      "male": {
+        "label": "m_deco",
+        "vector": [0, 3, 6, 0, 20, 1, 14, 1, 4, 1],
+        "skin": "medium brown",
+        "hair": "neat dark waves",
+        "top": "cream linen blazer + white shirt + coral pocket square",
+        "bottom": "beige trousers",
+        "shoes": "brown leather dress shoes"
+      },
+      "female": {
+        "label": "f_deco",
+        "vector": [1, 3, 14, 0, 22, 3, 16, 3, 10, 3],
+        "skin": "medium brown",
+        "hair": "elegant updo with soft curls",
+        "top": "teal midi dress + gold belt",
+        "bottom": "dress",
+        "shoes": "gold heels"
+      }
+    },
+    {
+      "id": "p04_ocean_drive_sun",
+      "title": "Ocean Drive Sun",
+      "role": "Daytime beach / tourism vibe",
+      "sheet": "char-prop-04-ocean-drive-sun.jpg",
+      "male": {
+        "label": "m_ocean",
+        "vector": [0, 4, 3, 3, 6, 3, 1, 0, 8, 0],
+        "skin": "sun-kissed bronze",
+        "hair": "tousled sandy-blond",
+        "top": "teal polo",
+        "bottom": "white shorts",
+        "shoes": "light blue sneakers"
+      },
+      "female": {
+        "label": "f_ocean",
+        "vector": [1, 4, 12, 3, 8, 5, 6, 4, 2, 1],
+        "skin": "bronze",
+        "hair": "long sun-streaked waves",
+        "top": "yellow crop top",
+        "bottom": "cuffed denim shorts",
+        "shoes": "brown sandals"
+      }
+    }
+  ],
+  "implementation": {
+    "godot_targets": [
+      "game/ui/character_creator.gd — preset chips P01–P04 + live paper-doll preview",
+      "assets/models/characters/{heads,hair,tops,bottoms,shoes}/ — remaster meshes per slot",
+      "assets/ui/previews/ — creator thumbnails from these sheets",
+      "content/appearance_presets.json — load presets.json vectors"
+    ],
+    "everwind_notes": [
+      "Body = skinned MeshInstance3D modules on shared Skeleton3D",
+      "Face = high-res painted albedo OR optional Sprite3D billboard for talk/emote",
+      "Keep silhouette readable at ~64–96px on screen (phone)",
+      "Tint via ShaderMaterial albedo_tint for hair/cloth colors (vector color indices)",
+      "Do not bake gender into meshes — swap MAN/WOMAN part packs like Java RES_MANPARTS/WOMANPARTS"
+    ]
+  }
+}
