@@ -6,7 +6,7 @@ signal action_picked(action_id: String)
 signal closed
 
 var object_id: String = ""
-@onready var box: VBoxContainer = $Panel/VBox
+@onready var box: VBoxContainer = $Panel/Scroll/VBox
 
 
 func _ready() -> void:

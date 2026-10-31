@@ -6,7 +6,7 @@ signal confirmed(player_name: String, gender: String, vector: Array)
 
 @onready var name_edit: LineEdit = $Panel/VBox/Name
 @onready var gender_box: HBoxContainer = $Panel/VBox/Gender
-@onready var slots: VBoxContainer = $Panel/VBox/Slots
+@onready var slots: VBoxContainer = $Panel/VBox/Scroll/Slots
 
 var _gender: String = "m"
 var _vector: Array = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

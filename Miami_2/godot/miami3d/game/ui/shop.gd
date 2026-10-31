@@ -5,7 +5,7 @@ extends Control
 signal closed
 
 var shop_id: String = "furniture_store"
-@onready var list: VBoxContainer = $Panel/VBox/List
+@onready var list: VBoxContainer = $Panel/VBox/Scroll/List
 
 
 func _ready() -> void:

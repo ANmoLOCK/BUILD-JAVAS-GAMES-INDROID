@@ -5,7 +5,7 @@ extends Control
 signal travel(location_id: String)
 signal closed
 
-@onready var list: VBoxContainer = $Panel/VBox/List
+@onready var list: VBoxContainer = $Panel/VBox/Scroll/List
 
 var _unlock_override: Dictionary = {} # location_id -> bool
 var _quest_markers: Dictionary = {} # location_id -> quest_id

@@ -7,7 +7,7 @@ signal action_picked(npc_id: String, action_id: String)
 
 var npc_id: String = ""
 @onready var tabs: HBoxContainer = $Panel/VBox/Tabs
-@onready var list: VBoxContainer = $Panel/VBox/List
+@onready var list: VBoxContainer = $Panel/VBox/Scroll/List
 @onready var title: Label = $Panel/VBox/Title
 
 const MENUS := {
