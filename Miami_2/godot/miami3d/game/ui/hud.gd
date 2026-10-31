@@ -10,7 +10,7 @@ var phase_l: Label
 
 func _ready() -> void:
 	for id in ["hunger", "sleep", "hygiene", "bladder"]:
-		var path := id.capitalize()
+		var path: String = str(id).capitalize()
 		if has_node(path):
 			bars[id] = get_node(path)
 

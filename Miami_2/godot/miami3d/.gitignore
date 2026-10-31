@@ -7,3 +7,6 @@ android/
 *.aab
 *.pck
 # mantém bin/*.so e .gdextension versionados (cérebro C++ pré-compilado Linux)
+
+# Godot import cache (local)
+*.import

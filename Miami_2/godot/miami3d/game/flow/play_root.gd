@@ -206,7 +206,7 @@ func _on_object_chosen(object_id: String, actions: Array) -> void:
 
 
 func _on_action(action_id: String) -> void:
-	var oid := radial.object_id
+	var oid: String = str(radial.object_id)
 	var a := action_id.to_lower()
 	# dormir / trabalho / cirurgia → confirma e pede advance_time_request
 	if "sleep" in a or "dorm" in a or "nap" in a:

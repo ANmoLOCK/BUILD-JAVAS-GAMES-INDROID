@@ -33,6 +33,7 @@ acrescentar novos locais, personagens e missões sem recompilar o jogo.
 | 09 | [`09-engenharia-reversa-docs/`](09-engenharia-reversa-docs) | 7 | Documentação: formatos, sistemas de jogo, inventário, arquitetura Android 3D, pipeline de conteúdo, roadmap |
 | 10 | [`10-remake-3d/`](10-remake-3d) | — | Base do remake: `schemas/` (JSON Schema do conteúdo) e `content/` (pack de exemplo validado) |
 | — | [`Miami WorldStreamer/`](Miami%20WorldStreamer) | — | Quase open-world: streaming por chunks + coords globais (opt-in, sem quebrar discrete) |
+| — | [`godot/releases/android/`](godot/releases/android) | — | **APK Android** Miami Life (`MiamiLife-0.7.0-debug.apk`) |
 | — | [`tools/`](tools) | 7 | Scripts Python que geram as etapas 01–08 a partir do JAR e validam o conteúdo do remake |
 | — | [`CATALOGO.md`](CATALOGO.md) | 1 | Tabela das 1 039 entradas: id, pack, tipo, bytes, nome |
 
