@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Miami Life — menu original × 2 sugestões</title>
+<style>
+  :root {
+    --bg: #071018;
+    --ink: #f4ece4;
+    --mute: #8aa0ad;
+    --coral: #ff6b5a;
+    --cyan: #4ce0e8;
+    --line: rgba(255,255,255,.08);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    background:
+      radial-gradient(1200px 500px at 10% -10%, rgba(255,107,90,.18), transparent 55%),
+      radial-gradient(900px 420px at 90% 0%, rgba(76,224,232,.14), transparent 50%),
+      var(--bg);
+    color: var(--ink);
+    line-height: 1.45;
+  }
+  header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 36px 24px 12px;
+  }
+  h1 {
+    margin: 0 0 8px;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    letter-spacing: .04em;
+    background: linear-gradient(90deg, var(--coral), #ffd3a1, var(--cyan));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .lead { color: var(--mute); max-width: 62ch; margin: 0; }
+  .grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 24px 48px;
+    display: grid;
+    gap: 22px;
+  }
+  figure {
+    margin: 0;
+    border: 1px solid var(--line);
+    background: rgba(0,0,0,.28);
+    overflow: hidden;
+  }
+  figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    image-rendering: auto;
+  }
+  figure.pixel img { image-rendering: pixelated; }
+  figcaption {
+    padding: 14px 16px 16px;
+    border-top: 1px solid var(--line);
+  }
+  figcaption strong {
+    display: block;
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+  }
+  figcaption p { margin: 0; color: var(--mute); font-size: .92rem; }
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+  }
+  .items span {
+    font-size: .75rem;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--ink);
+    border: 1px solid var(--line);
+    padding: 4px 8px;
+  }
+  .items span.on {
+    border-color: transparent;
+    background: linear-gradient(90deg, var(--coral), var(--cyan));
+    color: #0a1018;
+    font-weight: 700;
+  }
+  .map {
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    padding: 0 24px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .9rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  th { color: var(--mute); font-weight: 600; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>MENU · Java original → Miami Life</h1>
+    <p class="lead">
+      Extraído do JAR (menutitle + pack00/pack01). Duas propostas com os mesmos itens
+      funcionais, visual alinhado à marca atual (coral→ciano, hero de praia, HueHueGames).
+    </p>
+  </header>
+
+  <div class="grid">
+    <figure class="pixel">
+      <img src="original-menutitle-x4.png" alt="Tela de título original Miami Nights 2 (320×240 ampliada)" />
+      <figcaption>
+        <strong>Original — Miami Nights 2 (Java ME, 2009)</strong>
+        <p>
+          Splash/arte de título 320×240. Depois vinha a lista:
+          Continuar · Nova partida · Opções · Ajuda · Sobre · Sair
+          (+ Redefinir jogo / Mais jogos! Gameloft).
+        </p>
+        <div class="items">
+          <span>Continuar</span>
+          <span class="on">Nova partida</span>
+          <span>Opções</span>
+          <span>Ajuda</span>
+          <span>Sobre</span>
+          <span>Sair</span>
+          <span>Redefinir?</span>
+        </div>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <img src="miami-life-menu-sugestao-a.jpg" alt="Sugestão A — lista clássica centrada Miami Life" />
+      <figcaption>
+        <strong>Sugestão A — Lista clássica centrada</strong>
+        <p>
+          Mais fiel ao Java: só tipografia sobre o hero. Foco com underline coral→ciano.
+          Marca no topo, HueHueGames no rodapé. Bom se quiser “menu de celular clássico”.
+        </p>
+        <div class="items">
+          <span class="on">Nova partida</span>
+          <span>Continuar</span>
+          <span>Opções</span>
+          <span>Ajuda</span>
+          <span>Créditos</span>
+          <span>Redefinir jogo</span>
+          <span>Sair</span>
+        </div>
+      </figcaption>
+    </figure>
+
+    <figure>
+      <img src="miami-life-menu-sugestao-b.jpg" alt="Sugestão B — trilho direito Miami Life" />
+      <figcaption>
+        <strong>Sugestão B — Marca à esquerda / trilho à direita</strong>
+        <p>
+          Landscape 1280×720: logo hero à esquerda, menu no trilho escuro à direita.
+          Status de fase/save embaixo. Casa melhor com o APK atual deitado.
+        </p>
+        <div class="items">
+          <span class="on">Nova partida</span>
+          <span>Continuar</span>
+          <span>Opções</span>
+          <span>Ajuda</span>
+          <span>Créditos</span>
+          <span>Resetar jogo</span>
+          <span>Sair</span>
+        </div>
+      </figcaption>
+    </figure>
+  </div>
+
+  <section class="map">
+    <table>
+      <thead>
+        <tr><th>Original (pack00)</th><th>Miami Life</th><th>Ação</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>NOVA PARTIDA</td><td>Nova partida</td><td>Criador → prólogo</td></tr>
+        <tr><td>CONTINUAR</td><td>Continuar</td><td>Load slot 0 (off sem save)</td></tr>
+        <tr><td>OPÇÕES</td><td>Opções</td><td>Som / autosave / dicas</td></tr>
+        <tr><td>AJUDA</td><td>Ajuda</td><td>Controles touch</td></tr>
+        <tr><td>SOBRE</td><td>Créditos</td><td>HueHueGames + versão</td></tr>
+        <tr><td>REDEFINIR JOGO?</td><td>Resetar / Redefinir</td><td>Wipe save + confirmação</td></tr>
+        <tr><td>SAIR DO JOGO</td><td>Sair</td><td>Quit</td></tr>
+        <tr><td>MAIS JOGOS!</td><td>—</td><td>Não portar</td></tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
