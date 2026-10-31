@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Miami Life — 4 propostas de personagem (M+F)</title>
+<style>
+  :root {
+    --bg: #071018; --ink: #f4ece4; --mute: #8aa0ad;
+    --coral: #ff6b5a; --cyan: #4ce0e8; --line: rgba(255,255,255,.08);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; color: var(--ink); font-family: "Segoe UI", sans-serif;
+    background:
+      radial-gradient(1000px 420px at 8% -8%, rgba(255,107,90,.16), transparent 55%),
+      radial-gradient(800px 380px at 92% 0%, rgba(76,224,232,.12), transparent 50%),
+      var(--bg);
+  }
+  header, main { max-width: 1100px; margin: 0 auto; padding: 28px 22px; }
+  h1 {
+    margin: 0 0 8px; font-size: clamp(1.5rem, 3vw, 2.1rem); letter-spacing: .03em;
+    background: linear-gradient(90deg, var(--coral), #ffd3a1, var(--cyan));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .lead { color: var(--mute); max-width: 70ch; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 18px 0 28px; }
+  .pair img { width: 100%; image-rendering: pixelated; background: #000; border: 1px solid var(--line); }
+  figure { margin: 0 0 28px; border: 1px solid var(--line); background: rgba(0,0,0,.28); }
+  figure img { display: block; width: 100%; height: auto; }
+  figcaption { padding: 14px 16px; border-top: 1px solid var(--line); }
+  figcaption strong { display: block; margin-bottom: 4px; }
+  figcaption p { margin: 0; color: var(--mute); font-size: .92rem; }
+  code { color: var(--cyan); font-size: .85em; }
+  @media (max-width: 720px) { .pair { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+  <header>
+    <h1>PERSONAGEM · 4 remasters Everwind (M + F)</h1>
+    <p class="lead">
+      Partindo das cabeças paper-doll Java, quatro presets completos homem/mulher
+      para o creator — híbrido 2D/3D dinâmico, fiel ao vetor de aparência MN2.
+    </p>
+  </header>
+  <main>
+    <h2 style="font-size:1rem;color:var(--mute);font-weight:600;">Original Java (cabeças)</h2>
+    <div class="pair">
+      <img src="original-head-m.png" alt="Cabeça masculina original" />
+      <img src="original-head-f.png" alt="Cabeça feminina original" />
+    </div>
+
+    <figure>
+      <img src="char-prop-01-south-beach-classic.jpg" alt="Proposta 01 South Beach Classic" />
+      <figcaption>
+        <strong>01 — South Beach Classic</strong>
+        <p>Default do creator. Remaster mais próximo do base MN2. Vetores em <code>presets.json</code>.</p>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="char-prop-02-neon-nightlife.jpg" alt="Proposta 02 Neon Nightlife" />
+      <figcaption>
+        <strong>02 — Neon Nightlife</strong>
+        <p>Club / romance. Rim coral↔ciano da marca Miami Life.</p>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="char-prop-03-art-deco-ambition.jpg" alt="Proposta 03 Art Deco Ambition" />
+      <figcaption>
+        <strong>03 — Art Deco Ambition</strong>
+        <p>Carreira / high society. Silhueta limpa para paper-doll premium.</p>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="char-prop-04-ocean-drive-sun.jpg" alt="Proposta 04 Ocean Drive Sun" />
+      <figcaption>
+        <strong>04 — Ocean Drive Sun</strong>
+        <p>Dia / praia. Alto contraste solar, presets de turismo.</p>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="char-creator-everwind-mock.jpg" alt="Mock creator Everwind" />
+      <figcaption>
+        <strong>Creator UI (mock)</strong>
+        <p>Preview 3D à esquerda · slots pelecabelo/roupa à direita — mesmo fluxo CRIAR PERSONAGEM.</p>
+      </figcaption>
+    </figure>
+  </main>
+</body>
+</html>
