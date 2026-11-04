@@ -132,8 +132,12 @@ func require_system(system_id: String) -> Dictionary:
 	return {"ok": false, "reason": "phase", "system": system_id, "need": need, "current": phases.current}
 
 
-func new_game(player_name: String = "Você", gender: String = "m") -> void:
-	appearance.set_from_creator(player_name, gender, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+func new_game(player_name: String = "Você", gender: String = "m", appearance_vector: Array = []) -> void:
+	var vec: Array = appearance_vector
+	if vec.is_empty():
+		# default Neon Nightlife
+		vec = [1, 2, 10, 0, 18, 0, 8, 0, 9, 0] if gender == "f" else [0, 2, 8, 0, 12, 4, 10, 0, 6, 0]
+	appearance.set_from_creator(player_name, gender, vec)
 	strings.player_name = player_name
 	strings.player_gender = gender
 	stats.setup(events, content.stats, self)

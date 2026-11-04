@@ -96,8 +96,16 @@ func _log_phase() -> void:
 	])
 
 
-func new_game(player_name: String = "Você", gender: String = "m") -> void:
-	backend.new_game(player_name, gender)
+func new_game(player_name: String = "Você", gender: String = "m", appearance_vector: Array = []) -> void:
+	if is_native:
+		backend.new_game(player_name, gender)
+		if appearance_vector.size() >= 10 and appearance and appearance.has_method("set_from_creator"):
+			appearance.set_from_creator(player_name, gender, appearance_vector)
+		elif appearance_vector.is_empty() and appearance and appearance.has_method("set_from_creator"):
+			var vec: Array = [1, 2, 10, 0, 18, 0, 8, 0, 9, 0] if gender == "f" else [0, 2, 8, 0, 12, 4, 10, 0, 6, 0]
+			appearance.set_from_creator(player_name, gender, vec)
+	else:
+		backend.new_game(player_name, gender, appearance_vector)
 
 
 func tick_real(delta_s: float) -> void:

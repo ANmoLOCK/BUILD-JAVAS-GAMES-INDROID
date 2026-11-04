@@ -1,0 +1,31 @@
+{
+  "id": "neon_nightlife",
+  "title": "Neon Nightlife",
+  "style": "everwind_hybrid_2d3d",
+  "default": true,
+  "presets": {
+    "m": [0, 2, 8, 0, 12, 4, 10, 0, 6, 0],
+    "f": [1, 2, 10, 0, 18, 0, 8, 0, 9, 0]
+  },
+  "textures": {
+    "body_m": "res://assets/characters/neon_nightlife/textures/body_m_front.jpg",
+    "body_f": "res://assets/characters/neon_nightlife/textures/body_f_front.jpg",
+    "faces": "res://assets/characters/neon_nightlife/faces/faces_sheet.jpg",
+    "avarias": "res://assets/characters/neon_nightlife/overlays/avarias_sheet.jpg"
+  },
+  "slots": {
+    "head_m": 2,
+    "head_f": 2,
+    "hair_m": 8,
+    "hair_f": 10,
+    "top_m": 12,
+    "top_f": 18,
+    "bottom_m": 10,
+    "bottom_f": 8,
+    "shoe_m": 6,
+    "shoe_f": 9
+  },
+  "conditions": ["dirty", "wet", "bruised", "sweaty", "dusty", "tired"],
+  "animations": "res://assets/animations/anims_human.manifest.json",
+  "note": "Billboard 2D + volume 3D via MnNeonPartFactory; clips via MnAnimController + MnAnimationMap."
+}

@@ -79,4 +79,6 @@ Dia / praia / turismo. Alto contraste solar.
 3. Ligar `character_creator` a preview 3D + chips P01–P04.  
 4. Exportar thumbs para `assets/ui/previews/`.
 
-Nada destas propostas substitui meshes no jogo ainda — aguarda escolha (ou mix: P01 default + peças P02–P04 no closet).
+**Neon Nightlife (02) IMPLEMENTADO** em `0.9.0-neon-nightlife`:
+billboard Everwind + volume 3D + faces + avarias + `MnAnimController` (todos os clips).
+Ver `assets/characters/neon_nightlife/`.
