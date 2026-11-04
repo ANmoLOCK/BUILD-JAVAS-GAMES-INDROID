@@ -31,10 +31,12 @@ func _ready() -> void:
 func _build_gender() -> void:
 	for c in gender_box.get_children():
 		c.queue_free()
+	var group := ButtonGroup.new()
 	for g in ["m", "f"]:
 		var b := Button.new()
 		b.text = "Masculino" if g == "m" else "Feminino"
 		b.toggle_mode = true
+		b.button_group = group
 		b.button_pressed = (g == _gender)
 		b.pressed.connect(_on_gender.bind(g))
 		gender_box.add_child(b)
@@ -80,9 +82,6 @@ func _on_gender(g: String) -> void:
 	_vector[0] = 0 if g == "m" else 1
 	_apply_vector_to_ui()
 	_refresh_preview()
-	for b in gender_box.get_children():
-		if b is Button:
-			(b as Button).button_pressed = (b as Button).text.begins_with("Masc") == (g == "m")
 
 
 func _apply_neon() -> void:

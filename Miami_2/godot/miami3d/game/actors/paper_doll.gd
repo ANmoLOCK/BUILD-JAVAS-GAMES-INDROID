@@ -38,18 +38,23 @@ func apply_appearance(p_gender: String, v: Array) -> void:
 	vector = v.duplicate()
 	while vector.size() < 10:
 		vector.append(0)
-	_neon = MnNeonStyle.matches(gender, vector) or style_id == MnNeonStyle.STYLE_ID
-	if _neon:
+	var want_neon := MnNeonStyle.matches(gender, vector) or style_id == MnNeonStyle.STYLE_ID
+	if want_neon:
 		style_id = MnNeonStyle.STYLE_ID
+		_neon = true
 		MnNeonPartFactory.build_character(self, gender, vector)
 		MnNeonPartFactory.set_condition(self, condition)
+		MnNeonPartFactory.set_face(self, gender, MnNeonStyle.FACE_IDLE)
 		scale = Vector3(1.0, 1.0, 1.0)
 		return
-	# limpa nós neon se trocou de estilo
+	# saiu do Neon — limpa híbrido
+	_neon = false
+	style_id = ""
 	for n in ["NeonVolume", "BodyBillboard", "FaceOverlay", "ConditionOverlay", "AccessoryGlasses"]:
 		var c := get_node_or_null(n)
 		if c:
-			c.queue_free()
+			remove_child(c)
+			c.free()
 	ensure_parts()
 	var variants := [
 		int(vector[1]),

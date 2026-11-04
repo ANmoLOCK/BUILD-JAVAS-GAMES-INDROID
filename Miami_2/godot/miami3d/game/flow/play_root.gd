@@ -74,7 +74,14 @@ func setup(new_game: bool, player_name: String = "Você", gender: String = "m", 
 		var err := g.load_game(0)
 		if err != OK:
 			var fallback: Array = appearance if not appearance.is_empty() else _pending_appearance
+			if fallback.is_empty():
+				fallback = MnNeonStyle.preset_vector(_gender)
 			g.new_game(player_name, gender, fallback)
+			_pending_appearance = fallback
+		else:
+			# reaplica aparência salva (Neon ou custom)
+			_pending_appearance = _appearance_from_game(g)
+			_gender = "f" if _pending_appearance.size() > 0 and int(_pending_appearance[0]) == 1 else "m"
 		if _pending_appearance.is_empty():
 			_pending_appearance = MnNeonStyle.preset_vector(_gender)
 		player.apply_appearance(_gender, _pending_appearance)
@@ -115,6 +122,25 @@ func _on_closet_appearance(vector: Array) -> void:
 	_pending_appearance = vector
 	if vector.size() > 0:
 		_gender = "f" if int(vector[0]) == 1 else "m"
+		player.apply_appearance(_gender, vector)
+
+
+func _appearance_from_game(g: BrainFacade) -> Array:
+	if g == null:
+		return []
+	var app = g.appearance
+	if app == null and g.get("backend") != null:
+		app = g.backend.get("appearance")
+	if app == null:
+		return []
+	if typeof(app) == TYPE_DICTIONARY:
+		return (app.get("appearance", []) as Array).duplicate()
+	if app.get("vector") != null:
+		return (app.vector as Array).duplicate()
+	if app.has_method("to_dict"):
+		var d: Dictionary = app.to_dict()
+		return (d.get("appearance", []) as Array).duplicate()
+	return []
 
 
 func _enter_current() -> void:

@@ -4,16 +4,23 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 PROJECT="$ROOT/miami3d"
 OUT_DIR="$ROOT/releases/android"
-GODOT="${GODOT:-$HOME/tools/godot/godot4}"
+GODOT="${GODOT:-}"
+if [[ -z "$GODOT" ]]; then
+  if [[ -x "$HOME/tools/godot/godot4" ]]; then
+    GODOT="$HOME/tools/godot/godot4"
+  elif [[ -x "$HOME/tools/godot/Godot_v4.3-stable_linux.x86_64" ]]; then
+    GODOT="$HOME/tools/godot/Godot_v4.3-stable_linux.x86_64"
+  fi
+fi
 ANDROID_HOME="${ANDROID_HOME:-$HOME/tools/android-sdk}"
 KEYSTORE="${KEYSTORE:-$HOME/tools/miami-debug.keystore}"
 JAVA_HOME="${JAVA_HOME:-$(dirname "$(dirname "$(readlink -f "$(which java)")")")}"
 
 export ANDROID_HOME ANDROID_SDK_ROOT="$ANDROID_HOME" JAVA_HOME
-export PATH="$HOME/tools/godot:$ANDROID_HOME/platform-tools:$PATH"
+export PATH="$HOME/tools/godot:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH"
 
 mkdir -p "$OUT_DIR"
-APK="$OUT_DIR/MiamiLife-0.8.0-debug.apk"
+APK="$OUT_DIR/MiamiLife-0.9.1-neon-debug.apk"
 
 if [[ ! -x "$GODOT" ]]; then
   echo "Godot não encontrado em $GODOT"

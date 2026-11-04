@@ -135,6 +135,7 @@ static func _clear_generated(root: Node3D) -> void:
 	]:
 		var c := root.get_node_or_null(n)
 		if c:
+			root.remove_child(c)
 			c.free()
 
 
