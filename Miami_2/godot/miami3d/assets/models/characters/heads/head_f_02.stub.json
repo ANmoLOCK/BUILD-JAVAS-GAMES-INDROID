@@ -3,7 +3,12 @@
   "slot": "head",
   "gender": "f",
   "variant": 2,
+  "style": "neon_nightlife",
   "mesh": "res://assets/models/characters/heads/head_f_02.glb",
-  "fallback": "res://assets/models/_shared/placeholder.glb",
-  "status": "placeholder"
+  "runtime": "MnNeonPartFactory",
+  "textures": {
+    "body": "res://assets/characters/neon_nightlife/textures/body_f_front.jpg"
+  },
+  "status": "ready_runtime",
+  "fallback": "res://assets/models/_shared/placeholder.glb"
 }

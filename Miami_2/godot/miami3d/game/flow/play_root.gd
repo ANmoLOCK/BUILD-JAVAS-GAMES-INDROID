@@ -67,13 +67,23 @@ func setup(new_game: bool, player_name: String = "Você", gender: String = "m", 
 			creator.visible = true
 			creator.confirmed.connect(_on_creator_done, CONNECT_ONE_SHOT)
 		else:
-			g.new_game(player_name, gender)
+			g.new_game(player_name, gender, appearance)
 			player.apply_appearance(gender, appearance)
 			_enter_current()
 	else:
 		var err := g.load_game(0)
 		if err != OK:
-			g.new_game(player_name, gender)
+			var fallback: Array = appearance if not appearance.is_empty() else _pending_appearance
+			if fallback.is_empty():
+				fallback = MnNeonStyle.preset_vector(_gender)
+			g.new_game(player_name, gender, fallback)
+			_pending_appearance = fallback
+		else:
+			# reaplica aparência salva (Neon ou custom)
+			_pending_appearance = _appearance_from_game(g)
+			_gender = "f" if _pending_appearance.size() > 0 and int(_pending_appearance[0]) == 1 else "m"
+		if _pending_appearance.is_empty():
+			_pending_appearance = MnNeonStyle.preset_vector(_gender)
 		player.apply_appearance(_gender, _pending_appearance)
 		_enter_current()
 
@@ -103,7 +113,7 @@ func _on_creator_done(n: String, gender: String, vector: Array) -> void:
 	_gender = gender
 	_pending_appearance = vector
 	creator.visible = false
-	Bootstrap.game.new_game(n, gender)
+	Bootstrap.game.new_game(n, gender, vector)
 	player.apply_appearance(gender, vector)
 	_enter_current()
 
@@ -112,6 +122,25 @@ func _on_closet_appearance(vector: Array) -> void:
 	_pending_appearance = vector
 	if vector.size() > 0:
 		_gender = "f" if int(vector[0]) == 1 else "m"
+		player.apply_appearance(_gender, vector)
+
+
+func _appearance_from_game(g: BrainFacade) -> Array:
+	if g == null:
+		return []
+	var app = g.appearance
+	if app == null and g.get("backend") != null:
+		app = g.backend.get("appearance")
+	if app == null:
+		return []
+	if typeof(app) == TYPE_DICTIONARY:
+		return (app.get("appearance", []) as Array).duplicate()
+	if app.get("vector") != null:
+		return (app.vector as Array).duplicate()
+	if app.has_method("to_dict"):
+		var d: Dictionary = app.to_dict()
+		return (d.get("appearance", []) as Array).duplicate()
+	return []
 
 
 func _enter_current() -> void:
@@ -227,8 +256,18 @@ func _on_action(action_id: String) -> void:
 
 func _on_social_action(npc_id: String, action_id: String) -> void:
 	var result: Dictionary = Bootstrap.game.talk(npc_id, action_id)
-	if action_id.to_lower() in ["flirt", "flertar", "offer", "oferecer"]:
+	var a := action_id.to_lower()
+	if a in ["flirt", "flertar", "offer", "oferecer"]:
 		fx.spawn("hearts", player.global_position + Vector3(0, 1.6, 0), self)
+	if player and player.has_method("play_action_anim"):
+		if "kiss" in a or "beijo" in a:
+			player.play_action_anim("kiss")
+		elif "flirt" in a or "flertar" in a:
+			player.play_action_anim("laugh")
+		elif "offend" in a or "ofender" in a:
+			player.play_action_anim("angry")
+		else:
+			player.play_action_anim("talk")
 	hud.refresh()
 	if result.has("line") or result.has("key"):
 		if bridge:
@@ -238,14 +277,59 @@ func _on_social_action(npc_id: String, action_id: String) -> void:
 func _feedback_for_action(action_id: String, _result: Dictionary) -> void:
 	var a := action_id.to_lower()
 	var at := player.global_position + Vector3(0, 1.5, 0)
+	var anim := "use"
 	if "sleep" in a or "dorm" in a or "nap" in a:
 		fx.spawn("zzz", at, self)
+		anim = "sleep"
 	elif "bath" in a or "shower" in a or "banho" in a:
 		fx.spawn("stars", at, self)
-	elif "flirt" in a or "kiss" in a:
+		anim = "shower"
+		_set_world_flag("wet", true)
+	elif "swim" in a or "nadar" in a:
+		anim = "swim"
+		_set_world_flag("wet", true)
+	elif "dance" in a or "dançar" in a:
+		anim = "dance_pop"
+	elif "fight" in a or "briga" in a or "punch" in a:
+		anim = "fight"
+		_set_world_flag("in_fight", true)
+	elif "kiss" in a or "beijo" in a:
 		fx.spawn("hearts", at, self)
+		anim = "kiss"
+	elif "flirt" in a:
+		fx.spawn("hearts", at, self)
+		anim = "laugh"
+	elif "eat" in a or "comer" in a or "snack" in a:
+		anim = "eat"
+	elif "drink" in a or "beber" in a:
+		anim = "drink"
+	elif "sit" in a or "sentar" in a:
+		anim = "sit"
+	elif "piano" in a:
+		anim = "piano"
+	elif "lift" in a or "peso" in a:
+		anim = "lift"
 	elif "stink" in a or "trash" in a or "lixo" in a:
 		fx.spawn("stink", at, self)
+		anim = "angry"
+	elif "talk" in a or "falar" in a:
+		anim = "talk"
+	if player and player.has_method("play_action_anim"):
+		player.play_action_anim(anim)
+	if player and player.has_method("refresh_visual_conditions"):
+		player.refresh_visual_conditions()
+
+
+func _set_world_flag(flag: String, on: bool) -> void:
+	var g: BrainFacade = Bootstrap.game
+	if g == null or g.is_native:
+		return
+	var world = g.backend.get("world") if g.get("backend") else null
+	if world and world.has_method("set_flag"):
+		if on:
+			world.set_flag(flag, true)
+		elif world.has_method("clear_flag"):
+			world.clear_flag(flag)
 
 
 func _wire_buttons() -> void:

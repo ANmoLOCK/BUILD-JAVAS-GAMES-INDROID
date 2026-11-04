@@ -1,19 +1,10 @@
-# Miami Life — APK Android
+# Miami Life — Android APKs
 
-| Item | Valor |
-|---|---|
-| Arquivo | [`MiamiLife-0.8.0-debug.apk`](./MiamiLife-0.8.0-debug.apk) |
-| Pacote | `com.huehuegames.miamilife` |
-| Versão | `0.8.0-landscape` (code 10) |
-| Orientação | **Paisagem** (deitado) |
-| UI | Painéis com âncoras + scroll (sem texto fora da tela) |
-| Ícone HOME | Logo Miami Life |
-| Estúdio | HueHueGames |
+| Build | Arquivo | Notas |
+|-------|---------|-------|
+| 0.9.1 | [`MiamiLife-0.9.1-neon-debug.apk`](./MiamiLife-0.9.1-neon-debug.apk) | Neon Nightlife M/F + menu B + landscape |
+| 0.8.0 | [`MiamiLife-0.8.0-debug.apk`](./MiamiLife-0.8.0-debug.apk) | Landscape UI |
 
-## Download
+Package: `com.huehuegames.miamilife` · arm64 · debug keystore
 
-```
-https://github.com/ANmoLOCK/BUILD-JAVAS-GAMES-INDROID/raw/cursor/miami-life-apk-1983/Miami_2/godot/releases/android/MiamiLife-0.8.0-debug.apk
-```
-
-Desinstale a versão anterior antes de instalar.
+Export: `Miami_2/godot/tools/export_android_apk.sh`

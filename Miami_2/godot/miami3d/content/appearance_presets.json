@@ -36,6 +36,8 @@
       "id": "p02_neon_nightlife",
       "title": "Neon Nightlife",
       "role": "Club / romance phase look",
+      "default": true,
+      "implemented": true,
       "sheet": "char-prop-02-neon-nightlife.jpg",
       "male": {
         "label": "m_neon",
