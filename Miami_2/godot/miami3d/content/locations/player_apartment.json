@@ -66,6 +66,24 @@
       0,
       1,
       7
+    ],
+    [
+      0,
+      7,
+      5,
+      1
+    ],
+    [
+      4,
+      7,
+      1,
+      3
+    ],
+    [
+      9,
+      12,
+      1,
+      6
     ]
   ],
   "portals": [
@@ -225,6 +243,132 @@
         16
       ],
       "facing": "W"
+    },
+    {
+      "id": "bed_player",
+      "template": "bed_standard",
+      "cell": [
+        8,
+        3
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "sofa_living",
+      "template": "sofa_basic",
+      "cell": [
+        3,
+        12
+      ],
+      "facing": "E"
+    },
+    {
+      "id": "tv_stand",
+      "template": "tv",
+      "cell": [
+        1,
+        12
+      ],
+      "facing": "E"
+    },
+    {
+      "id": "fridge_kit",
+      "template": "fridge",
+      "cell": [
+        10,
+        14
+      ],
+      "facing": "W"
+    },
+    {
+      "id": "stove_kit",
+      "template": "kitchen",
+      "cell": [
+        10,
+        16
+      ],
+      "facing": "W"
+    },
+    {
+      "id": "table_dining",
+      "template": "table",
+      "cell": [
+        6,
+        14
+      ],
+      "facing": "N"
+    },
+    {
+      "id": "chair_1",
+      "template": "chair",
+      "cell": [
+        5,
+        14
+      ],
+      "facing": "E"
+    },
+    {
+      "id": "chair_2",
+      "template": "chair",
+      "cell": [
+        8,
+        14
+      ],
+      "facing": "W"
+    },
+    {
+      "id": "closet_main",
+      "template": "closet",
+      "cell": [
+        11,
+        3
+      ],
+      "facing": "W"
+    },
+    {
+      "id": "shower_bath",
+      "template": "shower",
+      "cell": [
+        2,
+        2
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "toilet_bath",
+      "template": "toilet",
+      "cell": [
+        1,
+        5
+      ],
+      "facing": "E"
+    },
+    {
+      "id": "sink_bath",
+      "template": "sink",
+      "cell": [
+        3,
+        5
+      ],
+      "facing": "N"
+    },
+    {
+      "id": "plant_corner",
+      "template": "plant",
+      "cell": [
+        12,
+        12
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "computer_desk",
+      "template": "computer",
+      "cell": [
+        1,
+        8
+      ],
+      "facing": "E"
     }
   ],
   "npcs": [
@@ -288,5 +432,16 @@
         }
       ]
     }
-  ]
+  ],
+  "visual": {
+    "kit": "player_apartment",
+    "floor_tex": "res://assets/textures/kits/player_apartment/albedo.png",
+    "wall_color": [
+      0.55,
+      0.48,
+      0.42
+    ],
+    "neon_trim": false,
+    "style": "miami_low_apt_remaster"
+  }
 }

@@ -5,10 +5,6 @@
   "variant": 10,
   "style": "neon_nightlife",
   "mesh": "res://assets/models/characters/bottoms/bottom_m_10.glb",
-  "runtime": "MnNeonPartFactory",
-  "textures": {
-    "body": "res://assets/characters/neon_nightlife/textures/body_m_front.jpg"
-  },
-  "status": "ready_runtime",
+  "status": "ready",
   "fallback": "res://assets/models/_shared/placeholder.glb"
 }

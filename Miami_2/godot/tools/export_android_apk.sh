@@ -20,7 +20,7 @@ export ANDROID_HOME ANDROID_SDK_ROOT="$ANDROID_HOME" JAVA_HOME
 export PATH="$HOME/tools/godot:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH"
 
 mkdir -p "$OUT_DIR"
-APK="$OUT_DIR/MiamiLife-0.9.1-neon-debug.apk"
+APK="$OUT_DIR/MiamiLife-0.10.0-real3d-debug.apk"
 
 if [[ ! -x "$GODOT" ]]; then
   echo "Godot não encontrado em $GODOT"

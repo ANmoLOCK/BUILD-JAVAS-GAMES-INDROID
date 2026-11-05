@@ -5,10 +5,6 @@
   "variant": 9,
   "style": "neon_nightlife",
   "mesh": "res://assets/models/characters/shoes/shoe_f_09.glb",
-  "runtime": "MnNeonPartFactory",
-  "textures": {
-    "body": "res://assets/characters/neon_nightlife/textures/body_f_front.jpg"
-  },
-  "status": "ready_runtime",
+  "status": "ready",
   "fallback": "res://assets/models/_shared/placeholder.glb"
 }

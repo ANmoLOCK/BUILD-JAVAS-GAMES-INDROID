@@ -111,3 +111,15 @@ func _process(delta: float) -> void:
 		_base_rot.z + tip * 0.15 + sway * 0.05
 	)
 	target.scale = Vector3(_base_scale.x, _base_scale.y * squash, _base_scale.z)
+	# balanço de braços 3D
+	var arm_l := target.get_node_or_null("ArmL") as Node3D
+	var arm_r := target.get_node_or_null("ArmR") as Node3D
+	var swing := 0.0
+	if current_clip in ["walk", "run"]:
+		swing = sin(_t * (10.0 if current_clip == "run" else 7.0)) * (0.55 if current_clip == "run" else 0.35)
+	elif current_clip.begins_with("dance"):
+		swing = sin(_t * 9.0) * 0.7
+	if arm_l:
+		arm_l.rotation.x = swing
+	if arm_r:
+		arm_r.rotation.x = -swing

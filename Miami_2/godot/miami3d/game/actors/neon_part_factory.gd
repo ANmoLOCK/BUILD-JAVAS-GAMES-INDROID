@@ -1,39 +1,65 @@
 class_name MnNeonPartFactory
 extends RefCounted
-## Monta malhas 3D estilizadas + billboard 2D Everwind para Neon Nightlife.
+## Neon Nightlife em 3D real (GLB paper-doll). Sem billboard PNG como corpo.
 
 
-static func build_character(root: Node3D, gender: String, _vector: Array) -> void:
+static func build_character(root: Node3D, gender: String, vector: Array) -> void:
 	_clear_generated(root)
 	var is_f := gender == "f"
-	var skin := MnNeonStyle.COL_SKIN_F if is_f else MnNeonStyle.COL_SKIN_M
+	var variants := {
+		"Head": int(vector[1]) if vector.size() > 1 else 2,
+		"Hair": int(vector[2]) if vector.size() > 2 else (10 if is_f else 8),
+		"Top": int(vector[4]) if vector.size() > 4 else (18 if is_f else 12),
+		"Bottom": int(vector[6]) if vector.size() > 6 else (8 if is_f else 10),
+		"Shoes": int(vector[8]) if vector.size() > 8 else (9 if is_f else 6),
+	}
+	var keys := {
+		"Head": "head",
+		"Hair": "hair",
+		"Top": "top",
+		"Bottom": "bottom",
+		"Shoes": "shoe",
+	}
+	var loaded := 0
+	for slot_name in ["Head", "Hair", "Top", "Bottom", "Shoes"]:
+		var key: String = keys[slot_name]
+		var variant: int = int(variants[slot_name])
+		var path := "res://assets/models/characters/%s/%s_%s_%02d.glb" % [
+			_folder(key), key, gender, variant
+		]
+		var node: Node3D = MnMeshFactory.try_instance_scene(path)
+		if node == null:
+			# fallback procedural colored part
+			node = MnMeshFactory.paper_doll_part(slot_name, _fallback_color(slot_name, is_f))
+		else:
+			loaded += 1
+			# GLB root may be Node3D with MeshInstance child — normalize
+			if not (node is MeshInstance3D):
+				var mi := _first_mesh(node)
+				if mi:
+					var holder := Node3D.new()
+					holder.name = slot_name
+					# reparent mesh visual
+					var dup := mi.duplicate() as MeshInstance3D
+					dup.name = "Mesh"
+					holder.add_child(dup)
+					node.queue_free()
+					node = holder
+				node.name = slot_name
+			else:
+				node.name = slot_name
+		node.set_meta("neon_slot", slot_name)
+		root.add_child(node)
 
-	# silhueta 3D (sombra / volume)
-	var body := _capsule(1.05 if is_f else 1.15, 0.18 if is_f else 0.2, skin.darkened(0.15))
-	body.name = "NeonVolume"
-	body.position = Vector3(0, 0.95 if is_f else 1.0, 0)
-	body.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_ON
-	root.add_child(body)
+	# braços/pernas auxiliares para animação de caminhada (rig leve)
+	_add_limb_helpers(root, is_f)
 
-	# billboard 2D principal (Everwind)
-	var bill := Sprite3D.new()
-	bill.name = "BodyBillboard"
-	bill.billboard = BaseMaterial3D.BILLBOARD_FIXED_Y
-	bill.pixel_size = 0.00335
-	bill.shaded = true
-	bill.alpha_cut = SpriteBase3D.ALPHA_CUT_OPAQUE_PREPASS
-	bill.position = Vector3(0, 1.05, 0.02)
-	bill.texture = _load_tex(MnNeonStyle.body_tex(gender))
-	bill.modulate = Color(1, 1, 1, 1)
-	root.add_child(bill)
-
-	# face atlas overlay (expressões)
+	# face flat no head (expressão) — pequeno quad, não corpo inteiro
 	var face := Sprite3D.new()
 	face.name = "FaceOverlay"
-	face.billboard = BaseMaterial3D.BILLBOARD_FIXED_Y
-	face.pixel_size = 0.0022
-	face.position = Vector3(0, 1.58 if is_f else 1.62, 0.06)
-	face.shaded = false
+	face.billboard = BaseMaterial3D.BILLBOARD_DISABLED
+	face.pixel_size = 0.0016
+	face.position = Vector3(0, 1.62 if is_f else 1.66, 0.16)
 	face.texture = _load_tex(MnNeonStyle.faces_tex())
 	face.hframes = 6
 	face.vframes = 2
@@ -41,72 +67,38 @@ static func build_character(root: Node3D, gender: String, _vector: Array) -> voi
 	face.visible = face.texture != null
 	root.add_child(face)
 
-	# avarias overlay
+	# avarias
 	var cond := Sprite3D.new()
 	cond.name = "ConditionOverlay"
 	cond.billboard = BaseMaterial3D.BILLBOARD_FIXED_Y
-	cond.pixel_size = 0.0028
-	cond.position = Vector3(0, 1.15, 0.08)
-	cond.modulate = Color(1, 1, 1, 0.75)
+	cond.pixel_size = 0.0024
+	cond.position = Vector3(0, 1.2, 0.2)
+	cond.modulate = Color(1, 1, 1, 0.7)
 	cond.texture = _load_tex(MnNeonStyle.avarias_tex())
 	cond.hframes = 6
 	cond.vframes = 1
 	cond.visible = false
 	root.add_child(cond)
 
-	# peças 3D coloridas (paper-doll legível mesmo sem textura)
-	_add_slot_meshes(root, is_f, skin)
-
-	# acessório neon M: óculos
-	if not is_f:
-		var glasses := MnMeshFactory.box(Vector3(0.22, 0.04, 0.08), Color(0.05, 0.05, 0.05))
+	if gender != "f":
+		var glasses := MnMeshFactory.box(Vector3(0.22, 0.035, 0.08), Color(0.05, 0.05, 0.05))
 		glasses.name = "AccessoryGlasses"
-		glasses.position = Vector3(0, 1.58, 0.14)
+		glasses.position = Vector3(0, 1.64, 0.15)
 		root.add_child(glasses)
 
+	print("[NeonPartFactory] gender=", gender, " glb_slots=", loaded, "/5")
 
-static func _add_slot_meshes(root: Node3D, is_f: bool, skin: Color) -> void:
-	var head := MnMeshFactory.sphere(0.15, skin)
-	head.name = "Head"
-	head.position = Vector3(0, 1.58 if is_f else 1.62, -0.02)
-	head.visible = false # face billboard cobre
-	root.add_child(head)
 
-	var hair_c := MnNeonStyle.COL_HAIR
-	var hair := MnMeshFactory.box(Vector3(0.3, 0.14 if is_f else 0.12, 0.28), hair_c)
-	hair.name = "Hair"
-	hair.position = Vector3(0, 1.72 if is_f else 1.74, -0.02)
-	hair.visible = false
-	root.add_child(hair)
-
-	var top: MeshInstance3D
-	if is_f:
-		top = MnMeshFactory.box(Vector3(0.42, 0.55, 0.22), MnNeonStyle.COL_DRESS)
-		top.position = Vector3(0, 1.12, -0.02)
-	else:
-		top = MnMeshFactory.box(Vector3(0.48, 0.52, 0.26), MnNeonStyle.COL_BLAZER)
-		top.position = Vector3(0, 1.18, -0.02)
-	top.name = "Top"
-	top.visible = false
-	root.add_child(top)
-
-	var bottom: MeshInstance3D
-	if is_f:
-		bottom = MnMeshFactory.box(Vector3(0.38, 0.35, 0.2), MnNeonStyle.COL_DRESS.darkened(0.05))
-		bottom.position = Vector3(0, 0.62, -0.02)
-	else:
-		bottom = MnMeshFactory.box(Vector3(0.4, 0.5, 0.24), MnNeonStyle.COL_PANTS)
-		bottom.position = Vector3(0, 0.62, -0.02)
-	bottom.name = "Bottom"
-	bottom.visible = false
-	root.add_child(bottom)
-
-	var shoes_c := MnNeonStyle.COL_HEEL if is_f else Color(0.05, 0.05, 0.05)
-	var shoes := MnMeshFactory.box(Vector3(0.32, 0.1 if is_f else 0.12, 0.38), shoes_c)
-	shoes.name = "Shoes"
-	shoes.position = Vector3(0, 0.1, 0.02)
-	shoes.visible = false
-	root.add_child(shoes)
+static func _add_limb_helpers(root: Node3D, is_f: bool) -> void:
+	var skin := MnNeonStyle.COL_SKIN_F if is_f else MnNeonStyle.COL_SKIN_M
+	var arm_l := MnMeshFactory.box(Vector3(0.1, 0.42, 0.1), skin)
+	arm_l.name = "ArmL"
+	arm_l.position = Vector3(-0.32, 1.22, 0)
+	root.add_child(arm_l)
+	var arm_r := MnMeshFactory.box(Vector3(0.1, 0.42, 0.1), skin)
+	arm_r.name = "ArmR"
+	arm_r.position = Vector3(0.32, 1.22, 0)
+	root.add_child(arm_r)
 
 
 static func set_face(root: Node3D, gender: String, expr: int) -> void:
@@ -129,18 +121,45 @@ static func set_condition(root: Node3D, condition: String) -> void:
 
 
 static func _clear_generated(root: Node3D) -> void:
-	for n in [
+	var names := [
 		"NeonVolume", "BodyBillboard", "FaceOverlay", "ConditionOverlay",
-		"AccessoryGlasses", "Head", "Hair", "Top", "Bottom", "Shoes",
-	]:
+		"AccessoryGlasses", "Head", "Hair", "Top", "Bottom", "Shoes", "ArmL", "ArmR",
+	]
+	for n in names:
 		var c := root.get_node_or_null(n)
 		if c:
 			root.remove_child(c)
 			c.free()
 
 
-static func _capsule(height: float, radius: float, color: Color) -> MeshInstance3D:
-	return MnMeshFactory.capsule(height, radius, color)
+static func _folder(key: String) -> String:
+	match key:
+		"head": return "heads"
+		"hair": return "hair"
+		"top": return "tops"
+		"bottom": return "bottoms"
+		"shoe": return "shoes"
+		_: return key
+
+
+static func _fallback_color(slot: String, is_f: bool) -> Color:
+	match slot:
+		"Head": return MnNeonStyle.COL_SKIN_F if is_f else MnNeonStyle.COL_SKIN_M
+		"Hair": return MnNeonStyle.COL_HAIR
+		"Top": return MnNeonStyle.COL_DRESS if is_f else MnNeonStyle.COL_BLAZER
+		"Bottom": return MnNeonStyle.COL_DRESS if is_f else MnNeonStyle.COL_PANTS
+		"Shoes": return MnNeonStyle.COL_HEEL if is_f else Color(0.05, 0.05, 0.05)
+		_: return Color.WHITE
+
+
+static func _first_mesh(n: Node) -> MeshInstance3D:
+	if n is MeshInstance3D:
+		return n as MeshInstance3D
+	for c in n.get_children():
+		var m := _first_mesh(c)
+		if m:
+			return m
+	return null
 
 
 static func _load_tex(path: String) -> Texture2D:

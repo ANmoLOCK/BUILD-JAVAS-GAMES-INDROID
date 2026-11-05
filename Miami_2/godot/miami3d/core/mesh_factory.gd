@@ -69,24 +69,58 @@ static func item_visual(item_id: String, footprint: Array, color: Color = Color(
 	match item_id:
 		"bed_standard", "bed_1", "bed_2", "bed_3":
 			h = 0.45
+			color = Color(0.35, 0.45, 0.7)
 		"sofa_basic", "sofa_1", "sofa_2", "sofa_3":
 			h = 0.55
+			color = Color(0.7, 0.25, 0.35)
 		"shower", "toilet", "sink":
 			h = 1.1
 			color = Color(0.55, 0.75, 0.85)
 		"fridge", "kitchen":
 			h = 1.4
-			color = Color(0.7, 0.7, 0.75)
-		"plant":
-			h = 0.8
-			color = Color(0.35, 0.55, 0.3)
+			color = Color(0.75, 0.78, 0.82)
+		"plant", "palm_tree", "palmeira":
+			h = 2.2 if item_id in ["palm_tree", "palmeira"] else 0.8
+			color = Color(0.2, 0.55, 0.25)
 		"sun_lounger":
 			h = 0.25
 		"bar", "dj_desk":
 			h = 1.0
+		"table":
+			h = 0.75
+			color = Color(0.55, 0.35, 0.2)
+		"chair":
+			h = 0.7
+			color = Color(0.45, 0.3, 0.18)
+		"computer", "tv":
+			h = 0.85
+			color = Color(0.15, 0.15, 0.18)
+		"street_lamp":
+			h = 2.8
+			color = Color(0.35, 0.35, 0.4)
+		"newsstand", "shop_sign":
+			h = 1.3
+			color = Color(0.85, 0.55, 0.2)
+		"car_parked":
+			h = 1.05
+			color = Color(0.15, 0.35, 0.75)
+		"hydrant":
+			h = 0.55
+			color = Color(0.85, 0.15, 0.12)
+		"closet":
+			h = 1.8
+			color = Color(0.5, 0.35, 0.22)
+		"mailbox", "bench", "trash_can":
+			h = 0.7
 	var mi := box(Vector3(maxf(0.4, sx * 0.85), h, maxf(0.4, sz * 0.85)), color)
 	mi.position.y = h * 0.5
 	mi.name = "Visual"
+	# palm trunk+crown simple compound
+	if item_id in ["palm_tree", "palmeira"]:
+		var crown := box(Vector3(1.2, 0.35, 1.2), Color(0.15, 0.65, 0.25))
+		crown.position = Vector3(0, h * 0.55, 0)
+		crown.name = "Crown"
+		mi.add_child(crown)
 	return mi
 
 

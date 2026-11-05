@@ -126,7 +126,21 @@ func resolve_mesh(path: String) -> String:
 
 
 func has_real_mesh(path: String) -> bool:
-	return path != "" and path != PLACEHOLDER_GLB and ResourceLoader.exists(path) and not path.ends_with("placeholder.glb")
+	if path == "" or path == PLACEHOLDER_GLB or path.ends_with("placeholder.glb"):
+		return false
+	if not ResourceLoader.exists(path) and not FileAccess.file_exists(path):
+		return false
+	# stubs "ready" / GLB reais
+	var stub := path.replace(".glb", ".stub.json")
+	if FileAccess.file_exists(stub):
+		var data := _read_dict(stub)
+		var st := str(data.get("status", ""))
+		if st in ["placeholder", ""]:
+			# ainda assim aceita se o GLB existe e não é o shared placeholder
+			pass
+		elif st.begins_with("ready"):
+			return FileAccess.file_exists(path) or ResourceLoader.exists(path)
+	return FileAccess.file_exists(path) or ResourceLoader.exists(path)
 
 
 func _slot_folder(slot: String) -> String:
