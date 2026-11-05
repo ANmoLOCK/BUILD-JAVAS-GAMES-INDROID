@@ -14,7 +14,16 @@ func setup(ev: MnEvents, g = null) -> void:
 
 
 func load_topics(data: Dictionary) -> void:
-	topics = data.get("categories", data).duplicate(true) if typeof(data) == TYPE_DICTIONARY else {}
+	## O content traz {"categories": [{id, interests: [...], lines: [...]}, ...]}.
+	## Indexa por id: sem isso a Array caía direto num var tipado Dictionary.
+	topics = {}
+	var cats = data.get("categories", [])
+	if typeof(cats) != TYPE_ARRAY:
+		return
+	for cat in cats:
+		if typeof(cat) != TYPE_DICTIONARY:
+			continue
+		topics[str(cat.get("id", ""))] = (cat as Dictionary).duplicate(true)
 
 
 func load_reactions(data: Dictionary) -> void:
@@ -69,17 +78,12 @@ func social_action(npc_id: String, action_def: Dictionary) -> Dictionary:
 	return {"ok": true}
 
 
-func _pick_line(interest_id: String, polar: String) -> String:
-	# busca simplificada nas categorias carregadas
-	var cats = topics.get("categories", topics) if topics.has("categories") else topics
-	if typeof(cats) == TYPE_ARRAY:
-		for cat in cats:
-			for interest in cat.get("interests", []):
-				if str(interest.get("id", "")) == interest_id:
-					var lines: Dictionary = interest.get("lines", {})
-					var key := "npcLike" if polar == "like" else ("npcDislike" if polar == "dislike" else "npcNeutral")
-					var arr: Array = lines.get(key, lines.get("npcNeutral", []))
-					if arr.is_empty():
-						return "@topic.fallback"
-					return str(arr[randi() % arr.size()])
+func _pick_line(interest_id: String, _polar: String) -> String:
+	## As falas do MN2 ficam na categoria, não no interesse: acha a categoria
+	## que lista esse interesse e sorteia uma linha dela.
+	for cat in topics.values():
+		if interest_id in cat.get("interests", []):
+			var lines: Array = cat.get("lines", [])
+			if not lines.is_empty():
+				return str(lines[randi() % lines.size()])
 	return "@topic.fallback"
