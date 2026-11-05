@@ -69,8 +69,8 @@ func _run() -> void:
 		if t != "" and not MnApartmentKit.has_sprite(t):
 			print("[smoke-apt] WARN sem sprite template=", t)
 			missing_spr += 1
-	if missing_spr > 2:
-		push_error("muitos templates sem sprite: %d" % missing_spr)
+	if missing_spr > 0:
+		push_error("templates do apartamento sem sprite Miami: %d" % missing_spr)
 		err = 9
 
 	print("[smoke-apt] RESULT=", "OK" if err == 0 else "FAIL err=%d" % err)
