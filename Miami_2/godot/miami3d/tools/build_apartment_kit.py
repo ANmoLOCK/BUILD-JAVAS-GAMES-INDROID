@@ -87,8 +87,26 @@ def upscale(im: Image.Image) -> Image.Image:
     return im.resize((im.width * SCALE, im.height * SCALE), Image.NEAREST)
 
 
+# Os sheets do MN2 trazem a sombra do chão pintada no próprio sprite, sempre
+# neste mauve. Em cima do piso de madeira ela vira uma mancha roxa.
+BAKED_SHADOW = (136, 100, 136)
+
+
+def strip_color(im: Image.Image, rgb: tuple[int, int, int], tol: int = 26) -> Image.Image:
+    px = im.load()
+    tr, tg, tb = rgb
+    for y in range(im.height):
+        for x in range(im.width):
+            r, g, b, a = px[x, y]
+            if a and abs(r - tr) <= tol and abs(g - tg) <= tol and abs(b - tb) <= tol:
+                px[x, y] = (0, 0, 0, 0)
+    return im
+
+
 def save_item(name: str, im: Image.Image, meta: dict) -> dict:
     im = key_black(im.copy())
+    im = strip_color(im, BAKED_SHADOW)
+    im = im.crop(im.getbbox() or (0, 0, im.width, im.height))
     orig_dir = OUT / "original"
     x4_dir = OUT / "items"
     orig_dir.mkdir(parents=True, exist_ok=True)
@@ -134,6 +152,10 @@ def install_tiles() -> dict:
         "wall": tiles_dir / "wall_paint.png",
         "bath": tiles_dir / "bath_tile.png",
     }
+    # Albedo precisa de margem: textura quase branca satura para 255 assim que
+    # recebe luz, e o piso vira um retângulo branco sem desenho.
+    ALBEDO_GAIN = {"floor": 0.68, "wall": 0.80, "bath": 0.85}
+
     out = {}
     for kind, src in mapping.items():
         dst = tiles_dir / f"{kind}.png"
@@ -141,11 +163,15 @@ def install_tiles() -> dict:
             im = Image.open(src).convert("RGBA")
             # normalize to 256 for tiling
             im = im.resize((256, 256), Image.LANCZOS)
-            im.save(dst)
         elif fallbacks[kind].exists():
-            shutil.copy(fallbacks[kind], dst)
+            im = Image.open(fallbacks[kind]).convert("RGBA")
         else:
             continue
+        gain = ALBEDO_GAIN.get(kind, 1.0)
+        if gain != 1.0:
+            rgb = im.convert("RGB").point(lambda v, g=gain: int(v * g))
+            im = Image.merge("RGBA", (*rgb.split(), im.split()[3]))
+        im.save(dst)
         out[kind] = f"res://assets/locations/player_apartment/tiles/{kind}.png"
         if kind == "floor":
             shutil.copy(dst, KIT / "albedo.png")
@@ -167,11 +193,12 @@ def main() -> None:
         "window": ("0555", 0, 200),
         "closet": ("0556", 0, 80),
         "stove": ("0552", 0, 80),
-        "table": ("0562", 0, 120),
+        "rug": ("0562", 0, 120),
         "shelf": ("0560", 0, 200),
         "poster": ("0563", 0, 80),
         "railing": ("0565", 0, 120),
         "wall_tile_sheet": ("0559", 0, 200),
+        "phone": ("0547", 0, 40),
     }
     for name, (sid, idx, mina) in loc_map.items():
         path = low / f"{sid}_sprite_frames_pal0.png"
@@ -186,7 +213,7 @@ def main() -> None:
         "bed_standard": (SPRITES / "07_RES_GLOBAL_SPRITES" / "0248_sprite_frames_pal0.png", 0, 400),
         "sofa_basic": (SPRITES / "08_RES_GLOBAL_1_SPRITES" / "0264_sprite_frames_pal1.png", 2, 400),  # orange straight
         "sofa_curved": (SPRITES / "08_RES_GLOBAL_1_SPRITES" / "0264_sprite_frames_pal1.png", 1, 400),
-        "chair": (SPRITES / "08_RES_GLOBAL_1_SPRITES" / "0264_sprite_frames_pal1.png", 3, 100),
+        "chair": (SPRITES / "10_RES_GLOBAL_3_SPRITES" / "0297_sprite_frames_pal0.png", 0, 100),
         "fridge": (SPRITES / "11_RES_GLOBAL_4_SPRITES" / "0320_sprite_frames_pal0.png", 0, 200),
         "kitchen_cabinet": (SPRITES / "07_RES_GLOBAL_SPRITES" / "0252_sprite_frames_pal0.png", 3, 300),
         "toilet": (SPRITES / "09_RES_GLOBAL_2_SPRITES" / "0287_sprite_frames_pal0.png", 0, 80),
@@ -195,6 +222,8 @@ def main() -> None:
         "glass_table": (SPRITES / "08_RES_GLOBAL_1_SPRITES" / "0269_sprite_frames_pal0.png", 0, 100),
         "door": (SPRITES / "10_RES_GLOBAL_3_SPRITES" / "0311_sprite_frames_pal0.png", 0, 200),
         "mirror": (SPRITES / "09_RES_GLOBAL_2_SPRITES" / "0285_sprite_frames_pal0.png", 0, 40),
+        "computer": (SPRITES / "11_RES_GLOBAL_4_SPRITES" / "0327_sprite_frames_pal0.png", 0, 100),
+        "table": (SPRITES / "07_RES_GLOBAL_SPRITES" / "0254_sprite_frames_pal0.png", 0, 300),
     }
     for name, (path, idx, mina) in sources.items():
         if not path.exists():
@@ -243,8 +272,8 @@ def main() -> None:
         "shower": "shower",
         "sink": "sink",
         "plant": "plant",
-        "phone": "poster",
-        "computer": "tv",
+        "phone": "phone",
+        "computer": "computer",
         "window": "window",
         "shelf": "shelf",
         "door": "door",

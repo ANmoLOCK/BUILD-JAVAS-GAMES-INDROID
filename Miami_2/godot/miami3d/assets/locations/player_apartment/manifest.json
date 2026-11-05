@@ -75,10 +75,10 @@
       "source": "LOWAPARTMENTA/0552",
       "sprite_id": "0552"
     },
-    "table": {
-      "id": "table",
-      "original": "res://assets/locations/player_apartment/original/table.png",
-      "x4": "res://assets/locations/player_apartment/items/table.png",
+    "rug": {
+      "id": "rug",
+      "original": "res://assets/locations/player_apartment/original/rug.png",
+      "x4": "res://assets/locations/player_apartment/items/rug.png",
       "size": [
         50,
         27
@@ -96,11 +96,11 @@
       "x4": "res://assets/locations/player_apartment/items/shelf.png",
       "size": [
         58,
-        235
+        234
       ],
       "size_x4": [
         232,
-        940
+        936
       ],
       "source": "LOWAPARTMENTA/0560",
       "sprite_id": "0560"
@@ -150,6 +150,21 @@
       "source": "LOWAPARTMENTA/0559",
       "sprite_id": "0559"
     },
+    "phone": {
+      "id": "phone",
+      "original": "res://assets/locations/player_apartment/original/phone.png",
+      "x4": "res://assets/locations/player_apartment/items/phone.png",
+      "size": [
+        11,
+        10
+      ],
+      "size_x4": [
+        44,
+        40
+      ],
+      "source": "LOWAPARTMENTA/0547",
+      "sprite_id": "0547"
+    },
     "bed_standard": {
       "id": "bed_standard",
       "original": "res://assets/locations/player_apartment/original/bed_standard.png",
@@ -171,11 +186,11 @@
       "x4": "res://assets/locations/player_apartment/items/sofa_basic.png",
       "size": [
         95,
-        79
+        77
       ],
       "size_x4": [
         380,
-        316
+        308
       ],
       "source": "08_RES_GLOBAL_1_SPRITES/0264_sprite_frames_pal1.png",
       "crop_index": 2
@@ -186,11 +201,11 @@
       "x4": "res://assets/locations/player_apartment/items/sofa_curved.png",
       "size": [
         89,
-        85
+        83
       ],
       "size_x4": [
         356,
-        340
+        332
       ],
       "source": "08_RES_GLOBAL_1_SPRITES/0264_sprite_frames_pal1.png",
       "crop_index": 1
@@ -200,14 +215,14 @@
       "original": "res://assets/locations/player_apartment/original/chair.png",
       "x4": "res://assets/locations/player_apartment/items/chair.png",
       "size": [
-        115,
-        89
+        29,
+        44
       ],
       "size_x4": [
-        460,
-        356
+        116,
+        176
       ],
-      "source": "08_RES_GLOBAL_1_SPRITES/0264_sprite_frames_pal1.png",
+      "source": "10_RES_GLOBAL_3_SPRITES/0297_sprite_frames_pal0.png",
       "crop_index": 0
     },
     "fridge": {
@@ -330,6 +345,36 @@
       "source": "09_RES_GLOBAL_2_SPRITES/0285_sprite_frames_pal0.png",
       "crop_index": 0
     },
+    "computer": {
+      "id": "computer",
+      "original": "res://assets/locations/player_apartment/original/computer.png",
+      "x4": "res://assets/locations/player_apartment/items/computer.png",
+      "size": [
+        43,
+        45
+      ],
+      "size_x4": [
+        172,
+        180
+      ],
+      "source": "11_RES_GLOBAL_4_SPRITES/0327_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "table": {
+      "id": "table",
+      "original": "res://assets/locations/player_apartment/original/table.png",
+      "x4": "res://assets/locations/player_apartment/items/table.png",
+      "size": [
+        63,
+        56
+      ],
+      "size_x4": [
+        252,
+        224
+      ],
+      "source": "07_RES_GLOBAL_SPRITES/0254_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
     "sink": {
       "id": "sink",
       "original": "res://assets/locations/player_apartment/original/sink.png",
@@ -365,8 +410,8 @@
     "shower": "shower",
     "sink": "sink",
     "plant": "plant",
-    "phone": "poster",
-    "computer": "tv",
+    "phone": "phone",
+    "computer": "computer",
     "window": "window",
     "shelf": "shelf",
     "door": "door",
