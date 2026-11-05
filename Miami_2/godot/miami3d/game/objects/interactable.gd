@@ -61,7 +61,11 @@ func _color_for(t: String) -> Color:
 		"bed_standard", "sofa_basic": return Color(0.55, 0.35, 0.55)
 		"shower", "toilet", "sink": return Color(0.55, 0.75, 0.85)
 		"fridge", "kitchen": return Color(0.7, 0.7, 0.75)
-		"closet", "phone", "plant": return Color(0.45, 0.55, 0.35)
+		"closet", "phone", "plant", "palm_tree": return Color(0.25, 0.55, 0.3)
+		"car_parked": return Color(0.15, 0.35, 0.75)
+		"street_lamp": return Color(0.4, 0.4, 0.45)
+		"newsstand", "shop_sign": return Color(0.85, 0.55, 0.2)
+		"hydrant": return Color(0.85, 0.15, 0.12)
 		_: return Color(0.65, 0.55, 0.40)
 
 

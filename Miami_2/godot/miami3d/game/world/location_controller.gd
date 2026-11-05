@@ -67,23 +67,44 @@ func load_location(id: String, spawn_id: String = "") -> void:
 
 func _build_floor() -> void:
 	var indoor := bool(location_def.get("indoor", false))
-	var tex := ""
-	if Bootstrap.game and Bootstrap.game.get("assets") != null:
+	var visual: Dictionary = location_def.get("visual", {})
+	var tex := str(visual.get("floor_tex", ""))
+	if tex == "" and Bootstrap.game and Bootstrap.game.get("assets") != null:
 		tex = Bootstrap.game.assets.kit_texture(location_id, "albedo")
 	var floor := MnMeshFactory.kit_floor(grid.width * grid.cell_size, grid.height * grid.cell_size, indoor, tex)
 	floor_root.add_child(floor)
-	# paredes / bloqueios (kit wall placeholder por célula)
+	# céu / fill leve outdoor
+	if not indoor:
+		var sky := OmniLight3D.new()
+		sky.name = "StreetFill"
+		sky.light_color = Color(1.0, 0.85, 0.7)
+		sky.light_energy = 0.55
+		sky.omni_range = 80.0
+		sky.position = Vector3(grid.width * 0.5, 12.0, grid.height * 0.5)
+		floor_root.add_child(sky)
+	var wall_c := Color(0.45, 0.40, 0.35)
+	if visual.has("wall_color"):
+		var wc: Array = visual["wall_color"]
+		if wc.size() >= 3:
+			wall_c = Color(float(wc[0]), float(wc[1]), float(wc[2]))
+	# paredes / prédios por célula bloqueada
 	for y in grid.height:
 		for x in grid.width:
 			var c := Vector2i(x, y)
 			if grid.get_flags(c) & MnGridMap.FLAG_BLOCKED:
-				var wall := MnMeshFactory.kit_wall_cell()
-				wall.position = grid.cell_to_world(c) + Vector3(0, 1.1, 0)
+				var tall := 2.2 if indoor else (3.6 + float((x + y) % 3) * 0.8)
+				var wall := MnMeshFactory.box(Vector3(0.95, tall, 0.95), wall_c)
+				wall.position = grid.cell_to_world(c) + Vector3(0, tall * 0.5, 0)
 				wall.add_to_group("cutaway_wall")
+				# janelas neon em prédios outdoor
+				if not indoor and tall > 3.0 and ((x + y) % 4 == 0):
+					var win := MnMeshFactory.box(Vector3(0.35, 0.45, 0.08), Color(1.0, 0.55, 0.35, 0.9))
+					win.position = Vector3(0, 0.4, 0.5)
+					wall.add_child(win)
 				var body := StaticBody3D.new()
 				var col := CollisionShape3D.new()
 				var sh := BoxShape3D.new()
-				sh.size = Vector3(0.95, 2.2, 0.95)
+				sh.size = Vector3(0.95, tall, 0.95)
 				col.shape = sh
 				body.add_child(col)
 				wall.add_child(body)

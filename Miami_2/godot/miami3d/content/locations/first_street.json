@@ -89,6 +89,123 @@
       ],
       "facing": "S",
       "hiddenUntil": "met_landlord"
+    },
+    {
+      "id": "street_lamp_1",
+      "template": "street_lamp",
+      "cell": [
+        20,
+        32
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "street_lamp_2",
+      "template": "street_lamp",
+      "cell": [
+        45,
+        32
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "street_lamp_3",
+      "template": "street_lamp",
+      "cell": [
+        60,
+        40
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "newsstand_1",
+      "template": "newsstand",
+      "cell": [
+        28,
+        31
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "car_parked_1",
+      "template": "car_parked",
+      "cell": [
+        35,
+        38
+      ],
+      "facing": "E"
+    },
+    {
+      "id": "car_parked_2",
+      "template": "car_parked",
+      "cell": [
+        50,
+        38
+      ],
+      "facing": "W"
+    },
+    {
+      "id": "palm_1",
+      "template": "palm_tree",
+      "cell": [
+        18,
+        28
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "palm_2",
+      "template": "palm_tree",
+      "cell": [
+        48,
+        28
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "palm_3",
+      "template": "palm_tree",
+      "cell": [
+        65,
+        45
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "bench_2",
+      "template": "bench",
+      "cell": [
+        33,
+        33
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "bench_3",
+      "template": "bench",
+      "cell": [
+        55,
+        42
+      ],
+      "facing": "W"
+    },
+    {
+      "id": "hydrant_1",
+      "template": "hydrant",
+      "cell": [
+        24,
+        33
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "shop_sign_1",
+      "template": "shop_sign",
+      "cell": [
+        32,
+        9
+      ],
+      "facing": "S"
     }
   ],
   "npcs": [
@@ -117,5 +234,48 @@
         }
       ]
     }
-  ]
+  ],
+  "blocked": [
+    [
+      5,
+      5,
+      14,
+      10
+    ],
+    [
+      5,
+      50,
+      18,
+      12
+    ],
+    [
+      55,
+      5,
+      20,
+      14
+    ],
+    [
+      58,
+      48,
+      16,
+      14
+    ],
+    [
+      30,
+      2,
+      20,
+      6
+    ]
+  ],
+  "visual": {
+    "kit": "first_street",
+    "floor_tex": "res://assets/textures/kits/first_street/albedo.png",
+    "wall_color": [
+      0.75,
+      0.72,
+      0.68
+    ],
+    "sky": "miami_dusk",
+    "style": "first_street_remaster"
+  }
 }

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "table",
+    "name": "Mesa",
+    "kind": "furniture",
+    "footprint": [2, 2],
+    "category": "table",
+    "actions": ["sit", "eat", "use"],
+    "price": 80
+  },
+  {
+    "id": "chair",
+    "name": "Cadeira",
+    "kind": "furniture",
+    "footprint": [1, 1],
+    "category": "chair",
+    "actions": ["sit"],
+    "price": 40
+  },
+  {
+    "id": "computer",
+    "name": "Computador",
+    "kind": "furniture",
+    "footprint": [1, 1],
+    "category": "desk",
+    "actions": ["use", "check_email"],
+    "price": 200
+  },
+  {
+    "id": "street_lamp",
+    "name": "Poste",
+    "kind": "prop",
+    "footprint": [1, 1],
+    "actions": [],
+    "price": 0
+  },
+  {
+    "id": "newsstand",
+    "name": "Banca",
+    "kind": "prop",
+    "footprint": [2, 1],
+    "actions": ["use", "look"],
+    "price": 0
+  },
+  {
+    "id": "car_parked",
+    "name": "Carro",
+    "kind": "prop",
+    "footprint": [3, 2],
+    "actions": ["look"],
+    "price": 0
+  },
+  {
+    "id": "palm_tree",
+    "name": "Palmeira",
+    "kind": "prop",
+    "footprint": [1, 1],
+    "actions": [],
+    "price": 0
+  },
+  {
+    "id": "hydrant",
+    "name": "Hidrante",
+    "kind": "prop",
+    "footprint": [1, 1],
+    "actions": [],
+    "price": 0
+  },
+  {
+    "id": "shop_sign",
+    "name": "Placa",
+    "kind": "prop",
+    "footprint": [1, 1],
+    "actions": ["look"],
+    "price": 0
+  }
+]
