@@ -9,11 +9,30 @@ var template_id: String = ""
 var item_def: Dictionary = {}
 var action_ids: Array = []
 
+const LABEL_RANGE := 3.0
+
+var _label: Label3D
+var _label_timer: float = 0.0
+
 
 func _ready() -> void:
 	input_ray_pickable = true
 	collision_layer = 2
 	collision_mask = 0
+
+
+func _process(delta: float) -> void:
+	## Mostra o nome só quando o jogador está perto (cena limpa de longe).
+	if _label == null:
+		return
+	_label_timer -= delta
+	if _label_timer > 0.0:
+		return
+	_label_timer = 0.2
+	var player := get_tree().get_first_node_in_group("player") as Node3D
+	if player == null:
+		return
+	_label.visible = global_position.distance_to(player.global_position) <= LABEL_RANGE
 
 
 func setup(oid: String, template: String, item: Dictionary, _obj: Dictionary) -> void:
@@ -58,12 +77,24 @@ func setup(oid: String, template: String, item: Dictionary, _obj: Dictionary) ->
 	add_child(col)
 
 	var label := Label3D.new()
-	label.text = oid
+	label.name = "NameLabel"
+	label.text = _display_name(oid)
 	label.font_size = 22
-	label.modulate = Color(1, 1, 1, 0.55)
+	label.modulate = Color(1, 1, 1, 0.8)
+	label.outline_size = 6
 	label.position = Vector3(0, h + 0.25, 0)
 	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
+	# rótulo só aparece com o jogador por perto (não poluir a cena)
+	label.visible = false
 	add_child(label)
+	_label = label
+
+
+func _display_name(fallback: String) -> String:
+	var raw := str(item_def.get("name", fallback))
+	if raw.begins_with("@") and Bootstrap.game and Bootstrap.game.get("strings") != null:
+		return Bootstrap.game.strings.resolve(raw)
+	return raw
 
 
 func _color_for(t: String) -> Color:
