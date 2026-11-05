@@ -10,6 +10,8 @@ signal zone_changed(tag: String)
 var grid := MnGridMap.new()
 var location_id: String = ""
 var location_def: Dictionary = {}
+## Local usa o kit de sprites iso do apartamento Miami (definido em _build_floor).
+var _miami_apt: bool = false
 
 @onready var floor_root: Node3D = $Floor
 @onready var props_root: Node3D = $Props
@@ -68,11 +70,22 @@ func load_location(id: String, spawn_id: String = "") -> void:
 func _build_floor() -> void:
 	var indoor := bool(location_def.get("indoor", false))
 	var visual: Dictionary = location_def.get("visual", {})
+	var miami_apt := location_id == "player_apartment" or str(visual.get("style", "")).begins_with("miami_low_apt")
+	_miami_apt = miami_apt
 	var tex := str(visual.get("floor_tex", ""))
+	if miami_apt:
+		var apt_floor := MnApartmentKit.tile_path("floor")
+		if apt_floor != "":
+			tex = apt_floor
 	if tex == "" and Bootstrap.game and Bootstrap.game.get("assets") != null:
 		tex = Bootstrap.game.assets.kit_texture(location_id, "albedo")
 	var floor := MnMeshFactory.kit_floor(grid.width * grid.cell_size, grid.height * grid.cell_size, indoor, tex)
 	floor_root.add_child(floor)
+	# banheiro: overlay de piso azulejado Miami
+	if miami_apt:
+		_build_apartment_bath_floor()
+		_build_apartment_windows()
+		_build_indoor_lights()
 	# céu / fill leve outdoor
 	if not indoor:
 		var sky := OmniLight3D.new()
@@ -82,7 +95,7 @@ func _build_floor() -> void:
 		sky.omni_range = 80.0
 		sky.position = Vector3(grid.width * 0.5, 12.0, grid.height * 0.5)
 		floor_root.add_child(sky)
-	var wall_c := Color(0.45, 0.40, 0.35)
+	var wall_c := Color(0.91, 0.86, 0.78) if miami_apt else Color(0.45, 0.40, 0.35)
 	if visual.has("wall_color"):
 		var wc: Array = visual["wall_color"]
 		if wc.size() >= 3:
@@ -93,9 +106,13 @@ func _build_floor() -> void:
 			var c := Vector2i(x, y)
 			if grid.get_flags(c) & MnGridMap.FLAG_BLOCKED:
 				var tall := 2.2 if indoor else (3.6 + float((x + y) % 3) * 0.8)
-				var wall := MnMeshFactory.box(Vector3(0.95, tall, 0.95), wall_c)
+				# indoor: células encostadas (sem "dentes" entre cubos)
+				var span := 1.0 if indoor else 0.95
+				var wall := MnMeshFactory.box(Vector3(span, tall, span), wall_c)
 				wall.position = grid.cell_to_world(c) + Vector3(0, tall * 0.5, 0)
 				wall.add_to_group("cutaway_wall")
+				if miami_apt:
+					MnApartmentKit.apply_wall_material(wall)
 				# janelas neon em prédios outdoor
 				if not indoor and tall > 3.0 and ((x + y) % 4 == 0):
 					var win := MnMeshFactory.box(Vector3(0.35, 0.45, 0.08), Color(1.0, 0.55, 0.35, 0.9))
@@ -104,11 +121,69 @@ func _build_floor() -> void:
 				var body := StaticBody3D.new()
 				var col := CollisionShape3D.new()
 				var sh := BoxShape3D.new()
-				sh.size = Vector3(0.95, tall, 0.95)
+				sh.size = Vector3(span, tall, span)
 				col.shape = sh
 				body.add_child(col)
 				wall.add_child(body)
 				props_root.add_child(wall)
+
+
+func _build_indoor_lights() -> void:
+	## Sol quente suave só para dar relevo aos cômodos do fundo, que ficavam
+	## quase pretos. Não trocamos o Environment padrão de propósito: um
+	## WorldEnvironment próprio estoura o piso para branco no Compatibility/Mobile.
+	var sun := DirectionalLight3D.new()
+	sun.name = "AptSun"
+	sun.light_color = Color(1.0, 0.92, 0.80)
+	sun.light_energy = 0.45
+	sun.shadow_enabled = false
+	sun.rotation_degrees = Vector3(-58.0, -38.0, 0.0)
+	sun.position = Vector3(float(grid.width) * 0.5, 6.0, float(grid.height) * 0.5)
+	floor_root.add_child(sun)
+
+
+func _build_apartment_bath_floor() -> void:
+	## Zona do banheiro com azulejo fiel ao Miami (0559 remaster).
+	var bath_path := MnApartmentKit.tile_path("bath")
+	if bath_path == "" or not ResourceLoader.exists(bath_path):
+		return
+	var zones: Array = location_def.get("zones", [])
+	for z in zones:
+		if str(z.get("id", "")) != "bathroom_zone" and str(z.get("tag", "")) != "bathroom":
+			continue
+		var rect: Array = z.get("rect", [1, 1, 4, 6])
+		if rect.size() < 4:
+			continue
+		var rw := float(rect[2])
+		var rh := float(rect[3])
+		var mi := MnMeshFactory.box(Vector3(rw, 0.08, rh), Color(0.55, 0.75, 0.85))
+		var mat := StandardMaterial3D.new()
+		mat.albedo_texture = load(bath_path)
+		mat.uv1_scale = Vector3(rw, rh, 1.0)
+		mat.texture_filter = BaseMaterial3D.TEXTURE_FILTER_NEAREST
+		mi.material_override = mat
+		mi.position = Vector3(float(rect[0]) + rw * 0.5, 0.02, float(rect[1]) + rh * 0.5)
+		mi.name = "BathFloor"
+		floor_root.add_child(mi)
+		return
+
+
+func _build_apartment_windows() -> void:
+	## Janelas iso originais (0555) nas paredes norte do apt.
+	if not MnApartmentKit.has_sprite("window"):
+		return
+	var spots: Array = [
+		Vector2i(2, 0), Vector2i(7, 0), Vector2i(11, 0),
+	]
+	for cell in spots:
+		if cell.x >= grid.width or cell.y >= grid.height:
+			continue
+		var spr := MnApartmentKit.make_sprite3d("window", [1, 1])
+		if spr == null:
+			continue
+		spr.name = "Window_%d_%d" % [cell.x, cell.y]
+		spr.position = grid.cell_to_world(cell) + Vector3(0, 1.25, 0.5)
+		props_root.add_child(spr)
 
 
 func _build_objects() -> void:
@@ -149,9 +224,13 @@ func _build_portals() -> void:
 		sh.size = Vector3(1.2, 2.0, 1.2)
 		col.shape = sh
 		area.add_child(col)
-		# marcador visual
-		var marker := _make_box(Color(0.2, 0.6, 0.95, 0.7), Vector3(0.8, 0.1, 0.8))
-		area.add_child(marker)
+		# marcador visual: porta iso original quando o kit Miami tem sprite
+		var door := MnApartmentKit.make_sprite3d("door", [1, 1]) if _miami_apt else null
+		if door != null:
+			door.position.y -= 1.0 # o Area3D fica a 1m do chão
+			area.add_child(door)
+		else:
+			area.add_child(_make_box(Color(0.2, 0.6, 0.95, 0.7), Vector3(0.8, 0.1, 0.8)))
 		portals_root.add_child(area)
 		area.setup(p)
 		var cell_a: Array = p.get("cell", [0, 0])
@@ -201,9 +280,24 @@ func _spawn_one_npc(npc_id: String, def: Dictionary) -> void:
 	var npc = scene.instantiate()
 	actors_root.add_child(npc)
 	npc.setup(npc_id, def, grid)
-	# posição: perto do spawn do local
+	# posição: perto do spawn do local, mas sempre numa célula livre de verdade
 	var base := Bootstrap.game.get_cell()
-	npc.global_position = grid.cell_to_world(base + Vector2i(2, 1))
+	npc.global_position = grid.cell_to_world(_nearest_free_cell(base + Vector2i(2, 1)))
+
+
+func _nearest_free_cell(wanted: Vector2i) -> Vector2i:
+	## Sem isto um NPC pode nascer dentro da parede ou fora da planta.
+	if grid.in_bounds(wanted) and not (grid.get_flags(wanted) & MnGridMap.FLAG_BLOCKED):
+		return wanted
+	for radius in range(1, 8):
+		for dy in range(-radius, radius + 1):
+			for dx in range(-radius, radius + 1):
+				if absi(dx) != radius and absi(dy) != radius:
+					continue
+				var c := wanted + Vector2i(dx, dy)
+				if grid.in_bounds(c) and not (grid.get_flags(c) & MnGridMap.FLAG_BLOCKED):
+					return c
+	return wanted
 
 
 func spawn_npc_at(npc_id: String, cell: Vector2i, facing: String = "S") -> Node:

@@ -16,6 +16,13 @@ var chunks_by_coord: Dictionary = {} # "x,y" -> Dictionary
 var seams: Dictionary = {} # "from>to" -> Dictionary
 
 
+func _bootstrap() -> Node:
+	var loop := Engine.get_main_loop() as SceneTree
+	if loop == null or loop.root == null:
+		return null
+	return loop.root.get_node_or_null("/root/Bootstrap")
+
+
 func load_map(map_path: String) -> Error:
 	path = map_path
 	if not FileAccess.file_exists(map_path):
@@ -81,9 +88,12 @@ func location_size(location_id: String) -> Vector2i:
 	if a.has("size"):
 		var s: Array = a["size"]
 		return Vector2i(int(s[0]), int(s[1]) if s.size() > 1 else int(s[0]))
-	# fallback: content location grid se Bootstrap disponível
-	if Engine.get_main_loop() != null and Bootstrap != null and Bootstrap.game != null:
-		var loc: Dictionary = Bootstrap.game.get_content_location(location_id)
+	# fallback: content location grid se Bootstrap disponível.
+	# Busca por caminho: o autoload não existe como identificador quando este
+	# script roda fora do jogo (testes com --script não registram autoloads).
+	var boot := _bootstrap()
+	if boot != null and boot.get("game") != null:
+		var loc: Dictionary = boot.game.get_content_location(location_id)
 		var g: Dictionary = loc.get("grid", {})
 		return Vector2i(int(g.get("width", 16)), int(g.get("height", 16)))
 	return Vector2i(16, 16)

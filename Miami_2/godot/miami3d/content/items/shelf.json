@@ -1,0 +1,8 @@
+{
+  "id": "shelf",
+  "name": "@item.shelf",
+  "kind": "furniture",
+  "footprint": [1, 1],
+  "actions": ["look"],
+  "category": "decor"
+}

@@ -24,9 +24,7 @@ static func build_character(root: Node3D, gender: String, vector: Array) -> void
 	for slot_name in ["Head", "Hair", "Top", "Bottom", "Shoes"]:
 		var key: String = keys[slot_name]
 		var variant: int = int(variants[slot_name])
-		var path := "res://assets/models/characters/%s/%s_%s_%02d.glb" % [
-			_folder(key), key, gender, variant
-		]
+		var path := _resolve_part(key, gender, variant)
 		var node: Node3D = MnMeshFactory.try_instance_scene(path)
 		if node == null:
 			# fallback procedural colored part
@@ -130,6 +128,29 @@ static func _clear_generated(root: Node3D) -> void:
 		if c:
 			root.remove_child(c)
 			c.free()
+
+
+static func _resolve_part(key: String, gender: String, variant: int) -> String:
+	## Variante pedida; se o GLB não existir, cai na variante disponível do mesmo gênero
+	## (evita o personagem virar caixa colorida quando a aparência não é o preset Neon).
+	var folder := _folder(key)
+	var path := "res://assets/models/characters/%s/%s_%s_%02d.glb" % [folder, key, gender, variant]
+	if ResourceLoader.exists(path) or FileAccess.file_exists(path):
+		return path
+	var dir := DirAccess.open("res://assets/models/characters/%s" % folder)
+	if dir == null:
+		return path
+	var prefix := "%s_%s_" % [key, gender]
+	dir.list_dir_begin()
+	var fn := dir.get_next()
+	var found := ""
+	while fn != "":
+		if not dir.current_is_dir() and fn.begins_with(prefix) and fn.ends_with(".glb"):
+			found = "res://assets/models/characters/%s/%s" % [folder, fn]
+			break
+		fn = dir.get_next()
+	dir.list_dir_end()
+	return found if found != "" else path
 
 
 static func _folder(key: String) -> String:

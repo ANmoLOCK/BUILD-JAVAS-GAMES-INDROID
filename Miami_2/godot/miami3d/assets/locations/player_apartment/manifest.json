@@ -1,0 +1,427 @@
+{
+  "location": "player_apartment",
+  "style": "miami_iso_sprites",
+  "scale": 4,
+  "source_packs": [
+    "25_RES_LOCATION_LOWAPARTMENTA_SPRITES",
+    "07_RES_GLOBAL_SPRITES",
+    "08_RES_GLOBAL_1_SPRITES",
+    "09_RES_GLOBAL_2_SPRITES",
+    "11_RES_GLOBAL_4_SPRITES"
+  ],
+  "tiles": {
+    "floor": "res://assets/locations/player_apartment/tiles/floor.png",
+    "wall": "res://assets/locations/player_apartment/tiles/wall.png",
+    "bath": "res://assets/locations/player_apartment/tiles/bath.png"
+  },
+  "items": {
+    "tv": {
+      "id": "tv",
+      "original": "res://assets/locations/player_apartment/original/tv.png",
+      "x4": "res://assets/locations/player_apartment/items/tv.png",
+      "size": [
+        43,
+        51
+      ],
+      "size_x4": [
+        172,
+        204
+      ],
+      "source": "LOWAPARTMENTA/0554",
+      "sprite_id": "0554"
+    },
+    "window": {
+      "id": "window",
+      "original": "res://assets/locations/player_apartment/original/window.png",
+      "x4": "res://assets/locations/player_apartment/items/window.png",
+      "size": [
+        55,
+        80
+      ],
+      "size_x4": [
+        220,
+        320
+      ],
+      "source": "LOWAPARTMENTA/0555",
+      "sprite_id": "0555"
+    },
+    "closet": {
+      "id": "closet",
+      "original": "res://assets/locations/player_apartment/original/closet.png",
+      "x4": "res://assets/locations/player_apartment/items/closet.png",
+      "size": [
+        29,
+        85
+      ],
+      "size_x4": [
+        116,
+        340
+      ],
+      "source": "LOWAPARTMENTA/0556",
+      "sprite_id": "0556"
+    },
+    "stove": {
+      "id": "stove",
+      "original": "res://assets/locations/player_apartment/original/stove.png",
+      "x4": "res://assets/locations/player_apartment/items/stove.png",
+      "size": [
+        21,
+        35
+      ],
+      "size_x4": [
+        84,
+        140
+      ],
+      "source": "LOWAPARTMENTA/0552",
+      "sprite_id": "0552"
+    },
+    "rug": {
+      "id": "rug",
+      "original": "res://assets/locations/player_apartment/original/rug.png",
+      "x4": "res://assets/locations/player_apartment/items/rug.png",
+      "size": [
+        50,
+        27
+      ],
+      "size_x4": [
+        200,
+        108
+      ],
+      "source": "LOWAPARTMENTA/0562",
+      "sprite_id": "0562"
+    },
+    "shelf": {
+      "id": "shelf",
+      "original": "res://assets/locations/player_apartment/original/shelf.png",
+      "x4": "res://assets/locations/player_apartment/items/shelf.png",
+      "size": [
+        58,
+        234
+      ],
+      "size_x4": [
+        232,
+        936
+      ],
+      "source": "LOWAPARTMENTA/0560",
+      "sprite_id": "0560"
+    },
+    "poster": {
+      "id": "poster",
+      "original": "res://assets/locations/player_apartment/original/poster.png",
+      "x4": "res://assets/locations/player_apartment/items/poster.png",
+      "size": [
+        34,
+        70
+      ],
+      "size_x4": [
+        136,
+        280
+      ],
+      "source": "LOWAPARTMENTA/0563",
+      "sprite_id": "0563"
+    },
+    "railing": {
+      "id": "railing",
+      "original": "res://assets/locations/player_apartment/original/railing.png",
+      "x4": "res://assets/locations/player_apartment/items/railing.png",
+      "size": [
+        70,
+        87
+      ],
+      "size_x4": [
+        280,
+        348
+      ],
+      "source": "LOWAPARTMENTA/0565",
+      "sprite_id": "0565"
+    },
+    "wall_tile_sheet": {
+      "id": "wall_tile_sheet",
+      "original": "res://assets/locations/player_apartment/original/wall_tile_sheet.png",
+      "x4": "res://assets/locations/player_apartment/items/wall_tile_sheet.png",
+      "size": [
+        66,
+        124
+      ],
+      "size_x4": [
+        264,
+        496
+      ],
+      "source": "LOWAPARTMENTA/0559",
+      "sprite_id": "0559"
+    },
+    "phone": {
+      "id": "phone",
+      "original": "res://assets/locations/player_apartment/original/phone.png",
+      "x4": "res://assets/locations/player_apartment/items/phone.png",
+      "size": [
+        11,
+        10
+      ],
+      "size_x4": [
+        44,
+        40
+      ],
+      "source": "LOWAPARTMENTA/0547",
+      "sprite_id": "0547"
+    },
+    "bed_standard": {
+      "id": "bed_standard",
+      "original": "res://assets/locations/player_apartment/original/bed_standard.png",
+      "x4": "res://assets/locations/player_apartment/items/bed_standard.png",
+      "size": [
+        133,
+        96
+      ],
+      "size_x4": [
+        532,
+        384
+      ],
+      "source": "07_RES_GLOBAL_SPRITES/0248_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "sofa_basic": {
+      "id": "sofa_basic",
+      "original": "res://assets/locations/player_apartment/original/sofa_basic.png",
+      "x4": "res://assets/locations/player_apartment/items/sofa_basic.png",
+      "size": [
+        95,
+        77
+      ],
+      "size_x4": [
+        380,
+        308
+      ],
+      "source": "08_RES_GLOBAL_1_SPRITES/0264_sprite_frames_pal1.png",
+      "crop_index": 2
+    },
+    "sofa_curved": {
+      "id": "sofa_curved",
+      "original": "res://assets/locations/player_apartment/original/sofa_curved.png",
+      "x4": "res://assets/locations/player_apartment/items/sofa_curved.png",
+      "size": [
+        89,
+        83
+      ],
+      "size_x4": [
+        356,
+        332
+      ],
+      "source": "08_RES_GLOBAL_1_SPRITES/0264_sprite_frames_pal1.png",
+      "crop_index": 1
+    },
+    "chair": {
+      "id": "chair",
+      "original": "res://assets/locations/player_apartment/original/chair.png",
+      "x4": "res://assets/locations/player_apartment/items/chair.png",
+      "size": [
+        29,
+        44
+      ],
+      "size_x4": [
+        116,
+        176
+      ],
+      "source": "10_RES_GLOBAL_3_SPRITES/0297_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "fridge": {
+      "id": "fridge",
+      "original": "res://assets/locations/player_apartment/original/fridge.png",
+      "x4": "res://assets/locations/player_apartment/items/fridge.png",
+      "size": [
+        55,
+        71
+      ],
+      "size_x4": [
+        220,
+        284
+      ],
+      "source": "11_RES_GLOBAL_4_SPRITES/0320_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "kitchen_cabinet": {
+      "id": "kitchen_cabinet",
+      "original": "res://assets/locations/player_apartment/original/kitchen_cabinet.png",
+      "x4": "res://assets/locations/player_apartment/items/kitchen_cabinet.png",
+      "size": [
+        107,
+        82
+      ],
+      "size_x4": [
+        428,
+        328
+      ],
+      "source": "07_RES_GLOBAL_SPRITES/0252_sprite_frames_pal0.png",
+      "crop_index": 3
+    },
+    "toilet": {
+      "id": "toilet",
+      "original": "res://assets/locations/player_apartment/original/toilet.png",
+      "x4": "res://assets/locations/player_apartment/items/toilet.png",
+      "size": [
+        28,
+        49
+      ],
+      "size_x4": [
+        112,
+        196
+      ],
+      "source": "09_RES_GLOBAL_2_SPRITES/0287_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "shower": {
+      "id": "shower",
+      "original": "res://assets/locations/player_apartment/original/shower.png",
+      "x4": "res://assets/locations/player_apartment/items/shower.png",
+      "size": [
+        73,
+        116
+      ],
+      "size_x4": [
+        292,
+        464
+      ],
+      "source": "09_RES_GLOBAL_2_SPRITES/0288_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "plant": {
+      "id": "plant",
+      "original": "res://assets/locations/player_apartment/original/plant.png",
+      "x4": "res://assets/locations/player_apartment/items/plant.png",
+      "size": [
+        56,
+        40
+      ],
+      "size_x4": [
+        224,
+        160
+      ],
+      "source": "07_RES_GLOBAL_SPRITES/0259_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "glass_table": {
+      "id": "glass_table",
+      "original": "res://assets/locations/player_apartment/original/glass_table.png",
+      "x4": "res://assets/locations/player_apartment/items/glass_table.png",
+      "size": [
+        61,
+        48
+      ],
+      "size_x4": [
+        244,
+        192
+      ],
+      "source": "08_RES_GLOBAL_1_SPRITES/0269_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "door": {
+      "id": "door",
+      "original": "res://assets/locations/player_apartment/original/door.png",
+      "x4": "res://assets/locations/player_apartment/items/door.png",
+      "size": [
+        40,
+        101
+      ],
+      "size_x4": [
+        160,
+        404
+      ],
+      "source": "10_RES_GLOBAL_3_SPRITES/0311_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "mirror": {
+      "id": "mirror",
+      "original": "res://assets/locations/player_apartment/original/mirror.png",
+      "x4": "res://assets/locations/player_apartment/items/mirror.png",
+      "size": [
+        53,
+        53
+      ],
+      "size_x4": [
+        212,
+        212
+      ],
+      "source": "09_RES_GLOBAL_2_SPRITES/0285_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "computer": {
+      "id": "computer",
+      "original": "res://assets/locations/player_apartment/original/computer.png",
+      "x4": "res://assets/locations/player_apartment/items/computer.png",
+      "size": [
+        43,
+        45
+      ],
+      "size_x4": [
+        172,
+        180
+      ],
+      "source": "11_RES_GLOBAL_4_SPRITES/0327_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "table": {
+      "id": "table",
+      "original": "res://assets/locations/player_apartment/original/table.png",
+      "x4": "res://assets/locations/player_apartment/items/table.png",
+      "size": [
+        63,
+        56
+      ],
+      "size_x4": [
+        252,
+        224
+      ],
+      "source": "07_RES_GLOBAL_SPRITES/0254_sprite_frames_pal0.png",
+      "crop_index": 0
+    },
+    "sink": {
+      "id": "sink",
+      "original": "res://assets/locations/player_apartment/original/sink.png",
+      "x4": "res://assets/locations/player_apartment/items/sink.png",
+      "size": [
+        66,
+        58
+      ],
+      "size_x4": [
+        264,
+        232
+      ],
+      "source": "09_RES_GLOBAL_2_SPRITES/0286_sprite_frames_pal0.png"
+    }
+  },
+  "template_map": {
+    "bed_standard": "bed_standard",
+    "bed_1": "bed_standard",
+    "bed_2": "bed_standard",
+    "bed_3": "bed_standard",
+    "sofa_basic": "sofa_basic",
+    "sofa_1": "sofa_basic",
+    "sofa_2": "sofa_curved",
+    "sofa_3": "sofa_basic",
+    "tv": "tv",
+    "closet": "closet",
+    "fridge": "fridge",
+    "kitchen": "stove",
+    "stove": "stove",
+    "table": "table",
+    "chair": "chair",
+    "toilet": "toilet",
+    "shower": "shower",
+    "sink": "sink",
+    "plant": "plant",
+    "phone": "phone",
+    "computer": "computer",
+    "window": "window",
+    "shelf": "shelf",
+    "door": "door",
+    "railing": "railing"
+  },
+  "pixel_snap": true,
+  "sprite3d": {
+    "billboard": "disabled",
+    "pixel_size": 0.012,
+    "shaded": false,
+    "alpha_cut": "discard"
+  }
+}

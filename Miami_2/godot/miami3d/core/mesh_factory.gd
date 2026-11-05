@@ -137,19 +137,27 @@ static func pet_visual(species: String) -> MeshInstance3D:
 
 
 static func kit_floor(width: float, height: float, indoor: bool, tex_path: String = "") -> MeshInstance3D:
-	var mi := box(Vector3(width, 0.1, height), Color(0.22, 0.35, 0.28) if indoor else Color(0.30, 0.42, 0.25))
+	var mi := box(Vector3(width, 0.1, height), Color(0.72, 0.58, 0.42) if indoor else Color(0.30, 0.42, 0.25))
 	if tex_path != "" and ResourceLoader.exists(tex_path):
 		var mat := StandardMaterial3D.new()
 		mat.albedo_texture = load(tex_path)
-		mat.uv1_scale = Vector3(width * 0.5, height * 0.5, 1)
+		mat.uv1_scale = Vector3(maxf(1.0, width * 0.45), maxf(1.0, height * 0.45), 1)
+		mat.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS
 		mi.material_override = mat
 	mi.position = Vector3(width * 0.5, -0.05, height * 0.5)
 	mi.name = "Floor"
 	return mi
 
 
-static func kit_wall_cell(color: Color = Color(0.45, 0.40, 0.35)) -> MeshInstance3D:
-	return box(Vector3(0.95, 2.2, 0.95), color)
+static func kit_wall_cell(color: Color = Color(0.45, 0.40, 0.35), tex_path: String = "") -> MeshInstance3D:
+	var mi := box(Vector3(0.95, 2.2, 0.95), color)
+	if tex_path != "" and ResourceLoader.exists(tex_path):
+		var mat := StandardMaterial3D.new()
+		mat.albedo_texture = load(tex_path)
+		mat.uv1_scale = Vector3(2.0, 2.0, 1.0)
+		mat.texture_filter = BaseMaterial3D.TEXTURE_FILTER_LINEAR_WITH_MIPMAPS
+		mi.material_override = mat
+	return mi
 
 
 static func try_instance_scene(path: String) -> Node3D:

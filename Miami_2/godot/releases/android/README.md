@@ -8,3 +8,4 @@
 
 Package: `com.huehuegames.miamilife` · arm64 · debug keystore  
 Export: `tools/export_android_apk.sh`
+- MiamiLife-0.11.0-apartment-debug.apk — apartamento com sprites/texturas fiéis ao Miami LOW
