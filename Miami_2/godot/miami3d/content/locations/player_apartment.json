@@ -119,7 +119,7 @@
         4,
         6
       ],
-      "tag": "indoor"
+      "tag": "bathroom"
     }
   ],
   "furnitureSlots": [
@@ -200,6 +200,69 @@
       "facing": "E"
     },
     {
+      "id": "bed_player",
+      "template": "bed_standard",
+      "cell": [
+        9,
+        2
+      ],
+      "facing": "S"
+    },
+    {
+      "id": "closet",
+      "template": "closet",
+      "cell": [
+        12,
+        1
+      ],
+      "facing": "W"
+    },
+    {
+      "id": "computer_desk",
+      "template": "computer",
+      "cell": [
+        11,
+        3
+      ],
+      "facing": "W"
+    },
+    {
+      "id": "chair_desk",
+      "template": "chair",
+      "cell": [
+        10,
+        4
+      ],
+      "facing": "E"
+    },
+    {
+      "id": "sofa_living",
+      "template": "sofa_basic",
+      "cell": [
+        8,
+        9
+      ],
+      "facing": "E"
+    },
+    {
+      "id": "tv_stand",
+      "template": "tv",
+      "cell": [
+        11,
+        9
+      ],
+      "facing": "W"
+    },
+    {
+      "id": "phone",
+      "template": "phone",
+      "cell": [
+        6,
+        9
+      ],
+      "facing": "S"
+    },
+    {
       "id": "fridge",
       "template": "fridge",
       "cell": [
@@ -216,78 +279,6 @@
         14
       ],
       "facing": "E"
-    },
-    {
-      "id": "closet",
-      "template": "closet",
-      "cell": [
-        12,
-        1
-      ],
-      "facing": "W"
-    },
-    {
-      "id": "phone",
-      "template": "phone",
-      "cell": [
-        6,
-        9
-      ],
-      "facing": "S"
-    },
-    {
-      "id": "plant",
-      "template": "plant",
-      "cell": [
-        12,
-        16
-      ],
-      "facing": "W"
-    },
-    {
-      "id": "bed_player",
-      "template": "bed_standard",
-      "cell": [
-        8,
-        3
-      ],
-      "facing": "S"
-    },
-    {
-      "id": "sofa_living",
-      "template": "sofa_basic",
-      "cell": [
-        3,
-        12
-      ],
-      "facing": "E"
-    },
-    {
-      "id": "tv_stand",
-      "template": "tv",
-      "cell": [
-        1,
-        12
-      ],
-      "facing": "E"
-    },
-    {
-      "id": "fridge_kit",
-      "template": "fridge",
-      "cell": [
-        10,
-        14
-      ],
-      "facing": "W"
-    },
-    {
-      "id": "stove_kit",
-      "template": "kitchen",
-      "cell": [
-        10,
-        16
-      ],
-      "facing": "W"
     },
     {
       "id": "table_dining",
@@ -317,58 +308,22 @@
       "facing": "W"
     },
     {
-      "id": "closet_main",
-      "template": "closet",
+      "id": "plant",
+      "template": "plant",
       "cell": [
-        11,
-        3
+        12,
+        16
       ],
       "facing": "W"
     },
     {
-      "id": "shower_bath",
-      "template": "shower",
-      "cell": [
-        2,
-        2
-      ],
-      "facing": "S"
-    },
-    {
-      "id": "toilet_bath",
-      "template": "toilet",
-      "cell": [
-        1,
-        5
-      ],
-      "facing": "E"
-    },
-    {
-      "id": "sink_bath",
-      "template": "sink",
-      "cell": [
-        3,
-        5
-      ],
-      "facing": "N"
-    },
-    {
-      "id": "plant_corner",
-      "template": "plant",
+      "id": "shelf_wall",
+      "template": "shelf",
       "cell": [
         12,
-        12
+        7
       ],
-      "facing": "S"
-    },
-    {
-      "id": "computer_desk",
-      "template": "computer",
-      "cell": [
-        1,
-        8
-      ],
-      "facing": "E"
+      "facing": "W"
     }
   ],
   "npcs": [
@@ -435,13 +390,16 @@
   ],
   "visual": {
     "kit": "player_apartment",
-    "floor_tex": "res://assets/textures/kits/player_apartment/albedo.png",
+    "style": "miami_low_apt_sprites",
+    "floor_tex": "res://assets/locations/player_apartment/tiles/floor.png",
+    "wall_tex": "res://assets/locations/player_apartment/tiles/wall.png",
+    "bath_tex": "res://assets/locations/player_apartment/tiles/bath.png",
     "wall_color": [
-      0.55,
-      0.48,
-      0.42
+      0.91,
+      0.86,
+      0.78
     ],
     "neon_trim": false,
-    "style": "miami_low_apt_remaster"
+    "sprite_mode": "miami_iso"
   }
 }

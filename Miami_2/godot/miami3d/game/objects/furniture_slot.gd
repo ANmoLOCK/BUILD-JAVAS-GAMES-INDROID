@@ -39,25 +39,38 @@ func _rebuild() -> void:
 	if item_id == "":
 		return
 	var item: Dictionary = Bootstrap.game.get_content_item(item_id) if Bootstrap.game else {}
-	var mi := MeshInstance3D.new()
-	var box := BoxMesh.new()
 	var fp: Array = item.get("footprint", [1, 1])
-	box.size = Vector3(float(fp[0]) * 0.9 if fp.size() > 0 else 0.9, 0.7, float(fp[1]) * 0.9 if fp.size() > 1 else 0.9)
-	mi.mesh = box
-	var mat := StandardMaterial3D.new()
-	mat.albedo_color = Color(0.6, 0.4, 0.55)
-	mi.material_override = mat
-	mi.position.y = 0.35
-	add_child(mi)
-	_visual = mi
-	# ações via interactable virtual: cria botão implícito no radial pelo LocationController
+	var h := 0.7
+	if MnApartmentKit.has_sprite(item_id) or MnApartmentKit.has_sprite(category):
+		var tmpl := item_id if MnApartmentKit.has_sprite(item_id) else category
+		var spr := MnApartmentKit.make_sprite3d(tmpl, fp)
+		if spr != null:
+			add_child(spr)
+			_visual = spr
+			if spr.texture:
+				h = maxf(0.5, float(spr.texture.get_height()) * spr.pixel_size)
+	if _visual == null:
+		var mi := MeshInstance3D.new()
+		var box := BoxMesh.new()
+		box.size = Vector3(float(fp[0]) * 0.9 if fp.size() > 0 else 0.9, 0.7, float(fp[1]) * 0.9 if fp.size() > 1 else 0.9)
+		mi.mesh = box
+		var mat := StandardMaterial3D.new()
+		mat.albedo_color = Color(0.6, 0.4, 0.55)
+		mi.material_override = mat
+		mi.position.y = 0.35
+		add_child(mi)
+		_visual = mi
+		h = 0.7
+	# ações via interactable virtual
 	var body := StaticBody3D.new()
 	body.collision_layer = 2
 	var col := CollisionShape3D.new()
 	var sh := BoxShape3D.new()
-	sh.size = box.size
+	var sx := float(fp[0]) * 0.9 if fp.size() > 0 else 0.9
+	var sz := float(fp[1]) * 0.9 if fp.size() > 1 else 0.9
+	sh.size = Vector3(sx, h, sz)
 	col.shape = sh
-	col.position.y = 0.35
+	col.position.y = h * 0.5
 	body.add_child(col)
 	body.set_meta("object_id", slot_id)
 	body.set_meta("actions", item.get("actions", []))

@@ -68,11 +68,20 @@ func load_location(id: String, spawn_id: String = "") -> void:
 func _build_floor() -> void:
 	var indoor := bool(location_def.get("indoor", false))
 	var visual: Dictionary = location_def.get("visual", {})
+	var miami_apt := location_id == "player_apartment" or str(visual.get("style", "")).begins_with("miami_low_apt")
 	var tex := str(visual.get("floor_tex", ""))
+	if miami_apt:
+		var apt_floor := MnApartmentKit.tile_path("floor")
+		if apt_floor != "":
+			tex = apt_floor
 	if tex == "" and Bootstrap.game and Bootstrap.game.get("assets") != null:
 		tex = Bootstrap.game.assets.kit_texture(location_id, "albedo")
 	var floor := MnMeshFactory.kit_floor(grid.width * grid.cell_size, grid.height * grid.cell_size, indoor, tex)
 	floor_root.add_child(floor)
+	# banheiro: overlay de piso azulejado Miami
+	if miami_apt:
+		_build_apartment_bath_floor()
+		_build_apartment_windows()
 	# céu / fill leve outdoor
 	if not indoor:
 		var sky := OmniLight3D.new()
@@ -82,7 +91,7 @@ func _build_floor() -> void:
 		sky.omni_range = 80.0
 		sky.position = Vector3(grid.width * 0.5, 12.0, grid.height * 0.5)
 		floor_root.add_child(sky)
-	var wall_c := Color(0.45, 0.40, 0.35)
+	var wall_c := Color(0.91, 0.86, 0.78) if miami_apt else Color(0.45, 0.40, 0.35)
 	if visual.has("wall_color"):
 		var wc: Array = visual["wall_color"]
 		if wc.size() >= 3:
@@ -96,6 +105,8 @@ func _build_floor() -> void:
 				var wall := MnMeshFactory.box(Vector3(0.95, tall, 0.95), wall_c)
 				wall.position = grid.cell_to_world(c) + Vector3(0, tall * 0.5, 0)
 				wall.add_to_group("cutaway_wall")
+				if miami_apt:
+					MnApartmentKit.apply_wall_material(wall)
 				# janelas neon em prédios outdoor
 				if not indoor and tall > 3.0 and ((x + y) % 4 == 0):
 					var win := MnMeshFactory.box(Vector3(0.35, 0.45, 0.08), Color(1.0, 0.55, 0.35, 0.9))
@@ -109,6 +120,52 @@ func _build_floor() -> void:
 				body.add_child(col)
 				wall.add_child(body)
 				props_root.add_child(wall)
+
+
+func _build_apartment_bath_floor() -> void:
+	## Zona do banheiro com azulejo fiel ao Miami (0559 remaster).
+	var bath_path := MnApartmentKit.tile_path("bath")
+	if bath_path == "" or not ResourceLoader.exists(bath_path):
+		return
+	var zones: Array = location_def.get("zones", [])
+	for z in zones:
+		if str(z.get("id", "")) != "bathroom_zone" and str(z.get("tag", "")) != "bathroom":
+			continue
+		var rect: Array = z.get("rect", [1, 1, 4, 6])
+		if rect.size() < 4:
+			continue
+		var rw := float(rect[2])
+		var rh := float(rect[3])
+		var mi := MnMeshFactory.box(Vector3(rw, 0.08, rh), Color(0.55, 0.75, 0.85))
+		var mat := StandardMaterial3D.new()
+		mat.albedo_texture = load(bath_path)
+		mat.uv1_scale = Vector3(rw, rh, 1.0)
+		mat.texture_filter = BaseMaterial3D.TEXTURE_FILTER_NEAREST
+		mi.material_override = mat
+		mi.position = Vector3(float(rect[0]) + rw * 0.5, 0.02, float(rect[1]) + rh * 0.5)
+		mi.name = "BathFloor"
+		floor_root.add_child(mi)
+		return
+
+
+func _build_apartment_windows() -> void:
+	## Janelas iso originais (0555) nas paredes norte do apt.
+	if not MnApartmentKit.has_sprite("window"):
+		return
+	var spots: Array = [
+		Vector2i(2, 0), Vector2i(7, 0), Vector2i(11, 0),
+	]
+	for cell in spots:
+		if cell.x >= grid.width or cell.y >= grid.height:
+			continue
+		var spr := MnApartmentKit.make_sprite3d("window", [1, 1])
+		if spr == null:
+			continue
+		spr.name = "Window_%d_%d" % [cell.x, cell.y]
+		spr.pixel_size = 0.014
+		spr.position = grid.cell_to_world(cell) + Vector3(0, 1.35, 0.15)
+		spr.rotation_degrees = Vector3(0, 0, 0)
+		props_root.add_child(spr)
 
 
 func _build_objects() -> void:
