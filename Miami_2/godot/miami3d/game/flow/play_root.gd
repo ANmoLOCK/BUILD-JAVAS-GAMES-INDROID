@@ -41,6 +41,7 @@ func setup(new_game: bool, player_name: String = "Você", gender: String = "m", 
 	add_child(fx)
 	camera.bind_target(player)
 	cutaway.bind_camera(camera)
+	cutaway.bind_target(player)
 	var g: BrainFacade = Bootstrap.game
 	_setup_streamer()
 	bridge = MnEventBridge.new()
